@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/scanning_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_15"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_programmes_details_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/font_15"
+        android:layout_below="@+id/scanning_type"/>
+
+    <TextView
+        android:id="@+id/radio_programmes_details_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/font_15"
+        android:layout_marginBottom="@dimen/custom_dim_10"
+        android:layout_below="@+id/tv_programmes_details_info"/>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+ 
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Thank you so much for opening this issue, one of the contributors will reply to you soon :)"
+        pr-message: "Thank you so much for opening this PR, one of the contributor will review your PR within few days :)"

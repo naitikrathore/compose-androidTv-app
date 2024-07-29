@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?><!--DO NOT CHANGE THIS CONSTRAINTLAYOUT TO LINEARLAYOUT - Details scene on Hybrid won't work-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_linear_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:layout_width="@dimen/custom_dim_1000">
+
+    <include
+        android:id="@+id/first_row"
+        layout="@layout/custom_details_first_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/time_and_parental_container_linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_35"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/time_and_parental_container_linear_layout_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/first_row"
+        tools:visibility="visible">
+
+        <include
+            android:id="@+id/event_start_end_time_row_2"
+            layout="@layout/custom_details_time" />
+
+        <include
+            android:id="@+id/parental_rating_linear_layout_second_row"
+            layout="@layout/custom_details_parental_rating" />
+
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/time_and_parental_container_linear_layout_2"
+        layout="@layout/custom_details_third_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_5"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/event_progressbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/time_and_parental_container_linear_layout"
+        tools:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/event_progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_4"
+        android:layout_marginTop="@dimen/custom_dim_5"
+        android:progressDrawable="@drawable/curved_progress_bar"
+        app:layout_constraintStart_toStartOf="@layout/custom_details_third_row"
+        app:layout_constraintTop_toBottomOf="@id/time_and_parental_container_linear_layout_2" />
+
+    <!--    android:layout_height="wrap_content" in the ScrollView MUST be set to wrap_content because of the animation
+    in the EPG. If set to match_parent as it was before this change CustomDetails in EPG had laggy behavior while animating-->
+    <ScrollView
+        android:id="@+id/details_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_10"
+        android:fadingEdge="vertical"
+        android:fadingEdgeLength="@dimen/custom_dim_35"
+        android:fillViewport="true"
+        android:focusable="false"
+        android:orientation="vertical"
+        android:requiresFadingEdge="vertical"
+        android:scrollbars="none"
+        android:translationZ="@dimen/custom_dim_n10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/event_progressbar">
+
+        <TextView
+            android:id="@+id/event_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="6.9sp"
+            android:maxLines="4"
+            android:textSize="@dimen/font_15"
+            tools:text="Batman is a superhero who appears in American comic books published by DC Comics. Batman was created by artist Bob Kane and writer Bill Finger, and debuted.. in the 27th issue of the comic book Detective Comics on March 30, 1939."
+            tools:textColor="@color/white" />
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/parental_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/details_scroll_view"
+        tools:textColor="@color/white" />
+
+    <!--
+    IMPORTANT: next component is very sensitive on changes.
+    When change it be careful - it is used in many Widgets and Scenes and it has one behavior in DetailsScene and in all other widgets/scenes it behave differently
+    -->
+    <include
+        android:id="@+id/info_row_linear_layout"
+        layout="@layout/custom_details_info_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/parental_text_view" />
+    <TextView
+        android:layout_width="@dimen/custom_dim_200"
+        android:layout_height="wrap_content"
+        android:text="@string/up_next_no_information"
+        android:id="@+id/up_next_title"
+        android:layout_marginTop="@dimen/custom_dim_5"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textAlignment="textEnd"
+        app:layout_constraintTop_toBottomOf="@id/parental_text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:textColor="#b7b7b7"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="2.6sp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

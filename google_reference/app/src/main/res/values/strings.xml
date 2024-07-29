@@ -1,0 +1,704 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--This string appears within Android launcher as application name. [CHAR_LIMIT=30]-->
+    <string name="app_name">Live TVˣ</string>
+
+    <!--This string appears in label that contains current events from all available tv channels. Can be interpreted as On Now, Current events, Currently Live, Live events, etc." [CHAR_LIMIT=30]-->
+    <string name="on_now">On now</string>
+
+    <!--This string appears as label in zap conflict screen. This means that application detected index conflict for some tv channels, that needs to be resolved by user." [CHAR_LIMIT=30]-->
+    <string name="zap_conflict">Zap conflict</string>
+
+    <!--This string appears as label in zap conflict screen, which will suggest what action user needs to do, to resolve this issue." [CHAR_LIMIT=30]-->
+    <string name="select_channel_manually">Select channel manually</string>
+
+    <!--This string appears in button to return to previous application state. [CHAR_LIMIT=30] "-->
+    <string name="scan_back">Back</string>
+
+    <!--This string appears in button that will open popup for creating new favorite list. [CHAR_LIMIT=30] "-->
+    <string name="new_favorite_list">New Favorite List</string>
+
+    <!--This string appears in label that will be shown in title of parental control settings. [CHAR_LIMIT=30] "-->
+    <string name="parental_control_settings">Parental control settings</string>
+
+    <!--This string appears in label in popup that will ask user to enter correct PIN settings. [CHAR_LIMIT=30] "-->
+    <string name="enter_pin_to_see_settings">Enter PIN to see settings.</string>
+
+    <!--This string appears in button to ask user to unlock channel. [CHAR_LIMIT=30] "-->
+    <string name="unlock">Unlock</string>
+
+    <!--This string appears in label that will instruct user how PIN number can be entered. [CHAR_LIMIT=60] "-->
+    <string name="enter_pin_using_number">Enter PIN using number keys or navigational arrows.</string>
+
+    <!--This string appears in label that will ask user to confirm PIN value. [CHAR_LIMIT=60] "-->
+    <string name="press_ok_to_confirm">Press OK to confirm.</string>
+
+    <!--This string appears in preferences screen to open postal code screen. [CHAR_LIMIT=30] "-->
+    <string name="postal_code">Postal code</string>
+
+    <string name="enter_postal_code">Enter your Postal code.</string>
+
+    <string-array name="audio_channels">
+        <item>""</item>
+        <item>@string/nav_MONO</item>
+        <item>@string/nav_STEREO</item>
+        <item>@string/nav_SAP</item>
+        <item>@string/nav_dual_a</item>
+        <item>@string/nav_dual_b</item>
+        <item>@string/nav_dual_ab</item>
+        <item>@string/nav_NICAM_MONO</item>
+        <item>@string/nav_nicam_stereo</item>
+        <item>@string/nav_nicam_dual_a</item>
+        <item>@string/nav_nicam_dual_b</item>
+        <item>@string/nav_nicam_dual_ab</item>
+        <item>4#CH</item>
+        <item>5.1#CH</item>
+        <item>7.1#CH</item>
+        <item>@string/nav_Dual_Mono</item>
+        <item>@string/nav_dual1</item>
+        <item>@string/nav_DUAL2</item>
+        <item>@string/nav_A2_DUAL1_DUAL2</item>
+        <item>@string/nav_sap_m</item>
+        <item>@string/nav_sap_s</item>
+    </string-array>
+    <!-- Audio channels -->
+    <string-array name="audio_channels_strings">
+        <item>""</item>
+        <item>@string/nav_MONO</item>
+        <item>@string/nav_MONO</item>
+        <item>@string/nav_Dual_Mono</item>
+        <item>@string/nav_STEREO</item>
+        <item>@string/nav_STEREO</item>
+        <item>@string/nav_STEREO</item>
+        <item>@string/nav_Surround_2CH</item>
+        <item>@string/nav_Surround</item>
+        <item>3#CH</item>
+        <item>4#CH</item>
+        <item>5.1#CH</item>
+        <item>7.1#CH</item>
+        <item>@string/nav_MONO</item>
+        <item>@string/nav_STEREO</item>
+        <item>@string/nav_Dual_Mono</item>
+        <item>5.1#CH</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>@string/nav_MONO</item>
+        <item>@string/nav_Dual_Mono</item>
+        <item>@string/nav_STEREO</item>
+        <item>@string/nav_Surround_2CH</item>
+        <item>@string/nav_Surround</item>
+        <item>3#CH</item>
+        <item>4#CH</item>
+        <item>""</item>
+        <item>""</item>
+        <item>@string/nav_dual</item>
+        <item>@string/nicam</item>
+        <item>@string/nav_SAP</item>
+        <item>@string/nav_dual1</item>
+        <item>@string/nav_DUAL2</item>
+        <item>@string/nav_A2_DUAL1_DUAL2</item>
+        <item>@string/nav_sap_m</item>
+        <item>@string/nav_sap_s</item>
+        <item>@string/nav_NICAM_MONO</item>
+    </string-array>
+
+
+    <!--This string appears in info banner, zap banner, channel list and Details scene for decoding audio channel value. [CHAR_LIMIT=30] "-->
+    <string name="nav_MONO">Mono</string>
+    <string name="nav_STEREO">Stereo</string>
+    <string name="nav_SAP">SAP</string>
+    <string name="nav_dual">Dual</string>
+    <string name="nicam">Nicam</string>
+    <string name="nav_dual1">Dual1</string>
+    <string name="nav_DUAL2">Dual2</string>
+    <string name="nav_NICAM_MONO">Nicam Mono</string>
+    <string name="nav_A2_DUAL1_DUAL2">Dual I+II</string>
+    <string name="nav_Dual_Mono">"Dual Mono"</string>
+    <string name="nav_Surround_2CH">"Surround 2 Channels"</string>
+    <string name="nav_Surround">"Surround"</string>
+    <string name="nav_sap_s">"SAP Mono"</string>
+    <string name="nav_sap_m">"SAP Stereo"</string>
+    <string name="nav_dual_a">Dual A</string>
+    <string name="nav_dual_b">Dual B</string>
+    <string name="nav_dual_ab">Dual AB</string>
+
+    <string name="nav_nicam_stereo">NICAM Stereo</string>
+    <string name="nav_nicam_dual_a">Nicam Dual A</string>
+    <string name="nav_nicam_dual_b">Nicam Dual B</string>
+    <string name="nav_nicam_dual_ab">Nicam Dual AB</string>
+
+    <!--This string appears as a duration of recording [CHAR_LIMIT=30]"-->
+    <string-array name="duration_hrs_no_zero">
+        <item>1 hr</item>
+        <item>2 hr</item>
+        <item>3 hr</item>
+        <item>4 hr</item>
+        <item>5 hr</item>
+        <item>6 hr</item>
+        <item>7 hr</item>
+        <item>8 hr</item>
+        <item>9 hr</item>
+    </string-array>
+
+    <!--This string appears as a duration of recording [CHAR_LIMIT=30]"-->
+    <string-array name="duration_hrs">
+        <item>0 hr</item>
+        <item>1 hr</item>
+        <item>2 hr</item>
+        <item>3 hr</item>
+        <item>4 hr</item>
+        <item>5 hr</item>
+        <item>6 hr</item>
+        <item>7 hr</item>
+        <item>8 hr</item>
+        <item>9 hr</item>
+    </string-array>
+
+    <!--This string appears as a duration of recording [CHAR_LIMIT=30]"-->
+    <string-array name="duration_min_no_zero">
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>20 min</item>
+        <item>25 min</item>
+        <item>30 min</item>
+        <item>35 min</item>
+        <item>40 min</item>
+        <item>45 min</item>
+        <item>50 min</item>
+        <item>55 min</item>
+    </string-array>
+
+    <!--This string appears as a duration of recording [CHAR_LIMIT=30]"-->
+    <string-array name="duration_min">
+        <item>0 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>20 min</item>
+        <item>25 min</item>
+        <item>30 min</item>
+        <item>35 min</item>
+        <item>40 min</item>
+        <item>45 min</item>
+        <item>50 min</item>
+        <item>55 min</item>
+    </string-array>
+
+    <!--This string appears as instruction in First Time Installation screen. [CHAR_LIMIT=200]"-->
+    <string name="channels_scan_select_description">Connect your tuner and select the appropriate option to scan for channels. This step can be skipped and done afterward from settings or Live TV application</string>
+
+    <!--Title for the Evaluation License. [CHAR_LIMIT=30]"-->
+    <string name="evaluation_license_title">EVALUATION LICENSE DISCLAIMER</string>
+
+    <!--Title for the Evaluation License description. [CHAR LIMIT=NONE]"-->
+    <string-array name="evaluation_license_dsc_title">
+        <item>1\t\t\tLICENSE\n\n</item>
+        <item>2\t\t\tUPDATES AND FEEDBACK\n\n</item>
+        <item>3\t\t\tCONFIDENTIALITY\n\n</item>
+        <item>4\t\t\tWARRANTY AND LIMITATION OF LIABILITY\n\n</item>
+        <item>5\t\t\tOTHER\n\n</item>
+    </string-array>
+
+    <!--Message for the Evaluation License description. [CHAR LIMIT=NONE]"-->
+    <string-array name="evaluation_license_dsc">
+        <!--1-->
+        <item>
+            This application (“Live TV app”) is provided by iWedia S.A. under a one-time, non-exclusive, nontransferable, royalty-free, non-sublicenseable and revocable license (“Evaluation License”) to be used solely for internal evaluation and demonstration purposes for a period of 6 months from Live TV application release date.\n\nEvaluation License is granted solely for the purposes of: \n\nI.\t\t\tInternal evaluation – this license is for internal use only and is not a production license, and accordingly may not be distributed in whole or in any of its parts or incorporated in any commercial product\n\nII.\t\t\tDemonstration – besides internal evaluation, this license may be used only for marketing purpose of demonstration towards third persons, as is. It is explicitly prohibited to use this license in any way with competitors of iWedia.\n\nIt is prohibited to:\n\nI.\t\t\tSublicense, to use or modify the Live TV app or create any derivative works from Live TV app, including any associated documentation.\n\nII.\t\t\tReverse compile, reverse engineer, disassemble, reformat, benchmark, or otherwise attempt to read or make readable the Object Code or Source Code (or the underlying ideas, algorithms, structure or organization) of the Live TV app, in whole or in part;\n\nIII.\t\t\tModify the Live TV app or create any derivative work based on the Software;\n\nIV.\t\t\tRent, lease, sell, sublicense, grant a security interest in, or otherwise transfer any rights in the Live TV app;\n\nV.\t\t\tRemove or alter any marks or proprietary notices or labels contained in the Live TV app;\n\nVI.\t\t\tUse the Live TV app in any manner that violates any intellectual property or privacy rights of any third party; or\n\nVII.\t\t\tUse the Live TV app in any manner that violates any applicable international, federal, state or local law or regulation.\n\nAll right, title, and interest in and to all intellectual property and proprietary rights relating to the Live TV app shall remain vested in iWedia.\n\n
+        </item>
+        <!--2-->
+        <item>
+            iWedia shall have the right (without any obligation), at its sole discretion, to deliver updated versions of the Live TV app. The terms and conditions of this Evaluation License shall apply to any new version of the Live TV app.\n\nThere is no obligation to give iWedia any suggestions, comments or other feedback regarding the Live TV app (&quot;Feedback&quot;). However, any Feedback that is voluntarily provided may be used in iWedia products and related specifications or other documentation. Accordingly, if iWedia receives any Feedback on any version of the Live TV app, iWedia may freely use, disclose, reproduce, license, distribute and otherwise commercialize the Feedback in any iWedia product, technology, service, specification or other documentation.\n\n
+        </item>
+        <!--3-->
+        <item>
+            Live TV app is the confidential information of iWedia (&quot;Confidential Information&quot;) provided under NDA.\n\n
+        </item>
+        <!--4-->
+        <item>
+            iWedia provides the software &quot;AS IS&quot; and without any warranty of any kind, express or implied; iWedia disclaims all warranties and conditions of any kind.\n\niWedia shall have no liability or obligation with respect to any subject matter of this Evaluation License for any direct, indirect, incidental, special, punitive or consequential damages under any theory of liability whether in tort, contract, negligence, strict liability or otherwise even if advised of the possibility of such damages.\n\niWedia will not be liable for any loss of use, interruption of business, including without limitation lost profits, regardless of the form of action, even if iWedia has been advised of the possibility of such damages.\n\n
+        </item>
+        <!--5-->
+        <item>
+            This Evaluation License shall constitute the binding agreement of the parties. This Evaluation License may not be changed, terminated or amended.\n
+        </item>
+    </string-array>
+
+    <!--This string appears when digit zap is done on non-existing channel. [CHAR_LIMIT=30]"-->
+    <string name="no_channel_associated">No channel is associated with that number</string>
+
+    <!--These strings that appear in EPG, Infobanner etc. its a part of the date shown for each events. it's a month for the date, except today's date-->
+    <string name="Jan">Jan</string>
+    <string name="Feb">Feb</string>
+    <string name="Mar">Mar</string>
+    <string name="Apr">Apr</string>
+    <string name="May">May</string>
+    <string name="Jun">Jun</string>
+    <string name="Jul">Jul</string>
+    <string name="Aug">Aug</string>
+    <string name="Sep">Sep</string>
+    <string name="Oct">Oct</string>
+    <string name="Nov">Nov</string>
+    <string name="Dec">Dec</string>
+
+    <string name="cc_preview">ABC</string>
+
+    <string name="atsc30_display_eas">Display</string>
+    <string name="atsc30_hide_eas">Hide</string>
+
+    <!-- Age based TV content rating strings used in DVB, ISDB and DTMB.
+       For more info, please see STD-B10 in http://www.dibeg.org/techp/aribstd/aribstd.html (ISDB),
+       Table 81 of DVB SI (EN 300 468 V1.14.1) in https://www.dvb.org/standards (DVB)
+       and http://www.gb688.cn/bzgk/gb/newGbInfo?hcno=59E83CA701AEB4248E115BC043688FEC (DTMB).-->
+    <string name="description_age_4">description_age_4</string>
+    <string name="description_age_5">description_age_5</string>
+    <string name="description_age_6">description_age_6</string>
+    <string name="description_age_7">description_age_7</string>
+    <string name="description_age_8">description_age_8</string>
+    <string name="description_age_9">description_age_9</string>
+    <string name="description_age_10">description_age_10</string>
+    <string name="description_age_11">description_age_11</string>
+    <string name="description_age_12">description_age_12</string>
+    <string name="description_age_13">description_age_13</string>
+    <string name="description_age_14">description_age_14</string>
+    <string name="description_age_15">description_age_15</string>
+    <string name="description_age_16">description_age_16</string>
+    <string name="description_age_17">description_age_17</string>
+    <string name="description_age_18">description_age_18</string>
+    <string name="description_age_19">description_age_19</string>
+    <string name="description_age_20">description_age_20</string>
+
+    <!-- TV content rating system strings for AR TV. These strings are from Wikipedia.
+         See http://en.wikipedia.org/wiki/Television_content_rating_systems -->
+    <string name="description_ar_tv_atp">description_ar_tv_atp</string>
+    <string name="description_ar_tv_sam_13">description_ar_tv_sam_13</string>
+    <string name="description_ar_tv_sam_16">description_ar_tv_sam_16</string>
+    <string name="description_ar_tv_sam_18">description_ar_tv_sam_18</string>
+    <string name="description_ar_tv_d">description_ar_tv_d</string>
+    <string name="description_ar_tv_s">description_ar_tv_s</string>
+    <string name="description_ar_tv_v">description_ar_tv_v</string>
+
+    <!-- TV content rating system strings for AU TV. These strings are from ABC classification.
+         See Appendix 4 of http://www.abc.net.au/mediawatch/transcripts/0935_industry.pdf -->
+    <string name="description_au_tv_p">description_ar_tv_v</string>
+    <string name="description_au_tv_c">description_au_tv_c</string>
+    <string name="description_au_tv_g">description_au_tv_g</string>
+    <string name="description_au_tv_pg">description_au_tv_pg</string>
+    <string name="description_au_tv_m">description_au_tv_m</string>
+    <string name="description_au_tv_ma">description_au_tv_ma</string>
+    <string name="description_au_tv_av">description_au_tv_av</string>
+    <string name="description_au_tv_r">description_au_tv_r</string>
+
+    <!-- TV content rating system strings for BR TV. These strings are from
+         http://www.justica.gov.br/seus-direitos/classificacao/guia-pratico/practical-guide.pdf/view -->
+    <string name="title_br_tv_l">title_br_tv_l</string>
+    <string name="title_br_tv_10">title_br_tv_10</string>
+    <string name="title_br_tv_12">title_br_tv_12</string>
+    <string name="title_br_tv_14">title_br_tv_14</string>
+    <string name="title_br_tv_16">title_br_tv_16</string>
+    <string name="title_br_tv_18">title_br_tv_18</string>
+    <string name="description_br_tv_l">description_br_tv_l</string>
+    <string name="description_br_tv_10">description_br_tv_10</string>
+    <string name="description_br_tv_12">description_br_tv_12</string>
+    <string name="description_br_tv_14">description_br_tv_14</string>
+    <string name="description_br_tv_16">description_br_tv_16</string>
+    <string name="description_br_tv_18">description_br_tv_18</string>
+    <string name="description_br_tv_d">description_br_tv_d</string>
+    <string name="description_br_tv_s">description_br_tv_s</string>
+    <string name="description_br_tv_v">description_br_tv_v</string>
+
+    <!-- TV content rating system strings for CA TV. These strings are from
+         http://www.cbsc.ca/english/agvot/englishsystem.php -->
+    <string name="description_ca_tv_en_exempt">description_ca_tv_en_exempt</string>
+    <string name="description_ca_tv_en_c">description_ca_tv_en_c</string>
+    <string name="description_ca_tv_en_c8">description_ca_tv_en_c8</string>
+    <string name="description_ca_tv_en_g">description_ca_tv_en_g</string>
+    <string name="description_ca_tv_en_pg">description_ca_tv_en_pg</string>
+    <string name="description_ca_tv_en_14">description_ca_tv_en_14</string>
+    <string name="description_ca_tv_en_18">description_ca_tv_en_18</string>
+
+    <!-- TV content rating system strings for CA TV (French). -->
+    <!-- A short title of the rating system that appears in the parentheses right next to the
+         country name as in "Canada (French)". This corresponds to the "Ratings Classification for
+         Canadian French-Language Broadcasters". See more details in
+         http://www.cbsc.ca/english/agvot/frenchsystem.php -->
+    <string name="title_ca_tv_fr">title_ca_tv_fr</string>
+    <string name="description_ca_tv_fr_e">description_ca_tv_fr_e</string>
+    <string name="description_ca_tv_fr_g">description_ca_tv_fr_g</string>
+    <string name="description_ca_tv_fr_8">description_ca_tv_fr_8</string>
+    <string name="description_ca_tv_fr_13">description_ca_tv_fr_13</string>
+    <string name="description_ca_tv_fr_16">description_ca_tv_fr_16</string>
+    <string name="description_ca_tv_fr_18">description_ca_tv_fr_18</string>
+
+
+    <!-- TV content rating system strings for DVB -->
+    <!-- A TV content rating of DVB for all ages [CHAR LIMIT=NONE] -->
+    <string name="description_fr_dvb_u">description_fr_dvb_u</string>
+    <!-- A TV content rating of DVB for all ages [CHAR LIMIT=NONE] -->
+    <string name="description_es_dvb_all">description_es_dvb_all</string>
+    <!-- A TV content rating of DVB for children [CHAR LIMIT=NONE] -->
+    <string name="description_es_dvb_c">description_es_dvb_c</string>
+    <!-- A TV content rating of DVB for adult [CHAR LIMIT=NONE] -->
+    <string name="description_es_dvb_x">description_es_dvb_x</string>
+
+
+    <!-- TV content rating system strings for KR TV. These strings are from
+         http://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2000000118507 but they are translated
+         from Korean to English. -->
+    <string name="title_kr_tv_all">ALL</string>
+    <string name="title_kr_tv_7">7</string>
+    <string name="title_kr_tv_12">12</string>
+    <string name="title_kr_tv_15">15</string>
+    <string name="title_kr_tv_19">19</string>
+
+    <string name="description_kr_tv_all">description_kr_tv_all</string>
+    <string name="description_kr_tv_7">description_kr_tv_7</string>
+    <string name="description_kr_tv_12">description_kr_tv_12</string>
+    <string name="description_kr_tv_15">description_kr_tv_15</string>
+    <string name="description_kr_tv_19">description_kr_tv_19</string>
+
+    <!-- TV content rating system strings for SG TV. These strings are from
+         http://www.mda.gov.sg/RegulationsAndLicensing/ContentStandardsAndClassification/FilmsAndVideos/Pages/default.aspx -->
+    <string name="description_sg_tv_g">description_sg_tv_g</string>
+    <string name="description_sg_tv_pg">description_sg_tv_pg</string>
+    <string name="description_sg_tv_pg13">description_sg_tv_pg13</string>
+    <string name="description_sg_tv_nc16">description_sg_tv_nc16</string>
+    <string name="description_sg_tv_m18">description_sg_tv_m18</string>
+    <string name="description_sg_tv_r21">description_sg_tv_r21</string>
+
+    <!-- TV content rating system strings for US TV. These strings are from
+         http://www.tvguidelines.org/ratings.htm -->
+    <string name="description_us_tv_d">description_us_tv_d</string>
+    <string name="description_us_tv_l">description_us_tv_l</string>
+    <string name="description_us_tv_s">description_us_tv_s</string>
+    <string name="description_us_tv_v">description_us_tv_v</string>
+    <string name="description_us_tv_fv">description_us_tv_fv</string>
+    <string name="description_us_tv_y">description_us_tv_y</string>
+    <string name="description_us_tv_y7">description_us_tv_y7</string>
+    <string name="description_us_tv_g">description_us_tv_g</string>
+    <string name="description_us_tv_pg">description_us_tv_pg</string>
+    <string name="description_us_tv_14">description_us_tv_14</string>
+    <string name="description_us_tv_ma">description_us_tv_ma</string>
+
+    <!-- Movie content rating system strings for US. These string are from
+         http://www.mpaa.org/film-ratings-->
+    <string name="title_us_mv">title_us_mv</string>
+    <string name="description_us_mv_g">description_us_mv_g</string>
+    <string name="description_us_mv_pg">description_us_mv_pg</string>
+    <string name="description_us_mv_pg13">description_us_mv_pg13</string>
+    <string name="description_us_mv_r">description_us_mv_r</string>
+    <string name="description_us_mv_nc17">description_us_mv_nc17</string>
+    <string name="description_th_tv_x">description_th_tv_x</string>
+
+    <!-- TV content rating system strings for NZ TV. These strings are from
+         https://bsa.govt.nz/images/03_BSA_FREE-TO-AIR-TV_CLASSIFICATIONS_DRAFT.pdf -->
+    <string name="description_nz_fta_tv_g">description_nz_fta_tv_g</string>
+    <string name="description_nz_fta_tv_pgr">description_nz_fta_tv_pgr</string>
+    <string name="description_nz_fta_tv_ao">description_nz_fta_tv_ao</string>
+
+    <!-- TV content rating system strings for TH TV. These strings are from
+         https://broadcast.nbtc.go.th/home/ -->
+    <string name="description_th_tv_4">description_th_tv_4</string>
+    <string name="description_th_tv_6">description_th_tv_6</string>
+    <string name="description_th_tv_10">description_th_tv_10</string>
+    <string name="description_th_tv_13">description_th_tv_13</string>
+    <string name="description_th_tv_18">description_th_tv_18</string>
+    <string name="description_th_tv_19">description_th_tv_19</string>
+
+    <!-- TV content rating system for thailand DVB [CHAR_LIMIT=30] -->
+    <string name="title_th_dvb_3">title_th_dvb_3</string>
+    <string name="title_th_dvb_6">title_th_dvb_6</string>
+    <string name="title_th_dvb_g">title_th_dvb_g</string>
+    <string name="title_th_dvb_pg_13">title_th_dvb_pg_13</string>
+    <string name="title_th_dvb_pg_18">title_th_dvb_pg_18</string>
+    <string name="title_th_dvb_a">title_th_dvb_a</string>
+    <string name="description_th_dvb_3">description_th_dvb_3</string>
+    <string name="description_th_dvb_6">description_th_dvb_6</string>
+    <string name="description_th_dvb_g">description_th_dvb_g</string>
+    <string name="description_th_dvb_pg_13">description_th_dvb_pg_13</string>
+    <string name="description_th_dvb_pg_18">description_th_dvb_pg_18</string>
+    <string name="description_th_dvb_a">description_th_dvb_a</string>
+
+    <string name="factory_no_signal_tv">Signal is being searched for, or no signal is found.
+            Please check if the antenna cable has been connected properly</string>
+    <string name="factory_no_signal_inputs">Check the external input or select another input using the INPUT button</string>
+
+    <!--This string appears in Anoki server unreachable dialog dialog as message "-->
+    <string name="no_provider_connection">No connection to Fast provider server</string>
+    <string name="please_check_connection">Please verify your internet connection</string>
+    <!--This string appears as toast message when region is not supported on fast-->
+    <string name="region_not_supported">Live channels are not available in your region</string>
+
+    <string name="inputs_text_string">Inputs</string>
+
+    <!--  This string appears when user interacts with PVR  -->
+    <string name="please_select_storage_path_for_recording_pvr">Please select storage path for Recording PVR in Preferences</string>
+    <string name="insufficient_disk_space">Insufficient USB disk space</string>
+    <string name="usb_not_connected_connect_usb_to_record">USB NOT CONNECTED\nConnect USB to record</string>
+
+    <string name="usb_must_be_formated_as_exfat">USB device must be formated as exFat</string>
+
+    <string name="terms_and_privacy_text">By clicking Continue, you acknowledge that the Anoki %1$s and %2$s will apply.</string>
+    <string name="more_info_terms_and_privacy_text">Click Continue to watch Streaming + Broadcast TV (accepting the Anoki\n%1$s and %2$s) or Cancel to watch Broadcast TV only.</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="up_next_no_information">Up next: No Information</string>
+
+    <string name="timeshift_buffer_reached_warning">The timeshift buffer size is reached.\nDo you want to watch or return to live?</string>
+    <string name="return_to_live">Return</string>
+    <string name="watch">Watch</string>
+
+    <string name="discover">Discover</string>
+    <string name="live">Live</string>
+    <string name="broadcast">Broadcast</string>
+    <string name="broadcast_tv_channels">Broadcast TV channels</string>
+    <string name="digital_subtitle">Digital Subtitle</string>
+    <string name="analog_subtitle">Analog Subtitle</string>
+    <string name="audio_type">Audio Type</string>
+    <string name="spoken_subtitile">Spoken Subtitile</string>
+    <string name="audio_descreiption_and_sop_sub">Audio Description and spoken subtitle</string>
+    <string name="cam_menu">Cam Menu</string>
+    <string name="no_cam">No Cam card</string>
+    <string name="user_preference">User Preference</string>
+    <string name="cam_type_preference">Cam Type Preference</string>
+    <string name="cam_scan">Cam Scan</string>
+    <string name="cam_op_profile">Operator Profile</string>
+    <string name="op_profile_delete">Delete operator profile:</string>
+    <string name="ci_card_inserted">CI Card Inserted</string>
+    <string name="ci_card_removed">CI Card Removed</string>
+    <string name="install_dtv_operator">Do you wish to install Profile: </string>
+    <string name="create_tsfile">Creating timeshift file please wait a few minutes.</string>
+    <string name="timeshift_file">There is not timeshift file on usb device. Do you want to create one to be able to use timeshift.</string>
+    <string name="channel_changed_popup">Channels changed</string>
+    <string name="channel_changed_popup_msg">New channels were found and added in the channel list</string>
+    <string name="power">Power</string>
+
+    <string name="ar_tv_atp">ATP</string>
+    <string name="ar_tv_sam_13">SAM 13</string>
+    <string name="ar_tv_sam_16">SAM 16</string>
+    <string name="ar_tv_sam_18">SAM 18</string>
+    <!-- AR_TV subratings -->
+    <string name="ar_tv_d">D</string>
+    <string name="ar_tv_v">V</string>
+    <string name="ar_tv_s">S</string>
+
+    <string name="au_tv_p">P</string>
+    <string name="au_tv_c">C</string>
+    <string name="au_tv_g">G</string>
+    <string name="au_tv_pg">PG</string>
+    <string name="au_tv_m">M</string>
+    <string name="au_tv_ma">MA</string>
+    <string name="au_tv_av">AV</string>
+    <string name="au_tv_r">R</string>
+
+    <string name="br_tv_l">L</string>
+    <string name="br_tv_10">10</string>
+    <string name="br_tv_12">12</string>
+    <string name="br_tv_14">14</string>
+    <string name="br_tv_16">16</string>
+    <string name="br_tv_18">18</string>
+    <!-- BR_TV subratings -->
+    <string name="br_tv_d">D</string>
+    <string name="br_v_s">S</string>
+    <string name="b_tv_v">V</string>
+
+    <string name="ca_tv_en_exempt">E</string>
+    <string name="ca_tv_en_c">C</string>
+    <string name="ca_tv_en_c8">C8+</string>
+    <string name="ca_tv_en_g">G</string>
+    <string name="ca_tv_en_pg">PG</string>
+    <string name="ca_tv_en_14">14+</string>
+    <string name="ca_tv_en_18">18+</string>
+
+    <string name="ca_tv_fr_e">E</string>
+    <string name="ca_tv_fr_g">G</string>
+    <string name="ca_tv_fr_8">8ans+</string>
+    <string name="ca_tv_fr_13">13ans+</string>
+    <string name="ca_tv_fr_16">16ans+</string>
+    <string name="ca_tv_fr_18">18ans+</string>
+
+    <string name="dtmb_4">4</string>
+    <string name="dtmb_5">5</string>
+    <string name="dtmb_6">6</string>
+    <string name="dtmb_7">7</string>
+    <string name="dtmb_8">8</string>
+    <string name="dtmb_9">9</string>
+    <string name="dtmb_10">10</string>
+    <string name="dtmb_11">11</string>
+    <string name="dtmb_12">12</string>
+    <string name="dtmb_13">13</string>
+    <string name="dtmb_14">14</string>
+    <string name="dtmb_15">15</string>
+    <string name="dtmb_16">16</string>
+    <string name="dtmb_17">17</string>
+    <string name="dtmb_18">18</string>
+
+    <string name="dvb_4">4</string>
+    <string name="dvb_5">5</string>
+    <string name="dvb_6">6</string>
+    <string name="dvb_7">7</string>
+    <string name="dvb_8">8</string>
+    <string name="dvb_9">9</string>
+    <string name="dvb_10">10</string>
+    <string name="dvb_11">11</string>
+    <string name="dvb_12">12</string>
+    <string name="dvb_13">13</string>
+    <string name="dvb_14">14</string>
+    <string name="dvb_15">15</string>
+    <string name="dvb_16">16</string>
+    <string name="dvb_17">17</string>
+    <string name="dvb_18">18</string>
+
+    <string name="es_dvb_all">ALL</string>
+    <string name="es_dvb_c">Children</string>
+    <string name="es_dvb_x">X-Rated</string>
+    <string name="es_dvb_4">4</string>
+    <string name="es_dvb_5">5</string>
+    <string name="es_dvb_6">6</string>
+    <string name="es_dvb_7">7</string>
+    <string name="es_dvb_8">8</string>
+    <string name="es_dvb_9">9</string>
+    <string name="es_dvb_10">10</string>
+    <string name="es_dvb_11">11</string>
+    <string name="es_dvb_12">12</string>
+    <string name="es_dvb_13">13</string>
+    <string name="es_dvb_14">14</string>
+    <string name="es_dvb_15">15</string>
+    <string name="es_dvb_16">16</string>
+    <string name="es_dvb_17">17</string>
+    <string name="es_dvb_18">18</string>
+
+    <string name="fr_dvb_u">Universal</string>
+    <string name="fr_dvb_4">4</string>
+    <string name="fr_dvb_5">5</string>
+    <string name="fr_dvb_6">6</string>
+    <string name="fr_dvb_7">7</string>
+    <string name="fr_dvb_8">8</string>
+    <string name="fr_dvb_9">9</string>
+    <string name="fr_dvb_10">10</string>
+    <string name="fr_dvb_11">11</string>
+    <string name="fr_dvb_12">12</string>
+    <string name="fr_dvb_13">13</string>
+    <string name="fr_dvb_14">14</string>
+    <string name="fr_dvb_15">15</string>
+    <string name="fr_dvb_16">16</string>
+    <string name="fr_dvb_17">17</string>
+    <string name="fr_dvb_18">18</string>
+
+    <string name="isdb_4">4</string>
+    <string name="isdb_5">5</string>
+    <string name="isdb_6">6</string>
+    <string name="isdb_7">7</string>
+    <string name="isdb_8">8</string>
+    <string name="isdb_9">9</string>
+    <string name="isdb_10">10</string>
+    <string name="isdb_11">11</string>
+    <string name="isdb_12">12</string>
+    <string name="isdb_13">13</string>
+    <string name="isdb_14">14</string>
+    <string name="isdb_15">15</string>
+    <string name="isdb_16">16</string>
+    <string name="isdb_17">17</string>
+    <string name="isdb_18">18</string>
+    <string name="isdb_19">19</string>
+    <string name="isdb_20">20</string>
+
+    <string name="kr_tv_all">ALL</string>
+    <string name="kr_tv_7">7</string>
+    <string name="kr_tv_12">12</string>
+    <string name="kr_tv_15">15</string>
+    <string name="kr_tv_19">19</string>
+
+    <string name="nz_tv_g">G</string>
+    <string name="nz_tv_pgr">PGR</string>
+    <string name="nz_tv_ao">AO</string>
+
+    <string name="sg_tv_g">G</string>
+    <string name="sg_tv_pg">PG</string>
+    <string name="sg_tv_pg13">PG13</string>
+    <string name="sg_tv_nc16">NC16</string>
+    <string name="sg_tv_m18">M18</string>
+    <string name="sg_tv_r21">R21</string>
+
+    <string name="th_tv_4">4</string>
+    <string name="th_tv_6">6</string>
+    <string name="th_tv_10">10</string>
+    <string name="th_tv_13">13</string>
+    <string name="th_tv_18">18</string>
+    <string name="th_tv_19">19</string>
+
+    <string name="us_mv_g">G</string>
+    <string name="us_mv_pg">PG</string>
+    <string name="us_mv_pg13">PG13</string>
+    <string name="us_mv_r">R</string>
+    <string name="us_mv_nc17">NC17</string>
+    <string name="us_mv_x">X</string>
+    <string name="us_tv_y">TV_Y</string>
+    <string name="us_tv_y7">TV_Y7</string>
+    <string name="us_tv_g">TV_G</string>
+    <string name="us_tv_pg">TV_PG</string>
+    <string name="us_tv_14">TV_14</string>
+    <string name="us_tv_ma">TV_MA</string>
+    <!-- US_TV subratings -->
+    <string name="us_tv_d">D</string>
+    <string name="us_tv_l">L</string>
+    <string name="us_tv_s">S</string>
+    <string name="us_tv_v">V</string>
+    <string name="us_tv_fv">FV</string>
+
+    <!--This string appears as option in the setup menu to perform software update over the air-->
+    <string name= "oad_download">Over air Download</string>
+
+    <!--This string appears as channel list name (eg. Favorite 1, Favorite 2, Favorite 3..)-->
+    <string name="favorite">Favorite</string>
+
+    <!--This string appears when user presses TTX RCU button if there is no Teletext available for current channel-->
+    <string name="teletext_feature_not_available_for_channel">"Teletext features are not available for this channel."</string>
+
+
+    <!--This string appears in Terms of Service preference-->
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service_description">Please click below to learn more about the Terms of Service and Privacy Policy that apply when you use the Live TV App.</string>
+    <string name="enable_streaming_tv">Enable Streaming TV</string>
+    <string name="tos_more_info_text">Live TVˣ offers premium streaming content.\n Click \'Enable Streaming TV\' to take your TV experience to the next level!</string>
+
+    <!--This strings values appear in Feedback preference menu-->
+    <string name="feedback">Feedback</string>
+    <string name="feedback_instruction_title">Send feedback about the Live TVˣ experience</string>
+    <string name="feedback_text_title">Please include the following in your feedback</string>
+    <string name="feedback_instruction_text_1">1.  Description of your issue including what steps you were\n   taking when it occurred, expected resul, and observer\n\tresult.</string>
+    <string name="feedback_instruction_text_2"> 2.  If possible, please attach a video or photo of the issue\n    within the email.</string>
+
+    <!--This strings values appear when showing Restart dialog to user-->
+    <string name="restart">Restart</string>
+    <string name="restart_dialog_text">In order to watch Live channels, please restart your TV</string>
+
+    <!--This string appears in prefs that will clear all existing tv channels. [CHAR_LIMIT=30] "-->
+    <string name="delete_channels_funai">Delete channels</string>
+    <!--This string appears as dialog title when delete channels is selected from prefs. [CHAR_LIMIT=30] "-->
+    <string name="delete_channels_funai_dialog_title">Delete channels confirmation</string>
+    <!--This string appears as dialog msg when delete channels is selected from prefs. [CHAR_LIMIT=30] "-->
+    <string name="delete_channels_funai_dialog_msg">Do you want to delete all channels? After deleting, application will reset and you will have to scan channels again.</string>
+    <!--This string appears as hint message when Delete channels button is focused "-->
+    <string name="delete_channel_description">In case of troubles with broadcast channels, please try to delete channels.</string>
+    <string name="set_usb">Set Usb</string>
+    <string name="enable_timeshift">Enable Timeshift</string>
+    <string name="no_signal_power_off_inactivity_msg">No Signal. The TV will be turned off in:</string>
+    <string name="edit_channel">Edit channel</string>
+    <string name="long_press_ok_edit_favorite_list">Long press OK to edit list</string>
+    <string name="long_press_ok_edit_channel">Long press OK to edit selected channel</string>
+    <string name="long_press_ok_open_main_menu">Long press OK to open Main menu</string>
+    <string name="press_back_exit_pin_input">Press back to exit PIN input screen</string>
+    <string name="recording_stopped">Recording has been stopped</string>
+    <string name="unlock_channel_to_start_timeshift">Unlock channel to start timeshift</string>
+    <string name="time_shift_buffer_size_reached_msg">The timeshift buffer size is reached.</string>
+    <string name="failed_to_start_pvr">Failed to start PVR. Signal not found.</string>
+    <string name="reset_device_id_confirmation">Are you sure that you want to reset device ID?</string>
+    <string name="optin_label">Anoki Viewing Information Service.</string>
+
+    <string name="default_audio">Default Audio</string>
+
+</resources>

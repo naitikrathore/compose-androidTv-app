@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+        <TextView
+            android:paddingLeft="@dimen/custom_dim_165"
+            android:paddingRight="@dimen/custom_dim_165"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_15"
+            android:textStyle="bold"
+            android:focusable="false"
+            android:textColor="@color/white"
+            />
+        <ScrollView
+            android:layout_marginTop="@dimen/custom_dim_10"
+            android:id="@+id/ll_scroll_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:paddingLeft="@dimen/custom_dim_165"
+                android:paddingRight="@dimen/custom_dim_165"
+                android:clipToPadding="false"
+                android:paddingBottom="@dimen/custom_dim_40"
+                android:id="@+id/ll_main_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"/>
+        </ScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/audio_subtitle_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:background="#4D426A50"
+        android:layout_gravity="end"
+        tools:layout_width="300dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout_id"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@+id/gradient_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/bg_top_fade_home_scene"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_255"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:translationZ="@dimen/custom_dim_10"
+        android:layout_width="@dimen/custom_dim_100"
+        android:layout_height="@dimen/custom_dim_55"
+        android:layout_marginTop="@dimen/custom_dim_38_5"
+        android:layout_marginStart="@dimen/custom_dim_47"
+        android:visibility="visible"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/arrow_up"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+        android:layout_marginTop="@dimen/custom_dim_13_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foregroundGravity="center"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/custom_dim_500"
+        />
+
+
+    <View
+        android:id="@+id/home_search_icon_selector"
+        android:translationZ="@dimen/custom_dim_10"
+        android:layout_width="@dimen/custom_dim_47_5"
+        android:layout_height="@dimen/custom_dim_36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/custom_dim_35_5"
+        android:layout_marginStart="@dimen/custom_dim_160">
+    </View>
+
+    <ImageView
+        android:id="@+id/home_search_icon"
+        android:translationZ="@dimen/custom_dim_10"
+        android:layout_width="@dimen/custom_dim_22_5"
+        android:layout_height="@dimen/custom_dim_22_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/custom_dim_43"
+        android:layout_marginStart="@dimen/custom_dim_172_5"
+        android:focusable="true"
+        android:nextFocusRight="@id/home_filter_list_view"/>
+
+
+    <androidx.leanback.widget.HorizontalGridView
+        android:id="@+id/home_filter_list_view"
+        android:translationZ="@dimen/custom_dim_10"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/custom_dim_40"
+        android:clipToPadding="false"
+        android:layout_marginTop="@dimen/custom_dim_35"
+        android:layout_marginStart="@dimen/custom_dim_21"
+        app:layout_constraintStart_toEndOf="@id/home_search_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/home_settings_icon_selector"
+        android:nextFocusLeft="@id/home_search_icon"/>
+
+    <View
+        android:translationZ="@dimen/custom_dim_10"
+        android:id="@+id/home_settings_icon_selector"
+        android:layout_width="@dimen/custom_dim_47_5"
+        android:layout_height="@dimen/custom_dim_36"
+        app:layout_constraintEnd_toStartOf="@id/home_tv_time"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/custom_dim_33_5"
+        android:layout_marginEnd="@dimen/custom_dim_16_5"
+        tools:background="@drawable/reference_button_focus_shape">
+    </View>
+
+    <ImageView
+        android:id="@+id/home_settings_icon"
+        android:translationZ="@dimen/custom_dim_10"
+        android:layout_width="@dimen/custom_dim_19"
+        android:layout_height="@dimen/custom_dim_19"
+        app:layout_constraintStart_toStartOf="@+id/home_settings_icon_selector"
+        app:layout_constraintTop_toTopOf="@+id/home_settings_icon_selector"
+        app:layout_constraintBottom_toBottomOf="@+id/home_settings_icon_selector"
+        app:layout_constraintEnd_toEndOf="@+id/home_settings_icon_selector"
+        android:focusable="true" />
+
+    <com.iwedia.cltv.TimeTextView
+        android:id="@+id/home_tv_time"
+        android:translationZ="@dimen/custom_dim_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="25sp"
+        android:lineSpacingExtra="-6.3sp"
+        android:gravity="end"
+        android:includeFontPadding="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/custom_dim_37"
+        android:layout_marginEnd="@dimen/custom_dim_47"
+        tools:text="19:41"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/home_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/home_scene_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/custom_dim_15"
+            android:paddingTop="@dimen/custom_dim_10"
+            android:paddingEnd="@dimen/custom_dim_15"
+            android:paddingBottom="@dimen/custom_dim_10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

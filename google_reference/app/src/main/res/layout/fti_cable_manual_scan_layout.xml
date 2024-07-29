@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_border1"
+        android:orientation="horizontal" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_border1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".1">
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewScanText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewScanText"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="112dp"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_border2"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewDescriptionNetworkId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+            <EditText
+                android:id="@+id/buttonNetworkId"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:background="@color/button_not_selected_fti"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textViewDescriptionFreq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+            <EditText
+                android:id="@+id/buttonFreq"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:background="@color/button_not_selected_fti"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textViewDescriptionSymbolRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+            <EditText
+                android:id="@+id/buttonSymbolRate"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:textSize="20dp"
+                android:background="@color/button_not_selected_fti"
+                android:textAlignment="center"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textViewDescriptionChannelQam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="25dp"
+                app:layout_constraintVertical_bias="0.0" />
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/numberPickerChannelLeftQam"
+                    android:descendantFocusability="blocksDescendants"
+                    android:nextFocusRight="@id/button2"
+                    android:layout_width="10dp"
+                    android:layout_height="40dp"
+                    android:text="˂"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/fti_text_color" />
+                <TextView
+                    android:id="@+id/numberPickerChannelQam"
+                    android:descendantFocusability="blocksDescendants"
+                    android:nextFocusRight="@id/button2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:focusable="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:textSize="20dp"
+
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/fti_text_color" />
+                <TextView
+                    android:id="@+id/numberPickerChannelRightQam"
+                    android:descendantFocusability="blocksDescendants"
+                    android:nextFocusRight="@id/button2"
+                    android:layout_width="10dp"
+                    android:layout_height="40dp"
+                    android:text="˃"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/fti_text_color" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewDescriptionChannelStandard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="25dp"
+                app:layout_constraintVertical_bias="0.0" />
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/numberPickerChannelLeftStandard"
+                    android:descendantFocusability="blocksDescendants"
+                    android:nextFocusRight="@id/button2"
+                    android:layout_width="10dp"
+                    android:layout_height="40dp"
+                    android:text="˂"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/fti_text_color" />
+                <TextView
+                    android:id="@+id/numberPickerChannelStandard"
+                    android:descendantFocusability="blocksDescendants"
+                    android:nextFocusRight="@id/button2"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:focusable="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:textSize="20dp"
+
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/fti_text_color" />
+                <TextView
+                    android:id="@+id/numberPickerChannelRightStandard"
+                    android:descendantFocusability="blocksDescendants"
+                    android:nextFocusRight="@id/button2"
+                    android:layout_width="10dp"
+                    android:layout_height="40dp"
+                    android:text="˃"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/fti_text_color" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/fti_text_color"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_border3"
+        android:orientation="horizontal" />
+
+</LinearLayout>

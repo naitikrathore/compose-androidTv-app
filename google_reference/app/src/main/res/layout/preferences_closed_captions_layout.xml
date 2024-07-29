@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.leanback.widget.VerticalGridView
+        android:id="@+id/preferences_cc_left_options"
+        android:layout_width="@dimen/custom_dim_210"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/custom_dim_100_5"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:translationZ="@dimen/custom_dim_10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/preference_subcategory_item" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="640dp" />
+
+    <TextView
+        android:id="@+id/view_cc_preview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/container"
+        app:layout_constraintLeft_toLeftOf="@id/container"
+        app:layout_constraintRight_toRightOf="@id/container"
+        app:layout_constraintTop_toTopOf="@id/container" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/custom_dim_20"
+        android:paddingHorizontal="@dimen/custom_dim_2"
+        app:layout_constraintBottom_toBottomOf="@id/preferences_cc_left_options"
+        app:layout_constraintStart_toStartOf="@id/verticalGuide"
+        app:layout_constraintTop_toTopOf="@id/preferences_cc_left_options">
+
+        <TextView
+            android:id="@+id/cc_preview_shadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cc_preview"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+        <com.iwedia.cltv.components.custom_caption.CustomTextView
+            android:id="@+id/cc_preview_outline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cc_preview"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/cc_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cc_preview" />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

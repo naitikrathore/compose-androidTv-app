@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomButton">
+        <!-- Specifies the type of the button.  This is a required attribute
+             for any Custom Button.  -->
+        <attr name="button_type" format="enum">
+            <!-- Button with skip or unskip icon -->
+            <enum name="SKIP" value="0" />
+            <enum name="UNSKIP" value="1" />
+            <enum name="ADD_TO_FAVORITES" value="2" />
+            <enum name="EDIT_FAVORITES" value="3" />
+            <enum name="LOCK" value="4" />
+            <enum name="UNLOCK" value="5" />
+            <enum name="SEARCH" value="6" />
+            <enum name="SEARCH_WITH_TEXT" value="7" />
+            <enum name="MORE_INFO" value="8" />
+            <enum name="WATCHLIST" value="9" />
+            <enum name="WATCHLIST_REMOVE" value="10" />
+            <enum name="AUDIO" value="11" />
+            <enum name="SUBTITLE" value="12" />
+            <enum name="RECORD" value="13" />
+            <enum name="CANCEL_RECORDING" value="14" />
+            <enum name="KEYBOARD" value="15" />
+            <enum name="RENAME" value="16" />
+            <enum name="FILTER" value="17" />
+            <enum name="START_OVER" value="18" />
+            <enum name="WATCH" value="19" />
+            <enum name="DELETE" value="20" />
+            <enum name="NOT_CHECKED" value="21" />
+            <enum name="CHECKED" value="22" />
+            <enum name="SKIP_OR_UNSKIP" value="23" />
+            <enum name="ADD_TO_FAVORITE" value="24" />
+            <enum name="CANCEL" value="25" />
+            <enum name="CUSTOM_RECORDING" value="26" />
+            <enum name="RETRY" value="27" />
+            <enum name="EXIT" value="28" />
+            <enum name="CUSTOM_TEXT" value="29" />
+            <enum name="BACKSPACE" value="30" />
+            <enum name="OK" value="31" />
+            <enum name="CHECK" value="32" />
+            <enum name="CONTINUE" value="33" />
+            <enum name="EDIT_CHANNEL" value="34" />
+            <enum name="RED" value="35" />
+            <enum name="BLUE" value="36" />
+            <enum name="GREEN" value="37" />
+            <enum name="YELLOW" value="38" />
+        </attr>
+    </declare-styleable>
+</resources>

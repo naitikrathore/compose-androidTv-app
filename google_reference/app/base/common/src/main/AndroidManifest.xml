@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- Tif permissions -->
+    <uses-permission android:name="com.android.providers.tv.permission.READ_EPG_DATA" />
+    <uses-permission android:name="com.android.providers.tv.permission.WRITE_EPG_DATA" />
+    <uses-permission android:name="com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA" />
+    <uses-permission android:name="android.permission.MODIFY_PARENTAL_CONTROLS" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_CONTENT_RATING_SYSTEMS" tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.DEVICE_POWER" tools:ignore="ProtectedPermissions" />
+
+    <!-- TODO: Uncomment this when refactored content provider is ready to be used -->
+    <!--<application>
+        <provider
+            android:name=".base.content_provider.ReferenceContentProvider"
+            android:authorities="com.iwedia.cltv.content.provider"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedContentProvider" />
+    </application>-->
+
+</manifest>

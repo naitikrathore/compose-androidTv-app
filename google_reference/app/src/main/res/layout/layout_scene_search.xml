@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/composable_container_constraint_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/non_composable_container_constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/search_layout"
+            android:layout_width="@dimen/custom_dim_840"
+            android:layout_height="@dimen/custom_dim_36"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/custom_dim_55"
+            android:layout_marginTop="@dimen/custom_dim_35"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:translationZ="@dimen/custom_dim_5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/search_icon"
+                android:layout_width="@dimen/custom_dim_22_5"
+                android:layout_height="@dimen/custom_dim_22_5"
+                android:layout_marginStart="@dimen/custom_dim_12_5" />
+
+            <LinearLayout
+                android:id="@+id/edittext_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dim_18"
+                android:layout_marginStart="@dimen/custom_dim_10"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/search_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/custom_dim_34"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:focusable="true"
+                    android:imeOptions="actionSearch"
+                    android:includeFontPadding="false"
+                    android:inputType="textVisiblePassword|textNoSuggestions"
+                    android:lines="1"
+                    android:textColorHint="@color/black"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/font_13" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.leanback.widget.VerticalGridView
+            android:id="@+id/search_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_130"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/rail_item" />
+
+        <TextView
+            android:id="@+id/no_results_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/font_20"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

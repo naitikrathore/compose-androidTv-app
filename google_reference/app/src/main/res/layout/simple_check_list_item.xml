@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.iwedia.cltv.ReferenceDrawableButton
+        android:id="@+id/check_box"
+        android:layout_width="@dimen/custom_dim_200"
+        android:layout_height="@dimen/custom_dim_40"
+        android:layout_centerHorizontal="true"
+        android:button="@drawable/checkbox_selector"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/font_13">
+    </com.iwedia.cltv.ReferenceDrawableButton>
+</RelativeLayout>

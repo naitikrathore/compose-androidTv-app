@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VideoPlayer" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorPrimary">@color/blue2</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="android:statusBarColor">@color/blue2</item>
+
+    </style>
+
+    <style name="Theme.VideoPlayer" parent="Base.Theme.VideoPlayer" />
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/white</item>
+    </style>
+    <style name="NoTintButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:tint">@null</item>
+    </style>
+</resources>

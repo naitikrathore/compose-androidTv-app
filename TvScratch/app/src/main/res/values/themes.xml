@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AnotherApp" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar"/>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Set the background color to white -->
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+</resources>

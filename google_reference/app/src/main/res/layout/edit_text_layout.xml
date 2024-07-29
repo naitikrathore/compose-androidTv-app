@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_15"
+/>
+    
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="@dimen/custom_dim_320"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="@dimen/custom_dim_15"
+        android:inputType="number"
+        android:paddingStart="@dimen/custom_dim_13"
+        android:background="@color/transparent"
+        android:textSize="@dimen/font_25"
+        android:layout_below="@+id/title_tv"
+        android:layout_alignStart="@+id/title_tv"/>
+
+    <View
+        android:id="@+id/bottom_line"
+        android:layout_width="@dimen/custom_dim_320"
+        android:layout_height="@dimen/custom_dim_1_5"
+        android:layout_below="@+id/edit_text" />
+</RelativeLayout>

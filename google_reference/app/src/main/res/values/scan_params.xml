@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="supported_frontends">
+        <!--<item>@string/const_fe_ipott</item>-->
+        <item>@string/const_fe_dvbc</item>
+        <!--<item>@string/const_fe_dvbs</item>-->
+        <item>@string/const_fe_dvbt</item>
+    </string-array>
+
+</resources>

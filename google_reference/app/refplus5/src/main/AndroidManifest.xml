@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <uses-permission android:name="com.android.tv.permission.RECEIVE_INPUT_EVENT" />
+    <uses-permission android:name="android.permission.TIS_EXTENSION_INTERFACE" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.DEVICE_POWER"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="com.mediatek.dtv.tvinput.framework.tifextapi.dvb.settings.permission.READ_DATA" />
+    <uses-permission android:name="com.mediatek.dtv.tvinput.framework.tifextapi.dvb.settings.permission.WRITE_DATA" />
+
+    <uses-permission android:name="com.mediatek.dtv.tvinput.dvbtuner.settings.permission.READ_DATA" />
+    <uses-permission android:name="com.mediatek.dtv.tvinput.dvbtuner.settings.permission.WRITE_DATA" />
+
+    <uses-permission android:name="com.mediatek.dtv.tvinput.framework.tifextapi.atsc.settings.settingsprovider.permission.READ_DATA" />
+    <uses-permission android:name="com.mediatek.dtv.tvinput.framework.tifextapi.atsc.settings.settingsprovider.permission.WRITE_DATA" />
+    <uses-permission android:name="com.mediatek.dtv.tvinput.atsctuner.settings.settingsprovider.permission.READ_DATA" />
+    <uses-permission android:name="com.mediatek.dtv.tvinput.atsctuner.settings.settingsprovider.permission.WRITE_DATA" />
+    <uses-permission android:name="com.mediatek.tis.settings.analog.permission.READ_DATA" />
+    <uses-permission android:name="com.mediatek.tis.settings.analog.permission.WRITE_DATA" />
+    <uses-permission android:name="com.mediatek.tis.settings.composite.permission.READ_DATA" />
+    <uses-permission android:name="com.mediatek.tis.settings.composite.permission.WRITE_DATA" />
+
+    <application>
+        <receiver android:name="com.iwedia.cltv.platform.refplus5.CiPlusOPBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.dtv.tvinput.framework.intent.action.CAM_PROFILE_INFO_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-feature android:name="rialto.cltv.hybrid" android:required="true"/>
+</manifest>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/fti_left_black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <android.media.tv.TvView
+        android:id="@+id/tvView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SurfaceView
+        android:id="@+id/ttx_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/black_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fti_left_black"
+        android:visibility="gone" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_193_5"
+        android:background="#A8000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ProgressBar
+            android:id="@+id/content_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/custom_dim_780"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/custom_dim_152"
+            android:layout_marginBottom="@dimen/custom_dim_73"
+            android:maxHeight="@dimen/custom_dim_4"
+            android:minHeight="@dimen/custom_dim_4"
+            android:paddingStart="@dimen/custom_dim_0"
+            android:paddingEnd="@dimen/custom_dim_0"
+            android:progress="0"
+            android:focusable="false"
+            android:progressDrawable="@drawable/curved_progress_bar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/content_progress_seek_bar"
+            android:layout_width="@dimen/custom_dim_780"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/custom_dim_152"
+            android:layout_marginBottom="@dimen/custom_dim_68"
+            android:maxHeight="@dimen/custom_dim_4"
+            android:minHeight="@dimen/custom_dim_4"
+            android:paddingStart="@dimen/custom_dim_0"
+            android:paddingEnd="@dimen/custom_dim_0"
+            android:progress="0"
+            android:focusable="false"
+            android:progressDrawable="@drawable/playback_seekbar_selector"
+            android:splitTrack="false"
+            android:thumb="@drawable/player_seekbar_thumb_selector"
+            android:thumbOffset="@dimen/custom_dim_0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/channel_name"
+            android:layout_width="@dimen/custom_dim_89"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_3"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="@dimen/font_12"
+            app:layout_constraintBottom_toTopOf="@id/channel_number"
+            app:layout_constraintEnd_toEndOf="@id/channel_number"
+            app:layout_constraintStart_toStartOf="@id/channel_number" />
+
+        <TextView
+            android:id="@+id/channel_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/font_13"
+            app:layout_constraintEnd_toEndOf="@id/player_logo"
+            app:layout_constraintStart_toStartOf="@id/player_logo"
+            app:layout_constraintTop_toBottomOf="@id/player_logo"
+            tools:text="145" />
+
+        <ImageView
+            android:id="@+id/player_logo"
+            android:layout_width="@dimen/custom_dim_52_5"
+            android:layout_height="@dimen/custom_dim_29_5"
+            android:layout_marginStart="@dimen/custom_dim_68_5"
+            android:layout_marginBottom="@dimen/custom_dim_82_5"
+            android:contentDescription="@string/logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/content_progress_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_10"
+            android:layout_marginBottom="@dimen/custom_dim_3"
+            android:text="@string/start_end"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/font_18"
+            app:layout_constraintEnd_toEndOf="@id/content_progress_seek_bar"
+            app:layout_constraintTop_toBottomOf="@id/content_progress_seek_bar" />
+
+        <TextView
+            android:id="@+id/channel_program_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/custom_dim_12_5"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:lines="1"
+            android:maxWidth="@dimen/custom_dim_500"
+            android:textSize="@dimen/font_30"
+            app:layout_constraintBottom_toBottomOf="@id/play_btn_wrapper"
+            app:layout_constraintStart_toEndOf="@id/play_btn_wrapper"
+            app:layout_constraintTop_toTopOf="@id/play_btn_wrapper"
+            tools:text="Spider-Man" />
+
+        <TextView
+            android:id="@+id/channel_parental_rating"
+            android:layout_width="@dimen/custom_dim_43_5"
+            android:layout_height="@dimen/custom_dim_18"
+            android:layout_marginHorizontal="@dimen/custom_dim_6_5"
+            android:layout_marginStart="@dimen/custom_dim_7_5"
+            android:layout_marginBottom="@dimen/custom_dim_7_5"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textAlignment="gravity"
+            android:textSize="@dimen/font_13"
+            app:layout_constraintBottom_toBottomOf="@id/play_btn_wrapper"
+            app:layout_constraintStart_toEndOf="@id/channel_program_title"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/play_btn_wrapper"
+            android:layout_width="@dimen/custom_dim_42_5"
+            android:layout_height="@dimen/custom_dim_42_5"
+            android:layout_marginBottom="@dimen/custom_dim_10"
+            android:focusable="true"
+            app:cardBackgroundColor="@color/transparent"
+            app:cardCornerRadius="@dimen/custom_dim_37"
+            app:cardElevation="0dp"
+            app:cardPreventCornerOverlap="true"
+            app:layout_constraintBottom_toTopOf="@id/content_progress_seek_bar"
+            app:layout_constraintStart_toStartOf="@id/content_progress_seek_bar">
+
+            <ImageView
+                android:id="@+id/play_btn"
+                android:layout_width="@dimen/custom_dim_37_5"
+                android:layout_height="@dimen/custom_dim_37_5"
+                android:layout_gravity="center"
+                android:contentDescription="@string/play"
+                android:scaleType="centerCrop"
+                android:src="@drawable/play" />
+        </androidx.cardview.widget.CardView>
+
+        <ImageButton
+            android:id="@+id/audio_btn"
+            android:layout_width="@dimen/custom_dim_37"
+            android:layout_height="@dimen/custom_dim_37"
+            android:adjustViewBounds="false"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/audio"
+            android:cropToPadding="false"
+            android:focusable="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/audio"
+            app:layout_constraintBottom_toTopOf="@id/content_progress_seek_bar"
+            app:layout_constraintEnd_toEndOf="@id/content_progress_seek_bar"
+            app:tint="@drawable/subtitle_img_tint_selector"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/subtitle_btn"
+            android:layout_width="@dimen/custom_dim_37"
+            android:layout_height="@dimen/custom_dim_37"
+            android:layout_marginEnd="@dimen/custom_dim_30_5"
+            android:adjustViewBounds="false"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/subtitles"
+            android:cropToPadding="false"
+            android:focusable="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/subtitles"
+            app:layout_constraintBottom_toTopOf="@id/content_progress_seek_bar"
+            app:layout_constraintEnd_toStartOf="@id/audio_btn"
+            app:tint="@drawable/subtitle_img_tint_selector"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/player_ff_fr_spd"
+            android:layout_width="@dimen/custom_dim_52"
+            android:layout_height="@dimen/custom_dim_0"
+            android:layout_marginTop="@dimen/custom_dim_10"
+            android:layout_marginEnd="@dimen/custom_dim_20"
+            android:text=""
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/font_18"
+            app:layout_constraintEnd_toStartOf="@id/tracksContainer"
+            app:layout_constraintTop_toBottomOf="@id/content_progress_seek_bar" />
+
+        <LinearLayout
+            android:id="@+id/tracksContainer"
+            android:layout_width="@dimen/custom_dim_0"
+            android:layout_height="@dimen/custom_dim_19_5"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@id/content_progress_time"
+            app:layout_constraintEnd_toStartOf="@id/content_progress_time"
+            app:layout_constraintStart_toStartOf="@id/content_progress_seek_bar"
+            app:layout_constraintTop_toTopOf="@id/content_progress_time">
+
+            <ImageView
+                android:id="@+id/dolby_icon"
+                android:layout_width="@dimen/custom_dim_16_5"
+                android:layout_height="@dimen/custom_dim_12_5"
+                android:layout_gravity="top"
+                android:layout_marginTop="@dimen/custom_dim_2"
+                android:layout_marginEnd="@dimen/custom_dim_15"
+                android:contentDescription="@string/dolby"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_dolby"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:id="@+id/cc_icon"
+                android:layout_width="@dimen/custom_dim_13_5"
+                android:layout_height="@dimen/custom_dim_12_5"
+                android:layout_gravity="top"
+                android:layout_marginTop="@dimen/custom_dim_2"
+                android:layout_marginEnd="@dimen/custom_dim_15"
+                android:contentDescription="@string/cc"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_cc"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/audio_desc"
+                android:layout_width="@dimen/custom_dim_13_5"
+                android:layout_height="@dimen/custom_dim_12_5"
+                android:layout_gravity="top"
+                android:layout_marginTop="@dimen/custom_dim_2"
+                android:layout_marginEnd="@dimen/custom_dim_15"
+                android:contentDescription="@string/audio_description"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_audio_description"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/is_uhd_logo"
+                android:layout_width="@dimen/custom_dim_12_5"
+                android:layout_height="@dimen/custom_dim_12_5"
+                android:layout_gravity="top"
+                android:layout_marginTop="@dimen/custom_dim_2"
+                android:layout_marginEnd="@dimen/custom_dim_15"
+                android:contentDescription="@string/uhd"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_uhd"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/is_hd_logo"
+                android:layout_width="@dimen/custom_dim_12_5"
+                android:layout_height="@dimen/custom_dim_12_5"
+                android:layout_gravity="top"
+                android:layout_marginTop="@dimen/custom_dim_2"
+                android:layout_marginEnd="@dimen/custom_dim_15"
+                android:contentDescription="@string/hd"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_hd"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/is_sd_logo"
+                android:layout_width="@dimen/custom_dim_12_5"
+                android:layout_height="@dimen/custom_dim_12_5"
+                android:layout_gravity="top"
+                android:layout_marginTop="@dimen/custom_dim_2"
+                android:layout_marginEnd="@dimen/custom_dim_15"
+                android:contentDescription="@string/sd"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_sd"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ttx_logo"
+                android:layout_width="@dimen/custom_dim_18_5"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="-2dp"
+                android:layout_marginEnd="@dimen/custom_dim_15"
+                android:contentDescription="@string/ttx"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_ttx"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/subtitle_logo"
+                android:layout_width="@dimen/custom_dim_13_5"
+                android:layout_height="@dimen/custom_dim_11_5"
+                android:layout_gravity="top"
+                android:layout_marginTop="@dimen/custom_dim_3"
+                android:layout_marginEnd="@dimen/custom_dim_7_5"
+                android:contentDescription="@string/subtitles"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_subtitles"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/audio_logo"
+                android:layout_width="@dimen/custom_dim_11_5"
+                android:layout_height="@dimen/custom_dim_11_5"
+                android:layout_gravity="top"
+                android:layout_marginTop="@dimen/custom_dim_3"
+                android:layout_marginEnd="@dimen/custom_dim_7_5"
+
+                android:contentDescription="@string/audio"
+                android:scaleType="fitXY"
+                android:src="@drawable/audio_ic"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/trackRecyclerView"
+        android:layout_width="300dp"
+        android:layout_height="346dp"
+        android:background="#A8000000"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

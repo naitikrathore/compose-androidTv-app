@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/background_layout">
+
+    <com.iwedia.cltv.scan_activity.core.SimpleTextView
+        android:id="@+id/fragment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/details_list_layout"
+        android:layout_marginBottom="@dimen/custom_dim_30"
+        android:textSize="@dimen/font_25">
+    </com.iwedia.cltv.scan_activity.core.SimpleTextView>
+
+    <LinearLayout
+        android:id="@+id/details_list_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="49dp"
+        android:orientation="horizontal">
+
+        <com.iwedia.cltv.ReferenceDrawableButton
+            android:id="@+id/done_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:nextFocusUp="@id/done_button"
+            android:textSize="@dimen/font_25"
+            android:paddingStart="@dimen/custom_dim_10"
+            android:paddingEnd="@dimen/custom_dim_10"
+            android:paddingTop="@dimen/custom_dim_5"
+            android:paddingBottom="@dimen/custom_dim_5">
+            <requestFocus/>
+        </com.iwedia.cltv.ReferenceDrawableButton>
+
+        <com.iwedia.cltv.ReferenceDrawableButton
+            android:id="@+id/retry_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_25"
+            android:layout_marginStart="@dimen/custom_dim_50"
+            android:paddingStart="@dimen/custom_dim_10"
+            android:paddingEnd="@dimen/custom_dim_10"
+            android:paddingTop="@dimen/custom_dim_5"
+            android:paddingBottom="@dimen/custom_dim_5"
+            android:nextFocusUp="@id/retry_button"
+            android:nextFocusRight="@id/retry_button">
+        </com.iwedia.cltv.ReferenceDrawableButton>
+    </LinearLayout>
+</RelativeLayout>

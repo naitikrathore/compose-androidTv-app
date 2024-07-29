@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/custom_dim_200"
+    android:paddingTop="@dimen/custom_dim_20">
+
+    <RelativeLayout
+        android:id="@+id/channel_item_root_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/custom_dim_15"
+        android:paddingLeft="@dimen/custom_dim_20"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/channel_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+
+            android:gravity="center"
+
+
+            android:textSize="@dimen/font_15" />
+
+        <ImageView
+            android:id="@id/channel_image"
+            android:layout_width="@dimen/custom_dim_60"
+            android:layout_height="@dimen/custom_dim_40"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/custom_dim_50">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/channelname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/custom_dim_25"
+            android:layout_marginTop="-1dp"
+            android:layout_toRightOf="@+id/channel_num"
+
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/start_time_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/custom_dim_15"
+        app:layout_constraintTop_toBottomOf="@+id/channel_item_root_view"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="@dimen/custom_dim_10">
+
+        <TextView
+            android:id="@+id/time_h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10sp"
+            android:textSize="@dimen/font_15"
+            android:alpha="0.6"/>
+        <TextView
+            android:id="@+id/hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/custom_dim_15"
+            android:text="20"
+            android:textSize="@dimen/font_15"
+            />
+
+        <TextView
+            android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/custom_dim_15"
+            android:text="20"
+            android:textSize="@dimen/font_15"
+            />
+
+        <TextView
+            android:id="@+id/date_h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/custom_dim_30"
+            android:lineSpacingExtra="10sp"
+            android:textSize="@dimen/font_15"
+            android:alpha="0.6"/>
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/custom_dim_15"
+            android:text="20"
+            android:textSize="@dimen/font_15"/>
+
+        <TextView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/custom_dim_15"
+            android:text="20"
+            android:textSize="@dimen/font_15"/>
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/custom_dim_15"
+            android:text="20"
+            android:textSize="@dimen/font_15"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/duration_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/custom_dim_15"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_time_date"
+        android:layout_marginTop="@dimen/custom_dim_10">
+        <TextView
+            android:id="@+id/time_h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_15"
+            android:alpha="0.6"/>
+        <TextView
+            android:id="@+id/durationhr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_3"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="@dimen/custom_dim_15"
+            android:text="20"
+            android:textSize="@dimen/font_15"/>
+        <TextView
+            android:id="@+id/durationmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_3"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="@dimen/custom_dim_15"
+            android:text="20"
+            android:textSize="@dimen/font_15"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/repeat_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/custom_dim_15"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/duration_time"
+        android:layout_marginTop="@dimen/custom_dim_10">
+
+        <TextView
+            android:id="@+id/repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_15"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

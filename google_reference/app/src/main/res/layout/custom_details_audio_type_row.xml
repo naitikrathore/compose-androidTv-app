@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+IMPORTANT: changes in this xml file will reflect directly on all scenes and widgets that are using
+this xml through custom_details_info_row.xml, but whenever changing it MAKE SURE that DetailsScene
+works correctly.
+
+whenever changing something in this xml, make sure that everything works in next scenarios:
+    1) DetailsScene when there is no image loaded for event - margins are set differently
+    2) DetailsScene when image is loaded - margins are set differently
+
+Especially be careful with changing paddings/margins.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        tools:text="5.0"
+        tools:textColor="@color/white"
+        tools:visibility="visible" />
+</LinearLayout>

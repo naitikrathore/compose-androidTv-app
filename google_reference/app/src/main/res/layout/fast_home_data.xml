@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/promotion_logo_image_view"
+        android:layout_width="@dimen/custom_dim_249"
+        android:layout_height="@dimen/custom_dim_119"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
+        android:background="@color/transparent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.iwedia.cltv.components.CustomButton
+        android:id="@+id/promotion_custom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:button_type="CUSTOM_TEXT"
+        tools:text = "Watch now for free"
+        tools:background="#807546A3"
+        tools:layout_height="34dp"
+        tools:layout_width="141.5dp"
+        app:layout_constraintStart_toStartOf="@+id/promotion_logo_image_view"
+        app:layout_constraintBottom_toBottomOf="parent" />
+    
+    <LinearLayout
+        android:id="@+id/promotion_slider"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_10"
+        android:clipChildren="false"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/custom_dim_5"
+        android:layout_marginStart="@dimen/custom_dim_117"
+        app:layout_constraintBottom_toBottomOf="@+id/promotion_custom_button"
+        app:layout_constraintStart_toEndOf="@+id/promotion_logo_image_view">
+
+        <ImageView
+            android:id="@+id/dot0"
+            android:layout_width="@dimen/custom_dim_7_5"
+            android:layout_height="@dimen/custom_dim_7_5"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            android:layout_marginStart="@dimen/custom_dim_2"
+            android:background="@drawable/button_round"
+            android:layout_marginEnd="@dimen/custom_dim_7_5" />
+
+        <ImageView
+            android:id="@+id/dot1"
+            android:layout_width="@dimen/custom_dim_7_5"
+            android:layout_height="@dimen/custom_dim_7_5"
+            android:layout_marginEnd="@dimen/custom_dim_7_5"
+            android:background="@drawable/button_round"
+            android:backgroundTint="@color/color_text_description"/>
+
+        <ImageView
+            android:id="@+id/dot2"
+            android:layout_width="@dimen/custom_dim_7_5"
+            android:layout_height="@dimen/custom_dim_7_5"
+            android:layout_marginEnd="@dimen/custom_dim_7_5"
+            android:background="@drawable/button_round"
+            android:backgroundTint="@color/color_text_description"/>
+
+        <ImageView
+            android:id="@+id/dot3"
+            android:layout_width="@dimen/custom_dim_7_5"
+            android:layout_height="@dimen/custom_dim_7_5"
+            android:layout_marginEnd="@dimen/custom_dim_7_5"
+            android:background="@drawable/button_round"
+            android:backgroundTint="@color/color_text_description"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

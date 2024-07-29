@@ -1,0 +1,38 @@
+<LinearLayout android:id="@+id/volume_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/custom_dim_6"
+    android:focusable="true"
+    android:visibility="visible"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/volume_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/work_sans_medium"
+        android:textColor="@color/color_main_text"
+        android:textSize="@dimen/font_13" />
+
+    <ProgressBar
+        android:layout_weight="1"
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/custom_dim_2_5"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:progress="0"
+        android:progressDrawable="@drawable/curved_progress_bar"
+        android:progressTint="@color/color_progress" />
+
+    <TextView
+        android:id="@+id/volume_percent_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/work_sans_medium"
+        android:textColor="@color/color_main_text"
+        android:textSize="@dimen/font_13" />
+</LinearLayout>

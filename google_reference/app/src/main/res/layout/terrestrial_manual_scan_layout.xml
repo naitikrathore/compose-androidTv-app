@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background_layout">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_25"
+        android:layout_marginTop="@dimen/custom_dim_50"
+        android:layout_marginStart="@dimen/custom_dim_116" />
+
+    <com.iwedia.cltv.scan_activity.core.TraversalListView
+        android:id="@+id/vhf_uhf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignStart="@+id/title"
+        android:layout_marginStart="@dimen/custom_dim_n10"
+        android:layout_marginTop="@dimen/custom_dim_40"/>
+
+    <com.iwedia.cltv.scan_activity.core.EditTextView
+        android:id="@+id/frequency_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignStart="@+id/title"
+        android:layout_marginTop="@dimen/custom_dim_157_5"/>
+
+    <com.iwedia.cltv.scan_activity.core.TraversalListView
+        android:id="@+id/bandwidth_tl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignStart="@+id/title"
+        android:layout_marginStart="@dimen/custom_dim_n10"
+        android:layout_marginTop="@dimen/custom_dim_260"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/custom_dim_30"
+        android:layout_centerHorizontal="true">
+
+        <com.iwedia.cltv.ReferenceDrawableButton
+            android:id="@+id/tune_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_25"
+            android:paddingStart="@dimen/custom_dim_10"
+            android:paddingEnd="@dimen/custom_dim_10"
+            android:paddingTop="@dimen/custom_dim_5"
+            android:paddingBottom="@dimen/custom_dim_5">
+            <requestFocus />
+        </com.iwedia.cltv.ReferenceDrawableButton>
+
+        <com.iwedia.cltv.ReferenceDrawableButton
+            android:id="@+id/scan_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_25"
+            android:layout_marginStart="@dimen/custom_dim_110"
+            android:paddingStart="@dimen/custom_dim_10"
+            android:paddingEnd="@dimen/custom_dim_10"
+            android:paddingTop="@dimen/custom_dim_5"
+            android:paddingBottom="@dimen/custom_dim_5">
+        </com.iwedia.cltv.ReferenceDrawableButton>
+    </LinearLayout>
+
+    <com.iwedia.cltv.scan_activity.core.ProgressBarView
+        android:id="@+id/signal_strength_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_156"
+        android:layout_marginStart="@dimen/custom_dim_537"/>
+
+    <com.iwedia.cltv.scan_activity.core.ProgressBarView
+        android:id="@+id/signal_quality_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_66_5"
+        android:layout_below="@+id/signal_strength_progress"
+        android:layout_alignStart="@+id/signal_strength_progress"/>
+
+    <RelativeLayout
+        android:id="@+id/keyboard_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_220"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/view_layout"
+            android:layout_height="@dimen/custom_dim_1_5"
+            android:layout_alignParentTop="true" />
+
+        <com.iwedia.cltv.scan_activity.core.KeyboardView
+            android:id="@+id/keyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </com.iwedia.cltv.scan_activity.core.KeyboardView>
+    </RelativeLayout>
+
+</RelativeLayout>

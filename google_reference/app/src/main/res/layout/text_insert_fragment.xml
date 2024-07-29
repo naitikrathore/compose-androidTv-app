@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background_layout">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/custom_dim_150"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="@dimen/custom_dim_400"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_40"
+        android:inputType="number|text"
+        android:paddingStart="@dimen/custom_dim_3"
+        android:paddingEnd="@dimen/custom_dim_3"
+        android:background="@color/transparent"
+        android:textSize="@dimen/font_25"
+        android:textCursorDrawable="@null"
+        android:gravity="center"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:id="@+id/bottom_line"
+        android:layout_width="@dimen/custom_dim_400"
+        android:layout_height="@dimen/custom_dim_1_5"
+        android:layout_below="@+id/edit_text"
+        android:layout_centerHorizontal="true"/>
+
+    <com.iwedia.cltv.scan_activity.core.KeyboardView
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.iwedia.cltv.scan_activity.core.KeyboardView>
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:textSize="@dimen/custom_dim_19"
+        android:paddingTop="@dimen/custom_dim_5"
+        android:paddingBottom="@dimen/custom_dim_5"
+        android:paddingStart="@dimen/custom_dim_10"
+        android:paddingEnd="@dimen/custom_dim_10"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/custom_dim_103"
+        android:layout_marginBottom="@dimen/custom_dim_107_5"
+        android:lineSpacingExtra="-5sp" />
+</RelativeLayout>

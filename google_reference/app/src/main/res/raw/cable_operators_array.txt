@@ -1,0 +1,278 @@
+{
+"Cable":[
+	{"countryTag":"AUT",
+     "country":"Austria",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"UPC","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"BEL",
+     "country":"Belgium",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"TELENET","Frequency":322000,"Modulation":64,"SymbolRate":6875,"NetworkID":22},
+					{"Name":"VOO","Frequency":330000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"BGR",
+     "country":"Bulgaria",
+	 "defaultLCN": 1,
+	 "operators":[
+					{"Name":"BLIZOO","Frequency":162000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"NET1","Frequency":47000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":47000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"HRV",
+     "country":"Croatia",
+	 "defaultLCN": 1,
+	 "operators":[],
+    "pvrEnabled": 1
+	},
+
+	{"countryTag":"CZE",
+     "country":"Czech Republic",
+	 "defaultLCN": 0,
+	 "operators":[],
+    "pvrEnabled": 1
+	},
+
+	{"countryTag":"DNK",
+     "country":"Denmark",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"STOFA","Frequency":346000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"YOUSEE","Frequency":450000,"Modulation":64,"SymbolRate":6875,"NetworkID":100},
+					{"Name":"CANAL DIGITAL","Frequency":386000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"GLENTEN","Frequency":226000,"Modulation":64,"SymbolRate":6875,"NetworkID":1},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"EST",
+     "country":"Estonia",
+	 "defaultLCN": 0,
+	 "operators":[],
+    "pvrEnabled": 1
+	},
+
+	{"countryTag":"FIN",
+     "country":"Finland",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"CANAL DIGITAL","Frequency":114000,"Modulation":128,"SymbolRate":6900,"NetworkID":100},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":128,"SymbolRate":6900,"NetworkID":100}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"FRA",
+     "country":"France",
+	 "defaultLCN": 1,
+	 "operators":[
+					{"Name":"NUMERICABLE","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"DEU",
+     "country":"Germany",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"UNITYMEDIA","Frequency":346000,"Modulation":64,"SymbolRate":6875,"NetworkID":9999},
+					{"Name":"TELECOLUMBUS","Frequency":330000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"KDG HD","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 0
+	},
+
+	{"countryTag":"GRC",
+     "country":"Greece",
+	 "defaultLCN": 0,
+	 "operators":[],
+    "pvrEnabled": 1
+	},
+
+	{"countryTag":"HUN",
+     "country":"Hungary",
+	 "defaultLCN": 1,
+	 "operators":[
+					{"Name":"RCS RDS","Frequency":128500,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"UPC","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"IRL",
+     "country":"Ireland",
+	 "defaultLCN": 1,
+	 "operators":[
+					{"Name":"UPC","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"ITA",
+     "country":"Italy",
+	 "defaultLCN": 1,
+	 "operators":[],
+    "pvrEnabled": 0
+	},
+
+	{"countryTag":"LVA",
+     "country":"Latvia",
+	 "defaultLCN": 0,
+	 "operators":[],
+    "pvrEnabled": 1
+	},
+
+	{"countryTag":"LUX",
+     "country":"Luxembourg",
+	 "defaultLCN": 0,
+	 "operators":[],
+    "pvrEnabled": 1
+	},
+
+	{"countryTag":"NLD",
+     "country":"Netherlands",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"ZIGGO","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":5555},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":5555}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"NOR",
+     "country":"Norway",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"CANAL DIGITAL","Frequency":386000,"Modulation":128,"SymbolRate":6900,"NetworkID":100},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":128,"SymbolRate":6900,"NetworkID":100}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"POL",
+     "country":"Poland",
+	 "defaultLCN": 1,
+	 "operators":[
+					{"Name":"UPC","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"PRT",
+     "country":"Portugal",
+	 "defaultLCN": 0,
+	 "operators":[],
+    "pvrEnabled": 1
+	},
+
+	{"countryTag":"ROU",
+     "country":"Romania",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"RCS RDS","Frequency":322000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"UPC","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"RUS",
+     "country":"Russia",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"AKADO","Frequency":474000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"DIVAN TV","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"ONLIME","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"TVOE STP","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"SRB",
+     "country":"Serbia",
+	 "defaultLCN": 0,
+	 "operators":[
+                    {"Name":"SBB","Frequency":610000,"Modulation":256,"SymbolRate":6875,"NetworkID":511},
+                    {"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+	             ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"SVK",
+     "country":"Slovakia",
+	 "defaultLCN": 0,
+	 "operators":[],
+    "pvrEnabled": 1
+	},
+
+	{"countryTag":"SVN",
+     "country":"Slovenia",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"TELEING","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"TELEMACH","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"ESP",
+     "country":"Spain",
+	 "defaultLCN": 0,
+	 "operators":[],
+    "pvrEnabled": 1
+	},
+
+	{"countryTag":"SWE",
+     "country":"Sweden",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"COMHEM","Frequency":362000,"Modulation":64,"SymbolRate":6875,"NetworkID":41001},
+					{"Name":"CANAL DIGITAL","Frequency":346000,"Modulation":64,"SymbolRate":6875,"NetworkID":41001},
+					{"Name":"TELE2","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":41001},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":41001}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"CHE",
+     "country":"Switzerland",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"UPC","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999},
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"TUR",
+     "country":"Turkey",
+	 "defaultLCN": 0,
+	 "operators":[
+					{"Name":"OTHERS","Frequency":306000,"Modulation":64,"SymbolRate":6875,"NetworkID":999}
+				 ],
+   "pvrEnabled": 1
+	}
+
+]
+}

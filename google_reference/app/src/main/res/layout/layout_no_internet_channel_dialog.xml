@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_scene_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:layout_width="@dimen/custom_dim_44_5"
+        android:layout_height="@dimen/custom_dim_57_5"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/custom_dim_50"
+        app:layout_constraintBottom_toTopOf="@+id/dialog_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/dialog_title"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/custom_dim_20"
+        tools:text="sample message"
+        android:textSize="@dimen/font_13"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_title"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/font_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Sample Title"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/buttonsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_40"
+        android:paddingHorizontal="@dimen/custom_dim_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialog_title"
+        android:layout_marginTop="@dimen/custom_dim_66_5"
+        android:gravity="center"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <TextView
+        android:id="@+id/dialog_sub_message"
+        app:layout_constraintTop_toBottomOf="@+id/buttonsContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/custom_dim_22"
+        android:layout_marginBottom="@dimen/custom_dim_135"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="visible"
+        android:textSize="@dimen/font_13" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

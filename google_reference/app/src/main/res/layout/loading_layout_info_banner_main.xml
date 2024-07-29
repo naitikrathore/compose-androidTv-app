@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><!-- this placeholder view was created to look like infobanner_event_list_item.xml-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout_main"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_540"
+        android:layout_marginTop="@dimen/custom_dim_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:background="@color/white">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_dim_380"
+            android:background="@drawable/background_loading_info_banner_gradient"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:id="@+id/events_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dim_112"
+                android:translationX="-63dp"
+                android:layout_marginTop="@dimen/custom_dim_6"
+                android:clipToPadding="false"
+                app:layout_constraintBottom_toTopOf="@id/channel_logo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <include layout="@layout/loading_layout_info_banner_event_list_item" />
+
+                <include layout="@layout/loading_layout_info_banner_event_list_item" />
+
+                <include layout="@layout/loading_layout_info_banner_event_list_item" />
+
+                <include layout="@layout/loading_layout_info_banner_event_list_item" />
+
+                <include layout="@layout/loading_layout_info_banner_event_list_item" />
+
+                <include layout="@layout/loading_layout_info_banner_event_list_item" />
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/channel_logo"
+                android:layout_width="@dimen/custom_dim_89"
+                android:layout_height="@dimen/custom_dim_49_5"
+                android:layout_marginStart="@dimen/custom_dim_50"
+                android:layout_marginTop="@dimen/custom_dim_50"
+                android:foreground="@color/loading_placeholder"
+                android:importantForAccessibility="no"
+                android:scaleType="centerInside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/events_recycler" />
+
+            <TextView
+                android:id="@+id/current_event_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/custom_dim_5"
+                android:layout_marginBottom="@dimen/custom_dim_5"
+                android:ellipsize="end"
+                android:foreground="@drawable/loading_placeholder_gradient_background"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lines="1"
+                android:textSize="@dimen/font_21"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@id/progress"
+                app:layout_constraintEnd_toEndOf="@id/progress"
+                app:layout_constraintStart_toStartOf="@id/progress" />
+
+            <LinearLayout
+                android:id="@+id/event_description"
+                android:layout_width="@dimen/custom_dim_650"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/custom_dim_7_5"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="@id/progress"
+                app:layout_constraintStart_toStartOf="@id/progress"
+                app:layout_constraintTop_toBottomOf="@id/progress">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/custom_dim_4"
+                    android:alpha="0.8"
+                    android:background="@drawable/loading_placeholder_gradient_background"
+                    android:textSize="@dimen/font_14" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/custom_dim_4"
+                    android:alpha="0.7"
+                    android:background="@drawable/loading_placeholder_gradient_background"
+                    android:textSize="@dimen/font_14" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/custom_dim_4"
+                    android:alpha="0.6"
+                    android:background="@drawable/loading_placeholder_gradient_background"
+                    android:textSize="@dimen/font_14" />
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/custom_dim_650"
+                android:layout_height="@dimen/custom_dim_4"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/custom_dim_10"
+                android:layout_marginTop="@dimen/custom_dim_60"
+                android:foreground="@drawable/loading_placeholder_gradient_background"
+                android:max="100"
+                android:progress="0"
+                android:visibility="visible"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toEndOf="@id/channel_logo"
+                app:layout_constraintTop_toBottomOf="@id/events_recycler" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

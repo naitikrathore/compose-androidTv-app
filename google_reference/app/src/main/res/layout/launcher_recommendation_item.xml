@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/launcher_recommendation_item_root_view"
+    android:layout_width="@dimen/custom_dim_171_5"
+    android:layout_height="@dimen/custom_dim_96_5">
+
+    <ImageView
+        android:id="@+id/channel_list_lock_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_channel_lock"
+        android:layout_marginStart="@dimen/custom_dim_7_5"
+        android:layout_marginTop="@dimen/custom_dim_7_5"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/channel_list_skip_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_channel_skip"
+        android:visibility="visible"
+        android:scaleType="centerInside"
+        android:layout_marginTop="@dimen/custom_dim_7_5"
+        android:layout_marginStart="@dimen/custom_dim_3"
+        app:layout_constraintStart_toEndOf="@+id/channel_list_lock_icon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_no_image"
+        android:layout_width="@dimen/custom_dim_20"
+        android:layout_height="@dimen/custom_dim_20"
+        android:layout_marginTop="@dimen/custom_dim_5"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/title_no_image"
+        android:layout_width="@dimen/custom_dim_115"
+        android:layout_height="@dimen/custom_dim_60"
+        android:layout_marginTop="@dimen/custom_dim_10_5"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/custom_dim_5"
+        android:lineSpacingMultiplier="0.8"
+        android:maxLines="3"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_15"
+        app:layout_constraintBottom_toTopOf="@id/channel_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/event_list_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/channel_logo"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="@dimen/custom_dim_10"
+        android:gravity="center"
+        android:textSize="@dimen/font_11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/channel_name"
+        android:layout_width="@dimen/custom_dim_140"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/custom_dim_5"
+        android:gravity="center"
+        android:textSize="@dimen/font_11"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:lines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/channel_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.iwedia.cltv.TimeTextView
+        android:id="@+id/time"
+        android:layout_width="@dimen/custom_dim_140"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/custom_dim_5"
+        android:gravity="center"
+        android:textSize="@dimen/font_11"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:lines="1"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/channel_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

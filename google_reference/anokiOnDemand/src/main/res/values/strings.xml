@@ -1,0 +1,11 @@
+<resources>
+    <string name="text_play">Play</string>
+    <string name="text_number_of_seasons">%d Season%s</string>
+    <string name="text_s">s</string>
+    <string name="text_resume_playing">Resume Playing</string>
+    <string name="text_play_x_season_x_episode">Play Season %d Episode %d</string>
+    <string name="text_resume_x_season_x_episode">Resume Season %d Episode %d</string>
+    <string name="text_play_from_beginning">Play From Beginning</string>
+    <string name="text_seasons_and_episodes">Seasons &amp; Episodes</string>
+    <string name="text_cast_info">Cast: %s</string>
+</resources>

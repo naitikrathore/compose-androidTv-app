@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="Theme.ReferenceApplication" parent="@style/Theme.Leanback" />
+
+
+</resources>

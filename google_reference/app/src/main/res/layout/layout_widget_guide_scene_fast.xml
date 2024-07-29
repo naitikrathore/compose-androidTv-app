@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/guideFastRoot"
+    android:layout_width="match_parent"
+    android:layout_height="540dp"
+    android:animateLayoutChanges = "true">
+
+    <View
+        android:id="@+id/guide_fade_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.iwedia.cltv.anoki_fast.FastErrorInfo
+        android:id="@+id/fast_live_tab_no_internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"/>
+
+    <view class="com.iwedia.cltv.anoki_fast.FastTosMoreInfo"
+        android:id="@+id/tos_more_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="@dimen/custom_dim_210"
+        android:layout_marginBottom="@dimen/custom_dim_10"
+        android:visibility="gone">
+    </view>
+
+    <view class="com.iwedia.cltv.components.CustomDetails$CustomDetailsFastEpg"
+        android:id="@+id/custom_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:background="#0DC800FF"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="66dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/channel_filter_vertical_grid_view_container"
+        android:layout_width="158dp"
+        android:layout_height="0dp"
+        app:cardBackgroundColor="#1ABDC1C6"
+        tools:cardBackgroundColor="#80BDC1C6"
+        app:cardElevation="0dp"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="3dp"
+        app:cardCornerRadius="2.5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/custom_details"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.bosphere.fadingedgelayout.FadingEdgeLayout
+            android:id="@+id/fading_edge_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fel_edge="bottom|top"
+            app:fel_size_bottom="@dimen/custom_dim_100"
+            app:fel_size_top="@dimen/custom_dim_100">
+
+            <androidx.leanback.widget.VerticalGridView
+                android:id="@+id/channel_filter_vertical_grid_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingVertical="9.5dp"
+                android:paddingHorizontal="5dp"
+                android:overScrollMode="never"/>
+
+        </com.bosphere.fadingedgelayout.FadingEdgeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.leanback.widget.HorizontalGridView
+        android:id="@+id/guide_timeline_view"
+        android:layout_width="wrap_content"
+        android:clipToPadding="true"
+        android:layout_marginBottom="14dp"
+        android:layout_height="@dimen/custom_dim_16"
+        android:paddingEnd="@dimen/custom_dim_158"
+        app:layout_constraintStart_toStartOf="@+id/guide_events_container"
+        app:layout_constraintBottom_toTopOf="@+id/guide_events_container"
+        app:layout_constraintEnd_toEndOf="@+id/guide_events_container"
+        />
+<!--android:paddingTop="0.5dp" if this removed cards would be out of the verticalGridView-->
+    <androidx.leanback.widget.VerticalGridView
+        android:id="@+id/guide_channel_list"
+        android:layout_width="111dp"
+        tools:background="#33FFBA00"
+        android:paddingTop="0.5dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@id/custom_details"
+        app:layout_constraintStart_toEndOf="@id/channel_filter_vertical_grid_view_container"
+        tools:listitem="@layout/guide_channel_list_item"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+    <androidx.leanback.widget.VerticalGridView
+        android:id="@+id/guide_events_container"
+        android:layout_width="wrap_content"
+        tools:background="#0D00FF66"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:paddingTop="0.5dp"
+        tools:listitem="@layout/guide_events_container_item"
+        app:layout_constraintTop_toBottomOf="@id/custom_details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guide_channel_list"/>
+
+    <LinearLayout
+        android:id="@+id/epg_loading_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/custom_details"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toEndOf="@id/channel_filter_vertical_grid_view_container"
+        android:layout_marginBottom="@dimen/custom_dim_6"
+        android:alpha="0.8"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <include layout="@layout/layout_fast_live_tab_loading_placeholder" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <include layout="@layout/layout_fast_live_tab_loading_placeholder" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <include layout="@layout/layout_fast_live_tab_loading_placeholder" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <include layout="@layout/layout_fast_live_tab_loading_placeholder" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <include layout="@layout/layout_fast_live_tab_loading_placeholder" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <include layout="@layout/layout_fast_live_tab_loading_placeholder" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <include layout="@layout/layout_fast_live_tab_loading_placeholder" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <include layout="@layout/layout_fast_live_tab_loading_placeholder" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/guide_past_overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/guide_channel_list"
+        app:layout_constraintStart_toEndOf="@+id/guide_channel_list"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/past_overlay_separator"
+            android:layout_width="@dimen/custom_dim_1"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true">
+        </View>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

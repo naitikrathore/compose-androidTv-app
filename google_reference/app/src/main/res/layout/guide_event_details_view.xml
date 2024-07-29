@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/guide_event_info_view"
+    android:layout_width="@dimen/custom_dim_960"
+    android:layout_height="@dimen/custom_dim_192">
+
+    <com.bosphere.fadingedgelayout.FadingEdgeLayout
+        android:layout_width="@dimen/custom_dim_400"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        app:fel_edge="left"
+        app:fel_size_left="@dimen/custom_dim_50">
+
+        <ImageView
+            android:id="@+id/event_background_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+    </com.bosphere.fadingedgelayout.FadingEdgeLayout>
+
+    <View
+        android:id="@+id/viewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.75"
+        android:background="@drawable/guide_event_details_background" />
+
+    <view
+        android:id="@+id/custom_details"
+        class="com.iwedia.cltv.components.CustomDetails$CustomDetailsEPG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/custom_dim_157_5" />
+
+    <androidx.leanback.widget.HorizontalGridView
+        android:id="@+id/buttons_horizontal_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/custom_dim_174"
+        android:layout_marginBottom="@dimen/custom_dim_8"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:padding="@dimen/custom_dim_2" />
+
+</RelativeLayout>

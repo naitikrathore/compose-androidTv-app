@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/scrollable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/custom_dim_n61">
+
+        <androidx.leanback.widget.HorizontalGridView
+            android:translationZ="@dimen/custom_dim_10"
+            android:id="@+id/preferences_platforms_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_dim_40"
+            android:clipToPadding="false"
+            android:paddingStart="@dimen/custom_dim_5"
+            android:paddingEnd="@dimen/custom_dim_5"
+            android:layout_marginTop="@dimen/custom_dim_35"
+            android:layout_marginStart="@dimen/custom_dim_220"
+            android:overScrollMode="never"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="@dimen/custom_dim_180" />
+
+        <com.iwedia.cltv.components.FadingEdgeHorizontalGridView
+            android:translationZ="@dimen/custom_dim_10"
+            android:id="@+id/preferences_filter_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_dim_40"
+            android:clipToPadding="false"
+            android:paddingStart="@dimen/custom_dim_5"
+            android:paddingEnd="@dimen/custom_dim_5"
+            android:layout_marginTop="@dimen/custom_dim_96"
+            android:layout_marginStart="@dimen/custom_dim_220"
+            android:overScrollMode="never"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="@dimen/custom_dim_180" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/prefs_container"
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:focusable="true"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/custom_dim_170"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="0dp">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

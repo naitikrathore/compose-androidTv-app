@@ -1,0 +1,31 @@
+{
+  "title": "Recordings",
+  "items": [
+    {
+      "id": "0",
+      "name": "recordings_rails_container",
+      "visibility": "visible",
+      "source": "",
+      "height": "wrap_content",
+      "width": "wrap_content",
+      "background": "",
+      "alignmentX": "center",
+      "alignmentY": "center",
+      "leftMargin": "0",
+      "rightMargin": "0",
+      "topMargin": "0",
+      "bottomMargin": "0",
+      "data": [],
+      "rail_data": [
+        {
+          "name": "Recorded",
+          "id": "0"
+        },
+        {
+          "name": "Future",
+          "id": "1"
+        }
+      ]
+    }
+  ]
+}

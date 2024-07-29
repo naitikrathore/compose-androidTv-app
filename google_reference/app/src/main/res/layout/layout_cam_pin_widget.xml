@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/channel_list_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="@string/parental_control_settings"
+        android:textSize="@dimen/font_21"
+        android:visibility="visible"
+        android:layout_marginBottom="@dimen/custom_dim_100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/new_pin_items"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/new_pin_items"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_77"
+        android:layout_marginBottom="@dimen/custom_dim_9_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/pressOkTv"
+        android:orientation="horizontal">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <TextView
+        android:id="@+id/pressOkTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="@string/press_ok_to_confirm"
+        android:textSize="@dimen/font_13"
+        android:visibility="visible"
+        android:layout_marginBottom="@dimen/custom_dim_131"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

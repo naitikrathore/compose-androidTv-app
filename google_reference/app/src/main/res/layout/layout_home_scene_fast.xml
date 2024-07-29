@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout_id"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@+id/gradient_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/bg_top_fade_home_scene"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_255"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/bg_preview_fade_home_scene"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_fade_preview"/>
+
+    <ImageView
+        android:id="@+id/arrow_up"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+        android:layout_marginTop="@dimen/custom_dim_13_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foregroundGravity="center"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/custom_dim_500" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/custom_dim_40"
+        android:layout_marginTop="@dimen/custom_dim_41"
+        tools:background="#2C8C39"
+        android:translationZ="@dimen/custom_dim_10"
+        android:gravity="center_vertical|end"
+        android:layout_marginStart="@dimen/custom_dim_195"
+        android:layout_marginEnd="@dimen/custom_dim_82"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.leanback.widget.HorizontalGridView
+            android:id="@+id/home_filter_list_view"
+            tools:background="#9C4333"
+            android:layout_marginEnd="@dimen/custom_dim_20"
+            android:translationZ="@dimen/custom_dim_10"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/custom_dim_36"
+            android:layout_gravity="center_vertical"
+            android:clipToPadding="false"
+            android:horizontalSpacing="@dimen/custom_dim_25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/home_search_icon_selector" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/custom_dim_47_5"
+            android:layout_height="match_parent"
+            tools:background="#9C4333">
+
+            <View
+                android:id="@+id/home_search_icon_selector"
+                android:layout_width="@dimen/custom_dim_36"
+                android:layout_height="@dimen/custom_dim_36"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <ImageView
+                android:id="@+id/home_search_icon"
+                android:layout_width="@dimen/custom_dim_19"
+                android:layout_height="@dimen/custom_dim_19"
+                android:focusable="true"
+                tools:src="@drawable/search_icon"
+                android:nextFocusRight="@id/home_settings_icon_selector"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/settings_button_container"
+            android:layout_width="@dimen/custom_dim_47_5"
+            android:translationZ="20dp"
+            android:layout_height="match_parent"
+            tools:background="#9C4333">
+
+            <View
+                android:id="@+id/home_settings_icon_selector"
+                android:layout_width="@dimen/custom_dim_36"
+                android:layout_height="@dimen/custom_dim_36"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+            </View>
+
+            <ImageView
+                android:id="@+id/home_settings_icon"
+                android:layout_width="@dimen/custom_dim_19"
+                android:layout_height="@dimen/custom_dim_19"
+                android:focusable="true"
+                tools:src="@drawable/settings_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:nextFocusRight="@id/home_profile_btn_selector"
+                android:nextFocusLeft="@id/home_search_icon"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/profile_btn_container"
+            android:layout_width="@dimen/custom_dim_47_5"
+            android:translationZ="20dp"
+            android:layout_height="match_parent"
+            tools:background="#9C4333"
+            android:layout_marginEnd="@dimen/custom_dim_20">
+
+            <View
+                android:id="@+id/home_profile_btn_selector"
+                android:layout_width="@dimen/custom_dim_36"
+                android:layout_height="@dimen/custom_dim_36"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+            </View>
+
+            <ImageView
+                android:id="@+id/home_profile_btn_icon"
+                android:layout_width="@dimen/custom_dim_19"
+                android:layout_height="@dimen/custom_dim_19"
+                android:focusable="true"
+                tools:src="@drawable/profile_btn_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:nextFocusRight="@id/home_profile_btn_selector"
+                android:nextFocusLeft="@id/home_search_icon_selector"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.iwedia.cltv.TimeTextView
+            android:id="@+id/home_tv_time"
+            tools:background="#9C4333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:textStyle="normal"
+            android:textSize="25sp"
+            android:lineSpacingExtra="-6.3sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="19:41"/>
+
+    </LinearLayout>
+
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/compose_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <view class="com.iwedia.cltv.anoki_fast.FastErrorInfo"
+        android:id="@+id/no_internet_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_dim_0_5"
+        android:layout_marginTop="208dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone">
+    </view>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/home_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/home_scene_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/custom_dim_15"
+            android:paddingTop="@dimen/custom_dim_10"
+            android:paddingEnd="@dimen/custom_dim_15"
+            android:paddingBottom="@dimen/custom_dim_10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/app_icon_image"
+        android:layout_width="@dimen/custom_dim_108_5"
+        android:layout_height="@dimen/custom_dim_39"
+        android:layout_marginStart="@dimen/custom_dim_47"
+        android:layout_marginTop="@dimen/custom_dim_37_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/live_tv_launcher"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

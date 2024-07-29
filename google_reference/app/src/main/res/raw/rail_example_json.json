@@ -1,0 +1,33 @@
+{
+  "title": "Rail example",
+  "items": [
+    {
+      "id": "432",
+      "name": "rail_container",
+      "visibility": "visible",
+      "source": "Welcome to iWedia application",
+      "height": "wrap_content",
+      "width": "wrap_content",
+      "background": "",
+      "alignmentX": "center",
+      "alignmentY": "center",
+      "leftMargin": "0",
+      "rightMargin": "0",
+      "topMargin": "0",
+      "bottomMargin": "0",
+      "data": [],
+      "rail_data": [
+        {
+          "index": "0",
+          "name": "Espanol favorites",
+          "id": "321321"
+        },
+        {
+          "index": "1",
+          "name": "German favorites",
+          "id": "3213214324"
+        }
+      ]
+    }
+  ]
+}

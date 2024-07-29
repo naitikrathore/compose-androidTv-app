@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background_layout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/custom_dim_150"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/font_25" />
+
+    <com.iwedia.cltv.ReferenceDrawableButton
+        android:id="@+id/auto_tuning"
+        android:layout_width="@dimen/custom_dim_220"
+        android:layout_height="@dimen/custom_dim_40"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/custom_dim_50"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="@dimen/font_25">
+    </com.iwedia.cltv.ReferenceDrawableButton>
+
+    <com.iwedia.cltv.ReferenceDrawableButton
+        android:id="@+id/manual_tuning"
+        android:layout_width="@dimen/custom_dim_220"
+        android:layout_height="@dimen/custom_dim_40"
+        android:layout_below="@+id/auto_tuning"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="@dimen/font_25">
+    </com.iwedia.cltv.ReferenceDrawableButton>
+</RelativeLayout>

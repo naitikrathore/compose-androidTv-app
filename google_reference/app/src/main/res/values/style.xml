@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NumberPickerText">
+        <item name="android:textSize">40dp</item>
+    </style>
+    <style name="edit_text_text_style_on_gtv">
+        <item name="android:textSize">
+            16sp
+        </item>
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+        <item name="android:textColor">
+            @color/fti_gtv_relative_layout_edit_text_text_color_on
+        </item>
+    </style>
+    <style name="edit_text_text_style_off_gtv">
+        <item name="android:textSize">
+            16sp
+        </item>
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+        <item name="android:textColor">
+            @color/fti_gtv_relative_layout_edit_text_text_color_off
+        </item>
+    </style>
+    <style name="edit_text_button_text_style_off_gtv">
+        <item name="android:textSize">
+            16sp
+        </item>
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+        <item name="android:textColor">
+            @color/fti_gtv_relative_layout_edit_text_text_color_off
+        </item>
+    </style>
+    <style name="edit_text_button_text_style_on_gtv">
+        <item name="android:textSize">
+            17.6sp
+        </item>
+        <item name="android:letterSpacing">
+            0.01
+        </item>
+        <item name="android:textColor">
+            @color/fti_gtv_relative_layout_edit_text_text_color_on
+        </item>
+    </style>
+    <style name="set_up_with">
+
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #E8F0FE
+        </item>
+
+    </style>
+</resources>

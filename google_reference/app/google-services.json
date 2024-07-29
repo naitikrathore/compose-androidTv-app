@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "708239623344",
+    "project_id": "livetvx-886a8",
+    "storage_bucket": "livetvx-886a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708239623344:android:63f0440bfcd9149bf7a775",
+        "android_client_info": {
+          "package_name": "com.cltv.cltv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWSgewqDdBEZqR3YG-rjboJgKXMlQdHKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708239623344:android:a1fe2ac2cab49beff7a775",
+        "android_client_info": {
+          "package_name": "com.cltv.fast"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWSgewqDdBEZqR3YG-rjboJgKXMlQdHKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708239623344:android:bf77d3ad53effabff7a775",
+        "android_client_info": {
+          "package_name": "com.cltv.hybrid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWSgewqDdBEZqR3YG-rjboJgKXMlQdHKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

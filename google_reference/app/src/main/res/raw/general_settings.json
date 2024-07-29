@@ -1,0 +1,7 @@
+{
+  "virtual_rcu" : false,
+  "vertical_epg" : false,
+  "pvr_enabled": true,
+  "timeshift_enabled": false
+
+}

@@ -1,0 +1,102 @@
+<!--
+IMPORTANT: changes in this xml file will reflect directly on all scenes and widgets that are using
+this xml through custom_details_info_row.xml, but whenever changing it MAKE SURE that DetailsScene
+works correctly.
+
+whenever changing something in this xml, make sure that everything works in next scenarios:
+    1) DetailsScene when there is no image loaded for event - margins are set differently
+    2) DetailsScene when image is loaded - margins are set differently
+
+Especially be careful with changing paddings/margins.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/dolby_image_view"
+        android:layout_marginTop="@dimen/custom_dim_1"
+        android:layout_width="@dimen/custom_dim_50"
+        android:layout_height="@dimen/custom_dim_20"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:gravity="center"
+        android:src="@drawable/ic_dolby_with_name"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ad_image_view"
+        android:layout_width="@dimen/custom_dim_21_5"
+        android:layout_height="@dimen/custom_dim_11"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:src="@drawable/ic_ad"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/subtitles_image_view"
+        android:layout_width="@dimen/custom_dim_21_5"
+        android:layout_height="@dimen/custom_dim_11"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:src="@drawable/ic_cc"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/hd_image_view"
+        android:layout_width="@dimen/custom_dim_20_5"
+        android:layout_height="@dimen/custom_dim_11"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:src="@drawable/ic_hd"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/uhd_image_view"
+        android:layout_width="@dimen/custom_dim_31_5"
+        android:layout_height="@dimen/custom_dim_11"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:src="@drawable/ic_uhd"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/sd_image_view"
+        android:layout_width="@dimen/custom_dim_19_5"
+        android:layout_height="@dimen/custom_dim_11"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:src="@drawable/ic_sd"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/fhd_image_view"
+        android:layout_width="@dimen/custom_dim_31_5"
+        android:layout_height="@dimen/custom_dim_11"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:src="@drawable/ic_fhd"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/hoh_image_view"
+        android:layout_width="@dimen/custom_dim_33_5"
+        android:layout_height="@dimen/custom_dim_11"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:src="@drawable/ic_hoh"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ttx_image_view"
+        android:layout_width="@dimen/custom_dim_27_5"
+        android:layout_height="@dimen/custom_dim_11"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:src="@drawable/ic_ttx"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</LinearLayout>

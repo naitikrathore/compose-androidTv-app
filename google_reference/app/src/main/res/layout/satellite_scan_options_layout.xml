@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background_layout">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_25"
+        android:layout_marginTop="@dimen/custom_dim_50"
+        android:layout_marginStart="@dimen/custom_dim_116" />
+
+    <com.iwedia.cltv.scan_activity.core.TraversalListView
+        android:id="@+id/search_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignStart="@+id/title"
+        android:layout_marginStart="@dimen/custom_dim_n10"
+        android:layout_marginTop="@dimen/custom_dim_40"/>
+
+    <com.iwedia.cltv.scan_activity.core.TraversalListView
+        android:id="@+id/network_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_type"
+        android:layout_alignStart="@+id/title"
+        android:layout_marginStart="@dimen/font_10"
+        android:layout_marginTop="@dimen/custom_dim_40"/>
+
+    <com.iwedia.cltv.ReferenceDrawableButton
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/title"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/custom_dim_50"
+        android:textSize="@dimen/font_25"
+        android:paddingStart="@dimen/custom_dim_10"
+        android:paddingEnd="@dimen/custom_dim_10"
+        android:paddingTop="@dimen/custom_dim_5"
+        android:paddingBottom="@dimen/custom_dim_5">
+        <requestFocus />
+    </com.iwedia.cltv.ReferenceDrawableButton>
+</RelativeLayout>

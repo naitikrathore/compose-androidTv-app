@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/events_list_root_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/event_list_image_container_wrapper"
+        android:layout_width="@dimen/custom_dim_175_5"
+        android:layout_height="@dimen/custom_dim_112"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/event_list_image_container"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="@dimen/custom_dim_155"
+            android:layout_height="@dimen/custom_dim_99_5">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/events_list_image_card_holder"
+                android:layout_width="@dimen/custom_dim_152"
+                android:layout_height="@dimen/custom_dim_96_5"
+                app:cardCornerRadius="@dimen/custom_dim_6"
+                app:cardPreventCornerOverlap="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/event_list_image"
+                    android:layout_width="@dimen/custom_dim_152"
+                    android:layout_height="@dimen/custom_dim_96_5"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:alpha="0.8"
+                    android:layout_gravity="center"
+                    android:background="@drawable/watch_icon"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/info_banner_watch"
+                    android:layout_width="@dimen/custom_dim_70"
+                    android:layout_height="@dimen/custom_dim_70" />
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/no_img_item_container"
+            android:visibility="visible"
+            android:layout_width="@dimen/custom_dim_152"
+            android:layout_height="@dimen/custom_dim_96_5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/icon_no_image"
+                android:layout_width="@dimen/custom_dim_20"
+                android:layout_height="@dimen/custom_dim_20"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="@dimen/custom_dim_2"
+                android:layout_marginEnd="@dimen/custom_dim_2">
+            </ImageView>
+            <TextView
+                android:id="@+id/title_no_image"
+                android:paddingLeft="@dimen/custom_dim_2_5"
+                android:paddingRight="@dimen/custom_dim_2_5"
+                android:layout_width="@dimen/custom_dim_115"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_13"
+                app:layout_constraintBottom_toTopOf="@+id/time_no_image"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+            </TextView>
+
+            <com.iwedia.cltv.TimeTextView
+                android:id="@+id/time_no_image"
+                android:layout_width="@dimen/custom_dim_0"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/custom_dim_10"
+                android:gravity="center"
+                android:textSize="@dimen/font_11"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+            </com.iwedia.cltv.TimeTextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

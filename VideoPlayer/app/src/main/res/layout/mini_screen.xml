@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etVideoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Video Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etVideoLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|top"
+        android:hint="Video Link"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:selectAllOnFocus="true"
+        android:textIsSelectable="true" />
+
+    <EditText
+        android:id="@+id/etUploaderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Uploader Name"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnSelectThumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Thumbnail" />
+
+    <ImageView
+        android:id="@+id/imageThumbnailPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Thumbnail Preview" />
+
+    <Button
+        android:id="@+id/btnSelectProfilePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Profile Picture" />
+
+    <ImageView
+        android:id="@+id/imageProfilePreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Profile Picture Preview" />
+
+    <Button
+        android:id="@+id/btnAddVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Video" />
+</LinearLayout>

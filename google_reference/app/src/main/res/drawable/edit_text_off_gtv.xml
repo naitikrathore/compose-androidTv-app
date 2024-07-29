@@ -1,0 +1,19 @@
+<!-- drawable/input_field.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="268dp"
+    android:height="60dp"
+    android:viewportWidth="268"
+    android:viewportHeight="60"
+    >
+    <group>
+        <clip-path
+            android:pathData="M12 0H256C262.627 0 268 5.37258 268 12V48C268 54.6274 262.627 60 256 60H12C5.37258 60 0 54.6274 0 48V12C0 5.37258 5.37258 0 12 0Z"
+            />
+        <path
+            android:pathData="M0 0V60H268V0"
+            android:fillColor="@color/fti_gtv_relative_layout_edit_text_off"
+            />
+    </group>
+</vector>

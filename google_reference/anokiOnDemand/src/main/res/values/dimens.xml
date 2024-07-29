@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="zero_dimen">0dp</dimen>
+
+    <dimen name="page_start_spacing">48dp</dimen>
+    <dimen name="full_page_top_spacing">40dp</dimen>
+    <dimen name="page_top_spacing">84dp</dimen>
+    <dimen name="vod_back_button_size">38dp</dimen>
+
+    <!-- Listing screen values -->
+    <dimen name="vod_listing_details_column_bottom_padding">10dp</dimen>
+    <dimen name="vod_listing_details_logo_heading_between_spacer_height">16dp</dimen>
+    <dimen name="vod_listing_details_heading_text_font_size">32sp</dimen>
+    <dimen name="vod_listing_details_row_body_text_between_spacer_height">8dp</dimen>
+    <dimen name="vod_listing_row_heading_lazy_column_padding_top">16dp</dimen>
+    <dimen name="vod_listing_row_title_box_height">28dp</dimen>
+    <dimen name="vod_listing_row_card_width">200dp</dimen>
+    <dimen name="vod_listing_row_card_height">140dp</dimen>
+    <dimen name="vod_listing_loading_row_start_padding">48dp</dimen>
+    <dimen name="vod_listing_loading_rounded_corner">8dp</dimen>
+    <dimen name="vod_listing_loading_row_fourth_start_padding">48dp</dimen>
+
+    <!-- Details screen values -->
+    <dimen name="details_page_application_logo_width">80dp</dimen>
+    <dimen name="details_page_application_logo_height">40dp</dimen>
+    <dimen name="details_page_content_width">485dp</dimen>
+    <dimen name="details_page_heading_font_size">32dp</dimen>
+    <dimen name="details_page_button_width">340dp</dimen>
+    <dimen name="details_page_button_height">40dp</dimen>
+    <dimen name="vod_details_column_bottom_padding">10dp</dimen>
+    <dimen name="vod_details_top_spacer_height">16dp</dimen>
+    <dimen name="vod_details_column_logo_between_spacer_height">16dp</dimen>
+    <dimen name="vod_details_logo_width">80dp</dimen>
+    <dimen name="vod_details_logo_height">40dp</dimen>
+    <dimen name="vod_details_logo_heading_between_spacer_height">16dp</dimen>
+    <dimen name="vod_details_heading_text_font_size">32sp</dimen>
+    <dimen name="vod_details_heading_row_between_spacer_height">8dp</dimen>
+    <dimen name="vod_details_info_text_info_text_between_spacer_height">8dp</dimen>
+    <dimen name="vod_details_row_body_text_between_spacer_height">8dp</dimen>
+    <dimen name="video_on_demands_row_heading_lazy_column_padding_top">16dp</dimen>
+    <dimen name="vod_details_card_width">196dp</dimen>
+    <dimen name="vod_details_card_height">116dp</dimen>
+    <dimen name="vod_details_loading_row_start_padding">48dp</dimen>
+    <dimen name="vod_details_loading_rounded_corner">8dp</dimen>
+    <dimen name="vod_details_loading_row_fourth_start_padding">48dp</dimen>
+
+    <!-- Seasons and episodes screen -->
+    <dimen name="vod_season_episode_image_width">196dp</dimen>
+    <dimen name="vod_season_episode_image_height">116dp</dimen>
+    <dimen name="vod_season_episode_content_width">276dp</dimen>
+    <dimen name="vod_season_button_width">292dp</dimen>
+    <dimen name="vod_season_button_height">38dp</dimen>
+
+    <dimen name="vod_full_screen_loading_horizontal_padding">48dp</dimen>
+    <dimen name="vod_full_screen_loading_vertical_padding">@dimen/full_page_top_spacing</dimen>
+    <dimen name="vod_full_icon_size">40dp</dimen>
+    <dimen name="vod_full_screen_title_font_size">25sp</dimen>
+    <dimen name="vod_full_icon_padding">3dp</dimen>
+    <dimen name="vod_full_player_indicator_height">4dp</dimen>
+    <dimen name="vod_full_player_canvas_padding">4dp</dimen>
+    <dimen name="vod_full_player_width_icon">30dp</dimen>
+    <dimen name="vod_full_player_height_icon">30dp</dimen>
+    <dimen name="vod_controls_padding_horizontal">48dp</dimen>
+    <dimen name="vod_controls_space_padding">4dp</dimen>
+    <dimen name="vod_full_play_pause_icon_size">32dp</dimen>
+    <dimen name="vod_full_heading_padding_left">8dp</dimen>
+    <dimen name="vod_full_icon_focus_padding">5dp</dimen>
+    <dimen name="vod_full_slider_thumb_width">16dp</dimen>
+    <dimen name="vod_full_slider_thumb_height">16dp</dimen>
+    <dimen name="vod_full_timer_padding_horizontal">6dp</dimen>
+    <dimen name="vod_full_icon_padding_horizontal">6dp</dimen>
+    <dimen name="vod_full_slider_thumb_size">18dp</dimen>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+layout_height HAVE TO BE 170dp initially -
+CustomDetails shouldn't be visible until Card gained focus and only than through animation this height is animated to 300dp.-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rail_item_main_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/custom_dim_170"
+    tools:layout_height="@dimen/custom_dim_300"
+    android:layout_marginBottom="@dimen/custom_dim_20">
+
+    <TextView
+        android:id="@+id/rail_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_dim_92_5"
+        android:gravity="center|bottom"
+        android:maxLines="2"
+        android:includeFontPadding="false"
+        android:text="@string/on_now"
+        android:textSize="@dimen/font_16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textColor="@color/white" />
+
+<!--TODO if cards are cropped in the future read comments bellow -->
+<!--this HorizontalGridView was clipping its children when they were animated even when clipChildren and clipToPadding was set to false.
+This was handled in way that paddingTop was added to ensure that card when animated won't be clipped and layout_height is set to the height of animated card
+to ensure that card is visible when it is animated.
+In the future - potential problem can occur if CustomCard's animation or Card's height are changed - than those 2 properties have to be adjusted-->
+    <androidx.leanback.widget.HorizontalGridView
+        android:id="@+id/events_recycler"
+        android:paddingTop="@dimen/custom_dim_9"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_130_5"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:layout_marginTop="@dimen/custom_dim_8"
+        android:paddingStart="@dimen/custom_dim_82"
+        android:paddingEnd="@dimen/custom_dim_82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rail_name_text_view"
+        tools:listitem="@layout/for_you_event_list_item" />
+
+    <view class="com.iwedia.cltv.components.CustomDetails$CustomDetailsSearch"
+        android:id="@+id/custom_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_17"
+        android:layout_marginStart="@dimen/custom_dim_92_5"
+        app:layout_constraintTop_toBottomOf="@id/events_recycler"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

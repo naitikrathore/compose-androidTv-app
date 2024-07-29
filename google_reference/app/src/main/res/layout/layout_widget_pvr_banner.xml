@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/zap_banner_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/channel_logo"
+        android:layout_width="@dimen/custom_dim_52_5"
+        android:layout_height="@dimen/custom_dim_29_5"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="82dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/channel_name"
+        android:layout_width="@dimen/custom_dim_80"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_25"
+        android:gravity="center"
+        android:textSize="@dimen/font_12"
+        app:layout_constraintBottom_toTopOf="@+id/channel_index"
+        app:layout_constraintEnd_toEndOf="@+id/channel_index"
+        app:layout_constraintStart_toStartOf="@+id/channel_index" />
+
+    <TextView
+        android:id="@+id/channel_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="148"
+        app:layout_constraintEnd_toEndOf="@+id/channel_logo"
+        app:layout_constraintStart_toStartOf="@+id/channel_logo"
+        app:layout_constraintTop_toBottomOf="@+id/channel_logo" />
+
+    <ImageView
+        android:id="@+id/recording_indicator"
+        android:layout_width="@dimen/custom_dim_20"
+        android:layout_height="@dimen/custom_dim_20"
+        android:src="@drawable/recording_indicator"
+        app:layout_constraintBottom_toTopOf="@id/progress"
+        app:layout_constraintStart_toStartOf="@id/progress"
+        android:layout_marginBottom="@dimen/custom_dim_8_5"/>
+
+    <TextView
+        android:id="@+id/current_event_name"
+        android:layout_width="@dimen/custom_dim_365"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_21"
+        android:layout_marginStart="@dimen/custom_dim_10"
+        android:singleLine="true"
+        android:includeFontPadding="false"
+        app:layout_constraintStart_toEndOf="@id/recording_indicator"
+        app:layout_constraintBottom_toBottomOf="@id/recording_indicator"
+        app:layout_constraintTop_toTopOf="@id/recording_indicator"/>
+
+    <TextView
+        android:id="@+id/recording_elapsed_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_14"
+        android:layout_marginBottom="@dimen/custom_dim_3"
+        android:text="00:00 / 00:00"
+        android:textSize="@dimen/font_13"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="@id/progress"
+        app:layout_constraintTop_toBottomOf="@id/progress" />
+
+    <com.iwedia.cltv.TimeTextView
+        android:id="@+id/current_event_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@id/progress"
+        app:layout_constraintBottom_toBottomOf="@id/current_event_name"/>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="500dp"
+        android:layout_height="4dp"
+        android:max="100"
+        android:progress="0"
+        android:layout_marginStart="@dimen/custom_dim_152"
+        android:layout_marginBottom="@dimen/custom_dim_71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+       />
+
+
+    <LinearLayout
+        android:id="@+id/channel_info_container"
+        android:layout_width="0dp"
+        android:layout_height="13.5dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/progress"
+        app:layout_constraintStart_toStartOf="@+id/progress"
+        app:layout_constraintTop_toBottomOf="@+id/progress">
+
+        <ImageView
+            android:id="@+id/dolby"
+            android:layout_width="13.5dp"
+            android:layout_height="13.5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_dolby"
+            android:visibility="gone" />
+
+
+        <ImageView
+            android:id="@+id/cc"
+            android:layout_width="13.5dp"
+            android:layout_height="13.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_cc"
+            android:visibility="gone" />
+
+
+        <ImageView
+            android:id="@+id/hd"
+            android:layout_width="13.5dp"
+            android:layout_height="13.5dp"
+            android:layout_marginStart="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_hd"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/tracksContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!--            <TextView-->
+            <!--                android:layout_width="13.5dp"-->
+            <!--                android:layout_height="13.5dp"-->
+            <!--                android:text="EN"-->
+            <!--                android:textSize="10dp" />-->
+
+
+            <!--            <TextView-->
+            <!--                android:layout_width="13.5dp"-->
+            <!--                android:layout_height="13.5dp"-->
+            <!--                android:layout_marginStart="15dp"-->
+            <!--                android:text="FR"-->
+            <!--                android:textSize="10dp" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

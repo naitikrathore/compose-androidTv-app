@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/guide_events_container_item"
+        android:layout_width="@dimen/custom_dim_158"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingBottom="@dimen/custom_dim_184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:listitem="@layout/guide_event_list_item_vertical"
+        />
+
+    <View
+        android:id="@+id/guide_events_container_item_separator_view"
+        android:layout_width="@dimen/custom_dim_316"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toEndOf="@+id/guide_events_container_item"
+        android:visibility="gone"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

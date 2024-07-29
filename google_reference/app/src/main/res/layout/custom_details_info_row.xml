@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    next component is very sensitive on changes. When change it be careful - it is used in many
+Widgets and Scenes and it has one behavior in DetailsScene and in all other widgets/scenes it behave
+differently-->
+
+
+<!-- Preview that is visible is adjusted for all widgets/scenes except DetailsScene. In that scene
+main LinearLayout is not oriented horizontally but vertically - that change is made in CustomDetails
+component in resetData() method only when detailsType is set to DetailsType.DETAILS_SCENE
+
+IMPORTANT: whenever changing some of included Views, make sure that everything works in next scenarios:
+    1) DetailsScene when there is no image loaded for event - margins are set differently
+    2) DetailsScene when image is loaded - margins are set differently
+
+Especially be careful with changing paddings/margins.
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    tools:background="#4D436E95"
+    android:orientation="horizontal">
+
+<!--  android:layout_height="20dp" in info_icons_linear_layout - height is set to 20 dp in order to avoid having bad visual
+effect when audio tracks are added after those icons are. In the past, when audio tracks were added
+whole LinearLayout was changing it's height in order to match to it's child which led to bad UX  -->
+    <include
+        android:id="@+id/info_icons_linear_layout"
+        layout="@layout/custom_details_icons_row"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_20" />
+    <include
+        android:id="@+id/audio_format_linear_layout"
+        layout="@layout/custom_details_audio_format_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+    <include
+        android:id="@+id/audio_type_linear_layout"
+        layout="@layout/custom_details_audio_type_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <include
+        android:id="@+id/audio_tracks_linear_layout"
+        layout="@layout/custom_details_audio_tracks_row"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <include
+        layout="@layout/subtitle_tracks_linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+    <include
+        android:id="@+id/cc_tracks_linear_layout"
+        layout="@layout/custom_details_cc_tracks_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

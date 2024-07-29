@@ -1,0 +1,16 @@
+{
+  "contentId": "82099",
+  "title": "Caminandes",
+  "description": "The Caminandes cartoon series follows our hero Koro the Llama as he explores Patagonia, attempts to overcome various obstacles, and becomes friends with Oti the pesky penguin.",
+  "thumbnail": "https://d15jbrb5d6zfm4.cloudfront.net/images/3p-kn57572373-1697631785-thumbnail.jpg",
+  "rating": "TV-PG",
+  "origRating": "",
+  "year": "2013",
+  "genre": "Animation,Comedy",
+  "language": "EN",
+  "type": "series",
+  "numSeasons": 1,
+  "resumeFromSeason": 1,
+  "resumeFromEpisode": 1,
+  "episodePlaybackUrl": "https://playback-stage.aistrm.net:5206/vod_playback/82100/anoki.m3u8"
+}

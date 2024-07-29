@@ -1,0 +1,106 @@
+{
+  "title": " Fti finish scan",
+  "items": [
+    {
+      "id": "0",
+      "name": "logo",
+      "visibility": "visible",
+      "source": "https://firebasestorage.googleapis.com/v0/b/neon-mobile-b5991.appspot.com/o/config%2Fcompany%2Fi_wedia_rgb_small.png?alt=media&token=e764bfcd-83c2-4820-b7a9-a7d918d82e59",
+      "height": "55",
+      "width": "100",
+      "background": "",
+      "alignmentX": "center",
+      "alignmentY": "top",
+      "leftMargin": "0",
+      "rightMargin": "0",
+      "topMargin": "122",
+      "bottomMargin": "0",
+      "data": {},
+      "rail_data": []
+    },
+    {
+      "id": "1",
+      "name": "title",
+      "visibility": "visible",
+      "source": "Finished scanning",
+      "height": "wrap_content",
+      "width": "wrap_content",
+      "background": "",
+      "alignmentX": "center",
+      "alignmentY": "",
+      "leftMargin": "0",
+      "rightMargin": "0",
+      "topMargin": "21",
+      "bottomMargin": "0",
+      "data": {
+        "textSize": "21",
+        "textColor": "color_text_description",
+        "font": "font_bold"
+      },
+      "rail_data": []
+    },
+    {
+      "id": "2",
+      "name": "message",
+      "visibility": "visible",
+      "source": "Lazotije",
+      "height": "wrap_content",
+      "width": "wrap_content",
+      "background": "",
+      "alignmentX": "",
+      "alignmentY": "",
+      "leftMargin": "0",
+      "rightMargin": "0",
+      "topMargin": "39.5",
+      "bottomMargin": "0",
+      "data": {
+        "textSize": "15",
+        "textColor": "color_progress",
+        "font": "font_regular"
+      },
+      "rail_data": []
+    },
+    {
+      "id": "3",
+      "name": "message2",
+      "visibility": "visible",
+      "source": "Go back to scan more inputs",
+      "height": "wrap_content",
+      "width": "wrap_content",
+      "background": "",
+      "alignmentX": "",
+      "alignmentY": "",
+      "leftMargin": "0",
+      "rightMargin": "0",
+      "topMargin": "20.5",
+      "bottomMargin": "224",
+      "data": {
+        "textSize": "13",
+        "textColor": "color_progress",
+        "font": "font_regular"
+      },
+      "rail_data": []
+    },
+    {
+      "id": "4",
+      "name": "button",
+      "visibility": "visible",
+      "source": "Proceed",
+      "height": "",
+      "width": "",
+      "background": "",
+      "alignmentX": "",
+      "alignmentY": "",
+      "leftMargin": "",
+      "rightMargin": "",
+      "topMargin": "",
+      "bottomMargin": "",
+      "data": {
+        "textSize": "13",
+        "textColor": "color_not_selected",
+        "font": "font_bold"
+      },
+      "rail_data": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background_layout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/satellites_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_dim_116"
+        android:layout_marginTop="@dimen/custom_dim_48"
+        android:textSize="@dimen/font_25" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_46_5"
+        android:layout_marginStart="@dimen/custom_dim_57"
+        android:layout_below="@+id/satellites_title"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:verticalScrollbarPosition="left"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/scrollbar_track">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/satellites_title"
+            android:layout_marginStart="@dimen/custom_dim_50" />
+    </androidx.core.widget.NestedScrollView>
+
+    <com.iwedia.cltv.scan_activity.core.ProgressBarView
+        android:id="@+id/signal_strength_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_115"
+        android:layout_marginStart="@dimen/custom_dim_504"/>
+
+    <com.iwedia.cltv.scan_activity.core.ProgressBarView
+        android:id="@+id/signal_quality_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_39"
+        android:layout_below="@+id/signal_strength_progress"
+        android:layout_alignStart="@+id/signal_strength_progress"/>
+
+    <com.iwedia.cltv.ReferenceDrawableButton
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_25"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/custom_dim_40"
+        android:layout_marginEnd="@dimen/custom_dim_83_5"
+        android:paddingStart="@dimen/custom_dim_10"
+        android:paddingEnd="@dimen/custom_dim_10"
+        android:paddingTop="@dimen/custom_dim_5"
+        android:paddingBottom="@dimen/custom_dim_5"
+        android:nextFocusUp="@id/add_button">
+    </com.iwedia.cltv.ReferenceDrawableButton>
+</RelativeLayout>

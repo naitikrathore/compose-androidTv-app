@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ftiFinishedScanLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_company_logo_id"
+        android:layout_width="@dimen/custom_dim_100"
+        android:layout_height="@dimen/custom_dim_55"
+        android:layout_marginTop="@dimen/custom_dim_122"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/finishScanMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/finishScanMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_21"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textSize="@dimen/font_21"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/infoMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_company_logo_id" />
+
+
+    <TextView
+        android:id="@+id/infoMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_39_5"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textSize="@dimen/font_15"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/indo_message_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/finishScanMessage" />
+
+
+    <TextView
+        android:id="@+id/indo_message_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_20_5"
+        android:layout_marginBottom="@dimen/custom_dim_224"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/font_13"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/infoMessage" />
+
+    <com.iwedia.cltv.ReferenceDrawableButton xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/proceed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/custom_dim_72"
+        android:layout_marginBottom="@dimen/custom_dim_68"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--    <com.iwedia.cltv.ReferenceDrawableButton-->
+    <!--        android:id="@+id/proceed_btn"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        android:text="@string/proceed"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:background="@drawable/reference_drawable"-->
+    <!--        android:layout_marginTop="@dimen/custom_dim_20"-->
+    <!--        android:textSize="@dimen/font_15"-->
+    <!--        android:layout_width="@dimen/custom_dim_200"-->
+    <!--        android:layout_height="@dimen/custom_dim_36"-->
+    <!--        android:layout_marginBottom="@dimen/custom_dim_68"-->
+    <!--        android:layout_marginEnd="@dimen/custom_dim_72"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent">-->
+    <!--    </com.iwedia.cltv.ReferenceDrawableButton>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

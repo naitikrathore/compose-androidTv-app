@@ -1,0 +1,2306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="no_signal">No Signal</string>
+    <!--This string appears under setup no signal power off [CHAR_LIMIT=30] "-->
+    <string name="duration_5_minutes">5 Minutes</string>
+    <!--This string appears under setup no signal power off [CHAR_LIMIT=30] "-->
+    <string name="duration_10_minutes">10 Minutes</string>
+    <!--This string appears under setup no signal power off [CHAR_LIMIT=30] "-->
+    <string name="duration_15_minutes">15 Minutes</string>
+    <!--This string appears under setup no signal power off [CHAR_LIMIT=30] "-->
+    <string name="duration_30_minutes">30 Minutes</string>
+    <!--This string appears under setup no signal power off [CHAR_LIMIT=30] "-->
+    <string name="duration_60_minutes">60 Minutes</string>
+
+    <!--This string appears as Live label in main menu screen. [CHAR_LIMIT=30]"-->
+    <string name="live">Live</string>
+    <!--This string appears as Broadcast label in main menu screen. [CHAR_LIMIT=30]"-->
+    <string name="broadcast">Broadcast</string>
+
+    <string name="open_source_license_jetpack">Jetpack - Apache 2.0</string>
+    <string name="open_source_license_androidx">Androidx - Apache 2.0</string>
+    <string name="open_source_license_retrofit">Retrofit - Apache 2.0</string>
+    <string name="open_source_license_okhttp">OkHttp - Apache 2.0</string>
+    <string name="open_source_license_glide">Glide</string>
+    <string name="open_source_license_junit">JUnit</string>
+
+    <!--This string appears in details scene when internet is not available [CHAR_LIMIT=30]-->
+    <string name="no_internet_search_message">No internet connection. Search is not available.</string>
+    <!--This string appears in button to selected scan type as Antenna (ATSC).  [CHAR_LIMIT=30] "-->
+    <string name="antenna_type">Antenna</string>
+
+    <!--This string appears in scenes when channel type is analog (ATSC).  [CHAR_LIMIT=30] "-->
+    <string name="analog">Analog</string>
+
+    <!--This string appears in scenes when channel type is analog antenna (NTSC).  [CHAR_LIMIT=30] "-->
+    <string name="analog_antenna">Analogue Antenna</string>
+
+    <!--This string appears in scenes when channel type is analog cable (NTSC).  [CHAR_LIMIT=30] "-->
+    <string name="analog_cable">Analogue Cable</string>
+
+    <!--This string appears as label that notifies that a wrong channel is entered during scan procedure. [CHAR_LIMIT=30]"-->
+    <string name="wrong_channel">Wrong channel</string>
+
+    <!--This string appears as label that notifies that recording has been scheduled successfully as a pop up [CHAR_LIMIT=30]"-->
+    <string name= "rec_scheduled_toast">Recording has been scheduled successfully!</string>
+
+    <!--This string appears as label that notifies that event was added to the watchlist as a pop up [CHAR_LIMIT=30]"-->
+    <string name= "added_to_watchlist">added to the Watchlist!</string>
+
+    <!--This string appears as label for search [CHAR_LIMIT=30]"-->
+    <string name="search">Search</string>
+
+    <!--This string appears as label for scrambled options in fti [CHAR_LIMIT=30] "-->
+    <string name="free">Free</string>
+
+    <!--This string appears when fti finishes the scan. [CHAR_LIMIT=30]"-->
+    <string name="processing">Processing data</string>
+
+    <!--This string appears within Android launcher as application name. [CHAR_LIMIT=30]-->
+    <string name="app_name">Live TV</string>
+
+    <!--This string appears on screen where rail data is not available. In that case this string is shown instead of data. [CHAR_LIMIT=30]-->
+    <string name="no_info">No info</string>
+
+    <!--This string appears when some specific data is not available. For example event name or for you item. [CHAR_LIMIT=30]-->
+    <string name="not_available">N/A</string>
+
+    <!--This string is used to merge filters all categories into single filter. For example tv channel types. [CHAR_LIMIT=30]-->
+    <string name="all">All</string>
+
+    <!--This represents recently accessed data. For example it's used for recent filter in channel list for recently watched channels [CHAR_LIMIT=30]-->
+    <string name="recent">Recent</string>
+
+    <!--This represents favorite category and filter in channel list. [CHAR_LIMIT=30]-->
+    <string name="favorites">Favorites</string>
+
+    <!--This string represents filter in channel list for radio and audio only available tv channels. [CHAR_LIMIT=30]-->
+    <string name="radio">Radio</string>
+
+    <!--This string appears in overlay screen which popups filter in channel list for radio and audio only available tv channels. This message is in two lines. [CHAR_LIMIT=60]-->
+    <string name="no_internet_message">No internet connection.\nSome services will not be available without connection.</string>
+
+    <!--This string appears as toast message when ethernet cable is removed on live broadcast-->
+    <string name="no_ethernet_message">Some services may not be available without internet.</string>
+
+    <!--This string appears in title of internal scan screen. Tv input is available TIF input installed on device. [CHAR_LIMIT=30]-->
+    <string name="tv_select_input_scan_title">TV input scan</string>
+
+    <!--This string appears in description of internal scan screen. Tv input is available TIF input installed on device. [CHAR_LIMIT=60]-->
+    <string name="tv_select_input_scan_message">Please select from available TV inputs to add channels.\nMore channels can always be added afterwards.</string>
+
+    <!--This string appears in button that needs to start scan procedure. Can also mean "start scan" or "execute scan procedure". [CHAR_LIMIT=30]-->
+    <string name="scan">Scan</string>
+
+    <!--This string appears as message when internal channel scan procedure is done. [CHAR_LIMIT=30]-->
+    <string name="finishScan">Finished scanning</string>
+
+    <!--This string appears when internal scan is finished. This is part of message where selected input name is appended at the end. e.g. "channels found on TV_INPUT_NAME" [CHAR_LIMIT=30]-->
+    <string name="channels_found_on">channels found on</string>
+
+    <!--This string appears in filters or as category title where tv channels metadata is shown in rails. Can be interpreted as "Channels", "Tv channels", "Tv services" [CHAR_LIMIT=30]-->
+    <string name="channels">Channels</string>
+
+    <!--This string appears in filters or as category title where tv inputs are shown on the screen. Can be interpreted as "input", "tv input", "tif tv input" [CHAR_LIMIT=30]-->
+    <string name="input">input</string>
+
+    <!--This string appears as message when scan procedure is completed, to suggest user to scan tv channels on other available tv inputs." [CHAR_LIMIT=60]-->
+    <string name="go_back_to_scan">Go back to scan more inputs.</string>
+
+    <!--This string appears in button where some procedure needs to be started. Can be interpreted as "proceed", "continue", "start" [CHAR_LIMIT=30]-->
+    <string name="proceed">Proceed</string>
+
+    <!--This string appears in button that will start playback of tv event in the past in catchup feature. Can be interpreted as "start over", "catchup", "watch again" [CHAR_LIMIT=30]-->
+    <string name="start_over">Start over</string>
+
+    <!--This string appears as label in category filtering where multiple data rails are present. Can be interpreted as "watchlist", "wish to watch", "favorite tv shows" [CHAR_LIMIT=30]-->
+    <string name="watchlist">Watchlist</string>
+
+    <!--This strings appears in button to remove item from watchlist." [CHAR_LIMIT=30]-->
+    <string name="watchlist_remove">Remove</string>
+
+    <!--This string appears in button to start tv event recording (pvr feature)" [CHAR_LIMIT=30]-->
+    <string name="record">Record</string>
+
+    <!--This string appears in button to start playback of tv channel, tv event or recorded pvr content." [CHAR_LIMIT=30]-->
+    <string name="watch">Watch</string>
+
+    <!--This string appears in button to open virtual keyboard." [CHAR_LIMIT=30]-->
+    <string name="keyboard">Keyboard</string>
+
+    <!--This string appears when user tries to open Guide while PVR playback is is progress-->
+    <string name="no_guide_pvr_running">PVR playback in progress, please exit PVR playback to view Guide</string>
+
+    <!--This string appears in button to restart playback of recorded content." [CHAR_LIMIT=30]-->
+    <string name="continue_watch">Continue</string>
+
+    <!--This string appears in button to rename tv channel, favorite list, recorded content title, etc." [CHAR_LIMIT=30]-->
+    <string name="rename">Rename</string>
+
+    <!--This string appears in button to delete/remove item from favorite list, from recorded list, from scheduled list, etc." [CHAR_LIMIT=30]-->
+    <string name="delete">Delete</string>
+
+    <!--This string appears in button to cancel or postpone some action." [CHAR_LIMIT=30]-->
+    <string name="cancel">Cancel</string>
+
+    <!--This string appears in label to show that some information or description is not available. For example it shown in overlay when channel playback is not present." [CHAR_LIMIT=30]-->
+    <string name="no_information">No Information</string>
+
+    <!--This string appears as Vod label in main menu screen. [CHAR_LIMIT=30]"-->
+    <string name="vod">On Demand</string>
+
+    <!--This string appears in label that contains current events from all available tv channels. Can be interpreted as On Now, Current events, Currently Live, Live events, etc." [CHAR_LIMIT=30]-->
+    <string name="on_now">On now</string>
+
+    <!--This string appears in label that contains list of all available broadcast tv channels." [CHAR_LIMIT=30]-->
+    <string name="broadcast_tv_channels">Broadcast TV channels</string>
+
+    <!--This string appears in label that contains current events from all available tv channels. Can be interpreted as On Now, Current events, Currently Live, Live events, etc." [CHAR_LIMIT=30]-->
+    <string name="up_next">Up next</string>
+
+    <!--This string appears in label that marks rail with previously recorded content." [CHAR_LIMIT=30]-->
+    <string name="recorded">Recorded</string>
+
+    <!--This string appears in label that marks list of scheduled reminders and tv events that needs to be recorded." [CHAR_LIMIT=30]-->
+    <string name="scheduled">Scheduled recording</string>
+
+    <!--This string appears in button that will confirm some action." [CHAR_LIMIT=30]-->
+    <string name="ok">OK</string>
+
+    <!--This string appears in notification to ask user to confirm application exit." [CHAR_LIMIT=30]-->
+    <string name="please_click_again">Please click BACK again to exit</string>
+
+    <!--This string appears as option in sorting list. Default sorting algorithm." [CHAR_LIMIT=30]-->
+    <string name="_default">Default</string>
+
+    <!--This string appears as option in sorting list. Sort items by starting letter. (A-Z)" [CHAR_LIMIT=30]-->
+    <string name="name_up">Name up</string>
+
+    <!--This string appears as option in sorting list. Sort items by starting letter reversed. (Z-A)" [CHAR_LIMIT=30]-->
+    <string name="name_down">Name down</string>
+
+    <!--This string appears in label that will notify user that data categories are not available." [CHAR_LIMIT=60]-->
+    <string name="no_categories_msg">No available categories</string>
+
+    <!--This string appears in label that will notify user that search procedure didn't find any results." [CHAR_LIMIT=60]-->
+    <string name="no_results_found">No results found, please try again</string>
+
+    <!--This string appears in label that will notify user that search query cannot be empty. Can be interpreted as "Cannot be empty", "Enter something", "Enter at least 1 character"." [CHAR_LIMIT=60]-->
+    <string name="enter_letters">Enter at least 1 letter</string>
+
+    <!--This string appears in label that will mark past events in EPG." [CHAR_LIMIT=30]-->
+    <string name="past_events">Past Events</string>
+
+    <!--This string appears in label that will mark future events in EPG." [CHAR_LIMIT=30]-->
+    <string name="future_events">Future Events</string>
+
+    <!--This string appears in label for Tv channel LCN information." [CHAR_LIMIT=30]-->
+    <string name="lcn">LCN</string>
+
+    <!--This string appears in notification that will warn user that current PVR recording will be interrupted if requested action is done." [CHAR_LIMIT=30]-->
+    <string name="recording_exit_msg">Recording is in Progress, It will be interrupted.</string>
+
+    <!--This string appears in notification that will ask user to confirm requested action to remove item from some list." [CHAR_LIMIT=60]-->
+    <string name="remove_recording_dialog_msg">Are you sure you want to\nremove this item?</string>
+
+    <!--This string appears in notification that will warn user that timeshift playback will be stopped if requested action is processed." [CHAR_LIMIT=60]-->
+    <string name="timeshift_exit_msg">Do you want to exit timeshift mode?</string>
+
+    <!--This string appears in notification that will warn user that timeshift playback will be stopped if requested action is processed." [CHAR_LIMIT=60]-->
+    <string name="timeshift_channel_change_msg">If the channel is changed,\nthe timeshift mode will be interrupted.</string>
+
+    <!--This string appears in notification that will warn user that timeshift playback will be stopped if requested action is processed." [CHAR_LIMIT=60]-->
+    <string name="time_shift_start_record_msg">If the recording is started,\nthe timeshift mode will be interrupted.</string>
+
+    <!--This string appears in notification that will warn user that USB device needs to be attached before starting timeshift feature." [CHAR_LIMIT=60]-->
+    <string name="time_shift_usb_error_msg">The USB device is not attached,\nthe timeshift mode can not be started.</string>
+
+    <!--This string appears in notification that will warn user that active channel is scrambled and timeshift feature is not available." [CHAR_LIMIT=60]-->
+    <string name="time_shift_scrambled_channel_msg">The active channel is scrambled,\nthe timeshift mode can not be started.</string>
+
+    <!--This string appears in notification that will warn user that timeshift is not possible for current tv channel." [CHAR_LIMIT=60]-->
+    <string name="time_shift_not_available_error_msg">The timeshift mode currently is not available for this channel.</string>
+
+    <!--This string appears in notification that will warn user that timeshift buffer size is reached." [CHAR_LIMIT=60]-->
+    <string name="time_shift_buffer_size_reached_msg">The timeshift buffer size is reached.</string>
+
+    <!--This string appears in notification that will warn user that device will power off due inactivity when there is no signal." [CHAR_LIMIT=60]-->
+    <string name="no_signal_power_off_inactivity_msg">No Signal. The TV will be turned off in: </string>
+
+    <!--This string appears in button that will add selected tv channel to active favorite list." [CHAR_LIMIT=30]-->
+    <string name="add_to_favorites">Add to favorites</string>
+
+    <!-- This string is used as the text for a button that is displayed when the user wants to edit a TV channel. [CHAR_LIMIT=30] -->
+    <string name="edit_channel">Edit channel</string>
+
+    <!--This string appears as hint message for editing active favorite channel list. [CHAR_LIMIT=30] "-->
+    <string name="long_press_ok_edit_favorite_list">Long press OK to edit list</string>
+
+    <!--This string appears in button that will show popup screen for editing active favorite channel list." [CHAR_LIMIT=30]-->
+    <string name="edit_favorites">Edit favorites</string>
+
+    <!--This string appears in button that will show more information screen for selected item. Can be interpreted as "More info", "More details", etc." [CHAR_LIMIT=30]-->
+    <string name="more_info">More Info</string>
+
+    <!--This string appears as label in zap conflict screen. This means that application detected index conflict for some tv channels, that needs to be resolved by user." [CHAR_LIMIT=30]-->
+    <string name="zap_conflict">Zap conflict</string>
+
+    <!--This string appears as label in zap conflict screen, which will suggest what action user needs to do, to resolve this issue." [CHAR_LIMIT=30]-->
+    <string name="select_channel_manually">Select channel manually</string>
+
+    <!--This string appears as notification that user cannot delete favorite list name." [CHAR_LIMIT=60]-->
+    <string name="favorite_list_name_can_not_be_empty">Favorite list name can not be empty!</string>
+
+    <!--This string appears in label that will start or schedule PVR recording from popup dialog. [CHAR_LIMIT=30] "-->
+    <string name="rec_type_title">Start recording</string>
+
+    <!--This string appears in button that will start PVR recording. [CHAR_LIMIT=30] "-->
+    <string name="rec_now">Now</string>
+
+    <!--This string appears in button that will start schedule PVR recording when current event pass on active channel. [CHAR_LIMIT=30] "-->
+    <string name="rec_after_curr_event">After current event</string>
+
+    <!--This string appears in button that will schedule PVR recording on custom time and date. [CHAR_LIMIT=30] "-->
+    <string name="rec_set_date_time">Set date and time</string>
+
+    <!--This string appears as hint message for editing selected tv channel. [CHAR_LIMIT=30] "-->
+    <string name="long_press_ok_edit_channel">Long press OK to edit selected channel</string>
+
+    <string name="default_pin_message">Default PIN is: </string>
+
+    <!--This string appears as hint message for opening Main menu from locked channel/event. [CHAR_LIMIT=30] "-->
+    <string name="long_press_ok_open_main_menu">Long press OK to open Main menu</string>
+
+    <!--This string appears in button that will lock selected tv channel. [CHAR_LIMIT=30] "-->
+    <string name="lock">Lock</string>
+
+    <!--This string appears in button that will unskip selected tv channel. [CHAR_LIMIT=30] "-->
+    <string name="not_skip">Unskip</string>
+
+    <!--This string appears in notification to warn user that recorded content playback will be interrupted if requested action is done. Split in 2 lines. [CHAR_LIMIT=30] "-->
+    <string name="pvr_playback_exit_msg">If the channel is changed,\nthe recorded content playback will be interrupted.</string>
+
+    <!--This string appears in notification to warn user that USB device is not connected. Split in 2 lines. [CHAR_LIMIT=30] "-->
+    <string name="pvr_usb_error_msg">The USB device is not attached,\nthe recording can not be started.</string>
+
+    <!--This string appears in HomeScene recording related views when USB is not attached-->
+    <string name="pvr_no_usb_message">Please Attach USB to Record programs and access recorded Programs</string>
+
+    <!--This string appears in notification to warn user that the program cannot be recorded. [CHAR_LIMIT=30] "-->
+    <string name="pvr_msg_cannot_record_program">The program cannot be recorded.</string>
+
+    <!--This string appears as button that will start Channel setup. Can be interpreted as Channel Setup, Channel Scan, Start Scan, etc. [CHAR_LIMIT=30] "-->
+    <string name="title">Channel Setup</string>
+
+    <!--This string appears as label for current dvb signal strength value [CHAR_LIMIT=30] "-->
+    <string name="text_signal_strength">Signal Strength</string>
+
+    <!--This string appears as label for dvb frequency [CHAR_LIMIT=30] "-->
+    <string name="frequency">Frequency [MHz]:</string>
+
+    <!--This string appears as label for dvb horizontal polar value. [CHAR_LIMIT=30] "-->
+    <string name="polar_horizontal">Horizontal</string>
+
+    <!--This string appears as label for dvb vertical polar value. [CHAR_LIMIT=30] "-->
+    <string name="polar_vertical">Vertical</string>
+
+    <!--This string appears in button to return to previous application state. [CHAR_LIMIT=30] "-->
+    <string name="scan_back">Back</string>
+
+    <!--This string appears as label for choosing dvb scan type (manual or automatic).  [CHAR_LIMIT=30] "-->
+    <string name="programme_tuning">Programme Tuning</string>
+
+    <!--This string appears in button to selected scan type as automatic.  [CHAR_LIMIT=30] "-->
+    <string name="auto_tuning">Auto tuning</string>
+
+    <!--This string appears in button to selected scan type as manual.  [CHAR_LIMIT=30] "-->
+    <string name="manual_tuning">Manual tuning</string>
+
+    <!--This string appears in button to selected scan type as terrestrial (DVB-T).  [CHAR_LIMIT=30] "-->
+    <string name="terrestrial">Terrestrial</string>
+
+    <!--This string appears in button to selected scan type as cable (DVB-C).  [CHAR_LIMIT=30] "-->
+    <string name="cable">Cable</string>
+
+    <!--This string appears in button to selected scan type as satellite (DVB-S).  [CHAR_LIMIT=30] "-->
+    <string name="satellite">Satellite</string>
+
+    <!--This string appears in button to selected scan type as IP (IP scan, network scan).  [CHAR_LIMIT=30] "-->
+    <string name="ip">IP</string>
+
+    <!--This string appears label to show that selected scan type is DVB T manual.  [CHAR_LIMIT=30] "-->
+    <string name="terrestrial_manual_scan">Terrestrial Manual Scan</string>
+
+    <!--This string appears label to show suggested values for DVB vhf and uhf.  [CHAR_LIMIT=30] "-->
+    <string name="vhf_uhf_manual_tuning">VHF Ch. (5 - 12) / UHF Ch. (21 - 69)</string>
+
+    <!--This string appears label to show suggested values for DVB manual frequency.  [CHAR_LIMIT=30] "-->
+    <string name="frequency_manual_tuning">Frequency (47000 ~ 890000 kHz)</string>
+
+    <!--This string appears label to show suggested values for DVB bandwidth.  [CHAR_LIMIT=30] "-->
+    <string name="bandwidth_manual_tuning">Bandwidth (MHz)</string>
+
+    <!--This string appears label to show current DVB signal strength value.  [CHAR_LIMIT=30] "-->
+    <string name="signal_strength">Signal strength</string>
+
+    <!--This string appears label to show current DVB signal quality value.  [CHAR_LIMIT=30] "-->
+    <string name="signal_quality">Signal quality</string>
+
+    <!--This string appears in button to start tuning to selected dvb frequency [CHAR_LIMIT=30] "-->
+    <string name="tune">Tune</string>
+
+    <!--This string appears as label to show that selected scan type is DVB C manual.  [CHAR_LIMIT=30] "-->
+    <string name="cable_manual_scan">Cable Manual Tuning</string>
+
+    <!--This string appears as label to show suggested values for DVB C manual frequency.  [CHAR_LIMIT=30] "-->
+    <string name="frequency_cable_manual_tuning">Frequency (46000 ~ 870000 kHz)</string>
+
+    <!--This string appears as label to show suggested values for DVB C manual frequency.  [CHAR_LIMIT=30] "-->
+    <string name="modulation_cable">Modulation</string>
+
+    <!--This string appears as label to show suggested values for DVB C manual frequency.  [CHAR_LIMIT=30] "-->
+    <string name="symbol_rate_cable">Symbol Rate (1 ~ 7200 kB/s)</string>
+
+    <!--This string appears as label to show that some tv service are found in scan procedure  [CHAR_LIMIT=30] "-->
+    <string name="tv_programmes_found">TV Programmes Found</string>
+
+    <!--This string appears as label to show that some radio services are found in scan procedure  [CHAR_LIMIT=30] "-->
+    <string name="radio_programmes_found">Radio Services Found</string>
+
+    <!--This string appears as label to show that some radio services are found in scan procedure  [CHAR_LIMIT=30] "-->
+    <string name="ip_manual_scan">IP Manual Scan</string>
+
+    <!--This string appears in edit text as hint for user to enter url to access IP scan [CHAR_LIMIT=30] "-->
+    <string name="enter_url">Enter URL</string>
+
+    <!--This string appears in button to search for scan files locally [CHAR_LIMIT=30] "-->
+    <string name="browse_locally">Browse Locally</string>
+
+    <!--This string appears in button to start scan procedure. Can be interpreted as start scan, launch scan, etc. [CHAR_LIMIT=30] "-->
+    <string name="scan_option">Scan</string>
+
+    <!--This string appears in label that will show NIT value [CHAR_LIMIT=30] "-->
+    <string name="nit">NIT</string>
+
+    <!--This string appears in label to show NIT table id [CHAR_LIMIT=30] "-->
+    <string name="nit_id">Network ID</string>
+
+    <!--This string appears in label that will show list of available satellites for DVB S scan [CHAR_LIMIT=30] "-->
+    <string name="satellites">Satellites</string>
+
+    <!--This string appears in button to enter popup for editing some options [CHAR_LIMIT=30] "-->
+    <string name="edit">Edit</string>
+
+    <!--This string appears in button to open popup for antenna configuration. [CHAR_LIMIT=30] "-->
+    <string name="antenna_config">Antenna Config</string>
+
+    <!--This string appears in label that shows list of available transponders [CHAR_LIMIT=30] "-->
+    <string name="transponders">Transponders</string>
+
+    <!--This string appears in button to open scanning options screen. [CHAR_LIMIT=30] "-->
+    <string name="scan_options">Scan Options</string>
+
+    <!--This string appears in label that shows list of supported search types [CHAR_LIMIT=30] "-->
+    <string name="search_type">Search Type</string>
+
+    <!--This string appears in label that shows list of detected scrambled tv channels [CHAR_LIMIT=30] "-->
+    <string name="scrambled">Scrambled</string>
+
+    <!--This string appears in label that shows list of detected descrambled or free to air tv channels [CHAR_LIMIT=30] "-->
+    <string name="descrambled">Descrambled</string>
+
+    <!--This string appears in button to start network or IP search [CHAR_LIMIT=30] "-->
+    <string name="network_search">Network Search</string>
+
+    <!--This string appears in switch button for enabling some option [CHAR_LIMIT=30] "-->
+    <string name="on">On</string>
+
+    <!--This string appears in switch button for disabling some option [CHAR_LIMIT=30] "-->
+    <string name="off">Off</string>
+    <string name="start">Start</string>
+
+    <!--This string appears in button that will open popup for editing existing satellites for DVB S scan [CHAR_LIMIT=30] "-->
+    <string name="edit_satellite">Edit Satellite</string>
+
+    <!--This string appears in button to open options for manually adding satellite. [CHAR_LIMIT=30] "-->
+    <string name="add_satellite">Add satellite</string>
+
+    <!--This string appears in button to save some option. [CHAR_LIMIT=30] "-->
+    <string name="save">Save</string>
+
+    <!--This string appears in label that shows selected satellite name. [CHAR_LIMIT=30] "-->
+    <string name="satellite_name">Satellite Name</string>
+
+    <!--This string appears in label that show selected satellite angle. [CHAR_LIMIT=30] "-->
+    <string name="satellite_angle">Satellite Angle</string>
+
+    <!--This string appears in label next to switch that will allow user to selected EAST or WEST option. [CHAR_LIMIT=30] "-->
+    <string name="east_west">East / West</string>
+
+    <!--This string appears in switch button that will selected East option. [CHAR_LIMIT=30] "-->
+    <string name="east">East</string>
+
+    <!--This string appears in switch button that will selected West option. [CHAR_LIMIT=30] "-->
+    <string name="west">West</string>
+
+    <!--This string appears in label to ask user to select LBN type for DVB scan. [CHAR_LIMIT=30] "-->
+    <string name="lnb_type">LNB Type</string>
+
+    <!--This string appears in label to warn use that entered frequency is below supported range. [CHAR_LIMIT=30] "-->
+    <string name="low_frequency_range">Low Frequency (Range ? GHz)</string>
+
+    <!--This string appears in label to warn use that entered frequency is above supported range. [CHAR_LIMIT=30] "-->
+    <string name="high_frequency_range">High Frequency (Range ? GHz)</string>
+
+    <!--This string appears in label that will show DiSeqC option. [CHAR_LIMIT=30] "-->
+    <string name="diseqc">DiSEqC</string>
+
+    <!--This string appears in label that will show USUALS option. [CHAR_LIMIT=30] "-->
+    <string name="usals">USALS</string>
+
+    <!--This string appears in button that will activate some option. [CHAR_LIMIT=30] "-->
+    <string name="activate">Activate</string>
+
+    <!--This string appears in button that will deactivate some option. [CHAR_LIMIT=30] "-->
+    <string name="deactivate">Deactivate</string>
+
+    <!--This string appears in button that will start tone burst. [CHAR_LIMIT=30] "-->
+    <string name="tone_burst">Tone Burst</string>
+
+    <!--This string appears in label that will show positioner option. [CHAR_LIMIT=30] "-->
+    <string name="positioner">Positioner</string>
+
+    <!--This string appears as default option - NONE (nothing, not set, etc.) . [CHAR_LIMIT=30] "-->
+    <string name="none">None</string>
+
+    <!--This string appears as button that will enter satellite antenna motor settings. [CHAR_LIMIT=30] "-->
+    <string name="motor_setup">Motor Setup</string>
+
+    <!--This string appears as label for LNB volts [CHAR_LIMIT=30] "-->
+    <string name="lnb_volts">LNB Volts</string>
+
+    <!--This string appears as label for unicable option. [CHAR_LIMIT=30] "-->
+    <string name="unicable">Unicable</string>
+
+    <!--This string appears as label for center frequency in scan range. [CHAR_LIMIT=30] "-->
+    <string name="center_frequency">Center Frequency</string>
+
+    <!--This string appears as label for communication port value. [CHAR_LIMIT=30] "-->
+    <string name="port">Port</string>
+
+    <!--This string appears in button for USALS motor setup on satellite antenna. [CHAR_LIMIT=30] "-->
+    <string name="usals_motor_setup">USALS Motor Setup</string>
+
+    <!--This string appears as label for longitude value [CHAR_LIMIT=30] "-->
+    <string name="longitude">Longitude</string>
+
+    <!--This string appears as label for local latitude value [CHAR_LIMIT=30] "-->
+    <string name="local_latitude">Local Latitude</string>
+
+    <!--This string appears as label DiSeqC motor setup [CHAR_LIMIT=30] "-->
+    <string name="diseqc_motor_setup">DiSEqC Motor Setup</string>
+
+    <!--This string appears as label for antenna moving type [CHAR_LIMIT=30] "-->
+    <string name="moving_type">Moving Type</string>
+
+    <!--This string appears as label for installer [CHAR_LIMIT=30] "-->
+    <string name="installer">Installer</string>
+
+    <!--This string appears as label for advanced options [CHAR_LIMIT=30] "-->
+    <string name="advanced">Advanced</string>
+
+    <!--This string appears as label for limit option [CHAR_LIMIT=30] "-->
+    <string name="limit">Limit</string>
+
+    <!--This string appears as label for disable some option [CHAR_LIMIT=30] "-->
+    <string name="disable">Disable</string>
+
+    <!--This string appears as label for enabling some option [CHAR_LIMIT=30] "-->
+    <string name="enable">Enable</string>
+
+    <!--This string appears as label for setting limit. [CHAR_LIMIT=30] "-->
+    <string name="set_limit">Set Limit</string>
+
+    <!--This string appears as option for position value. [CHAR_LIMIT=30] "-->
+    <string name="position">Position</string>
+
+    <!--This string appears as option for drive east / west. [CHAR_LIMIT=30] "-->
+    <string name="drive_ew">Drive E/W</string>
+
+    <!--This string appears as label for supported diseqc frequency range. [CHAR_LIMIT=30] "-->
+    <string name="frequency_diseqc">Frequency (10700 ~ 12750 MHz)</string>
+
+    <!--This string appears as label for supported diseqc symbol rate. [CHAR_LIMIT=30] "-->
+    <string name="symbol_rate_diseqc">Symbol Rate (1 ~ 99999 kB/s)</string>
+
+    <!--This string appears in button to start recalculating options procedure. [CHAR_LIMIT=30] "-->
+    <string name="recalculate">Recalculate</string>
+
+    <!--This string appears in button to reset current position value. [CHAR_LIMIT=30] "-->
+    <string name="reset_position">Reset Position</string>
+
+    <!--This string appears in button to open selected transponder editing options. [CHAR_LIMIT=30] "-->
+    <string name="edit_transponder">Edit Transponder</string>
+
+    <!--This string appears in button to open popup to manually add transponder. [CHAR_LIMIT=30] "-->
+    <string name="add_transponder">Add Transponder</string>
+
+    <!--This string appears in label for polarization options for DVB scan. [CHAR_LIMIT=30] "-->
+    <string name="polarization">Polarization</string>
+
+    <!--This string appears in label that will show available tuning type. [CHAR_LIMIT=30] "-->
+    <string name="tyning_type">Tyning Type</string>
+
+    <!--This string appears in hint text in label to enter scan frequency. [CHAR_LIMIT=30] "-->
+    <string name="insert_frequency">Insert Frequency</string>
+
+    <!--This string appears in hint text in label to enter scan symbol rate. [CHAR_LIMIT=30] "-->
+    <string name="insert_symbol_rate">Insert Symbol Rate</string>
+
+    <!--This string appears in button to skip some option or step. [CHAR_LIMIT=30] "-->
+    <string name="skip">Skip</string>
+
+    <!--This string appears as label which action will be done next. Here it is terrestrial dvb t scan. [CHAR_LIMIT=60] "-->
+    <string name="up_next_terrestrial_scan">Up Next: Terrestrial Scan</string>
+
+    <!--This string appears as label which action will be done next. Here it is cable dvb c scan. [CHAR_LIMIT=60] "-->
+    <string name="up_next_cable_scan">Up Next: Cable Scan</string>
+
+    <!--This string appears as label which action will be done next. Here it is satellite dvb s scan. [CHAR_LIMIT=60] "-->
+    <string name="up_next_satellite_scan">Up Next: Satellite Scan</string>
+
+    <!--This string appears as label which action will be done next. Here it is ip network scan. [CHAR_LIMIT=60] "-->
+    <string name="up_next_ip_scan">Up Next: IP Scan</string>
+
+    <!--This string appears as label in popup dialog to ask user to confirm some action. [CHAR_LIMIT=30] "-->
+    <string name="are_you_sure">Are you sure?</string>
+
+    <!--This string appears in button to confirm some action. [CHAR_LIMIT=30] "-->
+    <string name="yes">Yes</string>
+
+    <!--This string appears in button to discard some action. [CHAR_LIMIT=30] "-->
+    <string name="no">No</string>
+
+    <!--This string appears in label to warn user that there is some error occurred. Split in 2 lines. [CHAR_LIMIT=30] "-->
+    <string name="error_message">Something went wrong.\nPlease try again.</string>
+
+    <!--This string appears in button that will stop some procedure. [CHAR_LIMIT=30] "-->
+    <string name="stop">Stop</string>
+
+    <!--This string appears in label to notify user that some procedure is completed. [CHAR_LIMIT=30] "-->
+    <string name="done">Done</string>
+
+    <!--This string appears in button that will restart previously requested action. [CHAR_LIMIT=30] "-->
+    <string name="retry">Retry</string>
+
+    <!--This string appears in label to notify user that scanning procedure is completed. [CHAR_LIMIT=30] "-->
+    <string name="scan_completed">Scan completed</string>
+
+    <!--This string appears in button that will open popup for renaming existing favorite list. [CHAR_LIMIT=30] "-->
+    <string name="rename_list">Rename List</string>
+
+    <!--This string appears in button that will open popup for creating new favorite list. [CHAR_LIMIT=30] "-->
+    <string name="new_favorite_list">New Favorite List</string>
+
+    <!--This string appears in button that will open popup for renaming existing recorded content. [CHAR_LIMIT=30] "-->
+    <string name="rename_recording">Rename Recording</string>
+
+    <!--This string appears in button that will clear all existing tv channels. [CHAR_LIMIT=30] "-->
+    <string name="clear_all_channels">Clear all channels</string>
+
+    <!--This string appears in label that will warn user that selected tv channel is scrambled and unable to render. [CHAR_LIMIT=30] "-->
+    <string name="channels_scrambled">Channel scrambled</string>
+
+    <!--This string appears in label that will warn use to check if CI+ card is plugged in device. [CHAR_LIMIT=30] "-->
+    <string name="channels_scrambled_message">Check your CI+ card to access this channel</string>
+
+    <!--This string appears in label that will be shown in title of parental control settings. [CHAR_LIMIT=30] "-->
+    <string name="parental_control_settings">Parental control settings</string>
+
+    <!--This string appears in label in popup that will ask user to enter correct PIN settings. [CHAR_LIMIT=30] "-->
+    <string name="enter_pin_to_see_settings">Enter PIN to see settings.</string>
+
+    <!--This string appears in label in popup that will ask user to enter pin to get into parental settings. [CHAR_LIMIT=30] "-->
+    <string name="enter_parental_settings">Enter Parental Settings</string>
+
+    <!--This string appears in popup to ask user to change PIN. [CHAR_LIMIT=30] "-->
+    <string name="change_pin">Change PIN</string>
+
+    <!--This string appears in edit text hint. User should enter current pin code. [CHAR_LIMIT=30] "-->
+    <string name="enter_current_pin">Enter current PIN code.</string>
+
+    <!--This string appears in edit text hint. User should enter new pin code. [CHAR_LIMIT=30] "-->
+    <string name="enter_new_pin">Enter new PIN code.</string>
+
+    <!--This string appears in button to ask user to confirm PIN change. [CHAR_LIMIT=30] "-->
+    <string name="confirm_change">Confirm change</string>
+
+    <!--This string appears in button to ask user to unlock channel. [CHAR_LIMIT=30] "-->
+    <string name="unlock">Unlock</string>
+
+    <!--This string appears in label to inform user that channel is locked. [CHAR_LIMIT=30] "-->
+    <string name="channel_locked">Channel locked</string>
+
+    <!--This string appears in label to inform user that input is locked. [CHAR_LIMIT=30] "-->
+    <string name="input_locked">Input locked</string>
+
+    <!--This string appears in label to inform user how channel or input can be unlocked. [CHAR_LIMIT=60] "-->
+    <string name="enter_pin_to_unlock">Enter PIN to unlock it or check your Parental control settings.</string>
+
+    <!--This string appears in button that will unlock tv channel. [CHAR_LIMIT=30] "-->
+    <string name="unlock_channel">Unlock channel</string>
+
+    <!--This string appears in button that will lock selected tv channel. [CHAR_LIMIT=30] "-->
+    <string name="lock_channel">Lock Channel</string>
+
+    <!--This string appears in label that will instruct user how PIN number can be entered. [CHAR_LIMIT=60] "-->
+    <string name="enter_pin_using_number">Enter PIN using number keys or navigational arrows.</string>
+
+    <!--This string appears in label that will ask user to confirm PIN value. [CHAR_LIMIT=60] "-->
+    <string name="press_ok_to_confirm">Press OK to confirm.</string>
+
+    <!--This string appears in label in popup that will ask user to confirm action. [CHAR_LIMIT=60] "-->
+    <string name="are_you_sure_to_remove">Are you sure you want to remove this item?</string>
+
+    <!--This string appears in schedule recording remainder title. [CHAR_LIMIT=60] "-->
+    <string name="scheduled_recording_reminder_title">Scheduled recording</string>
+
+    <!--This string appears in label that will notify user that event from watchlist is about to start. [CHAR_LIMIT=60] "-->
+    <string name="watchlist_reminder_message">Event from your Watchlist is about to begin at %s.</string>
+
+    <!--This string appears in label that will notify user that event from scheduled recording is about to start. [CHAR_LIMIT=60] "-->
+    <string name="scheduled_recording_reminder_message">Event you"'"ve scheduled for recording is about to begin at  %s.</string>
+
+    <!--This string appears in scheduled recording popup. [CHAR_LIMIT=60] "-->
+    <string name="scheduled_recording_reminder_usb_message">Make sure USB device is configured properly in order to start recording successfully.</string>
+
+    <!--This string appears in label that will notify user how long before event is supposed to start. [CHAR_LIMIT=60] "-->
+    <string name="time_left_reminder_message">Channel will switch automatically in </string>
+
+    <!--This string appears in preferences screen to setup and configure application. [CHAR_LIMIT=30] "-->
+    <string name="setup">Setup</string>
+
+    <!--This string appears in preferences screen to setup audio related features. [CHAR_LIMIT=30] "-->
+    <string name="audio">Audio</string>
+
+    <!--This string appears in preferences screen to setup subtitle related features. [CHAR_LIMIT=30] "-->
+    <string name="subtitles">Subtitles</string>
+
+    <!--This string appears in preferences screen to setup cam and CI+ related features. [CHAR_LIMIT=30] "-->
+    <string name="cam_info">Cam info</string>
+
+    <!--This string appears in preferences screen to setup hbbtv related features. [CHAR_LIMIT=30] "-->
+    <string name="hbbtv_settings">HBBTV Settings</string>
+
+    <!--This string appears in preferences screen to setup teletext related features. [CHAR_LIMIT=30] "-->
+    <string name="teletext">Teletext</string>
+
+    <!--This string appears in preferences screen as title for ads targeting tab. [CHAR_LIMIT=30] "-->
+    <string name="ads_targeting">Ads Targeting</string>
+
+    <!--This string appears in preferences screen to check system information about device and application. [CHAR_LIMIT=30] "-->
+    <string name="system_information">System Information</string>
+
+    <!--This string appears in preferences screen to open channel scan screen. [CHAR_LIMIT=30] "-->
+    <string name="channel_scan">Channel scan</string>
+
+    <!--This string appears in preferences screen to open channel edit options screen. [CHAR_LIMIT=30] "-->
+    <string name="channel_edit">Channel edit</string>
+
+    <!--This string appears in preferences that will set default / initial tv channel after application reboots. [CHAR_LIMIT=30] "-->
+    <string name="default_channel">Default channel</string>
+
+    <!--This string appears in preferences screen to open picture settings. [CHAR_LIMIT=30] "-->
+    <string name="picture">Picture</string>
+
+    <!--This string appears in preferences screen to open sound settings. [CHAR_LIMIT=30] "-->
+    <string name="sound">Sound</string>
+
+    <!--This string appears in preferences screen to open screen settings. [CHAR_LIMIT=30] "-->
+    <string name="screen">Screen</string>
+
+    <!--This string appears in hbbtv preferences for interaction channel. [CHAR_LIMIT=30] "-->
+    <string name="interaction_channel">Interaction channel</string>
+
+    <!--This string appears in preferences screen to set mheg pin value. [CHAR_LIMIT=30] "-->
+    <string name="mpeg_pin">MHEG PIN Protection</string>
+
+    <!--This string appears in preferences screen to open parental control settings. [CHAR_LIMIT=30] "-->
+    <string name="parental_control">Parental Control</string>
+
+    <!--This string appears in preferences screen as title for open source licences used in application development. [CHAR_LIMIT=30] "-->
+    <string name="open_source">Open Source Licences</string>
+
+    <!--This string appears in preferences screen as title for settings the anetena . [CHAR_LIMIT=30] "-->
+    <string name="antenna">Antenna power</string>
+
+    <!--This string appears as label in popup that will set custom recording scheduled event. [CHAR_LIMIT=30] "-->
+    <string name="custom_recording">Custom Recording</string>
+
+    <!--This string appears in cam info preferences to check module information. [CHAR_LIMIT=30] "-->
+    <string name="module_information">Module Information</string>
+
+    <!--This string appears in cam info preferences as label for cam module current software version. [CHAR_LIMIT=30] "-->
+    <string name="software_version">Software Version</string>
+
+    <!--This string appears in cam info preferences to ask user to start module upgrade process. [CHAR_LIMIT=30] "-->
+    <string name="software_download_title">Do you want to upgrade your module?</string>
+
+    <!--This string appears in cam info preferences to check cam module subscription status. [CHAR_LIMIT=30] "-->
+    <string name="subscription_status">Subscription status</string>
+
+    <!--This string appears in cam info preferences to check cam module event status. [CHAR_LIMIT=30] "-->
+    <string name="event_status">Event status</string>
+
+    <!--This string appears in cam info preferences to check cam module token status. [CHAR_LIMIT=30] "-->
+    <string name="token_status">Token status</string>
+
+    <!--This string appears in cam info preferences to check module messages in inbox. [CHAR_LIMIT=30] "-->
+    <string name="messages">Messages</string>
+
+    <!--This string appears in cam info preferences to check information about Conax CA. [CHAR_LIMIT=30] "-->
+    <string name="about_conax_ca">About Conax CA</string>
+
+    <!--This string appears in cam info preferences to check interface version. [CHAR_LIMIT=30] "-->
+    <string name="interface_version">Interface version</string>
+
+    <!--This string appears in cam info preferences to check cam module card number. [CHAR_LIMIT=30] "-->
+    <string name="card_number">Card number</string>
+
+    <!--This string appears in cam info preferences to check current number of active sessions. [CHAR_LIMIT=30] "-->
+    <string name="number_of_sessions">Number of sessions</string>
+
+    <!--This string appears in cam info preferences default value. [CHAR_LIMIT=30] "-->
+    <string name="ca_sys_id">CA_SYS_ID</string>
+
+    <!--This string appears in cam info preferences for chip id. [CHAR_LIMIT=30] "-->
+    <string name="chip_id">ChipID</string>
+
+    <!--This string appears in cam info preferences for current cam module language. [CHAR_LIMIT=30] "-->
+    <string name="language">Language</string>
+
+    <!--This string appears in cam info preferences if message inbox is empty. [CHAR_LIMIT=30] "-->
+    <string name="no_messages">No messages</string>
+
+    <!--This string appears in system information label for RF channel number [CHAR_LIMIT=30] "-->
+    <string name="rf_channel_number">RF Channel Number</string>
+
+    <!--This string appears in system information label for Ber value. [CHAR_LIMIT=30] "-->
+    <string name="ber">Ber</string>
+
+    <!--This string appears in system information label for Prog value. [CHAR_LIMIT=30] "-->
+    <string name="prog">Prog</string>
+
+    <!--This string appears in system information label for UEC value. [CHAR_LIMIT=30] "-->
+    <string name="uec">UEC</string>
+
+    <!--This string appears in system information label for Service ID value. [CHAR_LIMIT=30] "-->
+    <string name="service_id">Service ID</string>
+
+    <!--This string appears in system information label for AGC value. [CHAR_LIMIT=30] "-->
+    <string name="agc">AGC</string>
+
+    <!--This string appears in system information label for bandwidth value. [CHAR_LIMIT=30] "-->
+    <string name="bandwidth">Bandwidth [MHz]</string>
+
+    <!--This string appears in audio preferences for preferred first language in audio tracks. [CHAR_LIMIT=30] "-->
+    <string name="first_language">First language</string>
+
+    <!--This string appears in audio preferences for preferred second language in audio tracks. [CHAR_LIMIT=30] "-->
+    <string name="second_language">Second language</string>
+
+    <!--This string appears in audio preferences for audio description option. [CHAR_LIMIT=30] "-->
+    <string name="audio_description">Audio Description</string>
+
+    <!--This string appears in audio preferences for audio type option. [CHAR_LIMIT=30] "-->
+    <string name="audio_type_normal">Normal</string>
+
+    <!--This string appears in audio preferences for audio type option. [CHAR_LIMIT=30] "-->
+    <string name="audio_type_visually_impaired">Visually Impaired</string>
+
+    <!--This string appears in audio preferences for visually impaired audio option. [CHAR_LIMIT=30] "-->
+    <string name="no_audio_visually_impaired">No audio for visually impaired present</string>
+
+    <!--This string appears in teletext preferences for digital language. [CHAR_LIMIT=30] "-->
+    <string name="digital_language">Digital language</string>
+
+    <!--This string appears in teletext preferences for digital language. [CHAR_LIMIT=30] "-->
+    <string name="subtitle_type">Subtitle Type</string>
+
+    <!--This string appears in teletext preferences for digital language. [CHAR_LIMIT=30] "-->
+    <string name="enable_subtitles">Enable Subtitles</string>
+
+    <!--This string appears in teletext preferences for digital language. [CHAR_LIMIT=30] "-->
+    <string name="audio_format">Audio Format</string>
+
+    <!--This string appears as option selection for visually impaired preference [CHAR_LIMIT=30]"-->
+    <string name="vi_audio_for_impaired">Audio for Visually Impaired</string>
+
+    <!--This string appears as option selection for fader control preference [CHAR_LIMIT=30]"-->
+    <string name="vi_fader_control">Fader Control</string>
+
+    <!--This string appears as options for audio [CHAR_LIMIT=30]"-->
+    <string name="vi_speaker">Speaker</string>
+    <string name="vi_headphone">Headphone</string>
+    <string name="vi_volume">Volume</string>
+    <string name="vi_pane_fade">Pane and Fade</string>
+
+    <!--This string appears as options for fader control [CHAR_LIMIT=30]"-->
+    <string name="fader_main_max">Main Max</string>
+    <string name="fader_main_sub">Main 3:4</string>
+    <string name="fader_equal">Equal</string>
+    <string name="fader_ad_sub">AD 3:4</string>
+    <string name="fader_ad_max">AD Max</string>
+
+    <!-- Audio channels -->
+    <string-array name="audio_channels_strings">
+        <item>""</item>
+        <item>@string/nav_MONO</item>
+        <item>@string/nav_MONO</item>
+        <item>@string/nav_Dual_Mono</item>
+        <item>@string/nav_STEREO</item>
+        <item>@string/nav_STEREO</item>
+        <item>@string/nav_STEREO</item>
+        <item>@string/nav_Surround_2CH</item>
+        <item>@string/nav_Surround</item>
+        <item>3#CH</item>
+        <item>4#CH</item>
+        <item>5.1#CH</item>
+        <item>7.1#CH</item>
+        <item>@string/nav_MONO</item>
+        <item>@string/nav_STEREO</item>
+        <item>@string/nav_Dual_Mono</item>
+        <item>5.1#CH</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>@string/nav_MONO</item>
+        <item>@string/nav_Dual_Mono</item>
+        <item>@string/nav_STEREO</item>
+        <item>@string/nav_Surround_2CH</item>
+        <item>@string/nav_Surround</item>
+        <item>3#CH</item>
+        <item>4#CH</item>
+        <item>""</item>
+        <item>""</item>
+    </string-array>
+
+    <!--This string appears in info banner, zap banner, channel list and Details scene for decoding audio channel value. [CHAR_LIMIT=30] "-->
+    <string name="nav_UNKNOWN">Unknown</string>
+    <string name="nav_MONO">Mono</string>
+    <string name="nav_STEREO">Stereo</string>
+    <string name="nav_SAP">SAP</string>
+    <string name="nav_DUAL1">Dual1</string>
+    <string name="nav_DUAL2">Dual2</string>
+    <string name="nav_NICAM_MONO">Nicam Mono</string>
+    <string name="nav_NICAM_STEREO">Nicam Stereo</string>
+    <string name="nav_NICAM_DUAL1">Nicam Dual1</string>
+    <string name="nav_NICAM_DUAL2">Nicam Dual2</string>
+    <string name="nav_A2_DUAL1_DUAL2">Dual I+II</string>
+    <string name="nav_NICAM_DUAL1_DUAL2">NICAM Dual I+II</string>
+    <string name="nav_FM_MONO">FM Mono</string>
+    <string name="nav_FM_STEREO">FM Stereo</string>
+    <string name="nav_Dual_Mono">"Dual Mono"</string>
+    <string name="nav_Surround_2CH">"Surround 2 Channels"</string>
+    <string name="nav_Surround">"Surround"</string>
+    <string name="nav_num_CH">"channels"</string>
+
+
+    <!--This string appears in teletext preferences for decoding page language value. [CHAR_LIMIT=30] "-->
+    <string name="decoding_page_language">Decoding page language</string>
+
+    <!--This string appears in teletext preferences for decoding page language value. [CHAR_LIMIT=30] "-->
+    <string name="preferred_language">Preferred Language</string>
+
+    <!--This string appears as title in hbbtv support option. [CHAR_LIMIT=30] "-->
+    <string name="hbbtv_support">HBBTV Support</string>
+
+    <!--This string appears as title in hbbtv preferences for track option. [CHAR_LIMIT=30] "-->
+    <string name="hbbtv_track">Track</string>
+
+    <!--This string appears as title in hbbtv preferences for cookie settings option. [CHAR_LIMIT=30] "-->
+    <string name="hbbtv_cookie_settings">Cookie settings</string>
+
+    <!--This string appears as title in hbbtv preferences for persistent storage option. [CHAR_LIMIT=30] "-->
+    <string name="hbbtv_persisent_storage">Persistent storage</string>
+
+    <!--This string appears as title in hbbtv preferences for block tracking sites option. [CHAR_LIMIT=30] "-->
+    <string name="hbbtv_block_tracking_sites">Block tracking sites</string>
+
+    <!--This string appears as title in hbbtv preferences for device id option. [CHAR_LIMIT=30] "-->
+    <string name="hbbtv_device_id">Device ID</string>
+
+    <!--This string appears as title in hbbtv preferences for reset device id option. [CHAR_LIMIT=30] "-->
+    <string name="hbbtv_reset_device_id">Reset Device ID</string>
+
+    <!--This string appears as title in hbbtv preferences for blocking 3rd party cookies. [CHAR_LIMIT=30] "-->
+    <string name="hbbtv_blocker_3rd_party_cookies">Blocker 3rd party cookies</string>
+
+    <!--This string appears as title in hbbtv preferences for default value in options. [CHAR_LIMIT=30] "-->
+    <string name="hbbtv_default">Default</string>
+
+    <!--This string appears as title in EPG date filters. Yesterday - day before today. [CHAR_LIMIT=30] "-->
+    <string name="yesteday">Yesterday</string>
+
+    <!--This string appears as title in EPG date filters. [CHAR_LIMIT=30] "-->
+    <string name="today">Today</string>
+
+    <!--This string appears as title in EPG date filters. Tomorrow - day after today [CHAR_LIMIT=30] "-->
+    <string name="tomorrow">Tomorrow</string>
+
+    <!--This string appears in custom recording popup. Can be interpreted as channel, selected channel, current tv channel, tv service, etc. [CHAR_LIMIT=30] "-->
+    <string name="channel">Channel</string>
+
+    <!--This string appears in custom recording for user to set duration of custom recording. [CHAR_LIMIT=30] "-->
+    <string name="duration">Duration</string>
+
+    <!--This string appears in custom recording popup for user to setup repeated scheduled events. [CHAR_LIMIT=30] "-->
+    <string name="repeat">Repeat</string>
+
+    <!--This string appears in custom recordings popup. Can be interpreted as hr or hours. [CHAR_LIMIT=30] "-->
+    <string name="hr"> hr</string>
+
+    <!--This string appears in custom recordings popup. Can be interpreted as min or minutes [CHAR_LIMIT=30] "-->
+    <string name="min"> min</string>
+
+    <!--Toast for custom recording start time validation [CHAR_LIMIT=60]-->
+    <string name="custom_recording_toast_validation_start_is_past">Start time should be in future</string>
+
+    <!--This string appears as a duration of recording [CHAR_LIMIT=30]"-->
+    <string-array name="duration_hrs_no_zero">
+        <item>1 hr</item>
+        <item>2 hr</item>
+        <item>3 hr</item>
+        <item>4 hr</item>
+        <item>5 hr</item>
+        <item>6 hr</item>
+        <item>7 hr</item>
+        <item>8 hr</item>
+        <item>9 hr</item>
+    </string-array>
+
+    <!--This string appears as a duration of recording [CHAR_LIMIT=30]"-->
+    <string-array name="duration_hrs">
+        <item>0 hr</item>
+        <item>1 hr</item>
+        <item>2 hr</item>
+        <item>3 hr</item>
+        <item>4 hr</item>
+        <item>5 hr</item>
+        <item>6 hr</item>
+        <item>7 hr</item>
+        <item>8 hr</item>
+        <item>9 hr</item>
+    </string-array>
+
+    <!--This string appears as a duration of recording [CHAR_LIMIT=30]"-->
+    <string-array name="duration_min_no_zero">
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>20 min</item>
+        <item>25 min</item>
+        <item>30 min</item>
+        <item>35 min</item>
+        <item>40 min</item>
+        <item>45 min</item>
+        <item>50 min</item>
+        <item>55 min</item>
+    </string-array>
+
+    <!--This string appears as a duration of recording [CHAR_LIMIT=30]"-->
+    <string-array name="duration_min">
+        <item>0 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>20 min</item>
+        <item>25 min</item>
+        <item>30 min</item>
+        <item>35 min</item>
+        <item>40 min</item>
+        <item>45 min</item>
+        <item>50 min</item>
+        <item>55 min</item>
+    </string-array>
+
+    <!--This string appears when USB device is attached [CHAR_LIMIT=30] "-->
+    <string name="usb_format">Formatting will erase all data. Are you sure?</string>
+
+    <!--This string appears when channel list becomes empty. [CHAR_LIMIT=30]"-->
+    <string name="no_channels_found">No channels found</string>
+
+    <!--This string when scan procedure is started without antenna connected [CHAR_LIMIT=60]"-->
+    <string name="connect_scan_msg">Please connect your antenna and scan</string>
+
+    <!--This string appears as option to start scan channel procedure [CHAR_LIMIT=30]"-->
+    <string name="scan_channels_text">Scan channels</string>
+
+    <!--This string appears as toast message when when user try to scan channels with recording in progress-->
+    <string name= "recording_scan_conflict_toast">Scan process can not be performed during recording, please finish recording first in order to scan more channels</string>
+
+    <!--This string appears as instruction in First Time Installation screen. [CHAR_LIMIT=200]"-->
+    <string name="channels_scan_select_description">Connect your tuner and select the appropriate option to scan for channels. This step can be skipped and done afterward from settings or Live TV application</string>
+
+    <!--This string appears as instruction in First Time Installation screen. Describes purpose of selecting proper PIN code. [CHAR_LIMIT=200]"-->
+    <string name="pin_description">PIN is used for parental control and channel lock inside Live TV application</string>
+
+    <!--This string appears as instruction in First Time Installation where country needs to be selected before channel scanning procedure. [CHAR_LIMIT=200]"-->
+    <string name="select_country_description">Country selection automates the scanning process</string>
+
+    <!--This string appears as instruction in First Time Installation. It gives warning that scanning procedure might take some time to finish. [CHAR_LIMIT=200]"-->
+    <string name="scan_terrestrial_description">Channel scanning process can take some time depending on set options</string>
+
+    <!--This string appears as button in scanning screen as action to stop scanning procedure. Can be interpreted as skip, stop, cancel, etc. [CHAR_LIMIT=30]"-->
+    <string name="cancel_scan">Skip</string>
+
+    <!--This string appears in label that shows that some value is unknown or not defined. [CHAR_LIMIT=30]"-->
+    <string name="unknown">Unknown</string>
+
+    <!--This string appears as button that will start action for LCN conflict management. LCN is number that identifies tv channel. [CHAR_LIMIT=30]"-->
+    <string name="lcn_conflict">LCN Conflict</string>
+
+    <!--This string appears as label that will notify current status of scanning procedure. [CHAR_LIMIT=30]"-->
+    <string name="status">Status</string>
+
+    <!--This string appears as label that will notify that scanning procedure is currently in progress. [CHAR_LIMIT=30]"-->
+    <string name="in_progress">In progress</string>
+
+    <!--This string appears as label when channel scan is updating database. [CHAR_LIMIT=30]"-->
+    <string name="updating">Updating</string>
+
+    <!--This string appears as label when channel scan is completed. [CHAR_LIMIT=30]"-->
+    <string name="complete">Complete</string>
+
+    <!--This string appears as label when channel scan is canceled. [CHAR_LIMIT=30]"-->
+    <string name="cancelled">Canceled</string>
+
+    <!--This string appears as label that shows signal status while channel scan is in progress. [CHAR_LIMIT=30]"-->
+    <string name="signal_status">Signal status</string>
+
+    <!--This string appears as label that shows how many tv services are found during current channel scan procedure. [CHAR_LIMIT=30]"-->
+    <string name="programmes_found">Programmes found</string>
+
+    <!--This string appears as label that shows current scanning procedure status. [CHAR_LIMIT=30]"-->
+    <string name="scanning_status">Scanning status</string>
+
+    <!--This string appears as label that shows current scanning procedure progress in percentage. [CHAR_LIMIT=30]"-->
+    <string name="scanning_progress">Scanning progress</string>
+
+    <!--This string appears as button that will trigger terrestrial channel scan. [CHAR_LIMIT=30]"-->
+    <string name="scan_terrestrial">Terrestrial scan</string>
+
+    <!--This string appears as label that failed status for scanning procedure. [CHAR_LIMIT=30]"-->
+    <string name="failed">Failed</string>
+
+    <!--This string appears as label that notifies that wrong frequency range is entered during scan procedure. [CHAR_LIMIT=30]"-->
+    <string name="wrong_frequency">Wrong frequency</string>
+
+    <!--This string appears as label to ask for confirmation of entered PIN number. [CHAR_LIMIT=30]"-->
+    <string name="confirm_pin_number">Confirm PIN number</string>
+
+    <!--This string appears as notification that entered PIN number is wrong. [CHAR_LIMIT=30]"-->
+    <string name="not_correct_pins">The two new PINs are not the same, try again</string>
+
+    <!--This string appears as hint which frequency range can be selected during scan procedure. [CHAR_LIMIT=30]"-->
+    <string name="manual_scan_freq">Frequency (47000 - 862000 kHz)</string>
+
+    <!--This string appears as label that requests frequency channel to be selected (VHF - very high frequency / UHF - ultra high frequency). [CHAR_LIMIT=30]"-->
+    <string name="manual_scan_ch">VHF Ch. (5 - 12) / UHF Ch. (21 - 69)</string>
+
+    <!--This string appears as label that requests frequency channel to be selected (VHF - very high frequency / UHF - ultra high frequency). [CHAR_LIMIT=30]"-->
+    <string name="manual_scan_ch_with_thirteen">VHF Ch. (5 - 13) / UHF Ch. (21 - 69)</string>
+
+    <!--This string appears as label that requests frequency channel to be selected (VHF - very high frequency / UHF - ultra high frequency). [CHAR_LIMIT=30]"-->
+    <string name="manual_scan_ch_only_uhf">UHF Ch. (21 - 69)</string>
+
+    <!--This string appears in button with will start scanning procedure. [CHAR_LIMIT=30]"-->
+    <string name="channels_scan">Channel scan</string>
+
+    <!--This string appears in label that shows which country settings are applied for terrestrial scan. e.g. Terrestrial tuning for Italy. [CHAR_LIMIT=60]"-->
+    <string name="terrestrial_manual_tuning">Terrestrial tuning for</string>
+
+    <!--This string appears in button which will start terrestrial scan. [CHAR_LIMIT=60]"-->
+    <string name="terrestrial_scan">Terrestrial scan</string>
+
+    <!--This string appears in label that requires scan type to be selected. [CHAR_LIMIT=60]"-->
+    <string name="channels_scan_select">Choose type of scan</string>
+
+    <!--This string appears in button which will confirm previously selected option. [CHAR_LIMIT=30]"-->
+    <string name="confirm_text">Confirm</string>
+
+    <!--This string appears as label that will request for PIN number setup. [CHAR_LIMIT=30]"-->
+    <string name="enter_pin_number">Set up a PIN number</string>
+
+    <!--This string appears in label that will suggest that some available country needs to be selected. [CHAR_LIMIT=60]"-->
+    <string name="select_country">Choose country</string>
+
+    <!--This string appears in label that shows current date. [CHAR_LIMIT=30]"-->
+    <string name="date">Date</string>
+
+    <!--This string appears in label that shows currently selected sort algorithm. [CHAR_LIMIT=30]"-->
+    <string name="sort_by">Sort by</string>
+
+    <!--This string appears in button that will schedule recording for selected tv event. [CHAR_LIMIT=30]"-->
+    <string name="schedule_recording">Schedule recording</string>
+
+    <!--This string appears in button that will schedule recording for selected tv event. [CHAR_LIMIT=30]"-->
+    <string name="add_to">Add to</string>
+
+    <!--This string appears in button that will schedule recording for selected tv event. [CHAR_LIMIT=30]"-->
+    <string name="testing_in_progress">Testing in Progress</string>
+
+    <!--This string appears as label that shows that tv service is scrambled or encrypted. [CHAR_LIMIT=30]"-->
+    <string name="encrypted">Encrypted</string>
+
+    <!--This string appears as label that exists as repeat option in scheduler reminder options. This means that reminder will repeat at same time every day. [CHAR_LIMIT=30]"-->
+    <string name="daily">Daily</string>
+
+    <!--This string appears as label that exists as repeat option in scheduler reminder options. This means that reminder will repeat at same time every week. [CHAR_LIMIT=30]"-->
+    <string name="weekly">Weekly</string>
+
+    <!--This string appears as label that will show currently selected day which will be use to filter data. [CHAR_LIMIT=30]"-->
+    <string name="calendar_filter_title">Filter day</string>
+
+    <!--This string appears as label that will show current time. [CHAR_LIMIT=30]"-->
+    <string name="time">Time</string>
+
+    <!--This string appears as button that will open general options in preferences popup. [CHAR_LIMIT=30]"-->
+    <string name="general">General</string>
+
+    <!--This string appears as button that will open list of favorite tv channels. [CHAR_LIMIT=30]"-->
+    <string name="favorite">Favorite</string>
+
+    <!--This string appears as label that will add overlay notification that active tv channel is radio. [CHAR_LIMIT=30]"-->
+    <string name="on_now_radio">On Now Radio</string>
+
+    <!--This string appears as option in preferences settings that can enable/disable hearing impaired option. [CHAR_LIMIT=30]"-->
+    <string name="subtitle_type_hearing_impaired">Hearing Impaired</string>
+
+    <!--This string appears as label in main menu screen. Can be interpreted as For you, Recommended, etc. [CHAR_LIMIT=30]"-->
+    <string name="for_you">For You</string>
+
+    <!--This string appears as label in main menu screen. Can be interpreted as  TV Guide, Electronic program guide, EPG, etc. [CHAR_LIMIT=30]"-->
+    <string name="tv_guide">TV Guide</string>
+
+    <!--This string appears as label in main menu screen. Can be interpreted as Broadcast tab. [CHAR_LIMIT=30]"-->
+    <string name="broadcast">Broadcast</string>
+
+    <!--This string appears as label in main menu screen. Can be interpreted as Recordings, Recorded content, etc. [CHAR_LIMIT=30]"-->
+    <string name="recordings">Recordings</string>
+
+    <!--This string appears as label in main menu screen. Can be interpreted as Preferences, Options, User settings, etc. [CHAR_LIMIT=30]"-->
+    <string name="preferences">Preferences</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="united_kingdom">United Kingdom</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="turkey">Turkey</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="switzerland">Switzerland</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="sweden">Sweden</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="spain">Spain</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="slovenia">Slovenia</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="slovakia">Slovakia</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="serbia">Serbia</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="russia">Russia</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="romania">Romania</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="portugal">Portugal</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="poland">Poland</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="norway">Norway</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="netherlands">Netherlands</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="north_macedonia">North Macedonia</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="luxembourg">Luxembourg</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="lithuania">Lithuania</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="latvia">Latvia</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="italy">Italy</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="ireland">Ireland</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="hungary">hungary</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="greece">greece</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="germany">germany</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="france">france</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="finland">finland</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="ukraine">Ukraine</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="estonia">estonia</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="denmark">denmark</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="czech_republic">Czech Republic</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="cyprus">Cyprus</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="croatia">Croatia</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="bulgaria">Bulgaria</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="belgium">Belgium</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="belarus">Belarus</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="austria">Austria</string>
+
+    <!--This string is appears in settings for user's country. [CHAR_LIMIT=30]"-->
+    <string name="albania">Albania</string>
+
+    <!--This string appears as instruction in First Time Installation screen. [CHAR_LIMIT=30]"-->
+    <string name="to_number">to number</string>
+
+    <!--This string appears as instruction in First Time Installation screen. [CHAR_LIMIT=30]"-->
+    <string name="assign">Assign</string>
+
+    <!--This string appears as a title in the LCN conflicts screen. [CHAR_LIMIT=30] "-->
+    <string name="solve_lcn">Solve LCN conflicts</string>
+
+    <!--This string appears in a button to open the selected LCN conflict screen. It also appears as a screen name of that screen. [CHAR_LIMIT=30] "-->
+    <string name="lcn_conf">LCN conflict</string>
+
+    <!--This string appears in a button to open LCN conflicts screen for the user to solve in First Time Installation. [CHAR_LIMIT=30] "-->
+    <string name="solve_lcn_manu">Solve LCN conflicts manually</string>
+
+    <!--This string appears as label that shows how many LCN conflicts are found during channel scan procedure. [CHAR_LIMIT=30]"-->
+    <string name="lcn_conf_found">LCN conflicts found</string>
+
+    <!--This string appears as instruction in the LCN conflicts screen in First Time Installation. [CHAR_LIMIT=200]"-->
+    <string name="lcn_conf_description">Choose between conflicted channels which will be assigned to selected number</string>
+
+    <!--Title for the Evaluation License Preference. [CHAR_LIMIT=30]"-->
+    <string name="evaluation_license_pref">Evaluation License</string>
+
+    <!--Button for the Evaluation License Accept. [CHAR_LIMIT=30]"-->
+    <string name="evaluation_license_accept">Accept</string>
+
+    <!--Title for the Evaluation License. [CHAR_LIMIT=30]"-->
+    <string name="evaluation_license_title">EVALUATION LICENSE DISCLAIMER</string>
+
+    <!--Title for the Evaluation License description. [CHAR LIMIT=NONE]"-->
+    <string-array name="evaluation_license_dsc_title">
+        <item>1\t\t\tLICENSE\n\n</item>
+        <item>2\t\t\tUPDATES AND FEEDBACK\n\n</item>
+        <item>3\t\t\tCONFIDENTIALITY\n\n</item>
+        <item>4\t\t\tWARRANTY AND LIMITATION OF LIABILITY\n\n</item>
+        <item>5\t\t\tOTHER\n\n</item>
+    </string-array>
+
+    <!--Message for the Evaluation License description. [CHAR LIMIT=NONE]"-->
+    <string-array name="evaluation_license_dsc">
+        <!--1-->
+        <item>
+            This application (“Live TV app”) is provided by iWedia S.A. under a one-time, non-exclusive, nontransferable, royalty-free, non-sublicenseable and revocable license (“Evaluation License”) to be used solely for internal evaluation and demonstration purposes for a period of 6 months from Live TV application release date.\n\nEvaluation License is granted solely for the purposes of: \n\nI.\t\t\tInternal evaluation – this license is for internal use only and is not a production license, and accordingly may not be distributed in whole or in any of its parts or incorporated in any commercial product\n\nII.\t\t\tDemonstration – besides internal evaluation, this license may be used only for marketing purpose of demonstration towards third persons, as is. It is explicitly prohibited to use this license in any way with competitors of iWedia.\n\nIt is prohibited to:\n\nI.\t\t\tSublicense, to use or modify the Live TV app or create any derivative works from Live TV app, including any associated documentation.\n\nII.\t\t\tReverse compile, reverse engineer, disassemble, reformat, benchmark, or otherwise attempt to read or make readable the Object Code or Source Code (or the underlying ideas, algorithms, structure or organization) of the Live TV app, in whole or in part;\n\nIII.\t\t\tModify the Live TV app or create any derivative work based on the Software;\n\nIV.\t\t\tRent, lease, sell, sublicense, grant a security interest in, or otherwise transfer any rights in the Live TV app;\n\nV.\t\t\tRemove or alter any marks or proprietary notices or labels contained in the Live TV app;\n\nVI.\t\t\tUse the Live TV app in any manner that violates any intellectual property or privacy rights of any third party; or\n\nVII.\t\t\tUse the Live TV app in any manner that violates any applicable international, federal, state or local law or regulation.\n\nAll right, title, and interest in and to all intellectual property and proprietary rights relating to the Live TV app shall remain vested in iWedia.\n\n
+        </item>
+        <!--2-->
+        <item>
+            iWedia shall have the right (without any obligation), at its sole discretion, to deliver updated versions of the Live TV app. The terms and conditions of this Evaluation License shall apply to any new version of the Live TV app.\n\nThere is no obligation to give iWedia any suggestions, comments or other feedback regarding the Live TV app (&quot;Feedback&quot;). However, any Feedback that is voluntarily provided may be used in iWedia products and related specifications or other documentation. Accordingly, if iWedia receives any Feedback on any version of the Live TV app, iWedia may freely use, disclose, reproduce, license, distribute and otherwise commercialize the Feedback in any iWedia product, technology, service, specification or other documentation.\n\n
+        </item>
+        <!--3-->
+        <item>
+            Live TV app is the confidential information of iWedia (&quot;Confidential Information&quot;) provided under NDA.\n\n
+        </item>
+        <!--4-->
+        <item>
+            iWedia provides the software &quot;AS IS&quot; and without any warranty of any kind, express or implied; iWedia disclaims all warranties and conditions of any kind.\n\niWedia shall have no liability or obligation with respect to any subject matter of this Evaluation License for any direct, indirect, incidental, special, punitive or consequential damages under any theory of liability whether in tort, contract, negligence, strict liability or otherwise even if advised of the possibility of such damages.\n\niWedia will not be liable for any loss of use, interruption of business, including without limitation lost profits, regardless of the form of action, even if iWedia has been advised of the possibility of such damages.\n\n
+        </item>
+        <!--5-->
+        <item>
+            This Evaluation License shall constitute the binding agreement of the parties. This Evaluation License may not be changed, terminated or amended.\n
+        </item>
+    </string-array>
+
+    <!--Title for the Evaluation License expiry. [CHAR_LIMIT=40]"-->
+    <string name="eval_licence_expiry_title">Evaluation license has been expired</string>
+
+    <!--Sub Title for the Evaluation License expiry. [CHAR_LIMIT=30]"-->
+    <string name="eval_licence_expiry_sub_title">Please contact iWedia</string>
+
+    <!--Title for the Open Source License. [CHAR_LIMIT=30]"-->
+    <string name="open_source_license_title">OPEN SOURCE LICENCES</string>
+
+    <!--Title for the License Picasso - Apache 2.0 [CHAR_LIMIT=40]"-->
+    <string name="open_source_license_picasso">Picasso - Apache 2.0</string>
+
+    <!--Title for the License Firebase SDK - Apache 2.0 [CHAR_LIMIT=40]"-->
+    <string name="open_source_license_firebase">Firebase SDK - Apache 2.0</string>
+
+    <!--Title for the License GSON - Apache 2.0 [CHAR_LIMIT=40]"-->
+    <string name="open_source_license_gson">GSON - Apache 2.0</string>
+
+    <!--Title for the License Lottie - Apache 2.0 [CHAR_LIMIT=40]"-->
+    <string name="open_source_license_lottie">Lottie</string>
+
+    <!--This string appears as label that will add overlay notification that active tv channel is promo. [CHAR_LIMIT=30]"-->
+    <string name="for_you_promo">Promo</string>
+    <!--This string appears in button which will start cable scan. [CHAR_LIMIT=60]"-->
+    <string name="cable_scan">Cable scan</string>
+
+    <!--This string appears in label that will suggest that some available providers needs to be selected. [CHAR_LIMIT=60]"-->
+    <string name="select_provider">Choose TV provider</string>
+
+    <!--This string appears as instruction in First Time Installation where provider needs to be selected before channel scanning procedure. [CHAR_LIMIT=200]"-->
+    <string name="select_provider_description">Provider selection automates the scanning process</string>
+
+    <!--This string appears in button to selected scan type as quick.  [CHAR_LIMIT=30] "-->
+    <string name="quick_tuning">Quick tuning</string>
+
+    <!--This string appears in label that shows which country settings are applied for cable scan. e.g. Cable tuning for Italy. [CHAR_LIMIT=60]"-->
+    <string name="cable_manual_tuning">Cable tuning for</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="albanian">Albanian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="belarusian">Belarusian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="bulgarian">Bulgarian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="czech">Czech</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="danish">Danish</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="german">German</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="dutch">Dutch</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="greek">Greek</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="english">English</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="finnish">Finnish</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="french">French</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="croatian">Croatian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="hungarian">Hungarian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="italian">Italian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="latvian">latvian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="lithuanian">Lithuanian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="macedonian">Macedonian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="norwegian">Norwegian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="polish">Polish</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="portuguese">Portuguese</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="romanian">Romanian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="russian">Russian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="slovak">Slovak</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="slovenian">Slovenian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="spanish">Spanish</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="serbian">Serbian</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="swedish">Swedish</string>
+
+    <!--This string is appears in audio and subtitle options. [CHAR_LIMIT=30]"-->
+    <string name="turkish">Turkish</string>
+
+    <!--This string appears as status message for live scene. [CHAR_LIMIT=30]"-->
+    <string name="status_message_channels_not_available">Channels are not available.</string>
+
+    <!--This string appears as status message for live scene. [CHAR_LIMIT=30]"-->
+    <string name="status_message_drm_error">DRM error</string>
+
+    <!--This string appears as status message for live scene. [CHAR_LIMIT=30]"-->
+    <string name="status_message_signal_not_available">Signal is not available.</string>
+
+    <!--This string appears as status message for live scene. [CHAR_LIMIT=30]"-->
+    <string name="status_message_no_playback">No playback.</string>
+
+    <!--This string appears as button that will trigger terrestrial channel scan. [CHAR_LIMIT=30]"-->
+    <string name="scan_cable">Cable scan</string>
+
+    <!--This string appears as label for frequency [CHAR_LIMIT=30] "-->
+    <string name="frequency_cable">Frequency</string>
+
+    <!--This string appears as label for symbol rate in cable manual scan [CHAR_LIMIT=30] "-->
+    <string name="symbolrate_cable">Symbol rate</string>
+
+    <!--This string appears as label for qam in cable manual scan [CHAR_LIMIT=30] "-->
+    <string name="qam">QAM</string>
+
+    <!--This string appears as label for Standard in cable manual scan [CHAR_LIMIT=30] "-->
+    <string name="standard">Standard</string>
+
+    <!--This string is appears in live scene when talkback is turned on. [CHAR_LIMIT=30]"-->
+    <string name="info_banner">Info Banner</string>
+
+    <!--This string is appears in live scene when talkback is turned on. [CHAR_LIMIT=30]"-->
+    <string name="channel_list">Channel List</string>
+
+    <!--This string is appears in live scene when talkback is turned on. [CHAR_LIMIT=30]"-->
+    <string name="home">Home</string>
+
+    <!--This string is appears in live scene when talkback is turned on. [CHAR_LIMIT=30]"-->
+    <string name="player">Player</string>
+
+    <!--This string appears in label that will notify user that audio data is not available." [CHAR_LIMIT=60]-->
+    <string name="no_available_audio_tracks_msg">No available audio tracks</string>
+
+    <!--This string appears in label that will notify user that subtitle data is not available." [CHAR_LIMIT=60]-->
+    <string name="no_available_subtitle_tracks_msg">No available subtitle tracks</string>
+
+    <!--This string appears when digit zap is done on non-existing channel. [CHAR_LIMIT=30]"-->
+    <string name="no_channel_associated">No channel is associated with that number</string>
+
+    <!--Texts in reminder conflict scene-->
+    <string name="reminder_conflict_title">Multiple events added to Watchlist are starting</string>
+    <string name="reminder_conflict_description">Choose what to watch right now</string>
+
+    <!--These strings that appear in EPG, Infobanner etc. its a part of the date shown for each events. it's a month for the date, except today's date-->
+    <string name="Jan">Jan</string>
+    <string name="Feb">Feb</string>
+    <string name="Mar">Mar</string>
+    <string name="Apr">Apr</string>
+    <string name="May">May</string>
+    <string name="Jun">Jun</string>
+    <string name="Jul">Jul</string>
+    <string name="Aug">Aug</string>
+    <string name="Sep">Sep</string>
+    <string name="Oct">Oct</string>
+    <string name="Nov">Nov</string>
+    <string name="Dec">Dec</string>
+
+    <!--This string appears when usb device is connected. [CHAR_LIMIT=30]"-->
+    <string name="usb_connected">USB Connected</string>
+
+    <!--This string appears when usb device is disconnected. [CHAR_LIMIT=30]"-->
+    <string name="usb_disconnected">USB Disconnected</string>
+
+    <!--This string appears when you try to delete channel with watchlist event."-->
+    <string name="channel_delete_confirmation">There are events from this channel that are added to your watchlist,
+        are you sure you want to delete it?</string>
+
+    <!--This string appears as label for scrambled options in fti [CHAR_LIMIT=30] "-->
+    <string name="scan_mode">Scan mode</string>
+
+    <!--This string appears as label for walkthrough [CHAR_LIMIT=30] "-->
+    <string name="open_timeshift">Use Down button on D-Pad to open Timeshift</string>
+
+    <!--This string appears as label for walkthrough [CHAR_LIMIT=30] "-->
+    <string name="open_main_menu">Use Up button on D-Pad to open Menu</string>
+
+    <!--This string appears as label for walkthrough [CHAR_LIMIT=30] "-->
+    <string name="open_info_list">Use Right button on D-Pad to open Info Banner</string>
+
+    <!--This string appears as label for walkthrough [CHAR_LIMIT=30] "-->
+    <string name="open_channel_list">Use Left button on D-Pad to open Channel List</string>
+
+    <!--This string appears when DPAD_DOWN is pressed during Recording in progress -->
+    <string name="recording_progress_toast">Timeshift can not be started while recording is in progress</string>
+
+    <!--This string appears when scheduled recording starts in Time shift active state -->
+    <string name="time_shift_stop_toast">Time shift has been stopped</string>
+
+    <!--This string appears when data is restricted when rating is more than or equal to 18  and parental control is enabled-->
+    <string name="parental_control_restriction">Parental control restriction</string>
+
+    <!--This string appears when app is moved to background -->
+    <string name="time_shift_stopped">Timeshift has been stopped</string>
+
+    <!--This string appears as hint in search bar -->
+    <string name="search_hint">Search for channels and events</string>
+
+    <!--This string appears when app is moved to background -->
+    <string name="preference_pvr_timeshift">PVR/Timeshift</string>
+
+    <!--This string appears under preference PVR/Timeshift as a left menu [CHAR_LIMIT=30] "-->
+    <string name="device_info">Device Info</string>
+
+    <!--This string appears under preference PVR/Timeshift as a left menu [CHAR_LIMIT=30] "-->
+    <string name="timeshift_mode">Timeshift Mode</string>
+
+    <!--This string appears in device option scene title [CHAR_LIMIT=30] "-->
+    <string name="device_option">Device Info Setting</string>
+
+    <!--This string appears in device formatting title  [CHAR_LIMIT=30] "-->
+    <string name="device_formatting">Formatting</string>
+
+    <!--This string appears as a toast when format failed  [CHAR_LIMIT=60] "-->
+    <string name="device_format_failed">Device format failed</string>
+
+    <!--This string appears under device option scene as menu to set Timeshift [CHAR_LIMIT=30] "-->
+    <string name="set_timeshift">Set Timeshift</string>
+
+    <!--This string appears under device option scene as menu to set PVR [CHAR_LIMIT=30] "-->
+    <string name="set_pvr">Set PVR</string>
+
+    <!--This string appears under device option scene as menu for format [CHAR_LIMIT=30] "-->
+    <string name="format">Format</string>
+
+    <!--This string appears under device option scene as menu for speed test [CHAR_LIMIT=30] "-->
+    <string name="speed_test">Speed Test</string>
+
+    <!--This string appears as a device name in device list if device name is empty [CHAR_LIMIT=30] "-->
+    <string name="no_name">No name</string>
+
+    <!--This string appears as message if device list is empty in device info preference [CHAR_LIMIT=30] "-->
+    <string name="no_device">No device is connected</string>
+
+    <!--This string appears as not having preference for PVR/Timeshift in device list [CHAR_LIMIT=30] "-->
+    <string name="na">NA</string>
+
+    <!--This string appears as Timeshift is preferred in device list[CHAR_LIMIT=30] "-->
+    <string name="tshift">TSHIFT</string>
+
+    <!--This string appears as PVR is preferred in device list[CHAR_LIMIT=30] "-->
+    <string name="pvr">PVR</string>
+
+    <!--This string appears as speed test title [CHAR_LIMIT=30] "-->
+    <string name="speed_test_title">Speed Test Ongoing</string>
+
+    <!--This string appears as speed test complete title [CHAR_LIMIT=30] "-->
+    <string name="speed_test_complete_title">Speed Test Complete</string>
+
+    <!--This string appears under speed test warning for unplug device [CHAR_LIMIT=30] "-->
+    <string name="dont_unplug_device">Don\'t unplug the device</string>
+
+    <!--This string appears under speed test to show speed result [CHAR_LIMIT=30] "-->
+    <string name="max_speed_display">The max speed is %s</string>
+
+    <!--This string appears under speed test to show speed failed [CHAR_LIMIT=30] "-->
+    <string name="speed_test_failed">Speed test failed!</string>
+
+    <!--This string appears under device options to show speed test is not allowed when timeshift is active as a toast [CHAR_LIMIT=60] "-->
+    <string name="speed_test_not_allowed_timeshift">Speed Test is not allowed when Timeshift is active</string>
+
+    <!--This string appears under device options to show set Timeshift is not allowed when timeshift is active as a toast [CHAR_LIMIT=60] "-->
+    <string name="set_timeshift_not_allowed_timeshift">Set Timeshift is not allowed when Timeshift is active</string>
+
+    <!--This string appears under device options to show speed test is not allowed when PVR is active as a toast [CHAR_LIMIT=60] "-->
+    <string name="speed_test_not_allowed_pvr">Speed Test is not allowed when PVR is active</string>
+
+    <!--This string appears under device options to show PVR is not allowed when PVR is active as a toast [CHAR_LIMIT=60] "-->
+    <string name="set_pvr_not_allowed_pvr">Set PVR is not allowed when PVR is active</string>
+
+    <!--This string appears under device options to show speed test is not allowed when usb have insufficient disk space as a toast [CHAR_LIMIT=60] "-->
+    <string name="speed_test_insufficient">Insufficient disk space! Speed Test failed!</string>
+
+    <!--This string appears under device options to show access denied as a toast [CHAR_LIMIT=60] "-->
+    <string name="speed_test_ntfs_failed">Access is denied. Speed test failed!</string>
+
+    <!--This string appears under device options when user try to format when timeshift is in progress [CHAR_LIMIT=30] "-->
+    <string name="format_not_allowed_timeshift">Format is not allowed when Timeshift is active</string>
+
+    <!--This string appears under device options when user try to format when PVR is in progress [CHAR_LIMIT=30] "-->
+    <string name="format_not_allowed_pvr">Format is not allowed when PVR is active</string>
+
+    <!--These strings appears as title in setup menu preferences for persistent storage option. [CHAR_LIMIT=30] "-->
+    <string name="skip_channel">Skip Channel</string>
+    <string name="swap_channel">Swap Channel</string>
+    <string name="move_channel">Move Channel</string>
+    <string name="delete_channel">Delete Channel</string>
+    <string name="preferred_epg_language">Preferred EPG language?</string>
+    <string name="no_signal_power_off">No Signal Power Off</string>
+    <string name="auto_service_update">Auto Service Update</string>
+
+    <!--This string appears under setup in preference [CHAR_LIMIT=30] "-->
+    <string name="blue_mute">Blue Mute</string>
+
+    <!--These string appears as title in pop for confirmation of channel delete  [CHAR_LIMIT=60] -->
+    <string name="delete_channel_confirmation">Are you sure you want to delete this Channel?</string>
+
+    <!--These string appears as title in pop for confirmation of deleting whole Channel list  [CHAR_LIMIT=60] -->
+    <string name="delete_all_channel_confirmation">Are you sure you want to clear whole channel list?</string>
+
+    <!--This string appears under setup in preference [CHAR_LIMIT=30] "-->
+    <string name="channel_block">Channel Block</string>
+
+    <!--This string appears under setup in preference [CHAR_LIMIT=30] "-->
+    <string name="Input_block">Input Block</string>
+
+    <!--This string appears under setup in preference [CHAR_LIMIT=30] "-->
+    <string name="rating_systems">Rating System</string>
+
+    <!--This string appears under setup in preference [CHAR_LIMIT=30] "-->
+    <string name="Rating_lock">Rating Lock</string>
+
+    <!--This string appears under parental control in preference [CHAR_LIMIT=30] "-->
+    <string name="rrt5_lock">RRT5 Lock</string>
+
+    <!--This strings appears under closed caption in preference [CHAR_LIMIT=30] "-->
+    <string name="display_cc">Display CC</string>
+    <string name="caption_services">Caption Services</string>
+    <string name="advanced_selection">Advanced Selection</string>
+
+    <!--This strings appears under text customization options in preference [CHAR_LIMIT=30] "-->
+    <string name="text_size">Text Size</string>
+    <string name="font_family">Font Family</string>
+    <string name="text_color">Text Color</string>
+    <string name="text_opacity">Text Opacity</string>
+    <string name="edge_type">Edge Type</string>
+    <string name="edge_color">Edge Colour</string>
+    <string name="background_color">Background Colour</string>
+    <string name="background_opacity">Background Opacity</string>
+    <string name="with_mute">with mute</string>
+    <string name="cc_preview">ABC</string>
+    <string name="cc_changed">CC changed to</string>
+    <string name="cc_track_turned_off">CC tracks turned off</string>
+
+    <!-- Caption services -->
+    <string name="cc_1">CC-1</string>
+    <string name="cc_2">CC-2</string>
+    <string name="cc_3">CC-3</string>
+    <string name="cc_4">CC-4</string>
+    <string name="t_1">T-1</string>
+    <string name="t_2">T-2</string>
+    <string name="t_3">T-3</string>
+    <string name="t_4">T-4</string>
+
+    <!-- Advanced selection -->
+    <string name="cs_1">CS-1</string>
+    <string name="cs_2">CS-2</string>
+    <string name="cs_3">CS-3</string>
+    <string name="cs_4">CS-4</string>
+    <string name="cs_5">CS-5</string>
+    <string name="cs_6">CS-6</string>
+
+    <!-- Text Size -->
+    <string name="small">Small</string>
+    <string name="large">Large</string>
+
+    <!-- Font Family -->
+    <string name="serif_monospace">Serif Monospace</string>
+    <string name="serif">Serif</string>
+    <string name="sans_serif_monospace">Sans-serif Monospace</string>
+    <string name="sans_serif">Sans-serif</string>
+    <string name="casual">Casual</string>
+    <string name="cursive">Cursive</string>
+    <string name="small_capitals">Small Capitals</string>
+
+    <!-- Caption color -->
+    <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="cyan">Cyan</string>
+    <string name="yellow">Yellow</string>
+    <string name="magenta">Magenta</string>
+
+    <!-- Caption opacity -->
+    <string name="solid">Solid</string>
+    <string name="translucent">Translucent</string>
+    <string name="transparent">Transparent</string>
+    <string name="flashing">Flashing</string>
+
+    <!-- Edge type -->
+    <string name="raised">Raised</string>
+    <string name="depressed">Depressed</string>
+    <string name="outline">Outline</string>
+    <string name="drop_shadow">Drop Shadow</string>
+
+    <!--This string appears under parental in preference [CHAR_LIMIT=30] "-->
+    <string name="rrt5_reset">RRT5 reset</string>
+
+    <!--This string appears under input lock in parental [CHAR_LIMIT=30] "-->
+    <string name="tv">TV</string>
+
+    <!--This string appears under input lock in parental [CHAR_LIMIT=30] "-->
+    <string name="composite">Composite</string>
+
+    <!--This string appears under input lock in parental [CHAR_LIMIT=30] "-->
+    <string name="component">Component</string>
+
+    <!--This string appears under input lock in parental [CHAR_LIMIT=30] "-->
+    <string name="vga">VGA</string>
+
+    <!--This string appears under input lock in parental [CHAR_LIMIT=30] "-->
+    <string name="hdmi_1">HDMI 1</string>
+
+    <!--This string appears under input lock in parental [CHAR_LIMIT=30] "-->
+    <string name="hdmi_2">HDMI 2</string>
+
+    <!--This string appears under input lock in parental [CHAR_LIMIT=30] "-->
+    <string name="hdmi_3">HDMI 3</string>
+
+    <string name="enter_pin_to_unlock_input">Enter PIN to unlock this input</string>
+    <string name="unlock_input">Unlock input</string>
+    <string name="enter_input_pin">Enter PIN</string>
+
+    <!--This string appears under rating lock in parental [CHAR_LIMIT=30] "-->
+    <string name="other_countries">Other Countries</string>
+
+    <!--This string appears under rating lock in parental [CHAR_LIMIT=30] "-->
+    <string name="block_unrated_programs">Block Unrated Programs</string>
+
+    <!--This string appears under rating lock in parental [CHAR_LIMIT=30] "-->
+    <string name="global_restrictions">Global Restrictions</string>
+
+    <!--This string appears under global restrictions in rating lock [CHAR_LIMIT=30] "-->
+    <string name="rating_hint_partial">Partial</string>
+
+    <!--This string appears under global restrictions in rating lock [CHAR_LIMIT=30] "-->
+    <string name="menu_arrays_None">None</string>
+
+    <!--This string appears under global restrictions in rating lock [CHAR_LIMIT=30] "-->
+    <string name="option_rating_high">High Restrictions</string>
+
+    <!--This string appears under global restrictions in rating lock [CHAR_LIMIT=30] "-->
+    <string name="option_rating_medium">Medium Restrictions</string>
+
+    <!--This string appears under global restrictions in rating lock [CHAR_LIMIT=30] "-->
+    <string name="option_rating_low">Low Restrictions</string>
+
+    <!--This string appears under global restrictions in rating lock [CHAR_LIMIT=30] "-->
+    <string name="option_rating_custom">Custom</string>
+
+    <!--This string appears in reset rrt5 confirmation dialog as message [CHAR_LIMIT=30] "-->
+    <string name="rrt5_reset_message">RRT5 data has been reset.</string>
+    <string name="atsc30_display_eas">Display</string>
+    <string name="atsc30_hide_eas">Hide</string>
+
+    <!-- Age based TV content rating strings used in DVB, ISDB and DTMB.
+       For more info, please see STD-B10 in http://www.dibeg.org/techp/aribstd/aribstd.html (ISDB),
+       Table 81 of DVB SI (EN 300 468 V1.14.1) in https://www.dvb.org/standards (DVB)
+       and http://www.gb688.cn/bzgk/gb/newGbInfo?hcno=59E83CA701AEB4248E115BC043688FEC (DTMB).-->
+    <string name="description_age_4">Recommended for ages 4 and over.</string>
+    <string name="description_age_5">Recommended for ages 5 and over.</string>
+    <string name="description_age_6">Recommended for ages 6 and over.</string>
+    <string name="description_age_7">Recommended for ages 7 and over.</string>
+    <string name="description_age_8">Recommended for ages 8 and over.</string>
+    <string name="description_age_9">Recommended for ages 9 and over.</string>
+    <string name="description_age_10">Recommended for ages 10 and over.</string>
+    <string name="description_age_11">Recommended for ages 11 and over.</string>
+    <string name="description_age_12">Recommended for ages 12 and over.</string>
+    <string name="description_age_13">Recommended for ages 13 and over.</string>
+    <string name="description_age_14">Recommended for ages 14 and over.</string>
+    <string name="description_age_15">Recommended for ages 15 and over.</string>
+    <string name="description_age_16">Recommended for ages 16 and over.</string>
+    <string name="description_age_17">Recommended for ages 17 and over.</string>
+    <string name="description_age_18">Recommended for ages 18 and over.</string>
+    <string name="description_age_19">Recommended for ages 19 and over.</string>
+    <string name="description_age_20">Recommended for ages 20 and over.</string>
+
+    <!-- TV content rating system strings for AR TV. These strings are from Wikipedia.
+         See http://en.wikipedia.org/wiki/Television_content_rating_systems -->
+    <string name="description_ar_tv_atp">Suitable for all audiences. Programs may contain mild violence, language and mature situations.</string>
+    <string name="description_ar_tv_sam_13">Suitable for ages 13 and up. Programs may contain mild to moderate language and mild violence and sexual references.</string>
+    <string name="description_ar_tv_sam_16">Suitable for ages 16 and up. Programs may contain more intensive violence and coarse language, partial nudity and moderate sexual references.</string>
+    <string name="description_ar_tv_sam_18">Suitable for mature audiences only. Programs contain strong violence, coarse language and explicit sexual references.</string>
+    <string name="description_ar_tv_d">Drugs</string>
+    <string name="description_ar_tv_s">Sex</string>
+    <string name="description_ar_tv_v">Violence</string>
+
+    <!-- TV content rating system strings for AU TV. These strings are from ABC classification.
+         See Appendix 4 of http://www.abc.net.au/mediawatch/transcripts/0935_industry.pdf -->
+    <string name="description_au_tv_p">Material classified P is intended for preschool children.</string>
+    <string name="description_au_tv_c">Material classified C is intended for children (other than preschool children) who are younger than 14 years of age.</string>
+    <string name="description_au_tv_g">Material classified G is not necessarily intended for children but it must be very mild in impact and must not contain any matter likely to be unsuitable for children to watch without supervision.</string>
+    <string name="description_au_tv_pg">Material classified PG may contain adult themes or concepts but must be mild in impact and remain suitable for children to watch with supervision.</string>
+    <string name="description_au_tv_m">Material classified M is for mature audiences. It is recommended for viewing only by persons aged 15 years or over.</string>
+    <string name="description_au_tv_ma">Material classified MA is suitable for viewing only by persons aged 15 years or over because of the intensity and/or frequency of violence, sexual depictions, or coarse language, adult themes or drug use. The impact may be strong.</string>
+    <string name="description_au_tv_av">Material classified AV is suitable for viewing only by persons aged 15 years or over. It is unsuitable for MA classification because of the intensity and/or frequency of violence, or because violence is central to the theme. In other respects, the requirements of the classification are identical to the MA classification.</string>
+    <string name="description_au_tv_r">Material classified R is legally restricted to adults. Some material classified R may be offensive to sections of the adult community.</string>
+
+    <!-- TV content rating system strings for BR TV. These strings are from
+         http://www.justica.gov.br/seus-direitos/classificacao/guia-pratico/practical-guide.pdf/view -->
+    <string name="title_br_tv_l">GA</string>
+    <string name="title_br_tv_10">PG-10</string>
+    <string name="title_br_tv_12">PG-12</string>
+    <string name="title_br_tv_14">PG-14</string>
+    <string name="title_br_tv_16">PG-16</string>
+    <string name="title_br_tv_18">PG-18</string>
+    <string name="description_br_tv_l">General audiences</string>
+    <string name="description_br_tv_10">Not recommended for ages under 10.</string>
+    <string name="description_br_tv_12">Not recommended for ages under 12.</string>
+    <string name="description_br_tv_14">Not recommended for ages under 14.</string>
+    <string name="description_br_tv_16">Not recommended for ages under 16.</string>
+    <string name="description_br_tv_18">Not recommended for ages under 18.</string>
+    <string name="description_br_tv_d">Drugs</string>
+    <string name="description_br_tv_s">Sex</string>
+    <string name="description_br_tv_v">Violence</string>
+
+    <!-- TV content rating system strings for CA TV. These strings are from
+         http://www.cbsc.ca/english/agvot/englishsystem.php -->
+    <string name="description_ca_tv_en_exempt">Exempt programming includes: news, sports, documentaries and other information programming; talk shows, music videos, and variety programming.</string>
+    <string name="description_ca_tv_en_c">This programming is intended for younger children under the age of 8 years.</string>
+    <string name="description_ca_tv_en_c8">This programming is intended for youngsters 8 years and over. It is suggested that a parent/guardian co-view programming assigned this classification with younger children under the age of 8.</string>
+    <string name="description_ca_tv_en_g">This programming is intended for all age groups and appropriate viewing for the entire family.</string>
+    <string name="description_ca_tv_en_pg">This programming, while intended for a general audience, may not be suitable for younger children (under the age of 8). Parents/guardians should be aware that there might be content elements which some could consider inappropriate for unsupervised viewing by children in the 8-13 age range.</string>
+    <string name="description_ca_tv_en_14">Programming with this classification contains themes or content elements which might not be suitable for viewers under the age of 14. Parents are strongly cautioned to exercise discretion in permitting viewing by pre-teens and early teens without parent/guardian supervision, as programming with this classification could deal with mature themes and societal issues in a realistic fashion.</string>
+    <string name="description_ca_tv_en_18">This programming is intended for viewers 18 years and older.</string>
+
+    <!-- TV content rating system strings for CA TV (French). -->
+    <!-- A short title of the rating system that appears in the parentheses right next to the
+         country name as in "Canada (French)". This corresponds to the "Ratings Classification for
+         Canadian French-Language Broadcasters". See more details in
+         http://www.cbsc.ca/english/agvot/frenchsystem.php -->
+    <string name="title_ca_tv_fr">French</string>
+    <string name="description_ca_tv_fr_e">Programs exempt from classification.</string>
+    <string name="description_ca_tv_fr_g">The program is appropriate for viewing by persons of all ages. A program with a "G" rating might offend the sensibilities of children under eight years of age.</string>
+    <string name="description_ca_tv_fr_8">The program is suitable for the general public but could contain mild or occasional violence that may disturb young children. Viewing with adult supervision is therefore recommended for young children (age 8 and under).</string>
+    <string name="description_ca_tv_fr_13">The program is appropriate for viewing by persons 13 years of age or older. Children under 13 may be admitted only if accompanied by an adult.</string>
+    <string name="description_ca_tv_fr_16">The program is appropriate for viewing by persons 16 years of age or older. Programs with this rating present troubling themes, situations or behaviours and adopt a more direct point of view about things.</string>
+    <string name="description_ca_tv_fr_18">The program is appropriate for viewing by persons 18 years of age or older. Programs reserved for adults most often deal primarily with the representation of explicit sexual encounters.  They may also be extremely violent, showing scenes of hyperrealistic cruelty, torture and horror.</string>
+
+    <!-- TV content rating system strings for DVB -->
+    <!-- A TV content rating of DVB for all ages [CHAR LIMIT=NONE] -->
+    <string name="description_fr_dvb_u">Recommended for all ages.</string>
+    <!-- A TV content rating of DVB for all ages [CHAR LIMIT=NONE] -->
+    <string name="description_es_dvb_all">Recommended for all ages.</string>
+    <!-- A TV content rating of DVB for children [CHAR LIMIT=NONE] -->
+    <string name="description_es_dvb_c">Recommended for children.</string>
+    <!-- A TV content rating of DVB for adult [CHAR LIMIT=NONE] -->
+    <string name="description_es_dvb_x">Recommended for adults.</string>
+
+
+    <!-- TV content rating system strings for KR TV. These strings are from
+         http://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2000000118507 but they are translated
+         from Korean to English. -->
+    <string name="title_kr_tv_all">ALL</string>
+    <string name="title_kr_tv_7">7</string>
+    <string name="title_kr_tv_12">12</string>
+    <string name="title_kr_tv_15">15</string>
+    <string name="title_kr_tv_19">19</string>
+    <!-- A TV content rating of Korea for all ages [CHAR LIMIT=NONE] -->
+    <string name="description_kr_tv_all">Programs do not contain material inappropriate for all ages, and thus are suitable for all ages.</string>
+    <!-- A TV content rating of Korea for persons aged 7 and above [CHAR LIMIT=NONE] -->
+    <string name="description_kr_tv_7">Programs may contain material inappropriate for children under 7, and therefore parental discretion should be used for them.</string>
+    <!-- A TV content rating of Korea for persons aged 12 and above [CHAR LIMIT=NONE] -->
+    <string name="description_kr_tv_12">Programs may contain material inappropriate for children under 12, and therefore parental discretion should be used for them.</string>
+    <!-- A TV content rating of Korea for persons aged 15 and above [CHAR LIMIT=NONE] -->
+    <string name="description_kr_tv_15">Programs may contain material inappropriate for audiences under 15, and therefore parental discretion should be used for them.</string>
+    <!-- A TV content rating of Korea for persons aged 19 and above [CHAR LIMIT=NONE] -->
+    <string name="description_kr_tv_19">Programs may contain material inappropriate for audiences under 19, and thus are not suitable for youngsters under 19.</string>
+
+    <!-- TV content rating system strings for SG TV. These strings are from
+         http://www.mda.gov.sg/RegulationsAndLicensing/ContentStandardsAndClassification/FilmsAndVideos/Pages/default.aspx -->
+    <string name="description_sg_tv_g">Suitable for all ages.</string>
+    <string name="description_sg_tv_pg">Suitable for all but parents should guide their young.</string>
+    <string name="description_sg_tv_pg13">Suitable for persons aged 13 and above but parental guidance is advised for children below 13.</string>
+    <string name="description_sg_tv_nc16">Suitable for persons aged 16 and above.</string>
+    <string name="description_sg_tv_m18">Suitable for persons aged 18 and above.</string>
+    <string name="description_sg_tv_r21">Suitable for adults aged 21 and above.</string>
+
+    <!-- TV content rating system strings for US TV. These strings are from
+         http://www.tvguidelines.org/ratings.htm -->
+    <string name="description_us_tv_d">Suggestive Dialogue</string>
+    <string name="description_us_tv_l">Coarse Language</string>
+    <string name="description_us_tv_s">Sexual Content</string>
+    <string name="description_us_tv_v">Violence</string>
+    <string name="description_us_tv_fv">Fantasy Violence</string>
+    <string name="description_us_tv_y">This program is designed to be appropriate for all children.</string>
+    <string name="description_us_tv_y7">This program is designed for children age 7 and above.</string>
+    <string name="description_us_tv_g">Most parents would find this program suitable for all ages.</string>
+    <string name="description_us_tv_pg">This program contains material that parents may find unsuitable for younger children. Many parents may want to watch it with their younger children.</string>
+    <string name="description_us_tv_14">This program contains some material that many parents would find unsuitable for children under 14 years of age.</string>
+    <string name="description_us_tv_ma">This program is specifically designed to be viewed by adults and therefore may be unsuitable for children under 17.</string>
+
+    <!-- Movie content rating system strings for US. These string are from
+         http://www.mpaa.org/film-ratings-->
+    <string name="title_us_mv">Film ratings</string>
+    <string name="description_us_mv_g">General audiences. Nothing that would offend parents for viewing by children.</string>
+    <string name="description_us_mv_pg">Parental guidance suggested. May contain some material parents might not like for their young children.</string>
+    <string name="description_us_mv_pg13">Parents strongly cautioned. Some material may be inappropriate for pre-teenagers.</string>
+    <string name="description_us_mv_r">Restricted, Contains some adult material. Parents are urged to learn more about the film before taking their young children with them.</string>
+    <string name="description_us_mv_nc17">No one 17 and under admitted. Clearly adult. Children are not admitted.</string>
+    <string name="description_th_tv_x">Suitable for adult</string>
+
+    <!-- TV content rating system strings for NZ TV. These strings are from
+         https://bsa.govt.nz/images/03_BSA_FREE-TO-AIR-TV_CLASSIFICATIONS_DRAFT.pdf -->
+    <string name="description_nz_fta_tv_g">Programmes which exclude material likely to be unsuitable for children. Programmes may not necessarily be designed for child viewers but should not contain material likely to alarm or distress them.</string>
+    <string name="description_nz_fta_tv_pgr">Programmes containing material more suited for mature audiences but not necessarily unsuitable for child viewers when subject to the guidance of a parent or an adult.</string>
+    <string name="description_nz_fta_tv_ao">Programmes containing adult themes and directed primarily at mature audiences.</string>
+
+    <!-- TV content rating system strings for TH TV. These strings are from
+         https://broadcast.nbtc.go.th/home/ -->
+    <string name="description_th_tv_4">Suitable for audiences 3 to 5 years of age.</string>
+    <string name="description_th_tv_6">Suitable for audiences 6 to 12 years of age.</string>
+    <string name="description_th_tv_10">Suitable for all audiences.</string>
+    <string name="description_th_tv_13">Parental guidance suggested for viewers age below 13.</string>
+    <string name="description_th_tv_18">Parental guidance suggested for viewers age below 18.</string>
+    <string name="description_th_tv_19">Not suitable for children and teenagers.</string>
+
+    <!-- TV content rating system for thailand DVB [CHAR_LIMIT=30] -->
+    <string name="title_th_dvb_3">Kid 3–5 Year</string>
+    <string name="title_th_dvb_6">Kid 6–12 Year</string>
+    <string name="title_th_dvb_g">General</string>
+    <string name="title_th_dvb_pg_13">PG 13</string>
+    <string name="title_th_dvb_pg_18">PG 18</string>
+    <string name="title_th_dvb_a">Adult</string>
+    <string name="description_th_dvb_3">Suitable for Kid 3–5 Years</string>
+    <string name="description_th_dvb_6">Suitable for Kid 6–12 Years</string>
+    <string name="description_th_dvb_g">Suitable for all edge</string>
+    <string name="description_th_dvb_pg_13">Suitable for person aged 13 and above. And parental guidance for children under 13</string>
+    <string name="description_th_dvb_pg_18">Suitable for person aged 18 and above. And parental guidance for children under 18</string>
+    <string name="description_th_dvb_a">Suitable for adult</string>
+    <string name="top_10">Top 10 </string>
+    <string name="google">Google</string>
+
+    <string name="closed_captions">Closed Captions</string>
+
+    <!--Toast message when USB is removed while TimeShift is active-->
+    <string name="timeshift_usb_removed_msg">Timeshift has stopped because USB device has been removed</string>
+
+    <!--This string appears as notification that user is trying to add favorite list that already exists, which is not possible." [CHAR_LIMIT=30]-->
+    <string name="favorite_list_already_exist_1">Favorite list</string>
+    <string name="favorite_list_already_exist_2">already exists!</string>
+
+    <!--This string appears as notification to user that he is trying to delete/remove favorite which is not possible. Splitted in 2 lines. [CHAR_LIMIT=60] "-->
+    <string name="favorite_list_can_not_be_deleted_1">Favorite list with name</string>
+    <string name="favorite_list_can_not_be_deleted_2">can not be deleted!\nThere needs to be at least one favorite list.</string>
+
+    <!--This string appears in label to inform user that channel is locked. [CHAR_LIMIT=30] "-->
+    <string name="event_locked">Event locked</string>
+
+    <!--This string appears in preferences that will set default / initial tv channel after application reboots. [CHAR_LIMIT=30] "-->
+    <string name="display_mode">Display mode</string>
+
+    <!--This string appears in preferences that will set aspect ratio. [CHAR_LIMIT=30] "-->
+    <string name="aspect_ratio">Aspect Ratio</string>
+
+    <string name="welcome_message">Welcome to Reference+ app</string>
+
+    <!--This string appears when wrong pin is entered.  [CHAR_LIMIT=30]-->
+    <string name="wrong_pin_toast">You entered wrong PIN, please try again.</string>
+    <string name= "recording_reminder_conflict_toast">Another recording/reminder is scheduled for same time</string>
+    <string name= "watchlist_scheduled_fail_toast">Insufficient data for Watchlist</string>
+    <string name= "recording_scheduled_error">Error in schedule recording</string>
+    <string name= "recording_watchlist_conflict">Event with same start time is already added in the watchlist</string>
+    <string name= "watchlist_recording_conflict">Event with same start time is already scheduled for recording</string>
+    <string name= "scheduled_recording_USB_warning">Please Make sure USB storage device is attached and formatted correctly when recording is about to start.</string>
+
+    <!--Texts in recording conflict scene  [CHAR_LIMIT=30]-->
+    <string name="description_text">Recording conflict</string>
+    <string name="description_text2">Recording already set at desired time slot</string>
+    <string name="description_text3">Choose what to record</string>
+
+    <!-- Strings used for conflict messages  [CHAR_LIMIT=30]-->
+    <string name="conflict_recording_recording_message">Another Recording is already in Progress on %s</string>
+    <string name="conflict_recording_recording_text1">Keep Recording on %s1</string>
+    <string name="conflict_recording_recording_text2">Start Recording on %s2</string>
+    <string name="conflict_recording_schedule_message">Recording on %s will be in progress by that time</string>
+    <string name="conflict_recording_schedule_text1">Cancel scheduled recording on %s2</string>
+    <string name="conflict_recording_schedule_text2">Keep scheduled recording on %s2</string>
+    <string name="toast_for_updated_choice">Choice Updated!</string>
+
+    <!--Texts in recording watchlist conflict scene  [CHAR_LIMIT=30]-->
+    <string name="recording_watchlist_conflict_title">Scheduled recording and event in the watchlist are starting at the same time</string>
+    <string name="recording_watchlist_conflict_description">Recording will switch automatically in 0:</string>
+
+    <!--These strings appears in display mode under preferences for display mode option [CHAR_LIMIT=30] -->
+    <string name="normal">Normal</string>
+    <string name="full">Full</string>
+    <string name="zoom">Zoom</string>
+
+    <!--This string appears in notification that will warn user that application will be closed if requested action is processed." [CHAR_LIMIT=60]-->
+    <string name="app_exit_msg">Do you want to exit?</string>
+
+    <!--This string appears as notification there is no epg information for the particular channel and that user need to tune to that channel for the more info." [CHAR_LIMIT=30]-->
+    <string name="tune_to_">Tune to</string>
+    <string name="channel_for_more_info">channel for more information</string>
+
+    <!--This string is appears in main menu as a name for the first tab option. [CHAR_LIMIT=30]"-->
+    <string name="discover">Discover</string>
+
+    <string name="timeshift_buffer_reached_warning">The timeshift buffer size is reached.\nDo you want to watch or return to live?</string>
+    <string name="return_to_live">Return</string>
+
+    <string name="audio_switched_to">Audio switched to</string>
+    <string name="digital_subtitle">Digital Subtitle</string>
+    <string name="analog_subtitle">Analog Subtitle</string>
+    <string name="audio_type">Audio Type</string>
+    <string name="spoken_subtitile">Spoken Subtitile</string>
+    <string name="audio_descreiption_and_sop_sub">Audio Description and spoken subtitle</string>
+    <string name="cam_menu">Cam Menu</string>
+    <string name="no_cam">No Cam card</string>
+    <string name="user_preference">User Preference</string>
+    <string name="cam_type_preference">Cam Type Preference</string>
+    <string name="cam_scan">Cam Scan</string>
+    <string name="cam_op_profile">Operator Profile</string>
+    <string name="op_profile_delete">Delete operator profile:</string>
+    <string name="ci_card_inserted">CI Card Inserted</string>
+    <string name="ci_card_removed">CI Card Removed</string>
+    <string name="install_dtv_operator">Do you wish to install Profile: </string>
+    <string name="create_tsfile">Creating timeshift file please wait a few minutes.</string>
+    <string name="timeshift_file">There is not timeshift file on usb device. Do you want to create one to be able to use timeshift.</string>
+    <string name="channel_changed_popup">Channels changed</string>
+    <string name="channel_changed_popup_msg">New channels were found and added in the channel list</string>
+    <string name="undefined">Undefined</string>
+    <string name="general_satellite">General Satellite</string>
+    <string name="preferred_satellite">Preferred Satellite</string><string name="power">Power</string>
+
+    <!--This string appears when app is moved to background -->
+    <string name="recording_stopped">Recording has been stopped</string>
+
+    <string name="unlock_channel_to_start_timeshift">Unlock channel to start timeshift</string>
+
+    <string name="time_shift_stopped">Timeshift stopped</string>
+    <string name="ar_tv_atp" msgid="1262691263626371517">"ATP"</string>
+    <string name="ar_tv_sam_13" msgid="7661147498753177171">"SAM 13"</string>
+    <string name="ar_tv_sam_16" msgid="5476142846469432541">"SAM 16"</string>
+    <string name="ar_tv_sam_18" msgid="4244288105419382881">"SAM 18"</string>
+    <string name="ar_tv_d" msgid="4118744496840779862">"D"</string>
+    <string name="ar_tv_v" msgid="4521002592974868712">"V"</string>
+    <string name="ar_tv_s" msgid="3375418912558932996">"S"</string>
+    <string name="au_tv_p" msgid="6086961330443603510">"P"</string>
+    <string name="au_tv_c" msgid="2797577216970529487">"C"</string>
+    <string name="au_tv_g" msgid="1246220676900897582">"G"</string>
+    <string name="au_tv_pg" msgid="8315847911615387873">"PG"</string>
+    <string name="au_tv_m" msgid="3805410505132347357">"M"</string>
+    <string name="au_tv_ma" msgid="7142377970416119685">"MA"</string>
+    <string name="au_tv_av" msgid="4923091941219351610">"AV"</string>
+    <string name="au_tv_r" msgid="1159878276949022718">"R"</string>
+    <string name="br_tv_l" msgid="2146455438205905551">"L"</string>
+    <string name="br_tv_10" msgid="5426092344765864959">"10"</string>
+    <string name="br_tv_12" msgid="3423227445694071808">"12"</string>
+    <string name="br_tv_14" msgid="6527090827362092556">"14"</string>
+    <string name="br_tv_16" msgid="5277464819020179643">"16"</string>
+    <string name="br_tv_18" msgid="3571565801006068532">"18"</string>
+    <string name="br_tv_d" msgid="1829082298286119368">"D"</string>
+    <string name="br_v_s" msgid="4417831593240307965">"S"</string>
+    <string name="b_tv_v" msgid="8527444475975705563">"V"</string>
+    <string name="ca_tv_en_exempt" msgid="3791559109016591514">"E"</string>
+    <string name="ca_tv_en_c" msgid="1450962243634331730">"C"</string>
+    <string name="ca_tv_en_c8" msgid="1468706428954617423">"C8+"</string>
+    <string name="ca_tv_en_g" msgid="7130750675106003980">"G"</string>
+    <string name="ca_tv_en_pg" msgid="5786689562067162017">"PG"</string>
+    <string name="ca_tv_en_14" msgid="758036909135734278">"14+"</string>
+    <string name="ca_tv_en_18" msgid="6703931259571793752">"18+"</string>
+    <string name="ca_tv_fr_e" msgid="5255979271939397569">"E"</string>
+    <string name="ca_tv_fr_g" msgid="1896159381443375153">"G"</string>
+    <string name="ca_tv_fr_8" msgid="5120393132468360078">"8ans+"</string>
+    <string name="ca_tv_fr_13" msgid="4012722091331563301">"13ans+"</string>
+    <string name="ca_tv_fr_16" msgid="900401532800212175">"16ans+"</string>
+    <string name="ca_tv_fr_18" msgid="8969044005465966972">"18ans+"</string>
+    <string name="dtmb_4" msgid="6976572140074319548">"4"</string>
+    <string name="dtmb_5" msgid="3437073502070222812">"5"</string>
+    <string name="dtmb_6" msgid="9185506349079906844">"6"</string>
+    <string name="dtmb_7" msgid="1399702692488527958">"7"</string>
+    <string name="dtmb_8" msgid="5603491017858332118">"8"</string>
+    <string name="dtmb_9" msgid="482567955944050242">"9"</string>
+    <string name="dtmb_10" msgid="321193224223528870">"10"</string>
+    <string name="dtmb_11" msgid="3416520436207043304">"11"</string>
+    <string name="dtmb_12" msgid="6392570491336670154">"12"</string>
+    <string name="dtmb_13" msgid="3982130186132709710">"13"</string>
+    <string name="dtmb_14" msgid="7154316979741410466">"14"</string>
+    <string name="dtmb_15" msgid="6478191980875308315">"15"</string>
+    <string name="dtmb_16" msgid="6604332674875120307">"16"</string>
+    <string name="dtmb_17" msgid="771155724220026195">"17"</string>
+    <string name="dtmb_18" msgid="3471828453189011529">"18"</string>
+    <string name="dvb_4" msgid="1069417914928331916">"4"</string>
+    <string name="dvb_5" msgid="5833640543265721119">"5"</string>
+    <string name="dvb_6" msgid="5943557846222730938">"6"</string>
+    <string name="dvb_7" msgid="6341954229025895175">"7"</string>
+    <string name="dvb_8" msgid="5307599378445317697">"8"</string>
+    <string name="dvb_9" msgid="3388108727812347402">"9"</string>
+    <string name="dvb_10" msgid="2177473849455114686">"10"</string>
+    <string name="dvb_11" msgid="3773716644803306792">"11"</string>
+    <string name="dvb_12" msgid="3525896874958451358">"12"</string>
+    <string name="dvb_13" msgid="7121668158420452982">"13"</string>
+    <string name="dvb_14" msgid="5539982906289788278">"14"</string>
+    <string name="dvb_15" msgid="3917642448957776848">"15"</string>
+    <string name="dvb_16" msgid="9105707083369649582">"16"</string>
+    <string name="dvb_17" msgid="6657295522716597654">"17"</string>
+    <string name="dvb_18" msgid="5834330178215019712">"18"</string>
+    <string name="es_dvb_all" msgid="5538197631097991871">"ALL"</string>
+    <string name="es_dvb_c" msgid="3212371765420661105">"Children"</string>
+    <string name="es_dvb_x" msgid="3092575088929583346">"X-rated"</string>
+    <string name="es_dvb_4" msgid="6060850008169659439">"4"</string>
+    <string name="es_dvb_5" msgid="4567880044486129726">"5"</string>
+    <string name="es_dvb_6" msgid="9053493577975224574">"6"</string>
+    <string name="es_dvb_7" msgid="5992402120440898881">"7"</string>
+    <string name="es_dvb_8" msgid="1951659265652059644">"8"</string>
+    <string name="es_dvb_9" msgid="4539063814383801812">"9"</string>
+    <string name="es_dvb_10" msgid="3310095120744551627">"10"</string>
+    <string name="es_dvb_11" msgid="6453557993630098952">"11"</string>
+    <string name="es_dvb_12" msgid="5044017835374949676">"12"</string>
+    <string name="es_dvb_13" msgid="8960240081362346637">"13"</string>
+    <string name="es_dvb_14" msgid="3863155460422487473">"14"</string>
+    <string name="es_dvb_15" msgid="6655490588482156160">"15"</string>
+    <string name="es_dvb_16" msgid="8007557424031669566">"16"</string>
+    <string name="es_dvb_17" msgid="2528656607932647009">"17"</string>
+    <string name="es_dvb_18" msgid="5952166432105836146">"18"</string>
+    <string name="fr_dvb_u" msgid="5244261876152847950">"Universal"</string>
+    <string name="fr_dvb_4" msgid="474297552091371136">"4"</string>
+    <string name="fr_dvb_5" msgid="8518664778905414983">"5"</string>
+    <string name="fr_dvb_6" msgid="8727779857287961988">"6"</string>
+    <string name="fr_dvb_7" msgid="5888386626710476753">"7"</string>
+    <string name="fr_dvb_8" msgid="585815774126700325">"8"</string>
+    <string name="fr_dvb_9" msgid="3157206265464285061">"9"</string>
+    <string name="fr_dvb_10" msgid="3450600252376366055">"10"</string>
+    <string name="fr_dvb_11" msgid="3137240088969540229">"11"</string>
+    <string name="fr_dvb_12" msgid="1226368861597277699">"12"</string>
+    <string name="fr_dvb_13" msgid="1149721411588848205">"13"</string>
+    <string name="fr_dvb_14" msgid="2737219326053428298">"14"</string>
+    <string name="fr_dvb_15" msgid="571592355764188475">"15"</string>
+    <string name="fr_dvb_16" msgid="757165722519525954">"16"</string>
+    <string name="fr_dvb_17" msgid="2221811677117721125">"17"</string>
+    <string name="fr_dvb_18" msgid="2601153071766854187">"18"</string>
+    <string name="isdb_4" msgid="1396670332826142598">"4"</string>
+    <string name="isdb_5" msgid="7735118906786567165">"5"</string>
+    <string name="isdb_6" msgid="8708921891016535390">"6"</string>
+    <string name="isdb_7" msgid="6264898602014849475">"7"</string>
+    <string name="isdb_8" msgid="5846644503733097171">"8"</string>
+    <string name="isdb_9" msgid="8799572739544437968">"9"</string>
+    <string name="isdb_10" msgid="1627106534254509605">"10"</string>
+    <string name="isdb_11" msgid="8230877577144307348">"11"</string>
+    <string name="isdb_12" msgid="7778357254411540022">"12"</string>
+    <string name="isdb_13" msgid="2453549071165798560">"13"</string>
+    <string name="isdb_14" msgid="2792721868664371">"14"</string>
+    <string name="isdb_15" msgid="8799731927895866946">"15"</string>
+    <string name="isdb_16" msgid="6229308452507255384">"16"</string>
+    <string name="isdb_17" msgid="5080078482567321756">"17"</string>
+    <string name="isdb_18" msgid="555969060807719208">"18"</string>
+    <string name="isdb_19" msgid="5997395257237725359">"19"</string>
+    <string name="isdb_20" msgid="3694814836418291364">"20"</string>
+    <string name="kr_tv_all" msgid="986491865532979728">"ALL"</string>
+    <string name="kr_tv_7" msgid="5284674018378065597">"7"</string>
+    <string name="kr_tv_12" msgid="7593330732582239999">"12"</string>
+    <string name="kr_tv_15" msgid="182495011364451664">"15"</string>
+    <string name="kr_tv_19" msgid="7458414748850874813">"19"</string>
+    <string name="nz_tv_g" msgid="2808137567855091010">"G"</string>
+    <string name="nz_tv_pgr" msgid="8555814501204672259">"PGR"</string>
+    <string name="nz_tv_ao" msgid="7843949831042344488">"AO"</string>
+    <string name="sg_tv_g" msgid="8798276688195760885">"G"</string>
+    <string name="sg_tv_pg" msgid="1662867888581341978">"PG"</string>
+    <string name="sg_tv_pg13" msgid="4964456896973732695">"PG13"</string>
+    <string name="sg_tv_nc16" msgid="7740703135818734968">"NC16"</string>
+    <string name="sg_tv_m18" msgid="1717224007824699413">"M18"</string>
+    <string name="sg_tv_r21" msgid="3591847091901178153">"R21"</string>
+    <string name="th_tv_4" msgid="4563361113725413706">"4"</string>
+    <string name="th_tv_6" msgid="8874223717002216069">"6"</string>
+    <string name="th_tv_10" msgid="969919319242163352">"10"</string>
+    <string name="th_tv_13" msgid="1104333457240393972">"13"</string>
+    <string name="th_tv_18" msgid="3999083106333165911">"18"</string>
+    <string name="th_tv_19" msgid="482742977530974274">"19"</string>
+    <string name="us_mv_g" msgid="3636427636199506189">"G"</string>
+    <string name="us_mv_pg" msgid="8323131948966103770">"PG"</string>
+    <string name="us_mv_pg13" msgid="5917741051203443762">"PG13"</string>
+    <string name="us_mv_r" msgid="8334513822722676832">"R"</string>
+    <string name="us_mv_nc17" msgid="6228537430888625776">"NC17"</string>
+    <string name="us_mv_x" msgid="4729171602475180951">"X"</string>
+    <string name="us_tv_y" msgid="285566187752891575">"TV-Y"</string>
+    <string name="us_tv_y7" msgid="5822887012283738401">"TV-Y7"</string>
+    <string name="us_tv_g" msgid="815441646747542949">"TV-G"</string>
+    <string name="us_tv_pg" msgid="8169462876867667200">"TV-PG"</string>
+    <string name="us_tv_14" msgid="6817531337579211660">"TV-14"</string>
+    <string name="us_tv_ma" msgid="2672151654857890106">"TV-MA"</string>
+    <string name="us_tv_d" msgid="3006650733492277375">"D"</string>
+    <string name="us_tv_l" msgid="4953352970967827720">"L"</string>
+    <string name="us_tv_s" msgid="2109399506294455265">"S"</string>
+    <string name="us_tv_v" msgid="25591701285016646">"V"</string>
+    <string name="us_tv_fv" msgid="9035500145771077280">"FV"</string>
+    <string name="oad_download" msgid="430354804199852970">"Over air download"</string>
+    <string name="favorite" msgid="2876170439006446322">"Favourite"</string>
+
+    <string name="teletext_feature_not_available_for_channel">"Teletext features are not available for this channel."</string>
+
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service_description">Please click below to learn more about the Terms of Service and Privacy Policy that apply when you use the Live TV App.</string>
+    <string name="enable_streaming_tv">Enable Streaming TV</string>
+    <string name="tos_more_info_text">Live TVˣ offers premium streaming content.\n Click 'Enable Streaming TV' to take your TV experience to the next level!</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="feedback_instruction_title">Send feedback about the Live TVˣ experience</string>
+    <string name="feedback_text_title">Please include the following in your feedback</string>
+    <string name="feedback_instruction_text_1">1.  Description of your issue including what steps you were\n   taking when it occurred, expected resul, and observer\n   result.</string>
+    <string name="feedback_instruction_text_2"> 2.  If possible, please attach a video or photo of the issue\n     within the email.</string>
+
+    <string name="restart">Restart</string>
+    <string name="restart_dialog_text">In order to watch Live channels, please restart your TV</string>
+
+    <string name="delete_channels_funai">Delete channels</string>
+    <string name="delete_channels_funai_dialog_title">Delete channels confirmation</string>
+    <string name="delete_channels_funai_dialog_msg">Do you want to delete all channels? After deleting, application will reset and you will have to scan channels again.</string>
+    <string name="delete_channel_description">In case of troubles with broadcast channels, please try to delete channels.</string>
+    <string name="optin_label">Anoki Viewing Information Service.</string>
+    <string name="reset_device_id_confirmation">Are you sure that you want to reset device ID?</string>
+    <string name="press_back_exit_pin_input">Press back to exit PIN input screen</string>
+    <string name="failed_to_start_pvr">Failed to start PVR. Signal not found.</string>
+    <string name="set_usb">Set Usb</string>
+    <string name="enable_timeshift">Enable Timeshift</string>
+</resources>

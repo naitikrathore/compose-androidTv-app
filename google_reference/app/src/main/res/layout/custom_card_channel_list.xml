@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?><!-- channel_or_event_card_view must have transparent background (cardBackgroundColor) -->
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_card_material_card_view"
+    android:layout_width="@dimen/custom_dim_200"
+    android:layout_height="@dimen/custom_dim_59"
+    android:layout_gravity="center_vertical"
+    app:cardBackgroundColor="#CC808080"
+    app:cardCornerRadius="@dimen/custom_dim_15"
+    app:cardElevation="@dimen/custom_dim_0"
+    app:cardPreventCornerOverlap="true"
+    app:strokeColor="#00000000"
+    app:strokeWidth="@dimen/custom_dim_1_5"
+    tools:layout_height="@dimen/custom_dim_118"
+    tools:layout_width="@dimen/custom_dim_400">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/content_container_constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/index_and_channel_type_container_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/container_linear_layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/channel_index_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/custom_dim_9"
+                android:layout_marginBottom="@dimen/custom_dim_3"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                tools:text="145"
+                android:textColor="#bdc1c6"
+                android:textSize="@dimen/font_8_5"
+                android:visibility="visible"
+                tools:ignore="HardcodedText"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/channel_type_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/custom_dim_9"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="Ant"
+                android:textColor="#bdc1c6"
+                android:textSize="@dimen/font_8_5"
+                android:visibility="visible"
+                tools:ignore="HardcodedText"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_linear_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/custom_dim_11"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/icons_container_linear_layout"
+            app:layout_constraintStart_toEndOf="@id/index_and_channel_type_container_linear_layout"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/custom_dim_16"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:text="Channel title"
+                android:textColor="#e8f0fe"
+                android:textSize="@dimen/font_16"
+                app:layout_constraintBottom_toTopOf="@id/description_text_view"
+                app:layout_constraintStart_toEndOf="@id/channel_index_text_view"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:background="#4DAF884E" />
+
+            <TextView
+                android:id="@+id/description_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/custom_dim_5"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="@dimen/font_n_2"
+                android:maxLines="1"
+                android:text="Event title"
+                android:textColor="#bdc1c6"
+                android:textSize="@dimen/font_10"
+                app:layout_constraintStart_toEndOf="@id/channel_index_text_view"
+                app:layout_constraintTop_toBottomOf="@id/title_text_view"
+                tools:background="#4DAF884E"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- LinearLayout is used to hoist all icons (watch, skip, lock...) -->
+        <LinearLayout
+            android:id="@+id/icons_container_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/arrow_image_view"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="#80989898">
+
+            <ImageView
+                android:id="@+id/watch_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/custom_dim_16"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
+                android:paddingEnd="@dimen/custom_dim_5_5"
+                android:src="@drawable/watch_icon"
+                android:visibility="gone"
+                app:tint="#bdc1c6"
+                tools:background="#80A32287"
+                tools:visibility="visible" />
+            <ImageView
+                android:id="@+id/scrambled_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/custom_dim_16"
+                android:adjustViewBounds="true"
+                android:paddingEnd="@dimen/custom_dim_5_5"
+                android:src="@drawable/scrambled_channel_icon"
+                android:visibility="visible"
+                app:tint="#bdc1c6"
+                tools:background="#80A32287"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/skip_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/custom_dim_16"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
+                android:paddingEnd="@dimen/custom_dim_5_5"
+                android:src="@drawable/ic_skip"
+                android:visibility="gone"
+                app:tint="#bdc1c6"
+                tools:background="#80834D34"
+                tools:ignore="RtlSymmetry"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/lock_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/custom_dim_18"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
+                android:paddingEnd="@dimen/custom_dim_5_5"
+                android:src="@drawable/ic_lock"
+                android:visibility="gone"
+                app:tint="#bdc1c6"
+                tools:background="#807A5A2A"
+                tools:ignore="RtlSymmetry"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/radio_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/custom_dim_16"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
+                android:paddingEnd="@dimen/custom_dim_5_5"
+                android:src="@drawable/ic_channel_radio_icon"
+                android:visibility="gone"
+                app:tint="#bdc1c6"
+                tools:background="#807A5A2A"
+                tools:ignore="RtlSymmetry"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/watchlist_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/custom_dim_16"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
+                android:paddingEnd="@dimen/custom_dim_5_5"
+                android:src="@drawable/watchlist"
+                android:visibility="gone"
+                app:tint="#bdc1c6"
+                tools:background="#807A5A2A"
+                tools:ignore="RtlSymmetry"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/record_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/custom_dim_16"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
+                android:paddingEnd="@dimen/custom_dim_5_5"
+                android:src="@drawable/record_icon"
+                android:visibility="gone"
+                app:tint="#bdc1c6"
+                tools:background="#807A5A2A"
+                tools:ignore="RtlSymmetry"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/catchup_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/custom_dim_16"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
+                android:paddingEnd="@dimen/custom_dim_5_5"
+                android:src="@drawable/catchup_icon"
+                android:visibility="gone"
+                app:tint="#bdc1c6"
+                tools:background="#807A5A2A"
+                tools:ignore="RtlSymmetry"
+                tools:visibility="visible" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/custom_dim_18"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/favorite_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/custom_dim_10"
+                    android:adjustViewBounds="true"
+                    android:importantForAccessibility="no"
+                    android:paddingStart="@dimen/custom_dim_7_5"
+                    android:src="@drawable/heart_empty_icon"
+                    android:visibility="gone"
+                    app:tint="#bdc1c6"
+                    tools:background="#807A5A2A"
+                    tools:ignore="RtlSymmetry"
+                    tools:visibility="visible" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/arrow_image_view"
+            android:layout_width="@dimen/custom_dim_7"
+            android:layout_height="@dimen/custom_dim_12"
+            android:layout_marginEnd="@dimen/custom_dim_10"
+            android:src="@drawable/arrow_icon_right"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="gone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

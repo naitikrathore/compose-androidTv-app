@@ -1,0 +1,36 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+    repositories {
+        google()
+        mavenCentral()
+        mavenCentral() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "ReferenceApplication"
+include ':app'
+include ':app:platform'
+include ':app:mk5'
+include ':app:gretzky'
+include ':app:base'
+include ':app:base:common'
+include ':app:platform:test'
+include ':app:rtk'
+include ':app:refplus5'
+//include ':app:iwatsc3'
+include ':app:mal_service'
+include ':app:t56'
+include ':anokiComponents'
+include ':anokiFramework'
+include ':anokiOnDemand'
+include ':anokiFramework'
+include ':anokiOnDemand'

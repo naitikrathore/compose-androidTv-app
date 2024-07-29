@@ -1,0 +1,437 @@
+{
+"Scan":[
+	{"countryTag":"ALB",
+     "country":"Albania",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"AUT",
+     "country":"Austria",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     				{"name":"UPC","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     				{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     			],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"BLR",
+     "country":"Belarus",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"BEL",
+     "country":"Belgium",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+        			{"name":"TELENET","frequency":322000,"modulation":64,"symbolRate":6875,"networkId":22},
+        			{"name":"VOO","frequency":330000,"modulation":64,"symbolRate":6875,"networkId":999},
+        			{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+        		],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"BGR",
+     "country":"Bulgaria",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     				{"name":"BLIZOO","frequency":162000,"modulation":64,"symbolRate":6875,"networkId":999},
+     				{"name":"NET1","frequency":47000,"modulation":64,"symbolRate":6875,"networkId":999},
+     				{"name":"OTHERS","frequency":47000,"modulation":64,"symbolRate":6875,"networkId":999}
+     			],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"HRV",
+     "country":"Croatia",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"CYP",
+     "country":"Cyprus",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"CZE",
+     "country":"Czech Republic",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"DNK",
+     "country":"Denmark",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"STOFA","frequency":346000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"YOUSEE","frequency":450000,"modulation":64,"symbolRate":6875,"networkId":100},
+     					{"name":"CANAL DIGITAL","frequency":386000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"GLENTEN","frequency":226000,"modulation":64,"symbolRate":6875,"networkId":1},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"EST",
+     "country":"Estonia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":698000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"FIN",
+     "country":"Finland",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"CANAL DIGITAL","frequency":114000,"modulation":128,"symbolRate":6900,"networkId":100},
+     					{"name":"OTHERS","frequency":306000,"modulation":128,"symbolRate":6900,"networkId":100}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"FRA",
+     "country":"France",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"NUMERICABLE","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"DEU",
+     "country":"Germany",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"UNITYMEDIA","frequency":346000,"modulation":64,"symbolRate":6875,"networkId":9999},
+     					{"name":"TELECOLUMBUS","frequency":330000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"KDG HD","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     				 ],
+	 "pvrEnabled": 0
+	},
+
+	{"countryTag":"GRC",
+     "country":"Greece",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"HUN",
+     "country":"Hungary",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"RCS RDS","frequency":128500,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"UPC","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"IRL",
+     "country":"Ireland",
+	 "defaultLCN": 1,
+	 "range":[
+				    {"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"UPC","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"ITA",
+     "country":"Italy",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 0
+	},
+
+	{"countryTag":"LVA",
+     "country":"Latvia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"LTU",
+     "country":"Lithuania",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"LUX",
+     "country":"Luxembourg",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"MKD",
+     "country":"North Macedonia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"NLD",
+     "country":"Netherlands",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"ZIGGO","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":5555},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":5555}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"NOR",
+     "country":"Norway",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"CANAL DIGITAL","frequency":386000,"modulation":128,"symbolRate":6900,"networkId":100},
+     					{"name":"OTHERS","frequency":306000,"modulation":128,"symbolRate":6900,"networkId":100}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"POL",
+     "country":"Poland",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"UPC","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"PRT",
+     "country":"Portugal",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"ROU",
+     "country":"Romania",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"RCS RDS","frequency":322000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"UPC","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"RUS",
+     "country":"Russia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":178000,"frequencyMax":226000,"step":8000,"bandwidth":8000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"AKADO","frequency":474000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"DIVAN TV","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"ONLIME","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"TVOE STP","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"SRB",
+     "country":"Serbia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+                    {"name":"SBB","frequency":610000,"modulation":256,"symbolRate":6875,"networkId":511},
+                    {"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+	             ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"SVK",
+     "country":"Slovakia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"SVN",
+     "country":"Slovenia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"TELEING","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"TELEMACH","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"ESP",
+     "country":"Spain",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"SWE",
+     "country":"Sweden",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"COMHEM","frequency":362000,"modulation":64,"symbolRate":6875,"networkId":41001},
+     					{"name":"CANAL DIGITAL","frequency":346000,"modulation":64,"symbolRate":6875,"networkId":41001},
+     					{"name":"TELE2","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":41001},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":41001}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"CHE",
+     "country":"Switzerland",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+     "operators":[
+     					{"name":"UPC","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999},
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"TUR",
+     "country":"Turkey",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[
+     					{"name":"OTHERS","frequency":306000,"modulation":64,"symbolRate":6875,"networkId":999}
+     				 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"UKR",
+     "country":"Ukraine",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "operators":[],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"GBR",
+     "country":"United Kingdom",
+     "defaultLCN": 1,
+     "range":[
+    				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+    		],
+     "operators":[],
+	 "pvrEnabled": 1
+    }
+]
+}

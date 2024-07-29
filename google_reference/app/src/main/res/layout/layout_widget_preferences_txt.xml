@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/custom_dim_10"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.leanback.widget.VerticalGridView
+        android:id="@+id/preferences_left_options"
+        android:translationZ="@dimen/custom_dim_10"
+        android:layout_width="@dimen/custom_dim_210"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:overScrollMode="never"
+        android:layout_marginStart="@dimen/custom_dim_100_5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:listitem="@layout/preference_subcategory_item"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/audio_subtitle_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/audio_and_subtitles_container"
+        android:layout_width="@dimen/custom_dim_500"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:translationZ="@dimen/custom_dim_20"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <View
+            android:id="@+id/audio_and_subtitles_gradient_view"
+            android:layout_width="@dimen/custom_dim_200"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/audio_and_subtitles_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/custom_dim_88"
+                android:layout_marginEnd="@dimen/custom_dim_87_5"
+                android:textSize="@dimen/font_21"
+                tools:text="Audio" />
+
+            <com.bosphere.fadingedgelayout.FadingEdgeLayout
+                android:id="@+id/fading_edge_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fel_edge="bottom|top"
+                app:fel_size_bottom="@dimen/custom_dim_200"
+                app:fel_size_top="@dimen/custom_dim_200">
+
+                <androidx.leanback.widget.VerticalGridView
+                    android:id="@+id/side_view_vertical_grid_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/custom_dim_66"
+                    android:clipToPadding="false"
+                    android:gravity="end"
+                    android:paddingBottom="@dimen/custom_dim_40"/>
+
+            </com.bosphere.fadingedgelayout.FadingEdgeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

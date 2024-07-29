@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="open_source_license_jetpack" msgid="9049956969249134555">"Jetpack - Apache 2.0"</string>
+    <string name="open_source_license_androidx" msgid="4774856857642956615">"Androidx - Apache 2.0"</string>
+    <string name="open_source_license_retrofit" msgid="1700834095904209611">"Retrofit - Apache 2.0"</string>
+    <string name="open_source_license_okhttp" msgid="5223699408161904523">"OkHttp - Apache 2.0"</string>
+    <string name="open_source_license_glide" msgid="7363402097051700306">"Glide"</string>
+    <string name="open_source_license_junit" msgid="8822918668893328004">"JUnit"</string>
+    <string name="no_internet_search_message" msgid="6201597382784929288">"Tidak ada internet. Penelusuran tidak tersedia."</string>
+    <string name="antenna_type" msgid="8799839124381950351">"Antena"</string>
+    <string name="analog" msgid="8730510957499380400">"Analog"</string>
+    <string name="analog_antenna" msgid="4470031541836160279">"Antena Analog"</string>
+    <string name="analog_cable" msgid="2251792903207461586">"Kabel Analog"</string>
+    <string name="wrong_channel" msgid="8868720189826900008">"Saluran salah"</string>
+    <string name="rec_scheduled_toast" msgid="7538214247079840608">"Perekaman berhasil dijadwalkan"</string>
+    <string name="added_to_watchlist" msgid="1722444933921434996">"ditambahkan ke Daftar Pantauan"</string>
+    <string name="search" msgid="4406957708185633856">"Penelusuran"</string>
+    <string name="free" msgid="6261590336084432420">"Gratis"</string>
+    <string name="processing" msgid="6030403380685308132">"Memproses data"</string>
+    <string name="app_name" msgid="2832654280320578717">"Live TVˣ"</string>
+    <string name="no_info" msgid="5400686762922140283">"Tidak ada info"</string>
+    <string name="not_available" msgid="7376966038624016923">"T/A"</string>
+    <string name="all" msgid="1561098708179181336">"Semua"</string>
+    <string name="recent" msgid="1838091694396247363">"Terbaru"</string>
+    <string name="favorites" msgid="8901975288160748957">"Favorit"</string>
+    <string name="radio" msgid="3164637576576433188">"Radio"</string>
+    <string name="no_internet_message" msgid="3554201501180755759">"Tidak ada koneksi internet.\nBeberapa layanan tidak akan tersedia tanpa koneksi."</string>
+    <string name="no_ethernet_message" msgid="2107635435443289546">"Beberapa layanan mungkin tidak tersedia tanpa internet."</string>
+    <string name="tv_select_input_scan_title" msgid="2619884735308539235">"Pemindaian input TV"</string>
+    <string name="tv_select_input_scan_message" msgid="8487553067533682220">"Pilih dari input TV yang tersedia untuk menambahkan saluran.\nSaluran lainnya dapat ditambahkan setelahnya."</string>
+    <string name="scan" msgid="734672551787628747">"Pindai"</string>
+    <string name="finishScan" msgid="871898530279538507">"Selesai memindai"</string>
+    <string name="channels_found_on" msgid="1414577635083128748">"saluran ditemukan di"</string>
+    <string name="channels" msgid="4380410724161095326">"Saluran"</string>
+    <string name="input" msgid="1149385406223657705">"input"</string>
+    <string name="go_back_to_scan" msgid="7543768279308621088">"Kembali untuk memindai input lainnya."</string>
+    <string name="proceed" msgid="1214388060683917324">"Lanjutkan"</string>
+    <string name="start_over" msgid="2229118857793940579">"Mulai dari awal"</string>
+    <string name="watchlist" msgid="5662090977932744154">"Daftar tontonan"</string>
+    <string name="watchlist_remove" msgid="7507289157249186634">"Hapus"</string>
+    <string name="record" msgid="1524542455933313955">"Rekam"</string>
+    <string name="watch" msgid="2622572399160220460">"Tonton"</string>
+    <string name="keyboard" msgid="2321154341903639729">"Keyboard"</string>
+    <string name="no_guide_pvr_running" msgid="7292260172342311890">"Pemutaran PVR sedang berlangsung. Silakan keluar dari pemutaran PVR untuk melihat Panduan"</string>
+    <string name="continue_watch" msgid="6260534053660339190">"Lanjutkan"</string>
+    <string name="rename" msgid="8008700600879669681">"Ganti nama"</string>
+    <string name="delete" msgid="675914287573190216">"Hapus"</string>
+    <string name="cancel" msgid="6777134290748633238">"Batal"</string>
+    <string name="no_information" msgid="9173470733305716861">"Tidak Ada Informasi"</string>
+    <string name="vod" msgid="4016798866997984169">"Vod"</string>
+    <string name="on_now" msgid="7601392008818995402">"Live sekarang"</string>
+    <string name="up_next" msgid="2566862734643042006">"Berikutnya"</string>
+    <string name="recorded" msgid="365342196797893323">"Direkam"</string>
+    <string name="scheduled" msgid="6888878632757812039">"Perekaman terjadwal"</string>
+    <string name="ok" msgid="9168016165173996675">"Oke"</string>
+    <string name="please_click_again" msgid="3544950440758580770">"Klik KEMBALI lagi untuk keluar"</string>
+    <string name="_default" msgid="3039479680796443287">"Default"</string>
+    <string name="name_up" msgid="4457664012212323554">"Huruf awal nama menurun"</string>
+    <string name="name_down" msgid="3681090499765705036">"Huruf awal nama menaik"</string>
+    <string name="no_categories_msg" msgid="9206914907790687898">"Tidak ada kategori yang tersedia"</string>
+    <string name="no_results_found" msgid="7555299678274781238">"Tidak ada hasil yang ditemukan. Coba lagi"</string>
+    <string name="enter_letters" msgid="1809385590701435475">"Masukkan minimal 1 huruf"</string>
+    <string name="past_events" msgid="8059227963716654699">"Acara yang Lalu"</string>
+    <string name="future_events" msgid="629979362833530545">"Acara Mendatang"</string>
+    <string name="lcn" msgid="1290883721637274779">"LCN"</string>
+    <string name="recording_exit_msg" msgid="7512518820927102191">"Rekaman sedang Berlangsung, Rekaman akan Terganggu."</string>
+    <string name="remove_recording_dialog_msg" msgid="9027511472917428212">"Yakin ingin\nmenghapus item ini?"</string>
+    <string name="timeshift_exit_msg" msgid="1328594800216099396">"Apakah Anda ingin keluar dari mode rekam?"</string>
+    <string name="timeshift_channel_change_msg" msgid="6863854961470251756">"Jika saluran diubah,\nmode rekam akan terganggu."</string>
+    <string name="time_shift_start_record_msg" msgid="2577790079091263078">"Jika perekaman dimulai,\nmode rekam akan terganggu."</string>
+    <string name="time_shift_usb_error_msg" msgid="4635786963137316436">"Perangkat USB tidak terpasang,\nmode rekam tidak bisa dimulai."</string>
+    <string name="time_shift_scrambled_channel_msg" msgid="2380783212702129118">"Saluran aktif diacak,\nmode rekam tidak dapat dimulai."</string>
+    <string name="time_shift_not_available_error_msg" msgid="6825288163854650688">"Mode rekam belum tersedia untuk saluran ini."</string>
+    <string name="add_to_favorites" msgid="8280344840050880716">"Tambahkan ke favorit"</string>
+    <string name="edit_favorites" msgid="2511007317790537462">"Edit favorit"</string>
+    <string name="more_info" msgid="5565850658795889872">"Info Selengkapnya"</string>
+    <string name="zap_conflict" msgid="7827821368264176936">"Konflik Zap"</string>
+    <string name="select_channel_manually" msgid="7302984770269602819">"Pilih saluran secara manual"</string>
+    <string name="favorite_list_name_can_not_be_empty" msgid="1038957789151360499">"Nama daftar favorit tidak boleh kosong."</string>
+    <string name="rec_type_title" msgid="1493365367362692245">"Mulai merekam"</string>
+    <string name="rec_now" msgid="1107096635108539822">"Sekarang"</string>
+    <string name="rec_after_curr_event" msgid="2454161110193355809">"Setelan acara saat ini"</string>
+    <string name="rec_set_date_time" msgid="6263546406293600090">"Setel tanggal dan waktu"</string>
+    <string name="lock" msgid="7861994131060026913">"Kunci"</string>
+    <string name="not_skip" msgid="3477114547241354688">"Jangan Lewati"</string>
+    <string name="pvr_playback_exit_msg" msgid="8094392263782298025">"Jika saluran diubah,\npemutaran konten yang direkam akan terganggu."</string>
+    <string name="pvr_usb_error_msg" msgid="7612098268284539532">"Perangkat USB tidak terpasang,\nrekaman tidak dapat dimulai."</string>
+    <string name="pvr_no_usb_message" msgid="7674848841046162661">"Pasang USB untuk Merekam program dan mengakses Program yang direkam"</string>
+    <string name="pvr_msg_cannot_record_program" msgid="4682512998399461517">"Program tidak dapat direkam."</string>
+    <string name="title" msgid="824784418539163870">"Penyiapan Saluran"</string>
+    <string name="text_signal_strength" msgid="2264842741806218055">"Kekuatan Sinyal"</string>
+    <string name="frequency" msgid="4728719073153707457">"Frekuensi [MHz]:"</string>
+    <string name="polar_horizontal" msgid="4896843100156964811">"Horizontal"</string>
+    <string name="polar_vertical" msgid="3583074411112676591">"Vertikal"</string>
+    <string name="scan_back" msgid="8254811135465586310">"Kembali"</string>
+    <string name="programme_tuning" msgid="7151825210369267735">"Penyesuaian Program"</string>
+    <string name="auto_tuning" msgid="5241790341643214577">"Penyesuaian otomatis"</string>
+    <string name="manual_tuning" msgid="3803227558849032933">"Penyesuaian manual"</string>
+    <string name="terrestrial" msgid="6057458256298385682">"Terestrial"</string>
+    <string name="cable" msgid="3533509221735497167">"Kabel"</string>
+    <string name="satellite" msgid="5902319368428481619">"Satelit"</string>
+    <string name="ip" msgid="7550330649060136409">"IP"</string>
+    <string name="terrestrial_manual_scan" msgid="8615010351092110556">"Pemindaian Manual Terestrial"</string>
+    <string name="vhf_uhf_manual_tuning" msgid="2296041353998669604">"Saluran VHF (5 - 12) / Saluran UHF (21 - 69)"</string>
+    <string name="frequency_manual_tuning" msgid="7134323135104455005">"Frekuensi (47000 ~ 890000 kHz)"</string>
+    <string name="bandwidth_manual_tuning" msgid="4006694481514521150">"Bandwidth (MHz)"</string>
+    <string name="signal_strength" msgid="9084219034702264545">"Kekuatan sinyal"</string>
+    <string name="signal_quality" msgid="2519879440868826524">"Kualitas sinyal"</string>
+    <string name="tune" msgid="4920789798390090505">"Sesuaikan"</string>
+    <string name="cable_manual_scan" msgid="2153124658983352330">"Penyesuaian Manual Kabel"</string>
+    <string name="frequency_cable_manual_tuning" msgid="8456034285142379792">"Frekuensi (46000 ~ 870000 kHz)"</string>
+    <string name="modulation_cable" msgid="2316368898856054874">"Modulasi"</string>
+    <string name="symbol_rate_cable" msgid="1530782523197615047">"Laju Simbol (1 ~ 7200 kB/s)"</string>
+    <string name="tv_programmes_found" msgid="3824314635758797853">"Program TV Ditemukan"</string>
+    <string name="radio_programmes_found" msgid="8068018177062715658">"Layanan Radio Ditemukan"</string>
+    <string name="ip_manual_scan" msgid="3939430738970126951">"Pemindaian Manual IP"</string>
+    <string name="enter_url" msgid="6790132119337729261">"Masukkan URL"</string>
+    <string name="browse_locally" msgid="1051773926641445378">"Cari secara Lokal"</string>
+    <string name="scan_option" msgid="4306195012541155420">"Pindai"</string>
+    <string name="nit" msgid="7688996391259343733">"NIT"</string>
+    <string name="nit_id" msgid="2814795103490979888">"ID Jaringan"</string>
+    <string name="satellites" msgid="5032252427135715049">"Satelit"</string>
+    <string name="edit" msgid="5317842992931147350">"Edit"</string>
+    <string name="antenna_config" msgid="7806290512493790481">"Konfigurasi Antena"</string>
+    <string name="transponders" msgid="5257067189342482742">"Transponder"</string>
+    <string name="scan_options" msgid="3552587590439164432">"Opsi Pemindaian"</string>
+    <string name="search_type" msgid="7839644239035438171">"Jenis Penelusuran"</string>
+    <string name="scrambled" msgid="5850057616146603733">"Diacak"</string>
+    <string name="descrambled" msgid="188954300643020349">"Tidak diacak"</string>
+    <string name="network_search" msgid="1163464904985861536">"Penelusuran Jaringan"</string>
+    <string name="on" msgid="3751436329235813537">"Aktif"</string>
+    <string name="off" msgid="3554615296323809334">"Nonaktif"</string>
+    <string name="start" msgid="8373408783747443318">"Mulai"</string>
+    <string name="edit_satellite" msgid="4607701308048105247">"Edit Satelit"</string>
+    <string name="add_satellite" msgid="2273979716858813472">"Tambahkan satelit"</string>
+    <string name="save" msgid="7065794043691996309">"Simpan"</string>
+    <string name="satellite_name" msgid="7025139118253076773">"Nama Satelit"</string>
+    <string name="satellite_angle" msgid="8683899846350204042">"Sudut Satelit"</string>
+    <string name="east_west" msgid="7897600069231316216">"Timur/Barat"</string>
+    <string name="east" msgid="4358399578929609887">"Timur"</string>
+    <string name="west" msgid="9044409318304141102">"Barat"</string>
+    <string name="lnb_type" msgid="461240556471773891">"Jenis LNB"</string>
+    <string name="low_frequency_range" msgid="1170543810050805189">"Frekuensi Rendah (Rentang ? GHz)"</string>
+    <string name="high_frequency_range" msgid="5970034829459836798">"Frequency Tinggi (Rentang ? GHz)"</string>
+    <string name="diseqc" msgid="7568217958941352483">"DiSEqC"</string>
+    <string name="usals" msgid="3823979334027822788">"USALS"</string>
+    <string name="activate" msgid="6733615062583225476">"Aktifkan"</string>
+    <string name="deactivate" msgid="1807972219321904394">"Nonaktifkan"</string>
+    <string name="tone_burst" msgid="8604581077816401974">"Tone Burst"</string>
+    <string name="positioner" msgid="8318582990053674121">"Pemosisi"</string>
+    <string name="none" msgid="270213694043707263">"Tidak ada"</string>
+    <string name="motor_setup" msgid="4736838637373424822">"Penyiapan Motor"</string>
+    <string name="lnb_volts" msgid="2887965354047275769">"Voltase LNB"</string>
+    <string name="unicable" msgid="2781716498996810985">"Unicable"</string>
+    <string name="center_frequency" msgid="6365286688261520874">"Frekuensi Pusat"</string>
+    <string name="port" msgid="8895960865568032567">"Port"</string>
+    <string name="usals_motor_setup" msgid="7657151501964284609">"Penyiapan Motor USALS"</string>
+    <string name="longitude" msgid="4001648645842463687">"Bujur"</string>
+    <string name="local_latitude" msgid="8823596382291639854">"Lintang Lokal"</string>
+    <string name="diseqc_motor_setup" msgid="5323500521822752237">"Penyiapan Motor DiSEqC"</string>
+    <string name="moving_type" msgid="1873868431963400283">"Jenis Gerakan"</string>
+    <string name="installer" msgid="8471001727135690995">"Penginstal"</string>
+    <string name="advanced" msgid="1404660154235921630">"Lanjutan"</string>
+    <string name="limit" msgid="7286926921334121151">"Batas"</string>
+    <string name="disable" msgid="1223300282346009587">"Nonaktifkan"</string>
+    <string name="enable" msgid="996139214854391916">"Aktifkan"</string>
+    <string name="set_limit" msgid="5168996347824076248">"Setel Batas"</string>
+    <string name="position" msgid="2803940868161781819">"Posisi"</string>
+    <string name="drive_ew" msgid="4383307822798019860">"Drive T/B"</string>
+    <string name="frequency_diseqc" msgid="2875219430165646513">"Frekuensi (10700 ~ 12750 MHz)"</string>
+    <string name="symbol_rate_diseqc" msgid="1207702014683617310">"Laju Simbol (1 ~ 99999 kB/s)"</string>
+    <string name="recalculate" msgid="6829478450813491732">"Hitung Ulang"</string>
+    <string name="reset_position" msgid="5832683284624391408">"Reset Posisi"</string>
+    <string name="edit_transponder" msgid="5242272245079923429">"Edit Transponder"</string>
+    <string name="add_transponder" msgid="2623539628999737045">"Tambahkan Transponder"</string>
+    <string name="polarization" msgid="8123655292270984054">"Polarisasi"</string>
+    <string name="tyning_type" msgid="8666387879670813597">"Jenis Penyesuaian"</string>
+    <string name="insert_frequency" msgid="5729776610037320396">"Masukkan Frekuensi"</string>
+    <string name="insert_symbol_rate" msgid="3786032305290654254">"Masukkan Laju Simbol"</string>
+    <string name="skip" msgid="2183603397230534233">"Lewati"</string>
+    <string name="up_next_terrestrial_scan" msgid="6324601363733245896">"Berikutnya: Pemindaian Terestrial"</string>
+    <string name="up_next_cable_scan" msgid="4800909991170934548">"Berikutnya: Pemindaian Kabel"</string>
+    <string name="up_next_satellite_scan" msgid="351889219174126750">"Berikutnya: Pemindaian Satelit"</string>
+    <string name="up_next_ip_scan" msgid="444943982885570049">"Berikutnya: Pemindaian IP"</string>
+    <string name="are_you_sure" msgid="6633052473207822200">"Yakin?"</string>
+    <string name="yes" msgid="8396459138340669018">"Ya"</string>
+    <string name="no" msgid="898412150608362736">"Tidak"</string>
+    <string name="error_message" msgid="6738951116149286320">"Terjadi error.\nCoba lagi."</string>
+    <string name="stop" msgid="8871442464783363812">"Hentikan"</string>
+    <string name="done" msgid="8431602145508047529">"Selesai"</string>
+    <string name="retry" msgid="6558026654247761197">"Coba lagi"</string>
+    <string name="scan_completed" msgid="190069558496485299">"Pemindaian selesai"</string>
+    <string name="rename_list" msgid="2319699362834734775">"Ganti Nama Daftar"</string>
+    <string name="new_favorite_list" msgid="970952539402962926">"Daftar Favorit Baru"</string>
+    <string name="rename_recording" msgid="2054528390344269205">"Ganti Nama Rekaman"</string>
+    <string name="clear_all_channels" msgid="1299596008850807775">"Hapus semua saluran"</string>
+    <string name="channels_scrambled" msgid="9057067263329774776">"Saluran diacak"</string>
+    <string name="channels_scrambled_message" msgid="1084794532788696447">"Periksa kartu CI+ untuk mengakses saluran ini"</string>
+    <string name="parental_control_settings" msgid="5319661715471666902">"Setelan kontrol orang tua"</string>
+    <string name="enter_pin_to_see_settings" msgid="3815180198258733139">"Masukkan PIN untuk melihat setelan."</string>
+    <string name="change_pin" msgid="7488772416735871704">"Ubah PIN"</string>
+    <string name="enter_current_pin" msgid="4030992484519020714">"Masukkan kode PIN saat ini."</string>
+    <string name="enter_new_pin" msgid="8595685651252541794">"Masukkan kode PIN baru."</string>
+    <string name="confirm_change" msgid="6096949281047345319">"Konfirmasi perubahan"</string>
+    <string name="unlock" msgid="2510919004695038132">"Buka kunci"</string>
+    <string name="channel_locked" msgid="2817792090357968203">"Saluran terkunci"</string>
+    <string name="input_locked" msgid="8105084413794943531">"Input terkunci"</string>
+    <string name="enter_pin_to_unlock" msgid="2825078114413148691">"Masukkan PIN untuk membuka kunci saluran atau periksa setelan Kontrol orang tua."</string>
+    <string name="unlock_channel" msgid="2186056154365829533">"Buka kunci saluran"</string>
+    <string name="lock_channel" msgid="6415531094159222492">"Kunci Saluran"</string>
+    <string name="enter_pin_using_number" msgid="1617489467804353931">"Masukkan PIN menggunakan tombol nomor atau panah navigasi."</string>
+    <string name="press_ok_to_confirm" msgid="2030639856519969859">"Tekan Oke untuk mengonfirmasi."</string>
+    <string name="are_you_sure_to_remove" msgid="5272700011032123035">"Yakin ingin menghapus item ini?"</string>
+    <string name="scheduled_recording_reminder_title" msgid="2491646467773565784">"Perekaman terjadwal"</string>
+    <string name="watchlist_reminder_message" msgid="1104927838803994094">"Acara dari daftar tontonan Anda akan dimulai pada %s."</string>
+    <string name="scheduled_recording_reminder_message" msgid="2585782433363041264">"Acara yang dijadwalkan untuk direkam akan dimulai di %s."</string>
+    <string name="scheduled_recording_reminder_usb_message" msgid="3261896842639900321">"Konfigurasi perangkat USB dengan benar agar sukses merekam."</string>
+    <string name="time_left_reminder_message" msgid="8401119790346964363">"Saluran akan otomatis beralih dalam"</string>
+    <string name="setup" msgid="7436979578788573835">"Penyiapan"</string>
+    <string name="audio" msgid="2178205196199874170">"Audio"</string>
+    <string name="subtitles" msgid="443819189435816560">"Subtitel"</string>
+    <string name="cam_info" msgid="2009726257572539955">"Info kamera"</string>
+    <string name="hbbtv_settings" msgid="2128953921075061655">"Setelan HBBTV"</string>
+    <string name="teletext" msgid="5148062316136213977">"Teleteks"</string>
+    <string name="ads_targeting" msgid="840646015395656414">"Penargetan Iklan"</string>
+    <string name="system_information" msgid="7606779620841753589">"Informasi Sistem"</string>
+    <string name="channel_scan" msgid="742690025827853777">"Pemindaian saluran"</string>
+    <string name="postal_code" msgid="4282723259910557954">"Kode pos"</string>
+    <string name="enter_postal_code" msgid="9137591141556761305">"Masukkan Kode pos Anda."</string>
+    <string name="invalid_input" msgid="1310633113626196993">"Input tidak valid."</string>
+    <string name="channel_edit" msgid="5747989423326239719">"Edit saluran"</string>
+    <string name="default_channel" msgid="6445356023593713771">"Saluran default"</string>
+    <string name="picture" msgid="1160534096585833465">"Gambar"</string>
+    <string name="sound" msgid="8508180274504068953">"Audio"</string>
+    <string name="screen" msgid="3048008223061728562">"Layar"</string>
+    <string name="interaction_channel" msgid="4321705264398151840">"Saluran interaksi"</string>
+    <string name="mpeg_pin" msgid="7011120768977604018">"Perlindungan PIN MHEG"</string>
+    <string name="parental_control" msgid="6068201552306139221">"Kontrol orang tua"</string>
+    <string name="open_source" msgid="5621022170996868316">"Lisensi Open Source"</string>
+    <string name="antenna" msgid="3574478101911378410">"Daya antena"</string>
+    <string name="custom_recording" msgid="616731175025342123">"Perekaman Kustom"</string>
+    <string name="module_information" msgid="138893858253775617">"Informasi Modul"</string>
+    <string name="software_version" msgid="938344026859008625">"Versi Software"</string>
+    <string name="software_download_title" msgid="7182339016885070551">"Ingin mengupgrade modul?"</string>
+    <string name="subscription_status" msgid="8152434744124534365">"Status langganan"</string>
+    <string name="event_status" msgid="5639659633902394962">"Status acara"</string>
+    <string name="token_status" msgid="4834226009212901122">"Status token"</string>
+    <string name="messages" msgid="4419405029334986460">"Pesan"</string>
+    <string name="about_conax_ca" msgid="8545361141093096760">"Tentang Conax CA"</string>
+    <string name="interface_version" msgid="7086406205571753113">"Versi antarmuka"</string>
+    <string name="card_number" msgid="4966668852310859686">"Nomor kartu"</string>
+    <string name="number_of_sessions" msgid="1553049746241506437">"Jumlah sesi"</string>
+    <string name="ca_sys_id" msgid="4057273316749165239">"CA_SYS_ID"</string>
+    <string name="chip_id" msgid="3841340855603537499">"ChipID"</string>
+    <string name="language" msgid="5033412417430090708">"Bahasa"</string>
+    <string name="no_messages" msgid="4671069338896663642">"Tidak ada pesan"</string>
+    <string name="rf_channel_number" msgid="7144566814553175174">"Nomor Saluran RF"</string>
+    <string name="ber" msgid="3389934594324530510">"Ber"</string>
+    <string name="prog" msgid="6513040689191709128">"Prog"</string>
+    <string name="uec" msgid="5831216599881016723">"UEC"</string>
+    <string name="service_id" msgid="6961083730626429041">"ID Layanan"</string>
+    <string name="agc" msgid="7315404225192362723">"AGC"</string>
+    <string name="bandwidth" msgid="2827698381039488034">"Bandwidth [MHz]"</string>
+    <string name="first_language" msgid="4376264484150066447">"Bahasa pertama"</string>
+    <string name="second_language" msgid="6133917700264074215">"Bahasa kedua"</string>
+    <string name="audio_description" msgid="6458837295213608473">"Deskripsi audio"</string>
+    <string name="audio_type_normal" msgid="2088832842451441840">"Normal"</string>
+    <string name="audio_type_visually_impaired" msgid="3438074786597359516">"Penyandang gangguan penglihatan"</string>
+    <string name="no_audio_visually_impaired" msgid="3947110980476053488">"Tidak ada audio untuk penyandang disabilitas netra"</string>
+    <string name="digital_language" msgid="6027769489097600387">"Bahasa digital"</string>
+    <string name="subtitle_type" msgid="6257600590402555311">"Jenis Subtitel"</string>
+    <string name="enable_subtitles" msgid="1836129951206842087">"Aktifkan Subtitel"</string>
+    <string name="audio_format" msgid="8284736489304641424">"Format Audio"</string>
+    <string name="vi_audio_for_impaired" msgid="3032784027791333070">"Audio untuk Penyandang Gangguan Penglihatan"</string>
+    <string name="vi_fader_control" msgid="5159508499612853372">"Kontrol Fader"</string>
+    <string name="vi_speaker" msgid="1730137141684830570">"Speaker"</string>
+    <string name="vi_headphone" msgid="5416200350292696737">"Headphone"</string>
+    <string name="vi_volume" msgid="3488820687700041890">"Volume"</string>
+    <string name="vi_pane_fade" msgid="2601003902904072593">"Pane dan Fade"</string>
+    <string name="fader_main_max" msgid="4611679970227294093">"Main Max"</string>
+    <string name="fader_main_sub" msgid="7593221827790712226">"Main 3:4"</string>
+    <string name="fader_equal" msgid="4519306379947783434">"Sama"</string>
+    <string name="fader_ad_sub" msgid="6437572865174690545">"AD 3:4"</string>
+    <string name="fader_ad_max" msgid="9122777758230327119">"AD Max"</string>
+    <!-- no translation found for audio_channels_strings:1 (5619779558449299720) -->
+    <!-- no translation found for audio_channels_strings:2 (7742946383142049818) -->
+    <!-- no translation found for audio_channels_strings:3 (1362536828405389981) -->
+    <!-- no translation found for audio_channels_strings:4 (2393859006069005302) -->
+    <!-- no translation found for audio_channels_strings:5 (2633843452856253385) -->
+    <!-- no translation found for audio_channels_strings:6 (7095529391117690506) -->
+    <!-- no translation found for audio_channels_strings:7 (1273342437471313965) -->
+    <!-- no translation found for audio_channels_strings:8 (5943100416425070567) -->
+    <!-- no translation found for audio_channels_strings:13 (5605938855089094519) -->
+    <!-- no translation found for audio_channels_strings:14 (1368871710498993673) -->
+    <!-- no translation found for audio_channels_strings:15 (6436717758304675566) -->
+    <!-- no translation found for audio_channels_strings:20 (3687442141925630652) -->
+    <!-- no translation found for audio_channels_strings:21 (7810999426936459027) -->
+    <!-- no translation found for audio_channels_strings:22 (8712864432074523291) -->
+    <!-- no translation found for audio_channels_strings:23 (1833975212048313146) -->
+    <!-- no translation found for audio_channels_strings:24 (3190044868783518762) -->
+    <string name="nav_UNKNOWN" msgid="2913311182249571190">"Tidak diketahui"</string>
+    <string name="nav_MONO" msgid="8896870675545905110">"Mono"</string>
+    <string name="nav_STEREO" msgid="5543416258821435876">"Stereo"</string>
+    <string name="nav_SAP" msgid="8676814687569919114">"SAP"</string>
+    <string name="nav_DUAL1" msgid="6043423354232964669">"Dual1"</string>
+    <string name="nav_DUAL2" msgid="7504763724294512461">"Dual2"</string>
+    <string name="nav_NICAM_MONO" msgid="4224337367970842284">"Nicam Mono"</string>
+    <string name="nav_NICAM_STEREO" msgid="6563097258216426575">"Nicam Stereo"</string>
+    <string name="nav_NICAM_DUAL1" msgid="3114328575278255659">"Nicam Dual1"</string>
+    <string name="nav_NICAM_DUAL2" msgid="6081960406070216023">"Nicam Dual2"</string>
+    <string name="nav_A2_DUAL1_DUAL2" msgid="2166457499521770298">"Dual I+II"</string>
+    <string name="nav_NICAM_DUAL1_DUAL2" msgid="1856725634717330307">"NICAM Dual I+II"</string>
+    <string name="nav_FM_MONO" msgid="6456878559197187488">"FM Mono"</string>
+    <string name="nav_FM_STEREO" msgid="7271167064953845593">"FM Stereo"</string>
+    <string name="nav_Dual_Mono" msgid="8753030583134294425">"Dual Mono"</string>
+    <string name="nav_Surround_2CH" msgid="2909849253499226759">"Surround 2 Channel"</string>
+    <string name="nav_Surround" msgid="5120285656406922235">"Surround"</string>
+    <string name="nav_num_CH" msgid="107713690256275745">"saluran"</string>
+    <string name="decoding_page_language" msgid="1124443492008553149">"Decoding bahasa halaman"</string>
+    <string name="preferred_language" msgid="7655430973207324413">"Bahasa pilihan"</string>
+    <string name="hbbtv_support" msgid="8922193705369262735">"Dukungan HBBTV"</string>
+    <string name="hbbtv_track" msgid="3077736394913505081">"Trek"</string>
+    <string name="hbbtv_cookie_settings" msgid="4699548377446817221">"Setelan cookie"</string>
+    <string name="hbbtv_persisent_storage" msgid="78725024248331696">"Penyimpanan persisten"</string>
+    <string name="hbbtv_block_tracking_sites" msgid="1278479776976817723">"Blokir situs yang melacak"</string>
+    <string name="hbbtv_device_id" msgid="5819372404666742885">"ID Perangkat"</string>
+    <string name="hbbtv_reset_device_id" msgid="5450337102965703931">"Reset ID Perangkat"</string>
+    <string name="hbbtv_blocker_3rd_party_cookies" msgid="7890722586463776089">"Blokir cookie pihak ketiga"</string>
+    <string name="hbbtv_default" msgid="7846721736221762909">"Default"</string>
+    <string name="yesteday" msgid="2031037914735844998">"Kemarin"</string>
+    <string name="today" msgid="67589070411916088">"Hari ini"</string>
+    <string name="tomorrow" msgid="1113611151010280578">"Besok"</string>
+    <string name="channel" msgid="83247550823739857">"Saluran"</string>
+    <string name="duration" msgid="2217423882430487586">"Durasi"</string>
+    <string name="repeat" msgid="566789264529947157">"Ulangi"</string>
+    <string name="hr" msgid="5804859081055619802">"jam"</string>
+    <string name="min" msgid="6507012410599430444">"mnt"</string>
+    <string name="custom_recording_toast_validation_start_is_past" msgid="1778592166545947541">"Waktu mulai harus berada di masa mendatang"</string>
+    <string-array name="duration_hrs_no_zero">
+        <item msgid="2912861604749370425">"1 jam"</item>
+        <item msgid="374281930058836476">"2 jam"</item>
+        <item msgid="7193305075436964774">"3 jam"</item>
+        <item msgid="398015843251496779">"4 jam"</item>
+        <item msgid="4683459051008938980">"5 jam"</item>
+        <item msgid="1414842138111776793">"6 jam"</item>
+        <item msgid="5385729342887859281">"7 jam"</item>
+        <item msgid="833181330636230000">"8 jam"</item>
+        <item msgid="7352766903438891407">"9 jam"</item>
+    </string-array>
+    <string-array name="duration_hrs">
+        <item msgid="5471601675920266922">"0 jam"</item>
+        <item msgid="4758654820569121047">"1 jam"</item>
+        <item msgid="2464578624220725398">"2 jam"</item>
+        <item msgid="6841350237385073269">"3 jam"</item>
+        <item msgid="808190610521816281">"4 jam"</item>
+        <item msgid="5673916598141549569">"5 jam"</item>
+        <item msgid="3288525635276674935">"6 jam"</item>
+        <item msgid="2839868575152790505">"7 jam"</item>
+        <item msgid="1600978639156753982">"8 jam"</item>
+        <item msgid="2271044927678196934">"9 jam"</item>
+    </string-array>
+    <string-array name="duration_min_no_zero">
+        <item msgid="4589471421757924267">"5 mnt"</item>
+        <item msgid="8855543832564593545">"10 mnt"</item>
+        <item msgid="5088095894570123157">"15 mnt"</item>
+        <item msgid="5808310145047542877">"20 mnt"</item>
+        <item msgid="2070562423007636725">"25 mnt"</item>
+        <item msgid="8225826920502845526">"30 mnt"</item>
+        <item msgid="6422141515296762708">"35 mnt"</item>
+        <item msgid="3612635699902359929">"40 mnt"</item>
+        <item msgid="7626360296518549125">"45 mnt"</item>
+        <item msgid="2921707540170235765">"50 mnt"</item>
+        <item msgid="8172757182923815197">"55 mnt"</item>
+    </string-array>
+    <string-array name="duration_min">
+        <item msgid="1648681698956104769">"0 mnt"</item>
+        <item msgid="4684170343523077350">"5 mnt"</item>
+        <item msgid="8175832420314111549">"10 mnt"</item>
+        <item msgid="5833040817671471801">"15 mnt"</item>
+        <item msgid="1493963098421519845">"20 mnt"</item>
+        <item msgid="5410948776282630403">"25 mnt"</item>
+        <item msgid="8556168981136945141">"30 mnt"</item>
+        <item msgid="6577498731879282997">"35 mnt"</item>
+        <item msgid="621131071020421921">"40 mnt"</item>
+        <item msgid="2962872642228943573">"45 mnt"</item>
+        <item msgid="4962461171429895589">"50 mnt"</item>
+        <item msgid="7894077849623889505">"55 mnt"</item>
+    </string-array>
+    <string name="usb_format" msgid="5324359857719634056">"Ingin memformat perangkat USB ini?"</string>
+    <string name="no_channels_found" msgid="1848544592156894737">"Tidak ditemukan saluran"</string>
+    <string name="connect_scan_msg" msgid="7558833561209342023">"Hubungkan antena dan pindai"</string>
+    <string name="scan_channels_text" msgid="8258095964311020673">"Pindai saluran"</string>
+    <string name="recording_scan_conflict_toast" msgid="3748032820323076906">"Proses pemindaian tidak dapat dilakukan selama perekaman. Silakan selesaikan perekaman terlebih dahulu untuk memindai lebih banyak saluran"</string>
+    <string name="channels_scan_select_description" msgid="7855400572097293868">"Hubungkan tuner lalu pilih opsi yang sesuai untuk memindai saluran. Langkah ini dapat dilewati atau diselesaikan nanti dari setelan atau aplikasi TV Live"</string>
+    <string name="pin_description" msgid="8940902203123531407">"PIN digunakan untuk kontrol orang tua dan kunci saluran di dalam aplikasi TV Live"</string>
+    <string name="select_country_description" msgid="1967341889036312517">"Setelah negara dipilih, proses pemindaian akan otomatis dimulai"</string>
+    <string name="scan_terrestrial_description" msgid="1809146725235000878">"Proses pemindaian saluran dapat memerlukan waktu agak lama bergantung pada opsi yang disetel"</string>
+    <string name="cancel_scan" msgid="5554011776162355293">"Lewati"</string>
+    <string name="unknown" msgid="9217817889222189655">"Tidak diketahui"</string>
+    <string name="lcn_conflict" msgid="8266500972216800846">"Konflik LCN"</string>
+    <string name="status" msgid="7862706947096620505">"Status"</string>
+    <string name="in_progress" msgid="8185893763004417407">"Dalam proses"</string>
+    <string name="updating" msgid="2742050939467141774">"Memperbarui"</string>
+    <string name="complete" msgid="1810163799621341824">"Selesai"</string>
+    <string name="cancelled" msgid="1685545085829761585">"Dibatalkan"</string>
+    <string name="signal_status" msgid="8282786450156646927">"Status sinyal"</string>
+    <string name="programmes_found" msgid="3796490668729947923">"Program ditemukan"</string>
+    <string name="scanning_status" msgid="906438863803948589">"Status pemindaian"</string>
+    <string name="scanning_progress" msgid="3809321512060165759">"Progres pemindaian"</string>
+    <string name="scan_terrestrial" msgid="5387031143578140493">"Pemindaian terestrial"</string>
+    <string name="failed" msgid="5261073364967333327">"Gagal"</string>
+    <string name="wrong_frequency" msgid="1134163595573458436">"Frekuensi salah"</string>
+    <string name="confirm_pin_number" msgid="797481806488195214">"Konfirmasi nomor PIN"</string>
+    <string name="not_correct_pins" msgid="1411011499275438579">"Dua PIN baru tidak sama, coba lagi"</string>
+    <string name="manual_scan_freq" msgid="6445524265097974731">"Frekuensi (47000 - 862000 kHz)"</string>
+    <string name="manual_scan_ch" msgid="1986733609522141628">"Saluran VHF (5 - 12)/Saluran UHF (21 - 69)"</string>
+    <string name="manual_scan_ch_with_thirteen" msgid="287849365022890340">"Saluran VHF (5 - 13)/Saluran UHF (21 - 69)"</string>
+    <string name="manual_scan_ch_only_uhf" msgid="5308435325188689312">"Saluran UHF (21 - 69)"</string>
+    <string name="channels_scan" msgid="6936821143591482075">"Pemindaian saluran"</string>
+    <string name="terrestrial_manual_tuning" msgid="5998766433636391506">"Penyesuaian terestrial untuk"</string>
+    <string name="terrestrial_scan" msgid="6815581229250774867">"Pemindaian terestrial"</string>
+    <string name="channels_scan_select" msgid="6217180467659026310">"Pilih jenis pemindaian"</string>
+    <string name="confirm_text" msgid="4562792574774535382">"Konfirmasi"</string>
+    <string name="enter_pin_number" msgid="4267581858234429410">"Siapkan nomor PIN"</string>
+    <string name="select_country" msgid="9144110521372485962">"Pilih negara"</string>
+    <string name="date" msgid="6763266483305060876">"Tanggal"</string>
+    <string name="sort_by" msgid="4807922281415928330">"Urutkan menurut"</string>
+    <string name="schedule_recording" msgid="2029414279214710085">"Jadwalkan perekaman"</string>
+    <string name="add_to" msgid="5288188925274421816">"Tambahkan ke"</string>
+    <string name="testing_in_progress" msgid="2321338586752160609">"Pengujian sedang Berlangsung"</string>
+    <string name="encrypted" msgid="5925122159025307467">"Dienkripsi"</string>
+    <string name="daily" msgid="4819197321236588721">"Harian"</string>
+    <string name="weekly" msgid="5922203140575016838">"Mingguan"</string>
+    <string name="calendar_filter_title" msgid="5095479328338511094">"Hari hasil filter"</string>
+    <string name="time" msgid="3201028376320677354">"Waktu"</string>
+    <string name="general" msgid="8009011974050077815">"Umum"</string>
+    <string name="favorite" msgid="3840237917139864682">"Favorit"</string>
+    <string name="on_now_radio" msgid="7663321600218926582">"Radio Aktif Sekarang"</string>
+    <string name="subtitle_type_hearing_impaired" msgid="1854230845793845790">"Gangguan Pendengaran"</string>
+    <string name="for_you" msgid="8817079902176687927">"Untuk Anda"</string>
+    <string name="tv_guide" msgid="1128656211604435103">"Panduan TV"</string>
+    <string name="recordings" msgid="3641469268934463108">"Rekaman"</string>
+    <string name="preferences" msgid="1541383781299739313">"Preferensi"</string>
+    <string name="united_kingdom" msgid="4269558939438600378">"Inggris Raya"</string>
+    <string name="turkey" msgid="791149297253505623">"Turki"</string>
+    <string name="switzerland" msgid="5264857161501759766">"Swiss"</string>
+    <string name="sweden" msgid="1680839340960211411">"Swedia"</string>
+    <string name="spain" msgid="3605348010052911478">"Spanyol"</string>
+    <string name="slovenia" msgid="6703421764391088893">"Slovenia"</string>
+    <string name="slovakia" msgid="8339404295801789591">"Slovakia"</string>
+    <string name="serbia" msgid="8742949431994945525">"Serbia"</string>
+    <string name="russia" msgid="1401792757581842568">"Rusia"</string>
+    <string name="romania" msgid="7279354429316472283">"Rumania"</string>
+    <string name="portugal" msgid="5825255289269598902">"Portugal"</string>
+    <string name="poland" msgid="2422382298928464030">"Polandia"</string>
+    <string name="norway" msgid="6852185531583620455">"Norwegia"</string>
+    <string name="netherlands" msgid="246506781407354680">"Belanda"</string>
+    <string name="north_macedonia" msgid="3463899871972677721">"Makedonia Utara"</string>
+    <string name="luxembourg" msgid="1063222965641971254">"Luksemburg"</string>
+    <string name="lithuania" msgid="7099713088289561615">"Lituania"</string>
+    <string name="latvia" msgid="692253546270427847">"Latvia"</string>
+    <string name="italy" msgid="7405995367578301423">"Italia"</string>
+    <string name="ireland" msgid="3764786549439915043">"Irlandia"</string>
+    <string name="hungary" msgid="8781593523081221861">"hungaria"</string>
+    <string name="greece" msgid="4339403915223659929">"yunani"</string>
+    <string name="germany" msgid="1836775008967040466">"jerman"</string>
+    <string name="france" msgid="9194837416380667641">"prancis"</string>
+    <string name="finland" msgid="754419200311121688">"finlandia"</string>
+    <string name="ukraine" msgid="7794183472283499605">"Ukraina"</string>
+    <string name="estonia" msgid="114718845684765453">"estonia"</string>
+    <string name="denmark" msgid="4924773040555656121">"denmark"</string>
+    <string name="czech_republic" msgid="3764533072002538470">"Republik Ceko"</string>
+    <string name="cyprus" msgid="8055870015941168441">"Siprus"</string>
+    <string name="croatia" msgid="7144186024899208334">"Kroasia"</string>
+    <string name="bulgaria" msgid="1379735358674509569">"Bulgaria"</string>
+    <string name="belgium" msgid="2066958471706931352">"Belgia"</string>
+    <string name="belarus" msgid="3611735354340012730">"Belarus"</string>
+    <string name="austria" msgid="6235089448008573566">"Austria"</string>
+    <string name="albania" msgid="1415995963347711615">"Albania"</string>
+    <string name="to_number" msgid="8488004022591459675">"ke nomor"</string>
+    <string name="assign" msgid="3140428905911329772">"Tugaskan"</string>
+    <string name="solve_lcn" msgid="4569110198197012867">"Atasi konflik LCN"</string>
+    <string name="lcn_conf" msgid="5786936605306772156">"Konflik LCN"</string>
+    <string name="solve_lcn_manu" msgid="1665466977918632045">"Atasi konflik LCN (manual)"</string>
+    <string name="lcn_conf_found" msgid="1635112995686811648">"Konflik LCN ditemukan"</string>
+    <string name="lcn_conf_description" msgid="8056448918480883161">"Pilih di antara saluran yang bertentangan yang akan ditetapkan ke nomor yang dipilih"</string>
+    <string name="evaluation_license_pref" msgid="4315032194767719152">"Lisensi Evaluasi"</string>
+    <string name="evaluation_license_accept" msgid="8772567910733465135">"Setujui"</string>
+    <string name="evaluation_license_title" msgid="5376640500549846368">"PENYANGKALAN LISENSI EVALUASI"</string>
+    <string-array name="evaluation_license_dsc_title">
+        <item msgid="6997226435335006031">"1			LISENSI\n\n"</item>
+        <item msgid="4975666999208817082">"2			PEMBARUAN DAN MASUKAN\n\n"</item>
+        <item msgid="446934691667251928">"3			KERAHASIAAN\n\n"</item>
+        <item msgid="5782769999981388961">"4			GARANSI DAN BATASAN KEWAJIBAN\n\n"</item>
+        <item msgid="8922729760878010943">"5			LAINNYA\n\n"</item>
+    </string-array>
+    <string-array name="evaluation_license_dsc">
+        <item msgid="3978571601657722569">"Aplikasi ini (\"Aplikasi Live TV\") disediakan oleh iWedia S.A. di bawah lisensi satu kali, non-eksklusif, tidak dapat dialihkan, bebas royalti, tidak dapat disublisensikan, dan dapat dibatalkan (\"Lisensi Evaluasi\") untuk digunakan semata-mata untuk evaluasi internal dan tujuan demonstrasi selama periode 6 bulan sejak tanggal rilis aplikasi Live TV.\n\nLisensi Evaluasi diberikan semata-mata untuk tujuan: \n\nI.			Evaluasi internal – lisensi ini hanya untuk penggunaan internal dan bukan merupakan lisensi produksi, sehingga tidak boleh didistribusikan secara keseluruhan atau sebagian, atau dimasukkan ke dalam produk komersial apa pun\n\nII.			Demonstrasi – selain evaluasi internal, lisensi ini hanya dapat digunakan untuk tujuan pemasaran berupa demonstrasi terhadap orang ketiga, sebagaimana adanya. Secara tegas dilarang menggunakan lisensi ini dengan cara apa pun bersama pesaing iWedia.\n\nDilarang untuk:\n\nI.			Mensublisensikan, menggunakan atau memodifikasi aplikasi Live TV atau membuat karya turunan apa pun dari aplikasi Live TV, termasuk dokumentasi terkait.\n\nII.			Mengompilasi terbalik, merekayasa balik, membongkar, memformat ulang, membandingkan, mencoba membaca atau membuat hal berikut dapat dibaca: Kode Objek atau Kode Sumber aplikasi Live TV (atau ide, algoritma, struktur, atau organisasi yang mendasarinya), seluruhnya atau sebagian;\n\nIII.			Mengubah aplikasi Live TV atau membuat karya turunan apa pun berdasarkan Software;\n\nIV.			Menyewa, menyewakan, menjual, mensublisensikan, memberikan hak gadai, atau mentransfer hak apa pun di aplikasi Live TV;\n\nV.			Menghapus atau mengubah tanda atau pemberitahuan kepemilikan atau label apa pun yang terdapat dalam aplikasi Live TV;\n\nVI.			Menggunakan aplikasi Live TV dengan cara apa pun yang melanggar kekayaan intelektual atau hak privasi pihak ketiga mana pun; atau\n\nVII.			Menggunakan aplikasi Live TV dengan cara apa pun yang melanggar hukum atau peraturan internasional, federal, negara bagian, atau lokal yang berlaku.\n\nSemua hak, kepemilikan, dan kepentingan dalam dan untuk semua kekayaan intelektual serta hak kepemilikan yang berkaitan dengan aplikasi Live TV akan tetap dimiliki oleh iWedia.\n\n"</item>
+        <item msgid="7656950104467967957">"Dengan kebijakannya sendiri, iWedia berhak (tanpa kewajiban apa pun) memberikan versi terbaru dari aplikasi Live TV. Syarat dan ketentuan Lisensi Evaluasi ini akan berlaku untuk versi baru aplikasi Live TV apa pun.\n\nTidak ada kewajiban untuk memberikan saran, komentar, atau masukan lainnya kepada iWedia terkait aplikasi Live TV (Masukan). Namun, Masukan apa pun yang diberikan secara sukarela dapat digunakan dalam produk iWedia dan spesifikasi terkait atau dokumentasi lainnya. Oleh karena itu, jika iWedia menerima Masukan apa pun untuk versi aplikasi Live TV yang mana pun, iWedia dapat dengan bebas menggunakan, mengungkapkan, mereproduksi, melisensikan, mendistribusikan, dan mengkomersialkan Masukan dalam produk, teknologi, layanan, dan spesifikasi iWedia apa pun, atau dokumentasi lainnya.\n\n"</item>
+        <item msgid="1426574708070917904">"Aplikasi Live TV adalah informasi rahasia iWedia (Informasi Rahasia) yang diberikan berdasarkan NDA.\n\n"</item>
+        <item msgid="2994785271031279130">"iWedia menyediakan software SEBAGAIMANA ADANYA dan tanpa jaminan apa pun, tersurat maupun tersirat; iWedia menyangkal semua jaminan dan ketentuan apa pun.\n\niWedia tidak memiliki tanggung jawab atau kewajiban sehubungan dengan materi pokok Lisensi Evaluasi ini untuk kerugian langsung, tidak langsung, insidental, khusus, hukuman, atau sebagai akibat apa pun berdasarkan teori tanggung jawab apa pun baik dalam wanprestasi, kontrak, kelalaian, tanggung jawab yang ketat atau lainnya, bahkan jika iWedia telah diberitahu tentang kemungkinan kerusakan tersebut.\n\niWedia tidak akan bertanggung jawab atas kompensasi, gangguan bisnis, termasuk namun tidak terbatas pada hilangnya keuntungan, apa pun bentuk tindakannya, bahkan jika iWedia telah diberi tahu tentang kemungkinan kerugian tersebut.\n\n"</item>
+        <item msgid="6636923911104296092">"Lisensi Evaluasi ini merupakan kesepakatan yang mengikat para pihak. Lisensi Evaluasi ini tidak dapat diubah, dihentikan, atau diubah.\n"</item>
+    </string-array>
+    <string name="eval_licence_expiry_title" msgid="5041452320430252392">"Masa berlaku lisensi evaluasi habis"</string>
+    <string name="eval_licence_expiry_sub_title" msgid="6826125758637355380">"Silakan hubungi iWedia"</string>
+    <string name="open_source_license_title" msgid="1554190243859250731">"LISENSI OPEN SOURCE"</string>
+    <string name="open_source_license_picasso" msgid="1946160720113475178">"Picasso - Apache 2.0"</string>
+    <string name="open_source_license_firebase" msgid="8697900533266126732">"Firebase SDK - Apache 2.0"</string>
+    <string name="open_source_license_gson" msgid="8695992675641212399">"GSON - Apache 2.0"</string>
+    <string name="open_source_license_lottie" msgid="5889530097999389219">"Lottie"</string>
+    <string name="for_you_promo" msgid="6030816806065619135">"Promo"</string>
+    <string name="cable_scan" msgid="5168249706639891664">"Pemindaian kabel"</string>
+    <string name="select_provider" msgid="6039171292648870904">"Pilih penyedia TV"</string>
+    <string name="select_provider_description" msgid="2572301173211605186">"Pemilihan penyedia mengotomatiskan proses pemindaian"</string>
+    <string name="quick_tuning" msgid="1232673629897546034">"Quick tuning"</string>
+    <string name="cable_manual_tuning" msgid="7295820303779933458">"Penyesuaian kabel untuk"</string>
+    <string name="albanian" msgid="909487102798937262">"Albania"</string>
+    <string name="belarusian" msgid="8692726601803500664">"Belarusia"</string>
+    <string name="bulgarian" msgid="5604526587810914861">"Bulgaria"</string>
+    <string name="czech" msgid="2219203852942880496">"Ceko"</string>
+    <string name="danish" msgid="6680435916838658718">"Denmark"</string>
+    <string name="german" msgid="7444271351966071063">"Jerman"</string>
+    <string name="dutch" msgid="7277857127289043923">"Belanda"</string>
+    <string name="greek" msgid="815606104864893488">"Yunani"</string>
+    <string name="english" msgid="7457699616117671332">"Inggris"</string>
+    <string name="finnish" msgid="9024747441674504407">"Finlandia"</string>
+    <string name="french" msgid="5135133463687500184">"Prancis"</string>
+    <string name="croatian" msgid="4156676487199304187">"Kroasia"</string>
+    <string name="hungarian" msgid="7622853368648210014">"Hungaria"</string>
+    <string name="italian" msgid="3635685233604558030">"Italia"</string>
+    <string name="latvian" msgid="4584279564478599034">"Latvia"</string>
+    <string name="lithuanian" msgid="7253431506356604510">"Lituania"</string>
+    <string name="macedonian" msgid="8292842895952058345">"Makedonia"</string>
+    <string name="norwegian" msgid="1358417873898371354">"Norwegia"</string>
+    <string name="polish" msgid="1032451208264168340">"Polandia"</string>
+    <string name="portuguese" msgid="6248764786403138732">"Portugis"</string>
+    <string name="romanian" msgid="5343123013812157333">"Rumania"</string>
+    <string name="russian" msgid="3122555201054868037">"Rusia"</string>
+    <string name="slovak" msgid="5766823434970777356">"Slovakia"</string>
+    <string name="slovenian" msgid="4897469105710150458">"Slovenia"</string>
+    <string name="spanish" msgid="7718063189462085302">"Spanyol"</string>
+    <string name="serbian" msgid="6787921820943171288">"Serbia"</string>
+    <string name="swedish" msgid="2268764493783412822">"Swedia"</string>
+    <string name="turkish" msgid="4336249792544405769">"Turki"</string>
+    <string name="status_message_channels_not_available" msgid="7860572798367937149">"Saluran tidak tersedia."</string>
+    <string name="status_message_drm_error" msgid="8563550254613004526">"Error DRM"</string>
+    <string name="status_message_signal_not_available" msgid="6211566889211861934">"Sinyal tidak tersedia."</string>
+    <string name="status_message_no_playback" msgid="2422134051958157268">"Tidak ada pemutaran."</string>
+    <string name="scan_cable" msgid="8526213048315732533">"Pemindaian kabel"</string>
+    <string name="frequency_cable" msgid="9086867584754959840">"Frekuensi"</string>
+    <string name="symbolrate_cable" msgid="4456975092083451351">"Rasio simbol"</string>
+    <string name="qam" msgid="7742628918606248891">"QAM"</string>
+    <string name="standard" msgid="8128590355024601150">"Standar"</string>
+    <string name="info_banner" msgid="5121498386122846064">"Banner Info"</string>
+    <string name="channel_list" msgid="198366839981523920">"Daftar Saluran"</string>
+    <string name="home" msgid="7695601671079289966">"Home"</string>
+    <string name="player" msgid="2316857039736126044">"Pemain"</string>
+    <string name="no_available_audio_tracks_msg" msgid="782253792221872046">"Tidak ada trek audio yang tersedia"</string>
+    <string name="no_available_subtitle_tracks_msg" msgid="3706564892110208472">"Tidak ada trek subtitle yang tersedia"</string>
+    <string name="no_channel_associated" msgid="5942779153312382416">"Tidak ada saluran terkait nomor itu"</string>
+    <string name="reminder_conflict_title" msgid="5010227952116720654">"Beberapa acara yang ditambahkan ke Daftar Tontonan sedang dimulai"</string>
+    <string name="reminder_conflict_description" msgid="1386866368652825321">"Pilih yang akan ditonton sekarang"</string>
+    <string name="Jan" msgid="8091368207026826226">"Jan"</string>
+    <string name="Feb" msgid="4434946576211727815">"Feb"</string>
+    <string name="Mar" msgid="1089219438456085664">"Mar"</string>
+    <string name="Apr" msgid="1173377893122276908">"Apr"</string>
+    <string name="May" msgid="2280658853397387223">"Mei"</string>
+    <string name="Jun" msgid="9066283939588118035">"Jun"</string>
+    <string name="Jul" msgid="3832610179582330647">"Jul"</string>
+    <string name="Aug" msgid="7267939992062921197">"Agu"</string>
+    <string name="Sep" msgid="6993964396334664032">"Sep"</string>
+    <string name="Oct" msgid="6231710039194798243">"Okt"</string>
+    <string name="Nov" msgid="2414018112438710751">"Nov"</string>
+    <string name="Dec" msgid="6756013221225136792">"Des"</string>
+    <string name="usb_connected" msgid="304543994419201919">"USB Terhubung"</string>
+    <string name="usb_disconnected" msgid="4043626174877594434">"USB Terputus"</string>
+    <string name="channel_delete_confirmation" msgid="8417046658666237109">"Ada acara dari saluran ini yang ditambahkan ke daftar tontonan Anda. Yakin ingin menghapusnya?"</string>
+    <string name="scan_mode" msgid="8652737203306231674">"Mode pemindaian"</string>
+    <string name="open_timeshift" msgid="1980718987660169753">"Tombol Bawah D-Pad untuk Rekam"</string>
+    <string name="open_main_menu" msgid="7762056624498743497">"Tombol Atas D-Pad untuk Menu"</string>
+    <string name="open_info_list" msgid="2089266918747223151">"Tombol Kanan D-Pad untuk Banner Info"</string>
+    <string name="open_channel_list" msgid="992523637403325691">"Tombol Kiri D-Pad untuk Daftar Saluran"</string>
+    <string name="recording_progress_toast" msgid="3931766452381203016">"Rekam tidak dapat dimulai saat perekaman sedang berlangsung"</string>
+    <string name="time_shift_stop_toast" msgid="1453156650994532868">"Rekam telah dihentikan"</string>
+    <string name="parental_control_restriction" msgid="8885082747545588751">"Pembatasan kontrol orang tua"</string>
+    <string name="time_shift_stopped" msgid="12792113607392143">"Rekam telah dihentikan"</string>
+    <string name="search_hint" msgid="4313497354104425164">"Telusuri saluran dan acara"</string>
+    <string name="preference_pvr_timeshift" msgid="4864047471968539523">"PVR/Rekam"</string>
+    <string name="device_info" msgid="8303072342139108303">"Info Perangkat"</string>
+    <string name="timeshift_mode" msgid="5444162941927817100">"Mode Rekam"</string>
+    <string name="device_option" msgid="1062614578180218894">"Setelan Info Perangkat"</string>
+    <string name="device_formatting" msgid="6354963964932834975">"Pemformatan"</string>
+    <string name="device_format_failed" msgid="103210814895409124">"Format perangkat gagal"</string>
+    <string name="set_timeshift" msgid="2364800365281399708">"Setel Rekam"</string>
+    <string name="set_pvr" msgid="2078327194436110325">"Setel PVR"</string>
+    <string name="format" msgid="350088175032389662">"Format"</string>
+    <string name="speed_test" msgid="8447846467288108764">"Uji Kecepatan"</string>
+    <string name="no_name" msgid="7098531867215213181">"Anonim"</string>
+    <string name="no_device" msgid="7955835455459654456">"Tidak ada perangkat terhubung"</string>
+    <string name="na" msgid="9199605622891574772">"TA"</string>
+    <string name="tshift" msgid="7065841842286559444">"TSHIFT"</string>
+    <string name="pvr" msgid="7388320924555892156">"PVR"</string>
+    <string name="speed_test_title" msgid="6262961035292637797">"Uji Kecepatan Berlangsung"</string>
+    <string name="speed_test_complete_title" msgid="3120125604157095838">"Uji Kecepatan Selesai"</string>
+    <string name="dont_unplug_device" msgid="6818477498504768488">"Jangan mencabut sambungan perangkat"</string>
+    <string name="max_speed_display" msgid="7614928889735577710">"Kecepatan maks adalah %s"</string>
+    <string name="speed_test_failed" msgid="2709964041634415206">"Uji kecepatan gagal."</string>
+    <string name="speed_test_not_allowed_timeshift" msgid="3878236764146117242">"Uji Kecepatan tidak dimungkinkan saat Rekam aktif"</string>
+    <string name="set_timeshift_not_allowed_timeshift" msgid="1099598707064586580">"Setel Rekam tidak dimungkinkan saat Rekam aktif"</string>
+    <string name="speed_test_not_allowed_pvr" msgid="1253612098766075788">"Uji Kecepatan tidak dimungkinkan saat PVR aktif"</string>
+    <string name="set_pvr_not_allowed_pvr" msgid="5619137174152256874">"Penyetelan PVR tidak dimungkinkan saat PVR aktif"</string>
+    <string name="speed_test_insufficient" msgid="2181811080863400857">"Kapasitas disk tidak cukup. Uji Kecepatan gagal."</string>
+    <string name="speed_test_ntfs_failed" msgid="3445411399094381213">"Akses ditolak. Uji kecepatan gagal."</string>
+    <string name="format_not_allowed_timeshift" msgid="7781107131931776628">"Format tidak dimungkinkan saat Rekam aktif"</string>
+    <string name="format_not_allowed_pvr" msgid="2479444988640574403">"Format tidak dimungkinkan saat PVR aktif"</string>
+    <string name="long_press_to_move_channels" msgid="1832633153219645684">"Tekan lama OK untuk memindahkan saluran yang dipilih"</string>
+    <string name="press_up_down_to_place_channels" msgid="6877693686742243270">"Tekan panas ATAS atau BAWAH untuk memindahkan saluran yang dipilih"</string>
+    <string name="skip_channel" msgid="1135520316810760425">"Lewati Saluran"</string>
+    <string name="swap_channel" msgid="1799644900250358066">"Tukar Saluran"</string>
+    <string name="move_channel" msgid="204675255168084125">"Pindahkan Saluran"</string>
+    <string name="delete_channel" msgid="5774937781453616865">"Hapus Saluran"</string>
+    <string name="preferred_epg_language" msgid="8248499855281398244">"Bahasa EPG pilihan?"</string>
+    <string name="no_signal_power_off" msgid="2224882672359529115">"Tidak ada sinyal Matikan"</string>
+    <string name="auto_service_update" msgid="8021776817281698480">"Update Layanan Otomatis"</string>
+    <string name="blue_mute" msgid="8609195964986908837">"Biru Nonaktif"</string>
+    <string name="delete_channel_confirmation" msgid="7080456803599490326">"Yakin ingin menghapus Saluran ini?"</string>
+    <string name="delete_all_channel_confirmation" msgid="3514236810412594859">"Yakin ingin menghapus seluruh daftar saluran?"</string>
+    <string name="channel_block" msgid="5609404611041597149">"Pemblokiran Saluran"</string>
+    <string name="Input_block" msgid="7686211170252543442">"Pemblokiran Input"</string>
+    <string name="rating_systems" msgid="7357875754286606036">"Rating System"</string>
+    <string name="Rating_lock" msgid="484835933397574992">"Rating Lock"</string>
+    <string name="rrt5_lock" msgid="4950832723556856055">"Kunci RRT5"</string>
+    <string name="display_cc" msgid="8031161534368524044">"Tampilkan CC"</string>
+    <string name="caption_services" msgid="6611823018328925066">"Layanan Teks"</string>
+    <string name="advanced_selection" msgid="910652783108927962">"Pilihan Lanjutan"</string>
+    <string name="text_size" msgid="1593957427542517158">"Ukuran Teks"</string>
+    <string name="font_family" msgid="6306931181831624945">"Jenis Font"</string>
+    <string name="text_color" msgid="7664362331677356703">"Warna Teks"</string>
+    <string name="text_opacity" msgid="1142383466259320341">"Opasitas Teks"</string>
+    <string name="edge_type" msgid="7070541445045612273">"Jenis Tepi"</string>
+    <string name="edge_color" msgid="5779719244135712989">"Warna Tepi"</string>
+    <string name="background_color" msgid="8484991228260787749">"Warna Latar Belakang"</string>
+    <string name="background_opacity" msgid="1961100726261915120">"Opasitas Latar Belakang"</string>
+    <string name="with_mute" msgid="3611320894492390964">"dengan item nonaktif"</string>
+    <string name="cc_preview" msgid="6976624995499205000">"ABC"</string>
+    <string name="cc_changed" msgid="6658676502133912440">"CC diubah menjadi"</string>
+    <string name="cc_track_turned_off" msgid="2070924551441949986">"Teks tertutup dinonaktifkan"</string>
+    <string name="cc_1" msgid="8032134115941127487">"CC-1"</string>
+    <string name="cc_2" msgid="2627715292267356254">"CC-2"</string>
+    <string name="cc_3" msgid="3426028896225446900">"CC-3"</string>
+    <string name="cc_4" msgid="4947611549263363858">"CC-4"</string>
+    <string name="t_1" msgid="5546025069449764069">"T-1"</string>
+    <string name="t_2" msgid="2259519718627536389">"T-2"</string>
+    <string name="t_3" msgid="3404422579623588461">"T-3"</string>
+    <string name="t_4" msgid="1561225036266590129">"T-4"</string>
+    <string name="cs_1" msgid="7613504232590787073">"CS-1"</string>
+    <string name="cs_2" msgid="3911881991899570725">"CS-2"</string>
+    <string name="cs_3" msgid="1610642856385634142">"CS-3"</string>
+    <string name="cs_4" msgid="2463001422068119721">"CS-4"</string>
+    <string name="cs_5" msgid="5765274172636649804">"CS-5"</string>
+    <string name="cs_6" msgid="6893090138340711956">"CS-6"</string>
+    <string name="small" msgid="8259711989248858792">"Kecil"</string>
+    <string name="large" msgid="4582824721219275509">"Besar"</string>
+    <string name="serif_monospace" msgid="2162538430535841830">"Serif spasi tunggal"</string>
+    <string name="serif" msgid="4375293750122359072">"Serif"</string>
+    <string name="sans_serif_monospace" msgid="7001547829666259882">"Sans-serif spasi tunggal"</string>
+    <string name="sans_serif" msgid="3278658763082925673">"Sans-serif"</string>
+    <string name="casual" msgid="195585843707921723">"Kasual"</string>
+    <string name="cursive" msgid="3152433177270903113">"Kursif"</string>
+    <string name="small_capitals" msgid="4639501279018303490">"Huruf kecil"</string>
+    <string name="black" msgid="3195508414894295279">"Hitam"</string>
+    <string name="white" msgid="5588737507625973264">"Putih"</string>
+    <string name="green" msgid="3026082783462206765">"Hijau"</string>
+    <string name="blue" msgid="2647227522785487853">"Biru"</string>
+    <string name="red" msgid="971464106814017076">"Merah"</string>
+    <string name="cyan" msgid="1403604018041040047">"Sian"</string>
+    <string name="yellow" msgid="5060138419318857975">"Kuning"</string>
+    <string name="magenta" msgid="6582835999864738974">"Magenta"</string>
+    <string name="solid" msgid="8458782005437906928">"Solid"</string>
+    <string name="translucent" msgid="6603288424076173845">"Tembus Cahaya"</string>
+    <string name="transparent" msgid="817577842092581983">"Transparan"</string>
+    <string name="flashing" msgid="7804156029537336970">"Berkedip"</string>
+    <string name="raised" msgid="6246151436922603249">"Dinaikkan"</string>
+    <string name="depressed" msgid="4749744261166976500">"Diturunkan"</string>
+    <string name="outline" msgid="1587961028708691402">"Outline"</string>
+    <string name="drop_shadow" msgid="551919838682320135">"Drop Shadow"</string>
+    <string name="rrt5_reset" msgid="1491320584112795115">"Reset RRT5"</string>
+    <string name="tv" msgid="7380590796291368480">"TV"</string>
+    <string name="composite" msgid="2849489151670558112">"Komposit"</string>
+    <string name="component" msgid="686727891212287515">"Komponen"</string>
+    <string name="vga" msgid="6144755744277870601">"VGA"</string>
+    <string name="hdmi_1" msgid="8522900077999439381">"HDMI 1"</string>
+    <string name="hdmi_2" msgid="3908619966237984379">"HDMI 2"</string>
+    <string name="hdmi_3" msgid="5424975936510597247">"HDMI 3"</string>
+    <string name="other_countries" msgid="7848158526503892152">"Negara lainnya"</string>
+    <string name="block_unrated_programs" msgid="9080729267174088669">"Blokir Program Tanpa Rating"</string>
+    <string name="global_restrictions" msgid="5176053844554424628">"Pembatasan global"</string>
+    <string name="rating_hint_partial" msgid="2151239207435581070">"Sebagian"</string>
+    <string name="menu_arrays_None" msgid="1276877866594593227">"Tidak ada"</string>
+    <string name="option_rating_high" msgid="9064023482784707681">"Pembatasan Tinggi"</string>
+    <string name="option_rating_medium" msgid="8869255499946788924">"Pembatasan Menengah"</string>
+    <string name="option_rating_low" msgid="5761520507954269327">"Pembatasan Rendah"</string>
+    <string name="option_rating_custom" msgid="3833899108470291609">"Kustom"</string>
+    <string name="rrt5_reset_message" msgid="4468037685921979959">"Data RRT5 telah direset."</string>
+    <string name="atsc30_display_eas" msgid="7932122627645560413">"Layar"</string>
+    <string name="atsc30_hide_eas" msgid="8743848521256360284">"Sembunyikan"</string>
+    <string name="description_age_4" msgid="7025653477221463476">"description_age_4"</string>
+    <string name="description_age_5" msgid="9144027431668583556">"description_age_5"</string>
+    <string name="description_age_6" msgid="8109818400761375398">"description_age_6"</string>
+    <string name="description_age_7" msgid="4441466247261338153">"description_age_7"</string>
+    <string name="description_age_8" msgid="5065247703991616668">"description_age_8"</string>
+    <string name="description_age_9" msgid="4425170430537629232">"description_age_9"</string>
+    <string name="description_age_10" msgid="7472276134043725493">"description_age_10"</string>
+    <string name="description_age_11" msgid="4954445522017982864">"description_age_11"</string>
+    <string name="description_age_12" msgid="5315500544644036899">"description_age_12"</string>
+    <string name="description_age_13" msgid="7318131182905199154">"description_age_13"</string>
+    <string name="description_age_14" msgid="694782469562109746">"description_age_14"</string>
+    <string name="description_age_15" msgid="5764581597794798575">"description_age_15"</string>
+    <string name="description_age_16" msgid="4671719524686174906">"description_age_16"</string>
+    <string name="description_age_17" msgid="3418819265185760179">"description_age_17"</string>
+    <string name="description_age_18" msgid="8671547181177734513">"description_age_18"</string>
+    <string name="description_age_19" msgid="3527738244194581236">"description_age_19"</string>
+    <string name="description_age_20" msgid="4490401476496449000">"description_age_20"</string>
+    <string name="description_ar_tv_atp" msgid="8810019380453993820">"description_ar_tv_atp"</string>
+    <string name="description_ar_tv_sam_13" msgid="2524470636619583425">"description_ar_tv_sam_13"</string>
+    <string name="description_ar_tv_sam_16" msgid="3165034796671755617">"description_ar_tv_sam_16"</string>
+    <string name="description_ar_tv_sam_18" msgid="265905202843046831">"description_ar_tv_sam_18"</string>
+    <string name="description_ar_tv_d" msgid="6292844211071412419">"description_ar_tv_d"</string>
+    <string name="description_ar_tv_s" msgid="1420654864663375189">"description_ar_tv_s"</string>
+    <string name="description_ar_tv_v" msgid="1362827751390511515">"description_ar_tv_v"</string>
+    <string name="description_au_tv_p" msgid="8427842783140970250">"description_ar_tv_v"</string>
+    <string name="description_au_tv_c" msgid="1258519434439434177">"description_au_tv_c"</string>
+    <string name="description_au_tv_g" msgid="6416961253439940282">"description_au_tv_g"</string>
+    <string name="description_au_tv_pg" msgid="7140978137507082552">"description_au_tv_pg"</string>
+    <string name="description_au_tv_m" msgid="2222260813751802826">"description_au_tv_m"</string>
+    <string name="description_au_tv_ma" msgid="5510508770895470263">"description_au_tv_ma"</string>
+    <string name="description_au_tv_av" msgid="1592543624452080294">"description_au_tv_av"</string>
+    <string name="description_au_tv_r" msgid="470671100520035502">"description_au_tv_r"</string>
+    <string name="title_br_tv_l" msgid="1901747335114982920">"title_br_tv_l"</string>
+    <string name="title_br_tv_10" msgid="8614927280312641655">"title_br_tv_10"</string>
+    <string name="title_br_tv_12" msgid="6084736713291906118">"title_br_tv_12"</string>
+    <string name="title_br_tv_14" msgid="2061377149704001153">"title_br_tv_14"</string>
+    <string name="title_br_tv_16" msgid="7544526119137711202">"title_br_tv_16"</string>
+    <string name="title_br_tv_18" msgid="6980524134928462438">"title_br_tv_18"</string>
+    <string name="description_br_tv_l" msgid="201456608986653097">"description_br_tv_l"</string>
+    <string name="description_br_tv_10" msgid="5360388990767482182">"description_br_tv_10"</string>
+    <string name="description_br_tv_12" msgid="4897182923627858286">"description_br_tv_12"</string>
+    <string name="description_br_tv_14" msgid="4491939541707766240">"description_br_tv_14"</string>
+    <string name="description_br_tv_16" msgid="2136734023503258711">"description_br_tv_16"</string>
+    <string name="description_br_tv_18" msgid="6836471971177950240">"description_br_tv_18"</string>
+    <string name="description_br_tv_d" msgid="5403724568590695926">"description_br_tv_d"</string>
+    <string name="description_br_tv_s" msgid="7251682861269497531">"description_br_tv_s"</string>
+    <string name="description_br_tv_v" msgid="4530159363190871796">"description_br_tv_v"</string>
+    <string name="description_ca_tv_en_exempt" msgid="1103330166042871791">"description_ca_tv_en_exempt"</string>
+    <string name="description_ca_tv_en_c" msgid="8884405607424464786">"description_ca_tv_en_c"</string>
+    <string name="description_ca_tv_en_c8" msgid="3776811327327568874">"description_ca_tv_en_c8"</string>
+    <string name="description_ca_tv_en_g" msgid="7472873043142752045">"description_ca_tv_en_g"</string>
+    <string name="description_ca_tv_en_pg" msgid="6346571281891475213">"description_ca_tv_en_pg"</string>
+    <string name="description_ca_tv_en_14" msgid="6351452081854928465">"description_ca_tv_en_14"</string>
+    <string name="description_ca_tv_en_18" msgid="7798944689142487523">"description_ca_tv_en_18"</string>
+    <string name="title_ca_tv_fr" msgid="32754738060611721">"title_ca_tv_fr"</string>
+    <string name="description_ca_tv_fr_e" msgid="991343765123104096">"description_ca_tv_fr_e"</string>
+    <string name="description_ca_tv_fr_g" msgid="8387320028598832542">"description_ca_tv_fr_g"</string>
+    <string name="description_ca_tv_fr_8" msgid="352288844918317494">"description_ca_tv_fr_8"</string>
+    <string name="description_ca_tv_fr_13" msgid="1725958039041602235">"description_ca_tv_fr_13"</string>
+    <string name="description_ca_tv_fr_16" msgid="5770015428434444309">"description_ca_tv_fr_16"</string>
+    <string name="description_ca_tv_fr_18" msgid="592473581390959817">"description_ca_tv_fr_18"</string>
+    <string name="description_fr_dvb_u" msgid="3737546002932859011">"description_fr_dvb_u"</string>
+    <string name="description_es_dvb_all" msgid="2172775645659854921">"description_es_dvb_all"</string>
+    <string name="description_es_dvb_c" msgid="4643072877512805689">"description_es_dvb_c"</string>
+    <string name="description_es_dvb_x" msgid="7470987206584979934">"description_es_dvb_x"</string>
+    <string name="title_kr_tv_all" msgid="5797160576763176052">"SEMUA"</string>
+    <string name="title_kr_tv_7" msgid="4373101538739897198">"7"</string>
+    <string name="title_kr_tv_12" msgid="3309650493129407406">"12"</string>
+    <string name="title_kr_tv_15" msgid="2314557310052219390">"15"</string>
+    <string name="title_kr_tv_19" msgid="8603333632403893391">"19"</string>
+    <string name="description_kr_tv_all" msgid="3409221597401869656">"description_kr_tv_all"</string>
+    <string name="description_kr_tv_7" msgid="849915932641287775">"description_kr_tv_7"</string>
+    <string name="description_kr_tv_12" msgid="7687731794305361113">"description_kr_tv_12"</string>
+    <string name="description_kr_tv_15" msgid="2865958129374420236">"description_kr_tv_15"</string>
+    <string name="description_kr_tv_19" msgid="3548487501223919049">"description_kr_tv_19"</string>
+    <string name="description_sg_tv_g" msgid="8261975785955140526">"description_sg_tv_g"</string>
+    <string name="description_sg_tv_pg" msgid="6538866734393145354">"description_sg_tv_pg"</string>
+    <string name="description_sg_tv_pg13" msgid="1472283129037856572">"description_sg_tv_pg13"</string>
+    <string name="description_sg_tv_nc16" msgid="4532619245769034193">"description_sg_tv_nc16"</string>
+    <string name="description_sg_tv_m18" msgid="1995876106820663210">"description_sg_tv_m18"</string>
+    <string name="description_sg_tv_r21" msgid="8726943990549215697">"description_sg_tv_r21"</string>
+    <string name="description_us_tv_d" msgid="2760709836475790519">"description_us_tv_d"</string>
+    <string name="description_us_tv_l" msgid="3704926347005329675">"description_us_tv_l"</string>
+    <string name="description_us_tv_s" msgid="1389984351721092109">"description_us_tv_s"</string>
+    <string name="description_us_tv_v" msgid="1942263521851544450">"description_us_tv_v"</string>
+    <string name="description_us_tv_fv" msgid="1224458140428657084">"description_us_tv_fv"</string>
+    <string name="description_us_tv_y" msgid="9069021449977659626">"description_us_tv_y"</string>
+    <string name="description_us_tv_y7" msgid="7808623883195262585">"description_us_tv_y7"</string>
+    <string name="description_us_tv_g" msgid="1491368478914819460">"description_us_tv_g"</string>
+    <string name="description_us_tv_pg" msgid="2510584466219504909">"description_us_tv_pg"</string>
+    <string name="description_us_tv_14" msgid="3863013023595932711">"description_us_tv_14"</string>
+    <string name="description_us_tv_ma" msgid="623837328815914136">"description_us_tv_ma"</string>
+    <string name="title_us_mv" msgid="8385052419227079091">"title_us_mv"</string>
+    <string name="description_us_mv_g" msgid="4515206959192978106">"description_us_mv_g"</string>
+    <string name="description_us_mv_pg" msgid="3873730878320864496">"description_us_mv_pg"</string>
+    <string name="description_us_mv_pg13" msgid="2287832797375792347">"description_us_mv_pg13"</string>
+    <string name="description_us_mv_r" msgid="1906387239134541634">"description_us_mv_r"</string>
+    <string name="description_us_mv_nc17" msgid="6956484005567951689">"description_us_mv_nc17"</string>
+    <string name="description_th_tv_x" msgid="1178281080236672145">"description_th_tv_x"</string>
+    <string name="description_nz_fta_tv_g" msgid="6733473894528021363">"description_nz_fta_tv_g"</string>
+    <string name="description_nz_fta_tv_pgr" msgid="2186138110331468515">"description_nz_fta_tv_pgr"</string>
+    <string name="description_nz_fta_tv_ao" msgid="3442329851069496858">"description_nz_fta_tv_ao"</string>
+    <string name="description_th_tv_4" msgid="599126272301265963">"description_th_tv_4"</string>
+    <string name="description_th_tv_6" msgid="7633768391968097342">"description_th_tv_6"</string>
+    <string name="description_th_tv_10" msgid="528769420384909260">"description_th_tv_10"</string>
+    <string name="description_th_tv_13" msgid="6329028610647646769">"description_th_tv_13"</string>
+    <string name="description_th_tv_18" msgid="3469668816962388150">"description_th_tv_18"</string>
+    <string name="description_th_tv_19" msgid="7596618599238648587">"description_th_tv_19"</string>
+    <string name="title_th_dvb_3" msgid="8945440937283987703">"title_th_dvb_3"</string>
+    <string name="title_th_dvb_6" msgid="9103380621911395120">"title_th_dvb_6"</string>
+    <string name="title_th_dvb_g" msgid="7146547632407797463">"title_th_dvb_g"</string>
+    <string name="title_th_dvb_pg_13" msgid="7517866709967118232">"title_th_dvb_pg_13"</string>
+    <string name="title_th_dvb_pg_18" msgid="6104759168642934639">"title_th_dvb_pg_18"</string>
+    <string name="title_th_dvb_a" msgid="3114319341387028490">"title_th_dvb_a"</string>
+    <string name="description_th_dvb_3" msgid="1895901294290428452">"description_th_dvb_3"</string>
+    <string name="description_th_dvb_6" msgid="5719392954117626822">"description_th_dvb_6"</string>
+    <string name="description_th_dvb_g" msgid="8632256520308247698">"description_th_dvb_g"</string>
+    <string name="description_th_dvb_pg_13" msgid="4878535841828610766">"description_th_dvb_pg_13"</string>
+    <string name="description_th_dvb_pg_18" msgid="7938515622888066571">"description_th_dvb_pg_18"</string>
+    <string name="description_th_dvb_a" msgid="512024963764588489">"description_th_dvb_a"</string>
+    <string name="top_10" msgid="7987357528593391792">"10 Teratas"</string>
+    <string name="google" msgid="1549863244464508610">"Google"</string>
+    <string name="closed_captions" msgid="2373640943514951983">"Teks tertutup"</string>
+    <string name="timeshift_usb_removed_msg" msgid="6194434686229716772">"Rekam telah berhenti karena perangkat USB dilepas"</string>
+    <string name="favorite_list_already_exist_1" msgid="3289251721102310378">"Daftar Favorit"</string>
+    <string name="favorite_list_already_exist_2" msgid="3529804492014453280">"sudah ada."</string>
+    <string name="favorite_list_can_not_be_deleted_1" msgid="6761982274588324760">"Daftar favorit dengan nama"</string>
+    <string name="favorite_list_can_not_be_deleted_2" msgid="4874083422331755278">"tidak dapat dihapus!\nHarus ada setidaknya satu daftar favorit."</string>
+    <string name="event_locked" msgid="5012896661600621981">"Acara terkunci"</string>
+    <string name="display_mode" msgid="5525916807515374850">"Mode tayang"</string>
+    <string name="aspect_ratio" msgid="9008404145255831670">"Rasio Aspek"</string>
+    <string name="welcome_message" msgid="6294488758452306065">"Selamat datang di aplikasi Reference+"</string>
+    <string name="wrong_pin_toast" msgid="6002291133648019914">"PIN salah, coba lagi."</string>
+    <string name="wrong_confirmation_new_pin_toast" msgid="4929198756458305423">"PIN tidak cocok, coba lagi."</string>
+    <string name="pin_not_allowed_toast" msgid="7673178594162339524">"Nilai PIN yang baru dimasukkan tidak diizinkan."</string>
+    <string name="recording_reminder_conflict_toast" msgid="3342725032861210860">"Perekaman/pengingat lain dijadwalkan untuk waktu yang sama"</string>
+    <string name="watchlist_scheduled_fail_toast" msgid="7557101012900421675">"Data tidak cukup untuk Daftar Tontonan"</string>
+    <string name="recording_scheduled_error" msgid="6953276880060582955">"Error dalam jadwal perekaman"</string>
+    <string name="recording_watchlist_conflict" msgid="1112228399618314051">"Acara dengan waktu mulai yang sama telah ditambahkan ke daftar tontonan"</string>
+    <string name="watchlist_recording_conflict" msgid="910635194211308326">"Acara dengan waktu mulai yang sama sudah dijadwalkan untuk direkam"</string>
+    <string name="scheduled_recording_USB_warning" msgid="1027775452801327073">"Pastikan perangkat penyimpanan USB terpasang dan diformat dengan benar saat perekaman akan dimulai."</string>
+    <string name="description_text" msgid="5920448733175314484">"Konflik perekaman"</string>
+    <string name="description_text2" msgid="4116069770676836842">"Perekaman sudah disetel pada slot waktu yang diinginkan"</string>
+    <string name="description_text3" msgid="5731426909513503577">"Pilih apa yang akan direkam"</string>
+    <string name="conflict_recording_recording_message" msgid="4725930730550517051">"Ada Perekaman Lain di %s"</string>
+    <string name="conflict_recording_recording_text1" msgid="7738871567642352203">"Teruskan Merekam di %s1"</string>
+    <string name="conflict_recording_recording_text2" msgid="7322858598116551224">"Mulai Merekam di %s2"</string>
+    <string name="conflict_recording_schedule_message" msgid="5295202481303493717">"Perekaman di %s akan berlangsung saat itu"</string>
+    <string name="conflict_recording_schedule_text1" msgid="2630195930192272445">"Batalkan perekaman terjadwal di %s2"</string>
+    <string name="conflict_recording_schedule_text2" msgid="2962033762983988638">"Teruskan perekaman terjadwal di %s2"</string>
+    <!-- format error in translation for conflict_schedule_schedule_text1 (3840825084936618164) -->
+    <!-- format error in translation for conflict_schedule_schedule_text2 (4927525790278764266) -->
+    <string name="toast_for_updated_choice" msgid="7703441781904743833">"Pilihan Diperbarui!"</string>
+    <string name="recording_watchlist_conflict_title" msgid="1761678001255033497">"Perekaman terjadwal dan acara dalam daftar tontonan dimulai bersamaan"</string>
+    <string name="recording_watchlist_conflict_description" msgid="1083019453642052626">"Perekaman akan beralih secara otomatis dalam 0:"</string>
+    <string name="normal" msgid="5464970059482842610">"Normal"</string>
+    <string name="full" msgid="4441637193077517464">"Penuh"</string>
+    <string name="zoom" msgid="3629438711506442385">"Zoom"</string>
+    <string name="duration_5_minutes" msgid="6017374918963331366">"5 menit"</string>
+    <string name="duration_10_minutes" msgid="470807006165757080">"10 menit"</string>
+    <string name="duration_15_minutes" msgid="2295117768776237179">"15 menit"</string>
+    <string name="duration_30_minutes" msgid="4786774397436569500">"30 menit"</string>
+    <string name="duration_60_minutes" msgid="2119037368531283075">"60 menit"</string>
+    <string name="enter_parental_settings" msgid="6262582506598917480">"Buka Setelan Orang Tua"</string>
+    <string name="enter_pin_to_unlock_input" msgid="4996712602685439000">"Masukkan PIN untuk mengakses input ini"</string>
+    <string name="unlock_input" msgid="5832599707461421504">"Buka kunci input"</string>
+    <string name="enter_input_pin" msgid="9221955547432526211">"Masukkan PIN"</string>
+    <string name="factory_no_signal_tv" msgid="2064573018748705100">"Sedang mencari sinyal, atau sinyal tidak ditemukan. Periksa apakah kabel antena telah terhubung dengan benar"</string>
+    <string name="factory_no_signal_inputs" msgid="857391403939935988">"Periksa input eksternal atau pilih input lain menggunakan tombol INPUT"</string>
+    <string name="no_internet_connection" msgid="3602703389996673311">"Tidak Ada Koneksi Internet"</string>
+    <string name="please_try_to_reconnect" msgid="5603181819553490632">"Coba hubungkan kembali"</string>
+    <string name="please_try_to_connect_message" msgid="1162763316317744284">"Hubungkan ke internet untuk mengakses semua fitur"</string>
+    <string name="no_provider_connection" msgid="6154068978862051618">"Tidak ada koneksi ke server penyedia Fast"</string>
+    <string name="please_check_connection" msgid="1440195937769005477">"Verifikasi koneksi internet Anda"</string>
+    <string name="region_not_supported" msgid="5727085228054753295">"Saluran Live tidak tersedia di wilayah Anda"</string>
+    <string name="channel_list_not_available" msgid="4860204781611214239">"Daftar Saluran tidak tersedia"</string>
+    <string name="exit" msgid="8856482581656982699">"Keluar"</string>
+    <string name="check_if_region_not_set_properly" msgid="2242334646167056807">"Periksa apakah wilayah ditetapkan dengan benar"</string>
+    <string name="inputs_text_string" msgid="8501834020850958214">"Input"</string>
+    <string name="google_tv_home" msgid="1436980980307493365">"Google TV Home"</string>
+    <string name="input_home" msgid="4851597169971077442">"Home"</string>
+    <string name="input_tv" msgid="4932335503958456223">"TV"</string>
+    <string name="no_audio_video_channel" msgid="7120336434692503933">"Saluran tidak memiliki konten audio dan video"</string>
+    <string name="no_video_channel" msgid="4168053168323349660">"Saluran tidak memiliki konten video"</string>
+    <string name="please_select_storage_path_for_recording_pvr" msgid="5843521746404803592">"Pilih jalur penyimpanan untuk Merekam PVR di Preferensi"</string>
+    <string name="insufficient_disk_space" msgid="8478643581192172508">"Kapasitas disk USB tidak cukup"</string>
+    <string name="usb_not_connected_connect_usb_to_record" msgid="7776956808628231286">"USB TIDAK TERHUBUNG\nHubungkan USB untuk merekam"</string>
+    <string name="unlock_channel_to_start_recording" msgid="4995285857676486401">"Buka Saluran Untuk Mulai Merekam"</string>
+    <string name="app_exit_msg" msgid="4257978351669549964">"Apakah Anda ingin keluar?"</string>
+    <string name="recording_is_starting_please_wait" msgid="344150952403928079">"Perekaman dimulai, harap tunggu..."</string>
+    <string name="recording_is_stopping_please_wait" msgid="2342124951531177799">"Perekaman dihentikan, harap tunggu..."</string>
+    <string name="device_format_success" msgid="1631011058157503930">"Perangkat berhasil diformat"</string>
+    <string name="usb_must_be_formated_as_exfat" msgid="1738934515906622045">"Perangkat USB harus diformat sebagai exFat"</string>
+    <string name="usb_storage_corrupted" msgid="3148896104962479335">"Penyimpanan USB rusak, lakukan pemformatan..."</string>
+    <string name="recording_not_possible" msgid="6078747818766019984">"Perekaman saluran Live tidak dimungkinkan"</string>
+    <string name="aspect_16_9" msgid="8786337417239598139">"16:9"</string>
+    <string name="aspect_4_3" msgid="3011611360564472603">"4:3"</string>
+    <string name="aspect_auto" msgid="2817389510725267269">"Otomatis"</string>
+    <string name="aspect_original" msgid="1541804373586588740">"Asli"</string>
+    <string name="welcome_to_anoki_title" msgid="4982732649315282900">"Selamat datang di Anoki Live TV+"</string>
+    <string name="welcome_to_anoki_description" msgid="2971114835968060742">"Meningkatkan pengalaman Google TV Anda"</string>
+    <string name="terms_and_privacy_text" msgid="3272316644980190842">"Dengan mengklik Lanjutkan, Anda mengonfirmasi bahwa %1$s dan %2$s Anoki akan berlaku."</string>
+    <string name="button_ok" msgid="6233906390762229936">"Oke"</string>
+    <string name="button_back" msgid="2210995415316656144">"Kembali"</string>
+    <string name="button_continue" msgid="4165279156314996485">"Lanjutkan"</string>
+    <string name="button_next" msgid="1235406249894258169">"Berikutnya"</string>
+    <string name="button_previous" msgid="8532262107401026067">"Sebelumnya"</string>
+    <string name="welcome_item_1_title" msgid="4648567548020207585">"Konten Premium GRATIS"</string>
+    <string name="welcome_item_1_description" msgid="8932812684608357219">"Lihat acara TV populer di TV yang Terhubung (CTV) dan Over the Air (OTA)"</string>
+    <string name="welcome_item_2_title" msgid="4510896367604472839">"Beragam Acara TV dan Film"</string>
+    <string name="welcome_item_2_description" msgid="3333973620372850212">"Pilihan tak terbatas dari saluran TV live, on-demand, dan siaran"</string>
+    <string name="welcome_item_3_title" msgid="7210612275353300351">"Dipersonalisasi hanya untuk Anda"</string>
+    <string name="welcome_item_3_description" msgid="2565105830373772224">"Temukan saluran TV, acara, dan film yang paling relevan bagi Anda"</string>
+    <string name="discover">Temukan</string>
+    <string name="live">Langsung</string>
+    <string name="broadcast">Siarkan</string>
+    <string name="broadcast_tv_channels">Saluran TV yang Disiarkan</string>
+    <string name="digital_subtitle">Subtitle Digital</string>
+    <string name="analog_subtitle">Subtitle Analog</string>
+    <string name="audio_type">Tipe Audio</string>
+    <string name="spoken_subtitile">Subtitle Tertutur</string>
+    <string name="audio_descreiption_and_sop_sub">Deskripsi Audio dan Subtitle Tertutur</string>
+    <string name="cam_menu">Menu Kamera</string>
+    <string name="no_cam">Tidak Ada Kartu Kamera</string>
+    <string name="user_preference">Preferensi Pengguna</string>
+    <string name="cam_type_preference">Preferensi Tipe Kamera</string>
+    <string name="cam_scan">Pindai Kamera</string>
+    <string name="cam_op_profile">Profil Operator Kamera</string>
+    <string name="op_profile_delete">Hapus Profil Operator:</string>
+    <string name="ci_card_inserted">Kartu CI Dimasukkan</string>
+    <string name="ci_card_removed">Kartu CI Dilepas</string>
+    <string name="install_dtv_operator">Apakah Anda ingin menginstal Profil: </string>
+    <string name="create_tsfile">Membuat file timeshift, harap tunggu beberapa menit.</string>
+    <string name="timeshift_file">Tidak ada file timeshift di perangkat USB. Apakah Anda ingin membuat salah satu untuk dapat menggunakan timeshift?</string>
+    <string name="channel_changed_popup">Saluran Berubah</string>
+    <string name="channel_changed_popup_msg">Saluran baru ditemukan dan ditambahkan dalam daftar saluran</string>
+    <string name="undefined">Tidak Didefinisikan</string>
+    <string name="general_satellite">Satelit Umum</string>
+    <string name="preferred_satellite">Satelit Pilihan</string>
+    <string name="power">Kekuatan</string>
+    <string name="return_to_live">Kembali</string>
+    <string name="audio_switched_to">audio dialihkan ke</string>
+    <string name="ar_tv_atp" msgid="1262691263626371517">"ATP"</string>
+    <string name="ar_tv_sam_13" msgid="7661147498753177171">"SAM 13"</string>
+    <string name="ar_tv_sam_16" msgid="5476142846469432541">"SAM 16"</string>
+    <string name="ar_tv_sam_18" msgid="4244288105419382881">"SAM 18"</string>
+    <string name="ar_tv_d" msgid="4118744496840779862">"D"</string>
+    <string name="ar_tv_v" msgid="4521002592974868712">"V"</string>
+    <string name="ar_tv_s" msgid="3375418912558932996">"S"</string>
+    <string name="au_tv_p" msgid="6086961330443603510">"P"</string>
+    <string name="au_tv_c" msgid="2797577216970529487">"C"</string>
+    <string name="au_tv_g" msgid="1246220676900897582">"G"</string>
+    <string name="au_tv_pg" msgid="8315847911615387873">"PG"</string>
+    <string name="au_tv_m" msgid="3805410505132347357">"S"</string>
+    <string name="au_tv_ma" msgid="7142377970416119685">"MA"</string>
+    <string name="au_tv_av" msgid="4923091941219351610">"AV"</string>
+    <string name="au_tv_r" msgid="1159878276949022718">"R"</string>
+    <string name="br_tv_l" msgid="2146455438205905551">"L"</string>
+    <string name="br_tv_10" msgid="5426092344765864959">"10"</string>
+    <string name="br_tv_12" msgid="3423227445694071808">"12"</string>
+    <string name="br_tv_14" msgid="6527090827362092556">"14"</string>
+    <string name="br_tv_16" msgid="5277464819020179643">"16"</string>
+    <string name="br_tv_18" msgid="3571565801006068532">"18"</string>
+    <string name="br_tv_d" msgid="1829082298286119368">"D"</string>
+    <string name="br_v_s" msgid="4417831593240307965">"S"</string>
+    <string name="b_tv_v" msgid="8527444475975705563">"V"</string>
+    <string name="ca_tv_en_exempt" msgid="3791559109016591514">"E"</string>
+    <string name="ca_tv_en_c" msgid="1450962243634331730">"C"</string>
+    <string name="ca_tv_en_c8" msgid="1468706428954617423">"C8+"</string>
+    <string name="ca_tv_en_g" msgid="7130750675106003980">"G"</string>
+    <string name="ca_tv_en_pg" msgid="5786689562067162017">"PG"</string>
+    <string name="ca_tv_en_14" msgid="758036909135734278">"14+"</string>
+    <string name="ca_tv_en_18" msgid="6703931259571793752">"18+"</string>
+    <string name="ca_tv_fr_e" msgid="5255979271939397569">"E"</string>
+    <string name="ca_tv_fr_g" msgid="1896159381443375153">"G"</string>
+    <string name="ca_tv_fr_8" msgid="5120393132468360078">"8ans+"</string>
+    <string name="ca_tv_fr_13" msgid="4012722091331563301">"13ans+"</string>
+    <string name="ca_tv_fr_16" msgid="900401532800212175">"16ans+"</string>
+    <string name="ca_tv_fr_18" msgid="8969044005465966972">"18ans+"</string>
+    <string name="dtmb_4" msgid="6976572140074319548">"4"</string>
+    <string name="dtmb_5" msgid="3437073502070222812">"5"</string>
+    <string name="dtmb_6" msgid="9185506349079906844">"6"</string>
+    <string name="dtmb_7" msgid="1399702692488527958">"7"</string>
+    <string name="dtmb_8" msgid="5603491017858332118">"8"</string>
+    <string name="dtmb_9" msgid="482567955944050242">"9"</string>
+    <string name="dtmb_10" msgid="321193224223528870">"10"</string>
+    <string name="dtmb_11" msgid="3416520436207043304">"11"</string>
+    <string name="dtmb_12" msgid="6392570491336670154">"12"</string>
+    <string name="dtmb_13" msgid="3982130186132709710">"13"</string>
+    <string name="dtmb_14" msgid="7154316979741410466">"14"</string>
+    <string name="dtmb_15" msgid="6478191980875308315">"15"</string>
+    <string name="dtmb_16" msgid="6604332674875120307">"16"</string>
+    <string name="dtmb_17" msgid="771155724220026195">"17"</string>
+    <string name="dtmb_18" msgid="3471828453189011529">"18"</string>
+    <string name="dvb_4" msgid="1069417914928331916">"4"</string>
+    <string name="dvb_5" msgid="5833640543265721119">"5"</string>
+    <string name="dvb_6" msgid="5943557846222730938">"6"</string>
+    <string name="dvb_7" msgid="6341954229025895175">"7"</string>
+    <string name="dvb_8" msgid="5307599378445317697">"8"</string>
+    <string name="dvb_9" msgid="3388108727812347402">"9"</string>
+    <string name="dvb_10" msgid="2177473849455114686">"10"</string>
+    <string name="dvb_11" msgid="3773716644803306792">"11"</string>
+    <string name="dvb_12" msgid="3525896874958451358">"12"</string>
+    <string name="dvb_13" msgid="7121668158420452982">"13"</string>
+    <string name="dvb_14" msgid="5539982906289788278">"14"</string>
+    <string name="dvb_15" msgid="3917642448957776848">"15"</string>
+    <string name="dvb_16" msgid="9105707083369649582">"16"</string>
+    <string name="dvb_17" msgid="6657295522716597654">"17"</string>
+    <string name="dvb_18" msgid="5834330178215019712">"18"</string>
+    <string name="es_dvb_all" msgid="5538197631097991871">"SEMUA"</string>
+    <string name="es_dvb_c" msgid="3212371765420661105">"Anak-anak"</string>
+    <string name="es_dvb_x" msgid="3092575088929583346">"Rating X"</string>
+    <string name="es_dvb_4" msgid="6060850008169659439">"4"</string>
+    <string name="es_dvb_5" msgid="4567880044486129726">"5"</string>
+    <string name="es_dvb_6" msgid="9053493577975224574">"6"</string>
+    <string name="es_dvb_7" msgid="5992402120440898881">"7"</string>
+    <string name="es_dvb_8" msgid="1951659265652059644">"8"</string>
+    <string name="es_dvb_9" msgid="4539063814383801812">"9"</string>
+    <string name="es_dvb_10" msgid="3310095120744551627">"10"</string>
+    <string name="es_dvb_11" msgid="6453557993630098952">"11"</string>
+    <string name="es_dvb_12" msgid="5044017835374949676">"12"</string>
+    <string name="es_dvb_13" msgid="8960240081362346637">"13"</string>
+    <string name="es_dvb_14" msgid="3863155460422487473">"14"</string>
+    <string name="es_dvb_15" msgid="6655490588482156160">"15"</string>
+    <string name="es_dvb_16" msgid="8007557424031669566">"16"</string>
+    <string name="es_dvb_17" msgid="2528656607932647009">"17"</string>
+    <string name="es_dvb_18" msgid="5952166432105836146">"18"</string>
+    <string name="fr_dvb_u" msgid="5244261876152847950">"Semua umur"</string>
+    <string name="fr_dvb_4" msgid="474297552091371136">"4"</string>
+    <string name="fr_dvb_5" msgid="8518664778905414983">"5"</string>
+    <string name="fr_dvb_6" msgid="8727779857287961988">"6"</string>
+    <string name="fr_dvb_7" msgid="5888386626710476753">"7"</string>
+    <string name="fr_dvb_8" msgid="585815774126700325">"8"</string>
+    <string name="fr_dvb_9" msgid="3157206265464285061">"9"</string>
+    <string name="fr_dvb_10" msgid="3450600252376366055">"10"</string>
+    <string name="fr_dvb_11" msgid="3137240088969540229">"11"</string>
+    <string name="fr_dvb_12" msgid="1226368861597277699">"12"</string>
+    <string name="fr_dvb_13" msgid="1149721411588848205">"13"</string>
+    <string name="fr_dvb_14" msgid="2737219326053428298">"14"</string>
+    <string name="fr_dvb_15" msgid="571592355764188475">"15"</string>
+    <string name="fr_dvb_16" msgid="757165722519525954">"16"</string>
+    <string name="fr_dvb_17" msgid="2221811677117721125">"17"</string>
+    <string name="fr_dvb_18" msgid="2601153071766854187">"18"</string>
+    <string name="isdb_4" msgid="1396670332826142598">"4"</string>
+    <string name="isdb_5" msgid="7735118906786567165">"5"</string>
+    <string name="isdb_6" msgid="8708921891016535390">"6"</string>
+    <string name="isdb_7" msgid="6264898602014849475">"7"</string>
+    <string name="isdb_8" msgid="5846644503733097171">"8"</string>
+    <string name="isdb_9" msgid="8799572739544437968">"9"</string>
+    <string name="isdb_10" msgid="1627106534254509605">"10"</string>
+    <string name="isdb_11" msgid="8230877577144307348">"11"</string>
+    <string name="isdb_12" msgid="7778357254411540022">"12"</string>
+    <string name="isdb_13" msgid="2453549071165798560">"13"</string>
+    <string name="isdb_14" msgid="2792721868664371">"14"</string>
+    <string name="isdb_15" msgid="8799731927895866946">"15"</string>
+    <string name="isdb_16" msgid="6229308452507255384">"16"</string>
+    <string name="isdb_17" msgid="5080078482567321756">"17"</string>
+    <string name="isdb_18" msgid="555969060807719208">"18"</string>
+    <string name="isdb_19" msgid="5997395257237725359">"19"</string>
+    <string name="isdb_20" msgid="3694814836418291364">"20"</string>
+    <string name="kr_tv_all" msgid="986491865532979728">"SEMUA"</string>
+    <string name="kr_tv_7" msgid="5284674018378065597">"7"</string>
+    <string name="kr_tv_12" msgid="7593330732582239999">"12"</string>
+    <string name="kr_tv_15" msgid="182495011364451664">"15"</string>
+    <string name="kr_tv_19" msgid="7458414748850874813">"19"</string>
+    <string name="nz_tv_g" msgid="2808137567855091010">"G"</string>
+    <string name="nz_tv_pgr" msgid="8555814501204672259">"PGR"</string>
+    <string name="nz_tv_ao" msgid="7843949831042344488">"AO"</string>
+    <string name="sg_tv_g" msgid="8798276688195760885">"G"</string>
+    <string name="sg_tv_pg" msgid="1662867888581341978">"PG"</string>
+    <string name="sg_tv_pg13" msgid="4964456896973732695">"PG13"</string>
+    <string name="sg_tv_nc16" msgid="7740703135818734968">"NC16"</string>
+    <string name="sg_tv_m18" msgid="1717224007824699413">"M18"</string>
+    <string name="sg_tv_r21" msgid="3591847091901178153">"R21"</string>
+    <string name="th_tv_4" msgid="4563361113725413706">"4"</string>
+    <string name="th_tv_6" msgid="8874223717002216069">"6"</string>
+    <string name="th_tv_10" msgid="969919319242163352">"10"</string>
+    <string name="th_tv_13" msgid="1104333457240393972">"13"</string>
+    <string name="th_tv_18" msgid="3999083106333165911">"18"</string>
+    <string name="th_tv_19" msgid="482742977530974274">"19"</string>
+    <string name="us_mv_g" msgid="3636427636199506189">"G"</string>
+    <string name="us_mv_pg" msgid="8323131948966103770">"PG"</string>
+    <string name="us_mv_pg13" msgid="5917741051203443762">"PG13"</string>
+    <string name="us_mv_r" msgid="8334513822722676832">"R"</string>
+    <string name="us_mv_nc17" msgid="6228537430888625776">"NC17"</string>
+    <string name="us_mv_x" msgid="4729171602475180951">"X"</string>
+    <string name="us_tv_y" msgid="285566187752891575">"TV-Y"</string>
+    <string name="us_tv_y7" msgid="5822887012283738401">"TV-Y7"</string>
+    <string name="us_tv_g" msgid="815441646747542949">"TV-G"</string>
+    <string name="us_tv_pg" msgid="8169462876867667200">"TV-PG"</string>
+    <string name="us_tv_14" msgid="6817531337579211660">"TV-14"</string>
+    <string name="us_tv_ma" msgid="2672151654857890106">"TV-MA"</string>
+    <string name="us_tv_d" msgid="3006650733492277375">"D"</string>
+    <string name="us_tv_l" msgid="4953352970967827720">"L"</string>
+    <string name="us_tv_s" msgid="2109399506294455265">"S"</string>
+    <string name="us_tv_v" msgid="25591701285016646">"V"</string>
+    <string name="us_tv_fv" msgid="9035500145771077280">"FV"</string>
+    <string name="oad_download" msgid="430354804199852970">"Download secara nirkabel"</string>
+    <string name="favorite" msgid="2876170439006446322">"Favorit"</string>
+    <string name="teletext_feature_not_available_for_channel">"Fitur teleteks tidak tersedia untuk saluran ini."</string>
+
+    <string name="terms_of_service">Persyaratan Layanan</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="terms_of_service_description">Silakan klik di bawah untuk mempelajari lebih lanjut tentang Syarat Layanan dan Kebijakan Privasi yang berlaku saat Anda menggunakan Aplikasi Live TV.</string>
+    <string name="enable_streaming_tv">Aktifkan TV Streaming</string>
+    <string name="tos_more_info_text">Live TVˣ menawarkan konten streaming premium.\n Klik 'Aktifkan TV Streaming' untuk meningkatkan pengalaman TV Anda ke level berikutnya!</string>
+
+    <string name="feedback">Umpan Balik</string>
+    <string name="feedback_instruction_title">Kirim umpan balik tentang pengalaman Live TVˣ</string>
+    <string name="feedback_text_title">Harap sertakan hal berikut dalam umpan balik Anda</string>
+    <string name="feedback_instruction_text_1">1. Deskripsi masalah Anda termasuk langkah-langkah yang Anda lakukan\n   saat masalah terjadi, hasil yang diharapkan, dan hasil yang diamati.</string>
+    <string name="feedback_instruction_text_2"> 2. Jika memungkinkan, lampirkan video atau foto masalah\n    dalam email.</string>
+
+    <string name="restart">Mulai Ulang</string>
+    <string name="restart_dialog_text">Untuk menonton saluran langsung, silakan mulai ulang TV Anda</string>
+
+    <string name="delete_channels_funai">Hapus Saluran</string>
+    <string name="delete_channels_funai_dialog_title">Konfirmasi Hapus Saluran</string>
+    <string name="delete_channels_funai_dialog_msg">Apakah Anda ingin menghapus semua saluran? Setelah menghapus, aplikasi akan direset dan Anda harus memindai saluran lagi.</string>
+    <string name="delete_channel_description">Jika mengalami masalah dengan saluran siaran, cobalah untuk menghapus saluran.</string>
+    <string name="timeshift_buffer_reached_warning">Ukuran buffer timeshift tercapai.\nApakah Anda ingin menonton atau kembali ke siaran langsung?</string>
+    <string name="optin_label">Layanan Informasi Menonton Anoki</string>
+    <string name="no_signal_power_off_inactivity_msg">Tidak ada sinyal. TV akan mati dalam:</string>
+    <string name="edit_channel">Edit saluran</string>
+    <string name="long_press_ok_edit_favorite_list">Tekan lama OK untuk mengedit daftar</string>
+    <string name="long_press_ok_edit_channel">Tekan lama OK untuk mengedit saluran yang dipilih</string>
+    <string name="long_press_ok_open_main_menu">Tekan lama OK untuk membuka menu utama</string>
+    <string name="press_back_exit_pin_input">Tekan kembali untuk keluar dari layar input PIN</string>
+    <string name="recording_stopped">Rekaman telah dihentikan</string>
+    <string name="unlock_channel_to_start_timeshift">Buka kunci saluran untuk memulai timeshift</string>
+    <string name="time_shift_buffer_size_reached_msg">Ukuran buffer timeshift telah tercapai.</string>
+    <string name="failed_to_start_pvr">Gagal memulai PVR. Sinyal tidak ditemukan.</string>
+    <string name="set_usb">Setel USB</string>
+    <string name="enable_timeshift">Aktifkan Timeshift</string>
+    <string name="reset_device_id_confirmation">Apakah Anda yakin ingin mengatur ulang ID perangkat?</string>
+</resources>

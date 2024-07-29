@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:id="@+id/background_layout">
+
+    <TextView
+        android:id="@+id/programme_number_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_15"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/programme_found_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/programme_number_tv"
+        android:layout_marginStart="@dimen/custom_dim_20"
+        android:textSize="@dimen/font_15"
+        android:textAlignment="viewStart"/>
+
+    <TextView
+        android:id="@+id/radio_number_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/programme_number_tv"
+        android:textSize="@dimen/font_15"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/radio_found_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/programme_number_tv"
+        android:layout_alignStart="@+id/programme_found_tv"
+        android:textSize="@dimen/font_15"
+        android:textAlignment="viewStart"/>
+</RelativeLayout>

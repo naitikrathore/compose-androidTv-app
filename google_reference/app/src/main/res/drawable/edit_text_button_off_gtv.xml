@@ -1,0 +1,24 @@
+ <!-- drawable/long_button.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="268dp"
+android:height="40dp"
+android:viewportWidth="268"
+android:viewportHeight="40"
+    >
+
+<group>
+
+    <clip-path
+        android:pathData="M10 0H258C263.523 0 268 4.47715 268 10V30C268 35.5228 263.523 40 258 40H10C4.47715 40 0 35.5228 0 30V10C0 4.47715 4.47715 0 10 0Z"
+        />
+
+    <path
+        android:pathData="M0 0V40H268V0"
+        android:fillColor="@color/fti_gtv_relative_layout_edit_text_off"
+        />
+
+</group>
+
+</vector>

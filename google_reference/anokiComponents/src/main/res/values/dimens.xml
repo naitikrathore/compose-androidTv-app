@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Component values -->
+    <dimen name="channel_card_width">110dp</dimen>
+    <dimen name="channel_program_card_padding">2dp</dimen>
+    <dimen name="channel_program_card_height">50dp</dimen>
+    <dimen name="program_card_width_per_minute">5dp</dimen>
+
+    <dimen name="rounded_card_border_size">2dp</dimen>
+    <dimen name="button_vertical_padding">10dp</dimen>
+    <dimen name="button_horizontal_padding">12dp</dimen>
+    <dimen name="button_content_padding">8dp</dimen>
+    <dimen name="button_progress_indicator_width">100dp</dimen>
+    <dimen name="item_card_with_progress_corner_radius">8dp</dimen>
+
+    <dimen name="circular_progress_view_width">48dp</dimen>
+
+    <dimen name="vod_progress_bar_horizontal_padding">22dp</dimen>
+    <dimen name="vod_progress_bar_height">4dp</dimen>
+
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_56">56dp</dimen>
+
+</resources>

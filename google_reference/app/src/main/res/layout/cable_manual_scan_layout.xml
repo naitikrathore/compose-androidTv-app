@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background_layout">
+
+    <RelativeLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/custom_dim_116"
+            android:layout_marginTop="@dimen/custom_dim_48"
+            android:textSize="@dimen/font_25" />
+
+        <com.iwedia.cltv.scan_activity.core.EditTextView
+            android:id="@+id/frequency_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_alignStart="@+id/title"
+            android:layout_marginTop="@dimen/custom_dim_41" />
+
+        <com.iwedia.cltv.scan_activity.core.TraversalListView
+            android:id="@+id/modulation_tl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frequency_edit_text"
+            android:layout_alignStart="@+id/title"
+            android:layout_marginStart="@dimen/custom_dim_n10"
+            android:layout_marginTop="@dimen/custom_dim_20" />
+
+        <com.iwedia.cltv.ReferenceDrawableButton
+            android:id="@+id/nit_cb"
+            android:layout_width="@dimen/custom_dim_139"
+            android:layout_height="@dimen/custom_dim_40"
+            android:layout_below="@+id/modulation_tl"
+            android:layout_alignStart="@+id/title"
+            android:layout_marginTop="@dimen/custom_dim_50"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/custom_dim_14"
+            android:paddingEnd="@dimen/custom_dim_10"
+            android:textSize="@dimen/font_25">
+        </com.iwedia.cltv.ReferenceDrawableButton>
+
+
+        <com.iwedia.cltv.scan_activity.core.EditTextView
+            android:id="@+id/nit_edit_text"
+            android:layout_width="@dimen/custom_dim_100"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/modulation_tl"
+            android:layout_alignStart="@+id/title"
+            android:layout_marginTop="@dimen/custom_dim_20"
+            android:nextFocusRight="@id/nit_edit_text"
+            android:nextFocusUp="@id/modulation_tl" />
+
+        <com.iwedia.cltv.scan_activity.core.EditTextView
+            android:id="@+id/symbol_rate_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginStart="@dimen/custom_dim_537"
+            android:layout_marginTop="@dimen/custom_dim_41"
+            android:nextFocusDown="@id/symbol_rate_edit_text" />
+
+        <com.iwedia.cltv.scan_activity.core.ProgressBarView
+            android:id="@+id/signal_strength_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symbol_rate_edit_text"
+            android:layout_marginStart="@dimen/custom_dim_537"
+            android:layout_marginTop="@dimen/custom_dim_43" />
+
+        <com.iwedia.cltv.scan_activity.core.ProgressBarView
+            android:id="@+id/signal_quality_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signal_strength_progress"
+            android:layout_alignStart="@+id/signal_strength_progress"
+            android:layout_marginTop="@dimen/custom_dim_57" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/custom_dim_30"
+            android:orientation="horizontal">
+
+            <com.iwedia.cltv.ReferenceDrawableButton
+                android:id="@+id/tune_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/custom_dim_10"
+                android:paddingTop="@dimen/custom_dim_5"
+                android:paddingEnd="@dimen/custom_dim_10"
+                android:paddingBottom="@dimen/custom_dim_5"
+                android:textSize="@dimen/font_25">
+                <requestFocus />
+            </com.iwedia.cltv.ReferenceDrawableButton>
+
+
+
+            <com.iwedia.cltv.ReferenceDrawableButton
+                android:id="@+id/scan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/custom_dim_110"
+                android:paddingStart="@dimen/custom_dim_10"
+                android:paddingTop="@dimen/custom_dim_5"
+                android:paddingEnd="@dimen/custom_dim_10"
+                android:paddingBottom="@dimen/custom_dim_5"
+                android:textSize="@dimen/font_25">
+            </com.iwedia.cltv.ReferenceDrawableButton>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/keyboard_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_220"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_dim_1_5"
+            android:layout_alignParentTop="true"
+            android:id="@+id/view_layout" />
+
+        <com.iwedia.cltv.scan_activity.core.KeyboardView
+            android:id="@+id/keyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </com.iwedia.cltv.scan_activity.core.KeyboardView>
+    </RelativeLayout>
+</RelativeLayout>

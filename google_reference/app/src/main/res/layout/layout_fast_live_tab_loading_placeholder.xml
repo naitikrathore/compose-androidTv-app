@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="@dimen/custom_dim_110"
+        android:paddingEnd="@dimen/custom_dim_6"
+        android:layout_height="@dimen/custom_dim_50">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/custom_dim_0"
+            android:layout_height="@dimen/custom_dim_50"
+            app:cardBackgroundColor="#1ABDC1C6"
+            app:cardCornerRadius="@dimen/custom_dim_2_5"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="@dimen/custom_dim_250"
+        android:paddingEnd="@dimen/custom_dim_6"
+        android:layout_height="@dimen/custom_dim_50">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/custom_dim_0"
+            android:layout_height="@dimen/custom_dim_50"
+            app:cardBackgroundColor="#1ABDC1C6"
+            app:cardCornerRadius="@dimen/custom_dim_2_5"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="@dimen/custom_dim_250"
+        android:paddingEnd="@dimen/custom_dim_6"
+        android:layout_height="@dimen/custom_dim_50">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/custom_dim_0"
+            android:layout_height="@dimen/custom_dim_50"
+            app:cardBackgroundColor="#1ABDC1C6"
+            app:cardCornerRadius="@dimen/custom_dim_2_5"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="@dimen/custom_dim_250"
+        android:paddingEnd="@dimen/custom_dim_6"
+        android:layout_height="@dimen/custom_dim_50">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/custom_dim_0"
+            android:layout_height="@dimen/custom_dim_50"
+            app:cardBackgroundColor="#1ABDC1C6"
+            app:cardCornerRadius="@dimen/custom_dim_2_5"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="@dimen/custom_dim_250"
+        android:paddingEnd="@dimen/custom_dim_6"
+        android:layout_height="@dimen/custom_dim_50">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/custom_dim_0"
+            android:layout_height="@dimen/custom_dim_50"
+            app:cardBackgroundColor="#1ABDC1C6"
+            app:cardCornerRadius="@dimen/custom_dim_2_5"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

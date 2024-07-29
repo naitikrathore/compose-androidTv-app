@@ -1,0 +1,22 @@
+[ {
+  "name" : "color_background",
+  "value" : "#000000"
+}, {
+  "name" : "color_not_selected",
+  "value" : "#2b2b2d"
+}, {
+  "name" : "color_text_description",
+  "value" : "#b7b7b7"
+}, {
+  "name" : "color_main_text",
+  "value" : "#eeeeee"
+}, {
+  "name" : "color_selector",
+  "value" : "#ffb92e"
+}, {
+  "name" : "color_progress",
+  "value" : "#3e50ee"
+}, {
+  "name" : "color_pvr_and_other",
+  "value" : "#b7b7b7"
+} ]

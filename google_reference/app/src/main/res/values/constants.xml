@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="const_fe_ipott">IP/OTT</string>
+    <string name="const_fe_dvbc">DVB-C</string>
+    <string name="const_fe_dvbs">DVB-S</string>
+    <string name="const_fe_dvbt">DVB-T</string>
+
+    <string name="const_mod_qam16">QAM16</string>
+    <string name="const_mod_qam32">QAM32</string>
+    <string name="const_mod_qam64">QAM64</string>
+    <string name="const_mod_qam128">QAM128</string>
+    <string name="const_mod_qam256">QAM256</string>
+
+    <integer name="const_mod_num_bsk">0</integer>
+    <integer name="const_mod_num_qpsk">1</integer>
+    <integer name="const_mod_num_qam4">2</integer>
+    <integer name="const_mod_num_8psk">3</integer>
+    <integer name="const_mod_num_qam16">4</integer>
+    <integer name="const_mod_num_qam32">5</integer>
+    <integer name="const_mod_num_qam64">6</integer>
+    <integer name="const_mod_num_qam128">7</integer>
+    <integer name="const_mod_num_qam256">8</integer>
+    <integer name="const_mod_num_auto">9</integer>
+
+    <integer name="const_scan_append_true">0</integer>
+    <integer name="const_scan_append_false">1</integer>
+    <integer name="const_scan_append_ask">2</integer>
+
+</resources>

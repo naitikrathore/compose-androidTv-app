@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RadioGroup android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:id="@+id/repeat"
+        tools:ignore="MissingConstraints">
+        <RadioButton
+            android:button="@drawable/selector_repeat_cr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/daily"
+            android:textSize="15dp"
+            android:lineSpacingExtra="15dp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="7dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Daily"
+            android:textStyle="normal"
+            android:focusable="true"
+            tools:checked="true"
+            android:background="@drawable/ratio"
+            android:layout_marginTop="@dimen/custom_dim_112"
+            android:layout_marginBottom="144dp"
+            android:clickable="true"
+            />
+        <RadioButton
+            android:button="@drawable/selector_repeat_cr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weekly"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15dp"
+            android:layout_marginLeft="@dimen/custom_dim_30_5"
+            android:lineSpacingExtra="15dp"
+            android:text="Weekly"
+            android:gravity="center_horizontal"
+            android:textStyle="normal"
+            android:focusable="true"
+            android:background="@drawable/ratio"
+            android:layout_marginTop="@dimen/custom_dim_112"
+            android:layout_marginBottom="144dp"
+            android:clickable="true"
+            >
+
+        </RadioButton>
+
+        <RadioButton
+            android:button="@drawable/selector_repeat_cr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/none"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="15dp"
+            android:layout_marginLeft="@dimen/custom_dim_30_5"
+            android:lineSpacingExtra="15dp"
+            android:text="None"
+            android:gravity="center_horizontal"
+            android:textStyle="normal"
+            android:focusable="true"
+            android:background="@drawable/ratio"
+            android:layout_marginTop="@dimen/custom_dim_112"
+            android:layout_marginBottom="144dp"
+            android:clickable="true" />
+
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

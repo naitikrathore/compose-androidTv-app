@@ -1,0 +1,10 @@
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/app_name"
+    android:searchSuggestAuthority="referenceSearchForContentLiveTv"
+    android:searchSuggestIntentAction="android.intent.action.VIEW"
+    android:searchSuggestSelection=" ?"
+    android:searchSuggestThreshold="1"
+    android:includeInGlobalSearch="true"
+    android:searchSuggestIntentData="content://com.google.android.tv.search/search_suggest_query"
+    android:voiceSearchMode="showVoiceSearchButton|launchRecognizer">
+</searchable>

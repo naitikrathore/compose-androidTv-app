@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/emailTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/custom_dim_100_5"
+        android:layout_marginTop="@dimen/custom_dim_50"
+        android:text="support@cltv.dev"
+        android:textSize="@dimen/font_30"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextView"
+        android:layout_marginStart="@dimen/custom_dim_100_5"
+        android:layout_marginTop="@dimen/custom_dim_20"
+        android:text="Send feedback about the Live TVˣ experience"
+        android:textSize="@dimen/font_16"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/instructionsTitleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginStart="@dimen/custom_dim_100_5"
+        android:layout_marginTop="@dimen/custom_dim_30"
+        android:text="Please include the following in your feedback"
+        android:textSize="@dimen/font_16"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/instructionsTextView1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instructionsTitleTextView"
+        android:layout_marginStart="@dimen/custom_dim_100_5"
+        android:layout_marginTop="@dimen/custom_dim_10"
+        android:text=" 1. Description of your issue including what steps you were\ntaking when it occurred, expected resul, and observer\nresult."
+        android:textSize="@dimen/font_12"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/instructionsTextView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instructionsTextView1"
+        android:layout_marginStart="@dimen/custom_dim_100_5"
+        android:layout_marginTop="@dimen/custom_dim_10"
+        android:text=" 2. If possible, please attach a video or photo of the issue\nwithin the email."
+        android:textSize="@dimen/font_12"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

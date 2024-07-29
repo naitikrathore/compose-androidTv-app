@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gradient">
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="250dp"
+            android:layout_marginTop="@dimen/custom_dim_70"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="275dp"
+            app:button_type="RED"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="@+id/button_red"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/custom_dim_20"
+            android:layout_marginTop="@dimen/custom_dim_70"
+            app:button_type="GREEN"/>
+
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/button_red"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="250dp"
+            android:layout_marginTop="@dimen/custom_dim_30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="275dp"
+            app:button_type="YELLOW"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="@+id/button_yellow"
+            app:layout_constraintTop_toBottomOf="@id/button_green"
+            android:layout_marginStart="@dimen/custom_dim_20"
+            android:layout_marginTop="@dimen/custom_dim_30"
+            app:button_type="BLUE"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="250dp"
+            android:layout_marginTop="@dimen/custom_dim_210"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="220dp"
+            android:nextFocusLeft="@id/button1"
+            app:button_type="CUSTOM_TEXT"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="@+id/button1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/custom_dim_8"
+            android:layout_marginTop="@dimen/custom_dim_210"
+            app:button_type="CUSTOM_TEXT"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="@+id/button2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/custom_dim_8"
+            android:layout_marginTop="@dimen/custom_dim_210"
+            android:nextFocusRight="@id/button4"
+            app:button_type="CUSTOM_TEXT"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/button1"
+            app:layout_constraintLeft_toLeftOf="@id/button1"
+            android:layout_marginEnd="250dp"
+            android:layout_marginTop="@dimen/custom_dim_8"
+            android:nextFocusLeft="@id/button4"
+            app:button_type="CUSTOM_TEXT"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="@id/button4"
+            app:layout_constraintTop_toBottomOf="@id/button2"
+            android:layout_marginStart="@dimen/custom_dim_8"
+            android:layout_marginTop="@dimen/custom_dim_8"
+            app:button_type="CUSTOM_TEXT"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="@id/button5"
+            app:layout_constraintTop_toBottomOf="@id/button3"
+            android:layout_marginStart="@dimen/custom_dim_8"
+            android:layout_marginTop="@dimen/custom_dim_8"
+            android:nextFocusRight="@id/button7"
+            app:button_type="CUSTOM_TEXT"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toLeftOf="@id/button1"
+            app:layout_constraintTop_toBottomOf="@id/button4"
+            android:layout_marginEnd="250dp"
+            android:layout_marginTop="@dimen/custom_dim_8"
+            app:button_type="CUSTOM_TEXT"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="@id/button7"
+            app:layout_constraintTop_toBottomOf="@id/button5"
+            android:layout_marginStart="@dimen/custom_dim_8"
+            android:layout_marginTop="@dimen/custom_dim_8"
+            app:button_type="CUSTOM_TEXT"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="@id/button8"
+            app:layout_constraintTop_toBottomOf="@id/button6"
+            android:layout_marginStart="@dimen/custom_dim_8"
+            android:layout_marginTop="@dimen/custom_dim_8"
+            android:nextFocusRight="@id/button0"
+            app:button_type="CUSTOM_TEXT"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/button7"
+            app:layout_constraintLeft_toLeftOf="@id/button7"
+            android:layout_marginEnd="250dp"
+            android:layout_marginTop="@dimen/custom_dim_8"
+            android:nextFocusLeft="@id/button4"
+            app:button_type="CUSTOM_TEXT"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="@id/button0"
+            app:layout_constraintTop_toBottomOf="@id/button8"
+            android:layout_marginStart="@dimen/custom_dim_9_5"
+            android:layout_marginTop="@dimen/custom_dim_8"
+            app:button_type="CUSTOM_TEXT"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button_backspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="@id/button_"
+            app:layout_constraintTop_toBottomOf="@id/button9"
+            android:layout_marginStart="@dimen/custom_dim_9_5"
+            android:layout_marginTop="@dimen/custom_dim_8"
+            android:nextFocusRight="@id/button7"
+            app:button_type="BACKSPACE"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button_ttx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/button0"
+            app:layout_constraintLeft_toLeftOf="@id/button0"
+            android:layout_marginTop="@dimen/custom_dim_20"
+            app:button_type="OK"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/button_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="@id/button_ttx"
+            app:layout_constraintTop_toBottomOf="@id/button_"
+            android:layout_marginStart="@dimen/custom_dim_35"
+            android:layout_marginTop="@dimen/custom_dim_20"
+            app:button_type="OK"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

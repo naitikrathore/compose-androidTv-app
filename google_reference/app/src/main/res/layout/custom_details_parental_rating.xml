@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ########################################################################################### -->
+<!--Caution: Exercise caution while modifying this XML file as alterations will impact multiple
+cards with diverse behaviors. As of the creation of this XML file, there are two potential scenarios
+concerning the display of parental rating items in CustomDetails:
+   1) The parental rating is displayed next to the title in the first row.
+   2) Parental rating is displayed below the title.
+This XML file is included in two locations to serve these distinct purposes.
+Please keep this in mind to ensure consistency and appropriate functioning across different contexts.
+################################################################################################ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parental_rating_linear_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/custom_dim_7_5"
+    android:importantForAccessibility="no"
+    android:orientation="horizontal"
+    android:scaleType="fitCenter"
+    android:visibility="gone"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@id/ll_event_duration"
+    app:layout_constraintStart_toEndOf="@id/event_title"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:visibility="visible">
+
+    <!--        This Text View will be added programmatically using addNewTextViewInLayout() method in CustomDetails, it is set here just to have visual representation of it. -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        tools:text="PG"
+        tools:visibility="visible" />
+
+</LinearLayout>
+
+

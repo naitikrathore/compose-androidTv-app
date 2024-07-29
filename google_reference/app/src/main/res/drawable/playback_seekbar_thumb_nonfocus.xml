@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/transparent"/>
+            <size
+                android:width="@dimen/custom_dim_14"
+                android:height="@dimen/custom_dim_14"
+                />
+        </shape>
+    </item>
+</layer-list>

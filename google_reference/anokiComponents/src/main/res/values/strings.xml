@@ -1,0 +1,54 @@
+<!--
+ Copyright 2023 Google LLC
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+https://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">Anoki FAST TV</string>
+    <string name="generic_error_msg">Couldn\'t get %1s. Reason: %2s</string>
+    <string name="watch_now">Watch now for free</string>
+    <string name="cast_and_crew"><![CDATA[Cast & Crew]]></string>
+    <string name="director">Director</string>
+    <string name="screenplay">Screenplay</string>
+    <string name="music">Music</string>
+    <string name="watch_trailer">Watch trailer</string>
+    <string name="status">Status</string>
+    <string name="original_language">Original Language</string>
+    <string name="reviews">Reviews</string>
+    <string name="delete_account_dialog_title">Delete account?</string>
+    <string name="delete_account_dialog_text">"By deactivating your account, you will no longer be able to sign in, your activity will be removed from JetStream and your profile preferences will go away.\n\nDo you wish to continue?\n"</string>
+    <string name="yes_delete_account">Yes, delete my account</string>
+    <string name="no_keep_it">No, keep it</string>
+    <string name="search_screen_et_placeholder">Search for movies, shows and more…</string>
+    <string name="profile_screen_listItem_icon_content_description">%s icon</string>
+    <string name="language_section_listItem_icon_content_description">%s language option</string>
+    <string name="loading_text">Loading</string>
+
+    <string name="category_all_channels">All Channels</string>
+    <string name="notification_channel_name">Anoki TV Notification</string>
+    <string name="notification_channel_desc">Anoki TV Notification</string>
+
+    <string name="AM">AM</string>
+    <string name="PM">PM</string>
+    <string name="format_to_two_digit_number">%02d</string>
+    <string name="program_time_left_format_hour_min">%s hour %s minutes left</string>
+    <string name="program_time_left_format_min">%s minutes left</string>
+    <string name="program_time_duration_format_from_to">%s - %s</string>
+
+    <string name="no_data_available">No data available.</string>
+    <string name="error_something_went_wrong">Something went wrong. Please try after sometime.</string>
+
+    <string name="leak_canary_test_class_name">assertk.Assert</string>
+
+</resources>

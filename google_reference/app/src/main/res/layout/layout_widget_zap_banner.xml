@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_220"
+        android:background="@drawable/zap_banner_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/zap_is_scrambled"
+        android:layout_width="@dimen/custom_dim_15"
+        android:layout_height="@dimen/custom_dim_15"
+        android:src="@drawable/scrambled_channel_icon"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/channel_logo"
+        app:layout_constraintEnd_toEndOf="@id/channel_name"
+        app:layout_constraintStart_toStartOf="@id/channel_name" />
+
+    <ImageView
+        android:id="@+id/channel_logo"
+        android:layout_width="@dimen/custom_dim_89"
+        android:layout_height="@dimen/custom_dim_49_5"
+        android:layout_marginStart="@dimen/custom_dim_50"
+        android:layout_marginBottom="@dimen/custom_dim_82"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/channel_name"
+        android:layout_width="@dimen/custom_dim_80"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/font_12"
+        app:layout_constraintBottom_toTopOf="@+id/channel_index"
+        app:layout_constraintEnd_toEndOf="@+id/channel_index"
+        app:layout_constraintStart_toStartOf="@+id/channel_index" />
+
+
+    <TextView
+        android:id="@+id/channel_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/custom_dim_3"
+        app:layout_constraintEnd_toEndOf="@+id/channel_logo"
+        app:layout_constraintStart_toStartOf="@+id/channel_logo"
+        app:layout_constraintBottom_toTopOf="@+id/channel_type"/>
+
+    <TextView
+        android:id="@+id/channel_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="@dimen/font_10"
+        app:layout_constraintEnd_toEndOf="@+id/channel_logo"
+        app:layout_constraintStart_toStartOf="@+id/channel_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/custom_dim_30" />
+
+    <view class="com.iwedia.cltv.components.CustomDetails$CustomDetailsZapBanner"
+        android:id="@+id/custom_details"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_74"
+        android:layout_marginStart="@dimen/custom_dim_152"
+        android:layout_marginTop="@dimen/custom_dim_423_5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

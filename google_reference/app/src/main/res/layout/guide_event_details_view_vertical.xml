@@ -1,0 +1,105 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/guide_event_info_view"
+    android:layout_width="@dimen/custom_dim_322"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/guide_event_details_image"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/guide_event_details_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/custom_dim_184" />
+
+    <TextView
+        app:layout_constraintEnd_toStartOf="@+id/guide_event_details_parental"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/guide_event_details_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_dim_15"
+        android:layout_marginTop="@dimen/custom_dim_151"
+        android:ellipsize="end"
+        app:layout_constraintLeft_toRightOf="@+id/guide_event_details_parental"
+        android:textSize="@dimen/font_18"
+        android:textStyle="normal"
+        android:maxLines="1"
+        tools:text="Spider-Man: No Way Home dd"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:layout_marginBottom="3sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guide_event_details_title"
+        android:id="@+id/guide_event_details_parental"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/guide_event_details_title"
+        android:layout_marginStart="@dimen/custom_dim_8"
+        android:layout_marginTop="@dimen/custom_dim_19"
+        android:layout_marginRight="@dimen/custom_dim_15"
+        android:layout_marginEnd="@dimen/custom_dim_15"
+        android:layout_toRightOf="@+id/guide_event_details_title"
+        app:layout_constraintBottom_toBottomOf="@+id/guide_event_details_title"
+        app:layout_constraintLeft_toRightOf="@+id/guide_event_details_title"
+        android:textAlignment="viewStart"
+        android:textSize="@dimen/font_13"
+        android:textStyle="normal"
+        tools:text="PG-16" />
+
+    <com.iwedia.cltv.TimeTextView
+        android:visibility="gone"
+        android:id="@+id/guide_event_details_time_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_dim_147"
+        android:layout_marginTop="@dimen/custom_dim_19"
+        android:textSize="@dimen/font_13"
+        android:textStyle="normal"
+        tools:text="18:50 - 20:10"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/guide_event_details_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guide_event_details_title"
+        android:layout_alignTop="@+id/guide_event_details_background"
+        app:layout_constraintTop_toTopOf="@+id/guide_event_details_background"
+        android:layout_marginStart="@dimen/custom_dim_15"
+        android:layout_marginTop="@dimen/custom_dim_5"
+        android:layout_marginEnd="@dimen/custom_dim_15"
+        android:ellipsize="end"
+        android:letterSpacing="0.02"
+        android:maxLines="6"
+        android:textSize="@dimen/font_15"
+        android:textStyle="normal"
+        tools:text="When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family."
+        android:textAlignment="viewStart" />
+
+    <LinearLayout
+        android:id="@+id/buttons_horizontal_grid_view"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_dim_15"
+        android:layout_marginEnd="@dimen/custom_dim_15"
+        app:layout_constraintTop_toBottomOf="@+id/guide_event_details_text"
+        android:layout_below="@+id/guide_event_details_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/custom_dim_13"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

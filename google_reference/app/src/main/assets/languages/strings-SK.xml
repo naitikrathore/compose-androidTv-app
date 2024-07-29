@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="open_source_license_jetpack" msgid="9049956969249134555">"Jetpack – Apache 2.0"</string>
+    <string name="open_source_license_androidx" msgid="4774856857642956615">"Androidx – Apache 2.0"</string>
+    <string name="open_source_license_retrofit" msgid="1700834095904209611">"Retrofit – Apache 2.0"</string>
+    <string name="open_source_license_okhttp" msgid="5223699408161904523">"OkHttp – Apache 2.0"</string>
+    <string name="open_source_license_glide" msgid="7363402097051700306">"Glide"</string>
+    <string name="open_source_license_junit" msgid="8822918668893328004">"JUnit"</string>
+    <string name="no_internet_search_message" msgid="6201597382784929288">"Žiadne internetové pripojenie. Vyhľadávanie nie je k dispozícii."</string>
+    <string name="antenna_type" msgid="8799839124381950351">"Anténa"</string>
+    <string name="analog" msgid="8730510957499380400">"Analógové"</string>
+    <string name="analog_antenna" msgid="4470031541836160279">"Analógová anténa"</string>
+    <string name="analog_cable" msgid="2251792903207461586">"Analógový kábel"</string>
+    <string name="wrong_channel" msgid="8868720189826900008">"Nesprávny kanál"</string>
+    <string name="rec_scheduled_toast" msgid="7538214247079840608">"Nahrávanie bolo úspešne naplánované."</string>
+    <string name="added_to_watchlist" msgid="1722444933921434996">"bola pridaná na pozeranie."</string>
+    <string name="search" msgid="4406957708185633856">"Hľadať"</string>
+    <string name="free" msgid="6261590336084432420">"Bezplatné"</string>
+    <string name="processing" msgid="6030403380685308132">"Spracúvajú sa údaje"</string>
+    <string name="app_name" msgid="2832654280320578717">"Live TVˣ"</string>
+    <string name="no_info" msgid="5400686762922140283">"Žiadne informácie"</string>
+    <string name="not_available" msgid="7376966038624016923">"–"</string>
+    <string name="all" msgid="1561098708179181336">"Všetky"</string>
+    <string name="recent" msgid="1838091694396247363">"Nedávne"</string>
+    <string name="favorites" msgid="8901975288160748957">"Obľúbené"</string>
+    <string name="radio" msgid="3164637576576433188">"Rozhlas"</string>
+    <string name="no_internet_message" msgid="3554201501180755759">"Žiadne internet. pripojenie.\nNiektoré služby nebudú dostupné."</string>
+    <string name="no_ethernet_message" msgid="2107635435443289546">"Niektoré službu môžu byť bez intnernetu nedostupné."</string>
+    <string name="tv_select_input_scan_title" msgid="2619884735308539235">"Prehľadávanie TV vstupu"</string>
+    <string name="tv_select_input_scan_message" msgid="8487553067533682220">"Ak chcete pridať kanály, vyberte si z dostupných TV vstupov.\nĎalšie kanály môžete kedykoľvek pridať neskôr."</string>
+    <string name="scan" msgid="734672551787628747">"Prehľadať"</string>
+    <string name="finishScan" msgid="871898530279538507">"Prehľadávanie bolo dokončené"</string>
+    <string name="channels_found_on" msgid="1414577635083128748">"kanály nájdené vo vstupe"</string>
+    <string name="channels" msgid="4380410724161095326">"Kanály"</string>
+    <string name="input" msgid="1149385406223657705">"vstup"</string>
+    <string name="go_back_to_scan" msgid="7543768279308621088">"Ak chcete prehľadať ďalšie vstupy, prejdite späť."</string>
+    <string name="proceed" msgid="1214388060683917324">"Pokračovať"</string>
+    <string name="start_over" msgid="2229118857793940579">"Začať odznova"</string>
+    <string name="watchlist" msgid="5662090977932744154">"Zoznam na pozeranie"</string>
+    <string name="watchlist_remove" msgid="7507289157249186634">"Odstrániť"</string>
+    <string name="record" msgid="1524542455933313955">"Nahrať"</string>
+    <string name="watch" msgid="2622572399160220460">"Pozerať"</string>
+    <string name="keyboard" msgid="2321154341903639729">"Klávesnica"</string>
+    <string name="no_guide_pvr_running" msgid="7292260172342311890">"Prehráva sa PVR. Ak si chcete zobraziť TV program, ukončite prehrávanie PVR."</string>
+    <string name="continue_watch" msgid="6260534053660339190">"Pokračovať"</string>
+    <string name="rename" msgid="8008700600879669681">"Premenovať"</string>
+    <string name="delete" msgid="675914287573190216">"Odstrániť"</string>
+    <string name="cancel" msgid="6777134290748633238">"Zrušiť"</string>
+    <string name="no_information" msgid="9173470733305716861">"Žiadne informácie"</string>
+    <string name="vod" msgid="4016798866997984169">"Video na vyžiadanie"</string>
+    <string name="on_now" msgid="7601392008818995402">"Práve sa vysiela"</string>
+    <string name="up_next" msgid="2566862734643042006">"Ďalšie"</string>
+    <string name="recorded" msgid="365342196797893323">"Nahrané"</string>
+    <string name="scheduled" msgid="6888878632757812039">"Naplánované nahrávanie"</string>
+    <string name="ok" msgid="9168016165173996675">"OK"</string>
+    <string name="please_click_again" msgid="3544950440758580770">"Ukončíte opät. klikn. na SPÄŤ"</string>
+    <string name="_default" msgid="3039479680796443287">"Predvolené"</string>
+    <string name="name_up" msgid="4457664012212323554">"Názov vzostupne"</string>
+    <string name="name_down" msgid="3681090499765705036">"Názov zostupne"</string>
+    <string name="no_categories_msg" msgid="9206914907790687898">"Žiadne dostupné kategórie"</string>
+    <string name="no_results_found" msgid="7555299678274781238">"Nenašli sa žiadne výsledky. Skúste to znova."</string>
+    <string name="enter_letters" msgid="1809385590701435475">"Zadajte aspoň jedno písmeno"</string>
+    <string name="past_events" msgid="8059227963716654699">"Predchádzajúce udalosti"</string>
+    <string name="future_events" msgid="629979362833530545">"Budúce udalosti"</string>
+    <string name="lcn" msgid="1290883721637274779">"LCN"</string>
+    <string name="recording_exit_msg" msgid="7512518820927102191">"Nahráva sa. Bude to prerušené."</string>
+    <string name="remove_recording_dialog_msg" msgid="9027511472917428212">"Naozaj chcete túto položku\nodstrániť?"</string>
+    <string name="timeshift_exit_msg" msgid="1328594800216099396">"Chcete ukončiť režim posunutia času?"</string>
+    <string name="timeshift_channel_change_msg" msgid="6863854961470251756">"Ak bude kanál zmenený,\nrežim posunutia času bude prerušený."</string>
+    <string name="time_shift_start_record_msg" msgid="2577790079091263078">"Nahrávanie sa začalo,\nrežim posunutia času bude prerušený."</string>
+    <string name="time_shift_usb_error_msg" msgid="4635786963137316436">"Zariadenie USB nie je pripojené,\nrežim posunutia času sa nedá spustiť."</string>
+    <string name="time_shift_scrambled_channel_msg" msgid="2380783212702129118">"Aktívny kanál je kódovaný,\nrežim posunutia času sa nedá spustiť."</string>
+    <string name="time_shift_not_available_error_msg" msgid="6825288163854650688">"Režim posunutia času nie je pre kanál momentálne dostupný."</string>
+    <string name="add_to_favorites" msgid="8280344840050880716">"Pridať medzi obľúbené"</string>
+    <string name="edit_favorites" msgid="2511007317790537462">"Upraviť obľúbené"</string>
+    <string name="more_info" msgid="5565850658795889872">"Ďalšie informácie"</string>
+    <string name="zap_conflict" msgid="7827821368264176936">"Konflikt zap"</string>
+    <string name="select_channel_manually" msgid="7302984770269602819">"Vyberte kanál ručne"</string>
+    <string name="favorite_list_name_can_not_be_empty" msgid="1038957789151360499">"Názov zoznamu obľúbených nemôže byť prázdny."</string>
+    <string name="rec_type_title" msgid="1493365367362692245">"Spustiť nahrávanie"</string>
+    <string name="rec_now" msgid="1107096635108539822">"Teraz"</string>
+    <string name="rec_after_curr_event" msgid="2454161110193355809">"Po aktuálnej udalosti"</string>
+    <string name="rec_set_date_time" msgid="6263546406293600090">"Nastaviť dátum a času"</string>
+    <string name="lock" msgid="7861994131060026913">"Uzamknúť"</string>
+    <string name="not_skip" msgid="3477114547241354688">"Zrušiť preskočenie"</string>
+    <string name="pvr_playback_exit_msg" msgid="8094392263782298025">"Ak bude kanál zmenený,\nprehrávanie nahraného obsahu bude prerušené."</string>
+    <string name="pvr_usb_error_msg" msgid="7612098268284539532">"Zariadenie USB nie je pripojené,\nnahrávanie sa nedá spustiť."</string>
+    <string name="pvr_no_usb_message" msgid="7674848841046162661">"Ak chcete nahrávať programy a potom k nim získavať prístup, pripojte USB"</string>
+    <string name="pvr_msg_cannot_record_program" msgid="4682512998399461517">"Program nie je možné nahrať."</string>
+    <string name="title" msgid="824784418539163870">"Nastavenie kanála"</string>
+    <string name="text_signal_strength" msgid="2264842741806218055">"Intenzita signálu"</string>
+    <string name="frequency" msgid="4728719073153707457">"Frekvencia (MHz):"</string>
+    <string name="polar_horizontal" msgid="4896843100156964811">"Vodorovne"</string>
+    <string name="polar_vertical" msgid="3583074411112676591">"Zvisle"</string>
+    <string name="scan_back" msgid="8254811135465586310">"Späť"</string>
+    <string name="programme_tuning" msgid="7151825210369267735">"Ladenie programov"</string>
+    <string name="auto_tuning" msgid="5241790341643214577">"Automatické ladenie"</string>
+    <string name="manual_tuning" msgid="3803227558849032933">"Ručné ladenie"</string>
+    <string name="terrestrial" msgid="6057458256298385682">"Pozemné"</string>
+    <string name="cable" msgid="3533509221735497167">"Kábel"</string>
+    <string name="satellite" msgid="5902319368428481619">"Satelit"</string>
+    <string name="ip" msgid="7550330649060136409">"Adresa IP"</string>
+    <string name="terrestrial_manual_scan" msgid="8615010351092110556">"Pozemné ručné prehľadávanie"</string>
+    <string name="vhf_uhf_manual_tuning" msgid="2296041353998669604">"Kan. VHF (5 – 12) / kan. UHF (21 – 69)"</string>
+    <string name="frequency_manual_tuning" msgid="7134323135104455005">"Frekv. (47000 ~ 890000 kHz)"</string>
+    <string name="bandwidth_manual_tuning" msgid="4006694481514521150">"Pásmo (MHz)"</string>
+    <string name="signal_strength" msgid="9084219034702264545">"Sila signálu"</string>
+    <string name="signal_quality" msgid="2519879440868826524">"Kvalita signálu"</string>
+    <string name="tune" msgid="4920789798390090505">"Ladiť"</string>
+    <string name="cable_manual_scan" msgid="2153124658983352330">"Ručné ladenie kábl. televízie"</string>
+    <string name="frequency_cable_manual_tuning" msgid="8456034285142379792">"Frekv. (46000 ~ 870000 kHz)"</string>
+    <string name="modulation_cable" msgid="2316368898856054874">"Modulácia"</string>
+    <string name="symbol_rate_cable" msgid="1530782523197615047">"Symb. rýchlosť (1 ~ 7200 kB/s)"</string>
+    <string name="tv_programmes_found" msgid="3824314635758797853">"Našli sa televízne programy"</string>
+    <string name="radio_programmes_found" msgid="8068018177062715658">"Našli sa rozhlasové služby"</string>
+    <string name="ip_manual_scan" msgid="3939430738970126951">"Manuálne prehľad. adresy IP"</string>
+    <string name="enter_url" msgid="6790132119337729261">"Zadajte webovú adresu"</string>
+    <string name="browse_locally" msgid="1051773926641445378">"Prehliadať miestne"</string>
+    <string name="scan_option" msgid="4306195012541155420">"Prehľadať"</string>
+    <string name="nit" msgid="7688996391259343733">"NIT"</string>
+    <string name="nit_id" msgid="2814795103490979888">"Identifikátor siete"</string>
+    <string name="satellites" msgid="5032252427135715049">"Satelity"</string>
+    <string name="edit" msgid="5317842992931147350">"Upraviť"</string>
+    <string name="antenna_config" msgid="7806290512493790481">"Konfigurácia antény"</string>
+    <string name="transponders" msgid="5257067189342482742">"Transpondéry"</string>
+    <string name="scan_options" msgid="3552587590439164432">"Možnosti prehľadávania"</string>
+    <string name="search_type" msgid="7839644239035438171">"Typ vyhľadávania"</string>
+    <string name="scrambled" msgid="5850057616146603733">"Kódované"</string>
+    <string name="descrambled" msgid="188954300643020349">"Dekódované"</string>
+    <string name="network_search" msgid="1163464904985861536">"Vyhľadávanie v sieti"</string>
+    <string name="on" msgid="3751436329235813537">"Zapnúť"</string>
+    <string name="off" msgid="3554615296323809334">"Vypnúť"</string>
+    <string name="start" msgid="8373408783747443318">"Začať"</string>
+    <string name="edit_satellite" msgid="4607701308048105247">"Upraviť satelit"</string>
+    <string name="add_satellite" msgid="2273979716858813472">"Pridať satelit"</string>
+    <string name="save" msgid="7065794043691996309">"Uložiť"</string>
+    <string name="satellite_name" msgid="7025139118253076773">"Názov satelitu"</string>
+    <string name="satellite_angle" msgid="8683899846350204042">"Uhol satelitu"</string>
+    <string name="east_west" msgid="7897600069231316216">"Východ/západ"</string>
+    <string name="east" msgid="4358399578929609887">"Východ"</string>
+    <string name="west" msgid="9044409318304141102">"Západ"</string>
+    <string name="lnb_type" msgid="461240556471773891">"Typ LNB"</string>
+    <string name="low_frequency_range" msgid="1170543810050805189">"Nízka frekv. (rozsah ? GHz)"</string>
+    <string name="high_frequency_range" msgid="5970034829459836798">"Vys. frekv. (rozsah ? GHz)"</string>
+    <string name="diseqc" msgid="7568217958941352483">"DiSEqC"</string>
+    <string name="usals" msgid="3823979334027822788">"USALS"</string>
+    <string name="activate" msgid="6733615062583225476">"Aktivovať"</string>
+    <string name="deactivate" msgid="1807972219321904394">"Deaktivovať"</string>
+    <string name="tone_burst" msgid="8604581077816401974">"Séria tónov"</string>
+    <string name="positioner" msgid="8318582990053674121">"Lokalizátor"</string>
+    <string name="none" msgid="270213694043707263">"Žiadne"</string>
+    <string name="motor_setup" msgid="4736838637373424822">"Nastavenie motora"</string>
+    <string name="lnb_volts" msgid="2887965354047275769">"Napätie LNB"</string>
+    <string name="unicable" msgid="2781716498996810985">"Unicable"</string>
+    <string name="center_frequency" msgid="6365286688261520874">"Stredová frekvencia"</string>
+    <string name="port" msgid="8895960865568032567">"Port"</string>
+    <string name="usals_motor_setup" msgid="7657151501964284609">"Nastavenie motora USALS"</string>
+    <string name="longitude" msgid="4001648645842463687">"Zemepisná dĺžka"</string>
+    <string name="local_latitude" msgid="8823596382291639854">"Miestna zemepisná šírka"</string>
+    <string name="diseqc_motor_setup" msgid="5323500521822752237">"Nastavenie motora DiSEqC"</string>
+    <string name="moving_type" msgid="1873868431963400283">"Typ pohybu"</string>
+    <string name="installer" msgid="8471001727135690995">"Inštalátor"</string>
+    <string name="advanced" msgid="1404660154235921630">"Rozšírené"</string>
+    <string name="limit" msgid="7286926921334121151">"Limit"</string>
+    <string name="disable" msgid="1223300282346009587">"Vypnúť"</string>
+    <string name="enable" msgid="996139214854391916">"Zapnúť"</string>
+    <string name="set_limit" msgid="5168996347824076248">"Nastaviť limit"</string>
+    <string name="position" msgid="2803940868161781819">"Pozícia"</string>
+    <string name="drive_ew" msgid="4383307822798019860">"Nasmerovať na V/Z"</string>
+    <string name="frequency_diseqc" msgid="2875219430165646513">"Frekvencia (10700 ~ 12750 MHz)"</string>
+    <string name="symbol_rate_diseqc" msgid="1207702014683617310">"Symb. rýchl. (1 ~ 99999 kB/s)"</string>
+    <string name="recalculate" msgid="6829478450813491732">"Prepočítať"</string>
+    <string name="reset_position" msgid="5832683284624391408">"Resetovať pozíciu"</string>
+    <string name="edit_transponder" msgid="5242272245079923429">"Upraviť transpondér"</string>
+    <string name="add_transponder" msgid="2623539628999737045">"Pridať transpondér"</string>
+    <string name="polarization" msgid="8123655292270984054">"Polarizácia"</string>
+    <string name="tyning_type" msgid="8666387879670813597">"Typ ladenia"</string>
+    <string name="insert_frequency" msgid="5729776610037320396">"Vložte frekvenciu"</string>
+    <string name="insert_symbol_rate" msgid="3786032305290654254">"Vložte symbolovú rýchlosť"</string>
+    <string name="skip" msgid="2183603397230534233">"Preskočiť"</string>
+    <string name="up_next_terrestrial_scan" msgid="6324601363733245896">"Ďalšie: prehľadávanie pozemného vysielania"</string>
+    <string name="up_next_cable_scan" msgid="4800909991170934548">"Ďalšie: prehľadávanie káblovej televízie"</string>
+    <string name="up_next_satellite_scan" msgid="351889219174126750">"Ďalšie: prehľadávanie satelitu"</string>
+    <string name="up_next_ip_scan" msgid="444943982885570049">"Ďalšie: prehľadávanie adresy IP"</string>
+    <string name="are_you_sure" msgid="6633052473207822200">"Naozaj to chcete urobiť?"</string>
+    <string name="yes" msgid="8396459138340669018">"Áno"</string>
+    <string name="no" msgid="898412150608362736">"Nie"</string>
+    <string name="error_message" msgid="6738951116149286320">"Niečo sa pokazilo.\nSkúste to znova."</string>
+    <string name="stop" msgid="8871442464783363812">"Ukončiť"</string>
+    <string name="done" msgid="8431602145508047529">"Hotovo"</string>
+    <string name="retry" msgid="6558026654247761197">"Skúsiť znova"</string>
+    <string name="scan_completed" msgid="190069558496485299">"Prehľadávanie bolo dokončené"</string>
+    <string name="rename_list" msgid="2319699362834734775">"Premenovať zoznam"</string>
+    <string name="new_favorite_list" msgid="970952539402962926">"Nový zoznam obľúbených"</string>
+    <string name="rename_recording" msgid="2054528390344269205">"Premenovať nahrávku"</string>
+    <string name="clear_all_channels" msgid="1299596008850807775">"Vymazať všetky kanály"</string>
+    <string name="channels_scrambled" msgid="9057067263329774776">"Kanál je kódovaný"</string>
+    <string name="channels_scrambled_message" msgid="1084794532788696447">"Ak chcete prejsť na tento kanál, skontrolujte kartu CI+"</string>
+    <string name="parental_control_settings" msgid="5319661715471666902">"Nastavenia rodič. kontroly"</string>
+    <string name="enter_pin_to_see_settings" msgid="3815180198258733139">"Zadaním kódu PIN zobr. nastav."</string>
+    <string name="change_pin" msgid="7488772416735871704">"Zmeniť PIN"</string>
+    <string name="enter_current_pin" msgid="4030992484519020714">"Zadajte aktuálny kód PIN."</string>
+    <string name="enter_new_pin" msgid="8595685651252541794">"Zadajte nový kód PIN."</string>
+    <string name="confirm_change" msgid="6096949281047345319">"Potvrdiť zmenu"</string>
+    <string name="unlock" msgid="2510919004695038132">"Odomknúť"</string>
+    <string name="channel_locked" msgid="2817792090357968203">"Kanál je uzamknutý"</string>
+    <string name="input_locked" msgid="8105084413794943531">"Vstup je uzamknutý"</string>
+    <string name="enter_pin_to_unlock" msgid="2825078114413148691">"Odomkn. kódom PIN alebo skontrolujte nastav. rodič. kontroly"</string>
+    <string name="unlock_channel" msgid="2186056154365829533">"Odomknúť kanál"</string>
+    <string name="lock_channel" msgid="6415531094159222492">"Uzamknúť kanál"</string>
+    <string name="enter_pin_using_number" msgid="1617489467804353931">"Zadajte kód PIN pomocou čís. klávesov alebo navig. šípok."</string>
+    <string name="press_ok_to_confirm" msgid="2030639856519969859">"Potvrďte stlačením tlačidla OK."</string>
+    <string name="are_you_sure_to_remove" msgid="5272700011032123035">"Naozaj chcete túto položku odstrániť?"</string>
+    <string name="scheduled_recording_reminder_title" msgid="2491646467773565784">"Naplánované nahrávanie"</string>
+    <string name="watchlist_reminder_message" msgid="1104927838803994094">"Čoskoro sa začne udalosť zo zoznamu na pozeranie na kan. %s."</string>
+    <string name="scheduled_recording_reminder_message" msgid="2585782433363041264">"Udalosť, ktorej nahrávanie ste naplánovali, sa čoskoro začne na kanáli %s."</string>
+    <string name="scheduled_recording_reminder_usb_message" msgid="3261896842639900321">"Uistite sa, že zariadenie USB je správne nakonfigurované, aby sa nahrávanie mohlo úspešne spustiť."</string>
+    <string name="time_left_reminder_message" msgid="8401119790346964363">"Na tento kanál bude automaticky prepnuté o"</string>
+    <string name="setup" msgid="7436979578788573835">"Nastavenie"</string>
+    <string name="audio" msgid="2178205196199874170">"Zvuk"</string>
+    <string name="subtitles" msgid="443819189435816560">"Titulky"</string>
+    <string name="cam_info" msgid="2009726257572539955">"Informácie o karte CAM"</string>
+    <string name="hbbtv_settings" msgid="2128953921075061655">"Nastavenia HBBTV"</string>
+    <string name="teletext" msgid="5148062316136213977">"Teletext"</string>
+    <string name="ads_targeting" msgid="840646015395656414">"Zacielenie reklám"</string>
+    <string name="system_information" msgid="7606779620841753589">"Informácie o systéme"</string>
+    <string name="channel_scan" msgid="742690025827853777">"Prehľadávanie kanálov"</string>
+    <string name="postal_code" msgid="4282723259910557954">"Poštové smerovacie číslo"</string>
+    <string name="enter_postal_code" msgid="9137591141556761305">"Zadajte svoje poštové smerovacie číslo."</string>
+    <string name="invalid_input" msgid="1310633113626196993">"Neplatný vstup."</string>
+    <string name="channel_edit" msgid="5747989423326239719">"Úprava kanála"</string>
+    <string name="default_channel" msgid="6445356023593713771">"Predvolený kanál"</string>
+    <string name="picture" msgid="1160534096585833465">"Obrázok"</string>
+    <string name="sound" msgid="8508180274504068953">"Zvuk"</string>
+    <string name="screen" msgid="3048008223061728562">"Obrazovka"</string>
+    <string name="interaction_channel" msgid="4321705264398151840">"Kanál interakcie"</string>
+    <string name="mpeg_pin" msgid="7011120768977604018">"Ochrana PIN štandardu MHEG"</string>
+    <string name="parental_control" msgid="6068201552306139221">"Rodičovská kontrola"</string>
+    <string name="open_source" msgid="5621022170996868316">"Licencie open source"</string>
+    <string name="antenna" msgid="3574478101911378410">"Napájanie antény"</string>
+    <string name="custom_recording" msgid="616731175025342123">"Vlastné nahrávanie"</string>
+    <string name="module_information" msgid="138893858253775617">"Informácia o module"</string>
+    <string name="software_version" msgid="938344026859008625">"Verzia softvéru"</string>
+    <string name="software_download_title" msgid="7182339016885070551">"Chcete svoj modul inovovať?"</string>
+    <string name="subscription_status" msgid="8152434744124534365">"Stav odberu"</string>
+    <string name="event_status" msgid="5639659633902394962">"Stav udalosti"</string>
+    <string name="token_status" msgid="4834226009212901122">"Stav tokenu"</string>
+    <string name="messages" msgid="4419405029334986460">"Správy"</string>
+    <string name="about_conax_ca" msgid="8545361141093096760">"Conax CA"</string>
+    <string name="interface_version" msgid="7086406205571753113">"Verzia rozhrania"</string>
+    <string name="card_number" msgid="4966668852310859686">"Číslo karty"</string>
+    <string name="number_of_sessions" msgid="1553049746241506437">"Počet relácií"</string>
+    <string name="ca_sys_id" msgid="4057273316749165239">"CA_SYS_ID"</string>
+    <string name="chip_id" msgid="3841340855603537499">"ID čipu"</string>
+    <string name="language" msgid="5033412417430090708">"Jazyk"</string>
+    <string name="no_messages" msgid="4671069338896663642">"Žiadne správy"</string>
+    <string name="rf_channel_number" msgid="7144566814553175174">"Číslo kanála RF"</string>
+    <string name="ber" msgid="3389934594324530510">"Ber"</string>
+    <string name="prog" msgid="6513040689191709128">"Prog"</string>
+    <string name="uec" msgid="5831216599881016723">"UEC"</string>
+    <string name="service_id" msgid="6961083730626429041">"Identifikátor služby"</string>
+    <string name="agc" msgid="7315404225192362723">"AGC"</string>
+    <string name="bandwidth" msgid="2827698381039488034">"Pásmo (MHz)"</string>
+    <string name="first_language" msgid="4376264484150066447">"Prvý jazyk"</string>
+    <string name="second_language" msgid="6133917700264074215">"Druhý jazyk"</string>
+    <string name="audio_description" msgid="6458837295213608473">"Zvukový opis"</string>
+    <string name="audio_type_normal" msgid="2088832842451441840">"Normálny"</string>
+    <string name="audio_type_visually_impaired" msgid="3438074786597359516">"Zrakovo postihnutá osoba"</string>
+    <string name="no_audio_visually_impaired" msgid="3947110980476053488">"Žiadny zvuk pre zrakovo postihnutých"</string>
+    <string name="digital_language" msgid="6027769489097600387">"Digitálny jazyk"</string>
+    <string name="subtitle_type" msgid="6257600590402555311">"Typ titulkov"</string>
+    <string name="enable_subtitles" msgid="1836129951206842087">"Povoliť titulky"</string>
+    <string name="audio_format" msgid="8284736489304641424">"Formát zvuku"</string>
+    <string name="vi_audio_for_impaired" msgid="3032784027791333070">"Zvuk pre zrakovo postihnutých"</string>
+    <string name="vi_fader_control" msgid="5159508499612853372">"Ovládanie fadera"</string>
+    <string name="vi_speaker" msgid="1730137141684830570">"Reproduktor"</string>
+    <string name="vi_headphone" msgid="5416200350292696737">"Slúchadlá"</string>
+    <string name="vi_volume" msgid="3488820687700041890">"Hlasitosť"</string>
+    <string name="vi_pane_fade" msgid="2601003902904072593">"Posúvanie a stíšenie"</string>
+    <string name="fader_main_max" msgid="4611679970227294093">"Main Max"</string>
+    <string name="fader_main_sub" msgid="7593221827790712226">"Main 3:4"</string>
+    <string name="fader_equal" msgid="4519306379947783434">"Rovná sa"</string>
+    <string name="fader_ad_sub" msgid="6437572865174690545">"AD 3:4"</string>
+    <string name="fader_ad_max" msgid="9122777758230327119">"AD Max"</string>
+    <!-- no translation found for audio_channels_strings:1 (5619779558449299720) -->
+    <!-- no translation found for audio_channels_strings:2 (7742946383142049818) -->
+    <!-- no translation found for audio_channels_strings:3 (1362536828405389981) -->
+    <!-- no translation found for audio_channels_strings:4 (2393859006069005302) -->
+    <!-- no translation found for audio_channels_strings:5 (2633843452856253385) -->
+    <!-- no translation found for audio_channels_strings:6 (7095529391117690506) -->
+    <!-- no translation found for audio_channels_strings:7 (1273342437471313965) -->
+    <!-- no translation found for audio_channels_strings:8 (5943100416425070567) -->
+    <!-- no translation found for audio_channels_strings:13 (5605938855089094519) -->
+    <!-- no translation found for audio_channels_strings:14 (1368871710498993673) -->
+    <!-- no translation found for audio_channels_strings:15 (6436717758304675566) -->
+    <!-- no translation found for audio_channels_strings:20 (3687442141925630652) -->
+    <!-- no translation found for audio_channels_strings:21 (7810999426936459027) -->
+    <!-- no translation found for audio_channels_strings:22 (8712864432074523291) -->
+    <!-- no translation found for audio_channels_strings:23 (1833975212048313146) -->
+    <!-- no translation found for audio_channels_strings:24 (3190044868783518762) -->
+    <string name="nav_UNKNOWN" msgid="2913311182249571190">"Neznáme"</string>
+    <string name="nav_MONO" msgid="8896870675545905110">"Mono"</string>
+    <string name="nav_STEREO" msgid="5543416258821435876">"Stereo"</string>
+    <string name="nav_SAP" msgid="8676814687569919114">"SAP"</string>
+    <string name="nav_DUAL1" msgid="6043423354232964669">"Dual1"</string>
+    <string name="nav_DUAL2" msgid="7504763724294512461">"Dual2"</string>
+    <string name="nav_NICAM_MONO" msgid="4224337367970842284">"Nicam Mono"</string>
+    <string name="nav_NICAM_STEREO" msgid="6563097258216426575">"Nicam Stereo"</string>
+    <string name="nav_NICAM_DUAL1" msgid="3114328575278255659">"Nicam Dual1"</string>
+    <string name="nav_NICAM_DUAL2" msgid="6081960406070216023">"Nicam Dual2"</string>
+    <string name="nav_A2_DUAL1_DUAL2" msgid="2166457499521770298">"Dual I+II"</string>
+    <string name="nav_NICAM_DUAL1_DUAL2" msgid="1856725634717330307">"NICAM Dual I+II"</string>
+    <string name="nav_FM_MONO" msgid="6456878559197187488">"FM Mono"</string>
+    <string name="nav_FM_STEREO" msgid="7271167064953845593">"FM Stereo"</string>
+    <string name="nav_Dual_Mono" msgid="8753030583134294425">"Dual Mono"</string>
+    <string name="nav_Surround_2CH" msgid="2909849253499226759">"Priestorový zvuk: 2 kanály"</string>
+    <string name="nav_Surround" msgid="5120285656406922235">"Priestorový zvuk"</string>
+    <string name="nav_num_CH" msgid="107713690256275745">"kanály"</string>
+    <string name="decoding_page_language" msgid="1124443492008553149">"Jazyk dekódovania stránky"</string>
+    <string name="preferred_language" msgid="7655430973207324413">"Preferovaný jazyk"</string>
+    <string name="hbbtv_support" msgid="8922193705369262735">"Podpora HBBTV"</string>
+    <string name="hbbtv_track" msgid="3077736394913505081">"Stopa"</string>
+    <string name="hbbtv_cookie_settings" msgid="4699548377446817221">"Nastavenia súborov cookie"</string>
+    <string name="hbbtv_persisent_storage" msgid="78725024248331696">"Trvalý ukladací priestor"</string>
+    <string name="hbbtv_block_tracking_sites" msgid="1278479776976817723">"Blokovať sledovanie webov"</string>
+    <string name="hbbtv_device_id" msgid="5819372404666742885">"Identifikátor zariadenia"</string>
+    <string name="hbbtv_reset_device_id" msgid="5450337102965703931">"Resetovať ID zariadenia"</string>
+    <string name="hbbtv_blocker_3rd_party_cookies" msgid="7890722586463776089">"Blok. súborov cookie 3. strany"</string>
+    <string name="hbbtv_default" msgid="7846721736221762909">"Predvolené"</string>
+    <string name="yesteday" msgid="2031037914735844998">"Včera"</string>
+    <string name="today" msgid="67589070411916088">"Dnes"</string>
+    <string name="tomorrow" msgid="1113611151010280578">"Zajtra"</string>
+    <string name="channel" msgid="83247550823739857">"Kanál"</string>
+    <string name="duration" msgid="2217423882430487586">"Trvanie"</string>
+    <string name="repeat" msgid="566789264529947157">"Opakovať"</string>
+    <string name="hr" msgid="5804859081055619802">"h"</string>
+    <string name="min" msgid="6507012410599430444">"min"</string>
+    <string name="custom_recording_toast_validation_start_is_past" msgid="1778592166545947541">"Čas spustenia musí byť v budúcnosti"</string>
+    <string-array name="duration_hrs_no_zero">
+        <item msgid="2912861604749370425">"1 h"</item>
+        <item msgid="374281930058836476">"2 h"</item>
+        <item msgid="7193305075436964774">"3 h"</item>
+        <item msgid="398015843251496779">"4 h"</item>
+        <item msgid="4683459051008938980">"5 h"</item>
+        <item msgid="1414842138111776793">"6 h"</item>
+        <item msgid="5385729342887859281">"7 h"</item>
+        <item msgid="833181330636230000">"8 h"</item>
+        <item msgid="7352766903438891407">"9 h"</item>
+    </string-array>
+    <string-array name="duration_hrs">
+        <item msgid="5471601675920266922">"0 h"</item>
+        <item msgid="4758654820569121047">"1 h"</item>
+        <item msgid="2464578624220725398">"2 h"</item>
+        <item msgid="6841350237385073269">"3 h"</item>
+        <item msgid="808190610521816281">"4 h"</item>
+        <item msgid="5673916598141549569">"5 h"</item>
+        <item msgid="3288525635276674935">"6 h"</item>
+        <item msgid="2839868575152790505">"7 h"</item>
+        <item msgid="1600978639156753982">"8 h"</item>
+        <item msgid="2271044927678196934">"9 h"</item>
+    </string-array>
+    <string-array name="duration_min_no_zero">
+        <item msgid="4589471421757924267">"5 min"</item>
+        <item msgid="8855543832564593545">"10 min"</item>
+        <item msgid="5088095894570123157">"15 min"</item>
+        <item msgid="5808310145047542877">"20 min"</item>
+        <item msgid="2070562423007636725">"25 min"</item>
+        <item msgid="8225826920502845526">"30 min"</item>
+        <item msgid="6422141515296762708">"35 min"</item>
+        <item msgid="3612635699902359929">"40 min"</item>
+        <item msgid="7626360296518549125">"45 min"</item>
+        <item msgid="2921707540170235765">"50 min"</item>
+        <item msgid="8172757182923815197">"55 min"</item>
+    </string-array>
+    <string-array name="duration_min">
+        <item msgid="1648681698956104769">"0 min"</item>
+        <item msgid="4684170343523077350">"5 min"</item>
+        <item msgid="8175832420314111549">"10 min"</item>
+        <item msgid="5833040817671471801">"15 min"</item>
+        <item msgid="1493963098421519845">"20 min"</item>
+        <item msgid="5410948776282630403">"25 min"</item>
+        <item msgid="8556168981136945141">"30 min"</item>
+        <item msgid="6577498731879282997">"35 min"</item>
+        <item msgid="621131071020421921">"40 min"</item>
+        <item msgid="2962872642228943573">"45 min"</item>
+        <item msgid="4962461171429895589">"50 min"</item>
+        <item msgid="7894077849623889505">"55 min"</item>
+    </string-array>
+    <string name="usb_format" msgid="5324359857719634056">"Chcete toto zariadenie USB naformátovať?"</string>
+    <string name="no_channels_found" msgid="1848544592156894737">"Nenašli sa žiadne kanály"</string>
+    <string name="connect_scan_msg" msgid="7558833561209342023">"Pripojte anténu a začnite prehľadávať"</string>
+    <string name="scan_channels_text" msgid="8258095964311020673">"Hľadať kanály"</string>
+    <string name="recording_scan_conflict_toast" msgid="3748032820323076906">"Vyhľadávanie sa nedá spustiť počas nahrávania. Ak chcete vyhľadať ďalšie kanály, najprv dokončite nahrávanie."</string>
+    <string name="channels_scan_select_description" msgid="7855400572097293868">"Pripojte tuner a vyberte vhodnú možnosť na prehľadávanie kanálov. Tento krok môžete preskočiť a dokončiť neskôr v nastaveniach alebo aplikácii Live TV"</string>
+    <string name="pin_description" msgid="8940902203123531407">"PIN sa používa na rodičovskú kontrolu a uzamknutie kanálov v aplikácii Live TV"</string>
+    <string name="select_country_description" msgid="1967341889036312517">"Výber krajiny automatizuje prehľadávanie"</string>
+    <string name="scan_terrestrial_description" msgid="1809146725235000878">"Prehľadávanie kanálov môže v závislosti od nastavených možností určitý čas trvať"</string>
+    <string name="cancel_scan" msgid="5554011776162355293">"Preskočiť"</string>
+    <string name="unknown" msgid="9217817889222189655">"Neznáme"</string>
+    <string name="lcn_conflict" msgid="8266500972216800846">"Konflikt LCN"</string>
+    <string name="status" msgid="7862706947096620505">"Stav"</string>
+    <string name="in_progress" msgid="8185893763004417407">"Prebieha"</string>
+    <string name="updating" msgid="2742050939467141774">"Aktualizuje sa"</string>
+    <string name="complete" msgid="1810163799621341824">"Dokončené"</string>
+    <string name="cancelled" msgid="1685545085829761585">"Zrušené"</string>
+    <string name="signal_status" msgid="8282786450156646927">"Stav signálu"</string>
+    <string name="programmes_found" msgid="3796490668729947923">"Našli sa programy"</string>
+    <string name="scanning_status" msgid="906438863803948589">"Stav prehľadávania"</string>
+    <string name="scanning_progress" msgid="3809321512060165759">"Priebeh prehľadávania"</string>
+    <string name="scan_terrestrial" msgid="5387031143578140493">"Prehľadať pozemné vysielanie"</string>
+    <string name="failed" msgid="5261073364967333327">"Neúspešné"</string>
+    <string name="wrong_frequency" msgid="1134163595573458436">"Nesprávna frekvencia"</string>
+    <string name="confirm_pin_number" msgid="797481806488195214">"Potvrďte kód PIN"</string>
+    <string name="not_correct_pins" msgid="1411011499275438579">"Dve nové kódy PIN sa nezhodujú, skúste to znova"</string>
+    <string name="manual_scan_freq" msgid="6445524265097974731">"Frekvencia (47000 – 862000 kHz)"</string>
+    <string name="manual_scan_ch" msgid="1986733609522141628">"Kan. VHF (5 – 12) / kan. UHF (21 – 69)"</string>
+    <string name="manual_scan_ch_with_thirteen" msgid="287849365022890340">"Kan. VHF (5 – 13) / kan. UHF (21 – 69)"</string>
+    <string name="manual_scan_ch_only_uhf" msgid="5308435325188689312">"Kan. UHF (21 – 69)"</string>
+    <string name="channels_scan" msgid="6936821143591482075">"Prehľadávanie kanálov"</string>
+    <string name="terrestrial_manual_tuning" msgid="5998766433636391506">"Ladenie pozemného vysielania pre krajinu"</string>
+    <string name="terrestrial_scan" msgid="6815581229250774867">"Prehľadať pozemné vysielanie"</string>
+    <string name="channels_scan_select" msgid="6217180467659026310">"Vyberte typ prehľadávania"</string>
+    <string name="confirm_text" msgid="4562792574774535382">"Potvrdiť"</string>
+    <string name="enter_pin_number" msgid="4267581858234429410">"Nastavte kód PIN"</string>
+    <string name="select_country" msgid="9144110521372485962">"Vyberte krajinu"</string>
+    <string name="date" msgid="6763266483305060876">"Dátum"</string>
+    <string name="sort_by" msgid="4807922281415928330">"Zoradiť podľa"</string>
+    <string name="schedule_recording" msgid="2029414279214710085">"Naplánovať nahrávanie"</string>
+    <string name="add_to" msgid="5288188925274421816">"Pridať do"</string>
+    <string name="testing_in_progress" msgid="2321338586752160609">"Testuje sa"</string>
+    <string name="encrypted" msgid="5925122159025307467">"Šifrované"</string>
+    <string name="daily" msgid="4819197321236588721">"Denne"</string>
+    <string name="weekly" msgid="5922203140575016838">"Týždenne"</string>
+    <string name="calendar_filter_title" msgid="5095479328338511094">"Filtrovať deň"</string>
+    <string name="time" msgid="3201028376320677354">"Čas"</string>
+    <string name="general" msgid="8009011974050077815">"Všeobecné"</string>
+    <string name="favorite" msgid="3840237917139864682">"Pridať medzi obľúbené"</string>
+    <string name="on_now_radio" msgid="7663321600218926582">"Teraz je zapnuté rádio"</string>
+    <string name="subtitle_type_hearing_impaired" msgid="1854230845793845790">"Nepočujúca osoba"</string>
+    <string name="for_you" msgid="8817079902176687927">"Pre vás"</string>
+    <string name="tv_guide" msgid="1128656211604435103">"Televízny program"</string>
+    <string name="recordings" msgid="3641469268934463108">"Nahrávky"</string>
+    <string name="preferences" msgid="1541383781299739313">"Predvoľby"</string>
+    <string name="united_kingdom" msgid="4269558939438600378">"Spojené kráľovstvo"</string>
+    <string name="turkey" msgid="791149297253505623">"Turecko"</string>
+    <string name="switzerland" msgid="5264857161501759766">"Švajčiarsko"</string>
+    <string name="sweden" msgid="1680839340960211411">"Švédsko"</string>
+    <string name="spain" msgid="3605348010052911478">"Španielsko"</string>
+    <string name="slovenia" msgid="6703421764391088893">"Slovinsko"</string>
+    <string name="slovakia" msgid="8339404295801789591">"Slovensko"</string>
+    <string name="serbia" msgid="8742949431994945525">"Srbsko"</string>
+    <string name="russia" msgid="1401792757581842568">"Rusko"</string>
+    <string name="romania" msgid="7279354429316472283">"Rumunsko"</string>
+    <string name="portugal" msgid="5825255289269598902">"Portugalsko"</string>
+    <string name="poland" msgid="2422382298928464030">"Poľsko"</string>
+    <string name="norway" msgid="6852185531583620455">"Nórsko"</string>
+    <string name="netherlands" msgid="246506781407354680">"Holandsko"</string>
+    <string name="north_macedonia" msgid="3463899871972677721">"Severné Macedónsko"</string>
+    <string name="luxembourg" msgid="1063222965641971254">"Luxembursko"</string>
+    <string name="lithuania" msgid="7099713088289561615">"Litva"</string>
+    <string name="latvia" msgid="692253546270427847">"Lotyšsko"</string>
+    <string name="italy" msgid="7405995367578301423">"Taliansko"</string>
+    <string name="ireland" msgid="3764786549439915043">"Írsko"</string>
+    <string name="hungary" msgid="8781593523081221861">"Maďarsko"</string>
+    <string name="greece" msgid="4339403915223659929">"Grécko"</string>
+    <string name="germany" msgid="1836775008967040466">"Nemecko"</string>
+    <string name="france" msgid="9194837416380667641">"Francúzsko"</string>
+    <string name="finland" msgid="754419200311121688">"Fínsko"</string>
+    <string name="ukraine" msgid="7794183472283499605">"Ukrajina"</string>
+    <string name="estonia" msgid="114718845684765453">"Estónsko"</string>
+    <string name="denmark" msgid="4924773040555656121">"Dánsko"</string>
+    <string name="czech_republic" msgid="3764533072002538470">"Česko"</string>
+    <string name="cyprus" msgid="8055870015941168441">"Cyprus"</string>
+    <string name="croatia" msgid="7144186024899208334">"Chorvátsko"</string>
+    <string name="bulgaria" msgid="1379735358674509569">"Bulharsko"</string>
+    <string name="belgium" msgid="2066958471706931352">"Belgicko"</string>
+    <string name="belarus" msgid="3611735354340012730">"Bielorusko"</string>
+    <string name="austria" msgid="6235089448008573566">"Rakúsko"</string>
+    <string name="albania" msgid="1415995963347711615">"Albánsko"</string>
+    <string name="to_number" msgid="8488004022591459675">"po číslo"</string>
+    <string name="assign" msgid="3140428905911329772">"Priraďte"</string>
+    <string name="solve_lcn" msgid="4569110198197012867">"Vyriešte konflikty LCN"</string>
+    <string name="lcn_conf" msgid="5786936605306772156">"Konflikt LCN"</string>
+    <string name="solve_lcn_manu" msgid="1665466977918632045">"Ručne vyriešiť konflikty LCN"</string>
+    <string name="lcn_conf_found" msgid="1635112995686811648">"Boli zistené konflikty LCN"</string>
+    <string name="lcn_conf_description" msgid="8056448918480883161">"Vyberte, ktorý z kanálov v konflikte bude priradený k vybranému číslu"</string>
+    <string name="evaluation_license_pref" msgid="4315032194767719152">"Licencia na hodnotenie"</string>
+    <string name="evaluation_license_accept" msgid="8772567910733465135">"Prijať"</string>
+    <string name="evaluation_license_title" msgid="5376640500549846368">"VYLÚČ. ZODP. V LICEN. NA HODN."</string>
+    <string-array name="evaluation_license_dsc_title">
+        <item msgid="6997226435335006031">"1			LICENCIA\n\n"</item>
+        <item msgid="4975666999208817082">"2			AKTUALITY A SPÄTNÁ VÄZBA\n\n"</item>
+        <item msgid="446934691667251928">"3			DÔVERNOSŤ\n\n"</item>
+        <item msgid="5782769999981388961">"4			ZÁRUKA A OBMEDZENIE ZODPOVEDNOSTI\n\n"</item>
+        <item msgid="8922729760878010943">"5			INÉ\n\n"</item>
+    </string-array>
+    <string-array name="evaluation_license_dsc">
+        <item msgid="3978571601657722569">"Túto aplikáciu („Aplikácia Live TV“) poskytuje spoločnosť iWedia S.A. na základe jednorazovej, nevýhradnej, neprenosnej, nesublicencovateľnej a odvolateľnej licencie bez autorských poplatkov („Licencia na hodnotenie“), ktorá sa používa výhradne na účely interného hodnotenia a prezentácie na obdobie šiestich mesiacov od dátum vydania Aplikácie Live TV.\n\nLicencia na hodnotenie sa udeľuje iba na: \n\nI.			Účely interného hodnotenia – táto licencia je určená iba na interné použitie, nie je to ostrá verzia licencie a vzhľadom na to nesmie byť celá ani čiastočne distribuovaná či včlenená do akéhokoľvek komerčného produktu.\n\nII.			Účely prezentácie – okrem interného hodnotenia sa dá táto licencia použiť iba na marketingový účel prezentácie tretím osobám tak, ako je. Je výslovne zakázané používať túto licenciu akýmkoľvek spôsobom s konkurenciou spoločnosti iWedia.\n\nJe zakázané:\n\nI.			sublicencovať, používať či upravovať Aplikáciu Live TV alebo vytvárať z nej akékoľvek odvodené diela (vrátane akejkoľvek súvisiacej dokumentácie);\n\nII.			reverzne kompilovať, rozoberať, preformátovať, porovnávať alebo inak sa pokúšať čítať či upraviť na čítanie celý alebo čiastočný kód objektu či zdrojový kód (prípadne súvisiace nápady, algoritmy, štruktúru alebo organizáciu) alebo vykonávať na ňom reverzné inžinierstvo;\n\nIII.			upravovať Aplikáciu Live TV alebo vytvárať na základe príslušného softvéru odvodené dielo;\n\nIV.			prenajímať, poskytovať na lízing, predávať, sublicencovať alebo inak prenášať akékoľvek práva na Aplikáciu Live TV či udeľovať v súvislosti s ňou záložný nárok;\n\nV.			odstraňovať alebo upravovať akékoľvek značky či vlastnícke označenia či štítky zahrnuté v Aplikácii Live TV;\n\nVI.			používaťAaplikáciu Live TV akýmkoľvek spôsobom, ktorý porušuje práva duševného vlastníctva alebo právo na ochranu súkromia akejkoľvek tretej strany; \n\nVII.			používať Aplikáciu Live TV akýmkoľvek spôsobom, ktorý porušuje akýkoľvek medzinárodný, federálny, štátny či miestny právny predpis alebo nariadenie.\n\nVšetky práva, názov aj podiel vyplývajúce z akýchkoľvek práv duševného vlastníctva alebo vlastníckych práv týkajúcich sa Aplikácie Live TV, prípadne vzťahujúce sa na ne, udeľuje spoločnosť iWedia.\n\n"</item>
+        <item msgid="7656950104467967957">"Spoločnosť iWedia má právo (nezáväzne) na základe vlastného uváženia poskytovať aktualizované verzie Aplikácie Live TV. Zmluvné podmienky tejto Licencie na hodnotenie sa vzťahujú na všetky nové verzie Aplikácie Live TV.\n\nPoskytovanie návrhov, komentárov či inej spätnej väzby v súvislosti s Aplikáciou Live TV (Spätná väzba) spoločnosti iWedia je nezáväzné. Akákoľvek spätná väzba, ktorá bola dobrovoľne poskytnutá, môže byť však použitá v produktoch spoločnosti iWedia a súvisiach špecifikáciách či inej dokumentácii. V súlade s tým platí, že keď spoločnosť iWedia dostane spätnú verziu akejkoľvek verzie Aplikácie Live TV, môže nezáväzne používať, zverejňovať, reprodukovať, licencovať, distribuovať spätnú väzbu a inak s ňou obchodovať v akomkoľvek produkte, technológii, službe, špecifikácii alebo inej dokumentácii spoločnosti iWedia.\n\n"</item>
+        <item msgid="1426574708070917904">"Aplikácia Live TV predstavuje dôverné informácie spoločnosti iWedia (Dôverné informácie) poskytované na základe zmluvy o mlčanlivosti.\n\n"</item>
+        <item msgid="2994785271031279130">"Spoločnosť iWedia poskytuje softvér TAK, AKO JE bez vyjadrenej alebo predpokladanej záruky akéhokoľvek druhu. Spoločnosť iWedia vylučuje všetky záruky a podmienky akéhokoľvek druhu.\n\nSpoločnosti iWedia nevznikne žiadna zodpovednosť ani záväzok v súvislosti so žiadnym predmetom zmluvy tejto Licencie na hodnotenie v prípade akýchkoľvek priamych, nepriamych, náhodných, špeciálnych, škody nahradzujúcich či následných škôd na základe žiadnej teórie zodpovednosti, či už ide o prečin, zmluvu, nedbalosť, striktnú zodpovednosť alebo iné priame faktory, a to dokonca ani vtedy, keď bolo poskytnuté upozornenie na možnosť vzniku týchto škôd.\n\nSpoločnosť iWedia nebude zodpovedať za žiadnu stratu možnosti používania, prerušenie podnikania, a to bez obmedzenia vrátane ušlého zisku a bez ohľadu na podobu akcie dokonca aj vtedy, keď bola spoločnosť iWedia upozornená na možnosť vzniku týchto škôd.\n\n"</item>
+        <item msgid="6636923911104296092">"Táto Licencia na hodnotenie zakladá záväznú dohodu všetkých strán. Túto Licenciu na hodnotenie nemôžete zmeniť, zrušiť ani zmeniť.\n"</item>
+    </string-array>
+    <string name="eval_licence_expiry_title" msgid="5041452320430252392">"Licencia na hodnotenie vypršala"</string>
+    <string name="eval_licence_expiry_sub_title" msgid="6826125758637355380">"Kontaktujte firmu iWedia"</string>
+    <string name="open_source_license_title" msgid="1554190243859250731">"LICENCIE OPEN SOURCE"</string>
+    <string name="open_source_license_picasso" msgid="1946160720113475178">"Picasso – Apache 2.0"</string>
+    <string name="open_source_license_firebase" msgid="8697900533266126732">"Firebase SDK – Apache 2.0"</string>
+    <string name="open_source_license_gson" msgid="8695992675641212399">"GSON – Apache 2.0"</string>
+    <string name="open_source_license_lottie" msgid="5889530097999389219">"Lottie"</string>
+    <string name="for_you_promo" msgid="6030816806065619135">"Promo"</string>
+    <string name="cable_scan" msgid="5168249706639891664">"Vyhľadať program káblovej TV"</string>
+    <string name="select_provider" msgid="6039171292648870904">"Vyberte poskytovateľa TV služieb"</string>
+    <string name="select_provider_description" msgid="2572301173211605186">"Výber poskytovateľa automatizuje vyhľadávanie"</string>
+    <string name="quick_tuning" msgid="1232673629897546034">"Rýchle ladenie"</string>
+    <string name="cable_manual_tuning" msgid="7295820303779933458">"Ladenie káblovej služby pre"</string>
+    <string name="albanian" msgid="909487102798937262">"albánčina"</string>
+    <string name="belarusian" msgid="8692726601803500664">"bieloruština"</string>
+    <string name="bulgarian" msgid="5604526587810914861">"bulharčina"</string>
+    <string name="czech" msgid="2219203852942880496">"čeština"</string>
+    <string name="danish" msgid="6680435916838658718">"dánčina"</string>
+    <string name="german" msgid="7444271351966071063">"nemčina"</string>
+    <string name="dutch" msgid="7277857127289043923">"holandčina"</string>
+    <string name="greek" msgid="815606104864893488">"gréčtina"</string>
+    <string name="english" msgid="7457699616117671332">"angličtina"</string>
+    <string name="finnish" msgid="9024747441674504407">"fínčina"</string>
+    <string name="french" msgid="5135133463687500184">"francúzština"</string>
+    <string name="croatian" msgid="4156676487199304187">"chorvátčina"</string>
+    <string name="hungarian" msgid="7622853368648210014">"maďarčina"</string>
+    <string name="italian" msgid="3635685233604558030">"taliančina"</string>
+    <string name="latvian" msgid="4584279564478599034">"lotyština"</string>
+    <string name="lithuanian" msgid="7253431506356604510">"litovčina"</string>
+    <string name="macedonian" msgid="8292842895952058345">"macedónčina"</string>
+    <string name="norwegian" msgid="1358417873898371354">"nórčina"</string>
+    <string name="polish" msgid="1032451208264168340">"poľština"</string>
+    <string name="portuguese" msgid="6248764786403138732">"portugalčina"</string>
+    <string name="romanian" msgid="5343123013812157333">"rumunčina"</string>
+    <string name="russian" msgid="3122555201054868037">"ruština"</string>
+    <string name="slovak" msgid="5766823434970777356">"slovenčina"</string>
+    <string name="slovenian" msgid="4897469105710150458">"slovinčina"</string>
+    <string name="spanish" msgid="7718063189462085302">"španielčina"</string>
+    <string name="serbian" msgid="6787921820943171288">"srbčina"</string>
+    <string name="swedish" msgid="2268764493783412822">"švédčina"</string>
+    <string name="turkish" msgid="4336249792544405769">"turečtina"</string>
+    <string name="status_message_channels_not_available" msgid="7860572798367937149">"Kanály nie sú k dispozícii."</string>
+    <string name="status_message_drm_error" msgid="8563550254613004526">"Chyba ochrany DRM"</string>
+    <string name="status_message_signal_not_available" msgid="6211566889211861934">"Signál nie je k dispozícii."</string>
+    <string name="status_message_no_playback" msgid="2422134051958157268">"Neprehráva sa záznam."</string>
+    <string name="scan_cable" msgid="8526213048315732533">"Vyhľadať program káblovej TV"</string>
+    <string name="frequency_cable" msgid="9086867584754959840">"Frekvencia"</string>
+    <string name="symbolrate_cable" msgid="4456975092083451351">"Modulačná rýchlosť"</string>
+    <string name="qam" msgid="7742628918606248891">"QAM"</string>
+    <string name="standard" msgid="8128590355024601150">"Štandardné"</string>
+    <string name="info_banner" msgid="5121498386122846064">"Informačný banner"</string>
+    <string name="channel_list" msgid="198366839981523920">"Zoznam kanálov"</string>
+    <string name="home" msgid="7695601671079289966">"Home"</string>
+    <string name="player" msgid="2316857039736126044">"Hráč"</string>
+    <string name="no_available_audio_tracks_msg" msgid="782253792221872046">"Žiadne dostupné zvukové stopy"</string>
+    <string name="no_available_subtitle_tracks_msg" msgid="3706564892110208472">"Žiadne dostupné titulky"</string>
+    <string name="no_channel_associated" msgid="5942779153312382416">"Číslo nemá priradený žiadny kanál"</string>
+    <string name="reminder_conflict_title" msgid="5010227952116720654">"Začína sa viacero udalostí pridaných do zoznamu na pozeranie"</string>
+    <string name="reminder_conflict_description" msgid="1386866368652825321">"Vyberte, čo chcete teraz pozerať"</string>
+    <string name="Jan" msgid="8091368207026826226">"Jan."</string>
+    <string name="Feb" msgid="4434946576211727815">"Feb."</string>
+    <string name="Mar" msgid="1089219438456085664">"Mar."</string>
+    <string name="Apr" msgid="1173377893122276908">"Apr."</string>
+    <string name="May" msgid="2280658853397387223">"Máj"</string>
+    <string name="Jun" msgid="9066283939588118035">"Jún"</string>
+    <string name="Jul" msgid="3832610179582330647">"Júl"</string>
+    <string name="Aug" msgid="7267939992062921197">"Aug."</string>
+    <string name="Sep" msgid="6993964396334664032">"Sep."</string>
+    <string name="Oct" msgid="6231710039194798243">"Okt."</string>
+    <string name="Nov" msgid="2414018112438710751">"Nov."</string>
+    <string name="Dec" msgid="6756013221225136792">"Dec."</string>
+    <string name="usb_connected" msgid="304543994419201919">"Zariadenie USB bolo pripojené"</string>
+    <string name="usb_disconnected" msgid="4043626174877594434">"Zariadenie USB bolo odpojené"</string>
+    <string name="channel_delete_confirmation" msgid="8417046658666237109">"Niekoľko udalostí z tohto kanála bolo pridaných do vášho zoznamu na pozeranie. Naozaj ho chcete odstrániť?"</string>
+    <string name="scan_mode" msgid="8652737203306231674">"Režim vyhľadávania"</string>
+    <string name="open_timeshift" msgid="1980718987660169753">"Posunutie času otvoríte tlačidlom Nadol na krížovom ovládači"</string>
+    <string name="open_main_menu" msgid="7762056624498743497">"Ponuku otvoríte tlačidlom Nahor na krížovom ovládači"</string>
+    <string name="open_info_list" msgid="2089266918747223151">"Informačný banner otvoríte pravým tlačidlom na krížovom ovládači"</string>
+    <string name="open_channel_list" msgid="992523637403325691">"Zoznam kanálov otvoríte ľavým tlačidlom na krížovom ovládači"</string>
+    <string name="recording_progress_toast" msgid="3931766452381203016">"Posunutie času sa nedá spustiť, keď prebieha nahrávanie"</string>
+    <string name="time_shift_stop_toast" msgid="1453156650994532868">"Posunutie času bolo zastavené"</string>
+    <string name="parental_control_restriction" msgid="8885082747545588751">"Obmedzenie rodičovskej kontroly"</string>
+    <string name="time_shift_stopped" msgid="12792113607392143">"Posunutie času bolo zastavené"</string>
+    <string name="search_hint" msgid="4313497354104425164">"Vyhľadajte kanály a udalosti"</string>
+    <string name="preference_pvr_timeshift" msgid="4864047471968539523">"PVR / posunutie času"</string>
+    <string name="device_info" msgid="8303072342139108303">"Informácie o zariadení"</string>
+    <string name="timeshift_mode" msgid="5444162941927817100">"Režim posunutia času"</string>
+    <string name="device_option" msgid="1062614578180218894">"Nastavenie infor. o zariadení"</string>
+    <string name="device_formatting" msgid="6354963964932834975">"Formátuje sa"</string>
+    <string name="device_format_failed" msgid="103210814895409124">"Zariadenie sa nepodarilo naformátovať"</string>
+    <string name="set_timeshift" msgid="2364800365281399708">"Nastaviť posunutie času"</string>
+    <string name="set_pvr" msgid="2078327194436110325">"Nastaviť PVR"</string>
+    <string name="format" msgid="350088175032389662">"Formát"</string>
+    <string name="speed_test" msgid="8447846467288108764">"Test rýchlosti"</string>
+    <string name="no_name" msgid="7098531867215213181">"Bez názvu"</string>
+    <string name="no_device" msgid="7955835455459654456">"Nie je pripojené žiadne zar."</string>
+    <string name="na" msgid="9199605622891574772">"–"</string>
+    <string name="tshift" msgid="7065841842286559444">"TSHIFT"</string>
+    <string name="pvr" msgid="7388320924555892156">"PVR"</string>
+    <string name="speed_test_title" msgid="6262961035292637797">"Prebieha test rýchlosti"</string>
+    <string name="speed_test_complete_title" msgid="3120125604157095838">"Test rýchlosti bol dokončený"</string>
+    <string name="dont_unplug_device" msgid="6818477498504768488">"Neodpájajte zariadenie"</string>
+    <string name="max_speed_display" msgid="7614928889735577710">"Maximálna rýchlosť je %s"</string>
+    <string name="speed_test_failed" msgid="2709964041634415206">"Test rýchlosti zlyhal."</string>
+    <string name="speed_test_not_allowed_timeshift" msgid="3878236764146117242">"Test rýchlosti je zakázaný, keď je posunutie času aktívne"</string>
+    <string name="set_timeshift_not_allowed_timeshift" msgid="1099598707064586580">"Nastavenie posunutia času je zakázané, keď je aktívne"</string>
+    <string name="speed_test_not_allowed_pvr" msgid="1253612098766075788">"Test rýchlosti je zakázaný, keď je zariadenie PVR aktívne"</string>
+    <string name="set_pvr_not_allowed_pvr" msgid="5619137174152256874">"Nastavenie zariadenia PVR je zakázané, keď je aktívne"</string>
+    <string name="speed_test_insufficient" msgid="2181811080863400857">"Nedostatok miesta na disku. Test rýchlosti zlyhal."</string>
+    <string name="speed_test_ntfs_failed" msgid="3445411399094381213">"Prístup bol odmietnutý. Test rýchlosti zlyhal."</string>
+    <string name="format_not_allowed_timeshift" msgid="7781107131931776628">"Formátovanie je zakázané, keď je posunutie času aktívne"</string>
+    <string name="format_not_allowed_pvr" msgid="2479444988640574403">"Formátovanie je zakázané, keď je zariadenie PVR aktívne"</string>
+    <string name="long_press_to_move_channels" msgid="1832633153219645684">"Dlho stlačte OK a presuňte tak vybraný kanál"</string>
+    <string name="press_up_down_to_place_channels" msgid="6877693686742243270">"Vybrané kanály presuňte stlačením klávesa UP alebo Down"</string>
+    <string name="skip_channel" msgid="1135520316810760425">"Preskočiť kanál"</string>
+    <string name="swap_channel" msgid="1799644900250358066">"Vymeniť kanál"</string>
+    <string name="move_channel" msgid="204675255168084125">"Presunúť kanál"</string>
+    <string name="delete_channel" msgid="5774937781453616865">"Odstrániť kanál"</string>
+    <string name="preferred_epg_language" msgid="8248499855281398244">"Preferovaný jazyk elektronického programového sprievodcu?"</string>
+    <string name="no_signal_power_off" msgid="2224882672359529115">"Žiadne vypnutie signálu"</string>
+    <string name="auto_service_update" msgid="8021776817281698480">"Aktualizácia automatickej služby"</string>
+    <string name="blue_mute" msgid="8609195964986908837">"Vyp. modr. obr. pri žiad. sig."</string>
+    <string name="delete_channel_confirmation" msgid="7080456803599490326">"Naozaj chcete odstrániť tento kanál?"</string>
+    <string name="delete_all_channel_confirmation" msgid="3514236810412594859">"Naozaj chcete vymazať celý zoznam kanálov?"</string>
+    <string name="channel_block" msgid="5609404611041597149">"Blokovanie kanála"</string>
+    <string name="Input_block" msgid="7686211170252543442">"Blokovanie vstupu"</string>
+    <string name="rating_systems" msgid="7357875754286606036">"Systém hodnotenia"</string>
+    <string name="Rating_lock" msgid="484835933397574992">"Zámka hodnotení"</string>
+    <string name="rrt5_lock" msgid="4950832723556856055">"Zámka RRT5"</string>
+    <string name="display_cc" msgid="8031161534368524044">"Zobrazovať skryté titulky"</string>
+    <string name="caption_services" msgid="6611823018328925066">"Služby titulkov"</string>
+    <string name="advanced_selection" msgid="910652783108927962">"Rozšírený výber"</string>
+    <string name="text_size" msgid="1593957427542517158">"Veľkosť textu"</string>
+    <string name="font_family" msgid="6306931181831624945">"Skupina písiem"</string>
+    <string name="text_color" msgid="7664362331677356703">"Farba textu"</string>
+    <string name="text_opacity" msgid="1142383466259320341">"Nepriehľadnosť textu"</string>
+    <string name="edge_type" msgid="7070541445045612273">"Druh okraja"</string>
+    <string name="edge_color" msgid="5779719244135712989">"Farba okraja"</string>
+    <string name="background_color" msgid="8484991228260787749">"Farba pozadia"</string>
+    <string name="background_opacity" msgid="1961100726261915120">"Nepriehľadnosť pozadia"</string>
+    <string name="with_mute" msgid="3611320894492390964">"s vypnutým zvukom"</string>
+    <string name="cc_preview" msgid="6976624995499205000">"ABC"</string>
+    <string name="cc_changed" msgid="6658676502133912440">"Skryté titulky boli zmenené na možnosť"</string>
+    <string name="cc_track_turned_off" msgid="2070924551441949986">"Stopy so skrytými titulkami sú vypnuté"</string>
+    <string name="cc_1" msgid="8032134115941127487">"CC-1"</string>
+    <string name="cc_2" msgid="2627715292267356254">"CC-2"</string>
+    <string name="cc_3" msgid="3426028896225446900">"CC-3"</string>
+    <string name="cc_4" msgid="4947611549263363858">"CC-4"</string>
+    <string name="t_1" msgid="5546025069449764069">"T-1"</string>
+    <string name="t_2" msgid="2259519718627536389">"T-2"</string>
+    <string name="t_3" msgid="3404422579623588461">"T-3"</string>
+    <string name="t_4" msgid="1561225036266590129">"T-4"</string>
+    <string name="cs_1" msgid="7613504232590787073">"CS-1"</string>
+    <string name="cs_2" msgid="3911881991899570725">"CS-2"</string>
+    <string name="cs_3" msgid="1610642856385634142">"CS-3"</string>
+    <string name="cs_4" msgid="2463001422068119721">"CS-4"</string>
+    <string name="cs_5" msgid="5765274172636649804">"CS-5"</string>
+    <string name="cs_6" msgid="6893090138340711956">"CS-6"</string>
+    <string name="small" msgid="8259711989248858792">"Malé"</string>
+    <string name="large" msgid="4582824721219275509">"Veľké"</string>
+    <string name="serif_monospace" msgid="2162538430535841830">"Pätkové neproporcionálne"</string>
+    <string name="serif" msgid="4375293750122359072">"Pätkové"</string>
+    <string name="sans_serif_monospace" msgid="7001547829666259882">"Bezpätkové neproporcionálne"</string>
+    <string name="sans_serif" msgid="3278658763082925673">"Bezpätkové"</string>
+    <string name="casual" msgid="195585843707921723">"Jednoduché"</string>
+    <string name="cursive" msgid="3152433177270903113">"Kurzíva"</string>
+    <string name="small_capitals" msgid="4639501279018303490">"Kapitálky"</string>
+    <string name="black" msgid="3195508414894295279">"Čierna"</string>
+    <string name="white" msgid="5588737507625973264">"Biela"</string>
+    <string name="green" msgid="3026082783462206765">"Zelená"</string>
+    <string name="blue" msgid="2647227522785487853">"Modrá"</string>
+    <string name="red" msgid="971464106814017076">"Červená"</string>
+    <string name="cyan" msgid="1403604018041040047">"Azúrová"</string>
+    <string name="yellow" msgid="5060138419318857975">"Žltá"</string>
+    <string name="magenta" msgid="6582835999864738974">"Purpurová"</string>
+    <string name="solid" msgid="8458782005437906928">"Nepriehľadné"</string>
+    <string name="translucent" msgid="6603288424076173845">"Priesvitné"</string>
+    <string name="transparent" msgid="817577842092581983">"Priehľadné"</string>
+    <string name="flashing" msgid="7804156029537336970">"Blikajúce"</string>
+    <string name="raised" msgid="6246151436922603249">"Reliéf"</string>
+    <string name="depressed" msgid="4749744261166976500">"Rytina"</string>
+    <string name="outline" msgid="1587961028708691402">"Outline"</string>
+    <string name="drop_shadow" msgid="551919838682320135">"Vrhnutý tieň"</string>
+    <string name="rrt5_reset" msgid="1491320584112795115">"Reset RRT5"</string>
+    <string name="tv" msgid="7380590796291368480">"TV"</string>
+    <string name="composite" msgid="2849489151670558112">"Kompozitný"</string>
+    <string name="component" msgid="686727891212287515">"Komponent"</string>
+    <string name="vga" msgid="6144755744277870601">"VGA"</string>
+    <string name="hdmi_1" msgid="8522900077999439381">"HDMI 1"</string>
+    <string name="hdmi_2" msgid="3908619966237984379">"HDMI 2"</string>
+    <string name="hdmi_3" msgid="5424975936510597247">"HDMI 3"</string>
+    <string name="other_countries" msgid="7848158526503892152">"Ostatné krajiny"</string>
+    <string name="block_unrated_programs" msgid="9080729267174088669">"Blokovať nehodnotené programy"</string>
+    <string name="global_restrictions" msgid="5176053844554424628">"Globálne obmedzenia"</string>
+    <string name="rating_hint_partial" msgid="2151239207435581070">"Čiastočné"</string>
+    <string name="menu_arrays_None" msgid="1276877866594593227">"Žiadne"</string>
+    <string name="option_rating_high" msgid="9064023482784707681">"Silné obmedzenia"</string>
+    <string name="option_rating_medium" msgid="8869255499946788924">"Stredné obmedzenia"</string>
+    <string name="option_rating_low" msgid="5761520507954269327">"Slabé obmedzenia"</string>
+    <string name="option_rating_custom" msgid="3833899108470291609">"Vlastné"</string>
+    <string name="rrt5_reset_message" msgid="4468037685921979959">"Údaje RRT5 boli resetované."</string>
+    <string name="atsc30_display_eas" msgid="7932122627645560413">"Obrazovka"</string>
+    <string name="atsc30_hide_eas" msgid="8743848521256360284">"Skryť"</string>
+    <string name="description_age_4" msgid="7025653477221463476">"opis_vek_4"</string>
+    <string name="description_age_5" msgid="9144027431668583556">"opis_vek_5"</string>
+    <string name="description_age_6" msgid="8109818400761375398">"opis_vek_6"</string>
+    <string name="description_age_7" msgid="4441466247261338153">"opis_vek_7"</string>
+    <string name="description_age_8" msgid="5065247703991616668">"opis_vek_8"</string>
+    <string name="description_age_9" msgid="4425170430537629232">"opis_vek_9"</string>
+    <string name="description_age_10" msgid="7472276134043725493">"opis_vek_10"</string>
+    <string name="description_age_11" msgid="4954445522017982864">"opis_vek_11"</string>
+    <string name="description_age_12" msgid="5315500544644036899">"opis_vek_12"</string>
+    <string name="description_age_13" msgid="7318131182905199154">"opis_vek_13"</string>
+    <string name="description_age_14" msgid="694782469562109746">"opis_vek_14"</string>
+    <string name="description_age_15" msgid="5764581597794798575">"opis_vek_15"</string>
+    <string name="description_age_16" msgid="4671719524686174906">"opis_vek_16"</string>
+    <string name="description_age_17" msgid="3418819265185760179">"opis_vek_17"</string>
+    <string name="description_age_18" msgid="8671547181177734513">"opis_vek_18"</string>
+    <string name="description_age_19" msgid="3527738244194581236">"opis_vek_19"</string>
+    <string name="description_age_20" msgid="4490401476496449000">"opis_vek_20"</string>
+    <string name="description_ar_tv_atp" msgid="8810019380453993820">"opis_ar_tv_atp"</string>
+    <string name="description_ar_tv_sam_13" msgid="2524470636619583425">"opis_ar_tv_sam_13"</string>
+    <string name="description_ar_tv_sam_16" msgid="3165034796671755617">"opis_ar_tv_sam_16"</string>
+    <string name="description_ar_tv_sam_18" msgid="265905202843046831">"opis_ar_tv_sam_18"</string>
+    <string name="description_ar_tv_d" msgid="6292844211071412419">"opis_ar_tv_d"</string>
+    <string name="description_ar_tv_s" msgid="1420654864663375189">"opis_ar_tv_s"</string>
+    <string name="description_ar_tv_v" msgid="1362827751390511515">"opis_ar_tv_v"</string>
+    <string name="description_au_tv_p" msgid="8427842783140970250">"opis_ar_tv_v"</string>
+    <string name="description_au_tv_c" msgid="1258519434439434177">"opis_au_tv_c"</string>
+    <string name="description_au_tv_g" msgid="6416961253439940282">"opis_au_tv_g"</string>
+    <string name="description_au_tv_pg" msgid="7140978137507082552">"opis_au_tv_pg"</string>
+    <string name="description_au_tv_m" msgid="2222260813751802826">"opis_au_tv_m"</string>
+    <string name="description_au_tv_ma" msgid="5510508770895470263">"opis_au_tv_ma"</string>
+    <string name="description_au_tv_av" msgid="1592543624452080294">"opis_au_tv_av"</string>
+    <string name="description_au_tv_r" msgid="470671100520035502">"opis_au_tv_r"</string>
+    <string name="title_br_tv_l" msgid="1901747335114982920">"názov_br_tv_l"</string>
+    <string name="title_br_tv_10" msgid="8614927280312641655">"názov_br_tv_10"</string>
+    <string name="title_br_tv_12" msgid="6084736713291906118">"názov_br_tv_12"</string>
+    <string name="title_br_tv_14" msgid="2061377149704001153">"názov_br_tv_14"</string>
+    <string name="title_br_tv_16" msgid="7544526119137711202">"názov_br_tv_16"</string>
+    <string name="title_br_tv_18" msgid="6980524134928462438">"názov_br_tv_18"</string>
+    <string name="description_br_tv_l" msgid="201456608986653097">"opis_br_tv_l"</string>
+    <string name="description_br_tv_10" msgid="5360388990767482182">"opis_br_tv_10"</string>
+    <string name="description_br_tv_12" msgid="4897182923627858286">"opis_br_tv_12"</string>
+    <string name="description_br_tv_14" msgid="4491939541707766240">"opis_br_tv_14"</string>
+    <string name="description_br_tv_16" msgid="2136734023503258711">"opis_br_tv_16"</string>
+    <string name="description_br_tv_18" msgid="6836471971177950240">"opis_br_tv_18"</string>
+    <string name="description_br_tv_d" msgid="5403724568590695926">"opis_br_tv_d"</string>
+    <string name="description_br_tv_s" msgid="7251682861269497531">"opis_br_tv_s"</string>
+    <string name="description_br_tv_v" msgid="4530159363190871796">"opis_br_tv_v"</string>
+    <string name="description_ca_tv_en_exempt" msgid="1103330166042871791">"opis_ca_tv_en_výnimka"</string>
+    <string name="description_ca_tv_en_c" msgid="8884405607424464786">"opis_ca_tv_en_c"</string>
+    <string name="description_ca_tv_en_c8" msgid="3776811327327568874">"opis_ca_tv_en_c8"</string>
+    <string name="description_ca_tv_en_g" msgid="7472873043142752045">"opis_ca_tv_en_g"</string>
+    <string name="description_ca_tv_en_pg" msgid="6346571281891475213">"opis_ca_tv_en_pg"</string>
+    <string name="description_ca_tv_en_14" msgid="6351452081854928465">"opis_ca_tv_en_14"</string>
+    <string name="description_ca_tv_en_18" msgid="7798944689142487523">"opis_ca_tv_en_18"</string>
+    <string name="title_ca_tv_fr" msgid="32754738060611721">"názov_ca_tv_fr"</string>
+    <string name="description_ca_tv_fr_e" msgid="991343765123104096">"opis_ca_tv_fr_e"</string>
+    <string name="description_ca_tv_fr_g" msgid="8387320028598832542">"opis_ca_tv_fr_g"</string>
+    <string name="description_ca_tv_fr_8" msgid="352288844918317494">"opis_ca_tv_fr_8"</string>
+    <string name="description_ca_tv_fr_13" msgid="1725958039041602235">"opis_ca_tv_fr_13"</string>
+    <string name="description_ca_tv_fr_16" msgid="5770015428434444309">"opis_ca_tv_fr_16"</string>
+    <string name="description_ca_tv_fr_18" msgid="592473581390959817">"opis_ca_tv_fr_18"</string>
+    <string name="description_fr_dvb_u" msgid="3737546002932859011">"opis_fr_dvb_u"</string>
+    <string name="description_es_dvb_all" msgid="2172775645659854921">"opis_es_dvb_all"</string>
+    <string name="description_es_dvb_c" msgid="4643072877512805689">"opis_es_dvb_c"</string>
+    <string name="description_es_dvb_x" msgid="7470987206584979934">"opis_es_dvb_x"</string>
+    <string name="title_kr_tv_all" msgid="5797160576763176052">"VŠETKO"</string>
+    <string name="title_kr_tv_7" msgid="4373101538739897198">"7"</string>
+    <string name="title_kr_tv_12" msgid="3309650493129407406">"12"</string>
+    <string name="title_kr_tv_15" msgid="2314557310052219390">"15"</string>
+    <string name="title_kr_tv_19" msgid="8603333632403893391">"19"</string>
+    <string name="description_kr_tv_all" msgid="3409221597401869656">"opis_kr_tv_all"</string>
+    <string name="description_kr_tv_7" msgid="849915932641287775">"opis_kr_tv_7"</string>
+    <string name="description_kr_tv_12" msgid="7687731794305361113">"opis_kr_tv_12"</string>
+    <string name="description_kr_tv_15" msgid="2865958129374420236">"opis_kr_tv_15"</string>
+    <string name="description_kr_tv_19" msgid="3548487501223919049">"opis_kr_tv_19"</string>
+    <string name="description_sg_tv_g" msgid="8261975785955140526">"opis_sg_tv_g"</string>
+    <string name="description_sg_tv_pg" msgid="6538866734393145354">"opis_sg_tv_pg"</string>
+    <string name="description_sg_tv_pg13" msgid="1472283129037856572">"opis_sg_tv_pg13"</string>
+    <string name="description_sg_tv_nc16" msgid="4532619245769034193">"opis_sg_tv_nc16"</string>
+    <string name="description_sg_tv_m18" msgid="1995876106820663210">"opis_sg_tv_m18"</string>
+    <string name="description_sg_tv_r21" msgid="8726943990549215697">"opis_sg_tv_r21"</string>
+    <string name="description_us_tv_d" msgid="2760709836475790519">"opis_us_tv_d"</string>
+    <string name="description_us_tv_l" msgid="3704926347005329675">"opis_us_tv_l"</string>
+    <string name="description_us_tv_s" msgid="1389984351721092109">"opis_us_tv_s"</string>
+    <string name="description_us_tv_v" msgid="1942263521851544450">"opis_us_tv_v"</string>
+    <string name="description_us_tv_fv" msgid="1224458140428657084">"opis_us_tv_fv"</string>
+    <string name="description_us_tv_y" msgid="9069021449977659626">"opis_us_tv_y"</string>
+    <string name="description_us_tv_y7" msgid="7808623883195262585">"opis_us_tv_y7"</string>
+    <string name="description_us_tv_g" msgid="1491368478914819460">"opis_us_tv_g"</string>
+    <string name="description_us_tv_pg" msgid="2510584466219504909">"opis_us_tv_pg"</string>
+    <string name="description_us_tv_14" msgid="3863013023595932711">"opis_us_tv_14"</string>
+    <string name="description_us_tv_ma" msgid="623837328815914136">"opis_us_tv_ma"</string>
+    <string name="title_us_mv" msgid="8385052419227079091">"názov_us_mv"</string>
+    <string name="description_us_mv_g" msgid="4515206959192978106">"opis_us_mv_g"</string>
+    <string name="description_us_mv_pg" msgid="3873730878320864496">"opis_us_mv_pg"</string>
+    <string name="description_us_mv_pg13" msgid="2287832797375792347">"opis_us_mv_pg13"</string>
+    <string name="description_us_mv_r" msgid="1906387239134541634">"opis_us_mv_r"</string>
+    <string name="description_us_mv_nc17" msgid="6956484005567951689">"opis_us_mv_nc17"</string>
+    <string name="description_th_tv_x" msgid="1178281080236672145">"opis_th_tv_x"</string>
+    <string name="description_nz_fta_tv_g" msgid="6733473894528021363">"opis_nz_fta_tv_g"</string>
+    <string name="description_nz_fta_tv_pgr" msgid="2186138110331468515">"opis_nz_fta_tv_pgr"</string>
+    <string name="description_nz_fta_tv_ao" msgid="3442329851069496858">"opis_nz_fta_tv_ao"</string>
+    <string name="description_th_tv_4" msgid="599126272301265963">"opis_th_tv_4"</string>
+    <string name="description_th_tv_6" msgid="7633768391968097342">"opis_th_tv_6"</string>
+    <string name="description_th_tv_10" msgid="528769420384909260">"opis_th_tv_10"</string>
+    <string name="description_th_tv_13" msgid="6329028610647646769">"opis_th_tv_13"</string>
+    <string name="description_th_tv_18" msgid="3469668816962388150">"opis_th_tv_18"</string>
+    <string name="description_th_tv_19" msgid="7596618599238648587">"opis_th_tv_19"</string>
+    <string name="title_th_dvb_3" msgid="8945440937283987703">"názov_th_dvb_3"</string>
+    <string name="title_th_dvb_6" msgid="9103380621911395120">"názov_th_dvb_6"</string>
+    <string name="title_th_dvb_g" msgid="7146547632407797463">"názov_th_dvb_g"</string>
+    <string name="title_th_dvb_pg_13" msgid="7517866709967118232">"názov_th_dvb_pg_13"</string>
+    <string name="title_th_dvb_pg_18" msgid="6104759168642934639">"názov_th_dvb_pg_18"</string>
+    <string name="title_th_dvb_a" msgid="3114319341387028490">"názov_th_dvb_a"</string>
+    <string name="description_th_dvb_3" msgid="1895901294290428452">"opis_th_dvb_3"</string>
+    <string name="description_th_dvb_6" msgid="5719392954117626822">"opis_th_dvb_6"</string>
+    <string name="description_th_dvb_g" msgid="8632256520308247698">"opis_th_dvb_g"</string>
+    <string name="description_th_dvb_pg_13" msgid="4878535841828610766">"opis_th_dvb_pg_13"</string>
+    <string name="description_th_dvb_pg_18" msgid="7938515622888066571">"opis_th_dvb_pg_18"</string>
+    <string name="description_th_dvb_a" msgid="512024963764588489">"opis_th_dvb_a"</string>
+    <string name="top_10" msgid="7987357528593391792">"Desať najlepších"</string>
+    <string name="google" msgid="1549863244464508610">"Google"</string>
+    <string name="closed_captions" msgid="2373640943514951983">"Skryté titulky"</string>
+    <string name="timeshift_usb_removed_msg" msgid="6194434686229716772">"Posunutie času bolo zastavené, pretože zariadenie USB bolo odstránené"</string>
+    <string name="favorite_list_already_exist_1" msgid="3289251721102310378">"Zoznam obľúbených"</string>
+    <string name="favorite_list_already_exist_2" msgid="3529804492014453280">"už existuje."</string>
+    <string name="favorite_list_can_not_be_deleted_1" msgid="6761982274588324760">"Zoznam obľúbených s názvom"</string>
+    <string name="favorite_list_can_not_be_deleted_2" msgid="4874083422331755278">"sa nedá odstrániť.\nMusí byť k dispozícii aspoň jeden zoznam obľúbených."</string>
+    <string name="event_locked" msgid="5012896661600621981">"Udalosť je uzamknutá"</string>
+    <string name="display_mode" msgid="5525916807515374850">"Režim zobrazenia"</string>
+    <string name="aspect_ratio" msgid="9008404145255831670">"Pomer strán"</string>
+    <string name="welcome_message" msgid="6294488758452306065">"Vitajte v aplikácii Reference+"</string>
+    <string name="wrong_pin_toast" msgid="6002291133648019914">"Zadali ste nesprávny kód PIN, skúste to znova."</string>
+    <string name="wrong_confirmation_new_pin_toast" msgid="4929198756458305423">"PIN sa nezhoduje, skúste to znova."</string>
+    <string name="pin_not_allowed_toast" msgid="7673178594162339524">"Nová zadaná hodnota kódu PIN nie je povolená."</string>
+    <string name="recording_reminder_conflict_toast" msgid="3342725032861210860">"Na rovnaký čas je naplánované iné nahrávanie alebo pripomenutie"</string>
+    <string name="watchlist_scheduled_fail_toast" msgid="7557101012900421675">"Nedostatočné údaje pre zoznam na pozeranie"</string>
+    <string name="recording_scheduled_error" msgid="6953276880060582955">"Chyba v plánovanom nahrávaní"</string>
+    <string name="recording_watchlist_conflict" msgid="1112228399618314051">"V zozname na pozeranie už je udalosť s rovnakým časom začatia"</string>
+    <string name="watchlist_recording_conflict" msgid="910635194211308326">"Už je naplánované nahrávanie udalosti s rovnakým časom začatia"</string>
+    <string name="scheduled_recording_USB_warning" msgid="1027775452801327073">"Uistite sa, že úložisko USB je pripojené a správne naformátované, keď sa má začať nahrávanie."</string>
+    <string name="description_text" msgid="5920448733175314484">"Konflikt nahrávania"</string>
+    <string name="description_text2" msgid="4116069770676836842">"Už bolo nastavené nahrávanie v požadovanom časovom rozsahu"</string>
+    <string name="description_text3" msgid="5731426909513503577">"Vybrať, čo sa má nahrať"</string>
+    <string name="conflict_recording_recording_message" msgid="4725930730550517051">"Na kanáli %s už prebieha iné nahrávanie"</string>
+    <string name="conflict_recording_recording_text1" msgid="7738871567642352203">"Pokračovať v nahrávaní na kanáli %s1"</string>
+    <string name="conflict_recording_recording_text2" msgid="7322858598116551224">"Spustiť nahrávanie na kanáli %s2"</string>
+    <string name="conflict_recording_schedule_message" msgid="5295202481303493717">"V danom čase bude prebiehať nahrávanie na kanáli %s"</string>
+    <string name="conflict_recording_schedule_text1" msgid="2630195930192272445">"Zrušiť naplánované nahrávanie na kanáli %s2"</string>
+    <string name="conflict_recording_schedule_text2" msgid="2962033762983988638">"Ponechať naplánované nahrávanie na kanáli %s2"</string>
+    <!-- format error in translation for conflict_schedule_schedule_text1 (3840825084936618164) -->
+    <!-- format error in translation for conflict_schedule_schedule_text2 (4927525790278764266) -->
+    <string name="toast_for_updated_choice" msgid="7703441781904743833">"Výber bol aktualizovaný."</string>
+    <string name="recording_watchlist_conflict_title" msgid="1761678001255033497">"Naplánované nahrávanie a udalosť v zozname na pozeranie sa začínajú v rovnakom čase"</string>
+    <string name="recording_watchlist_conflict_description" msgid="1083019453642052626">"Nahrávanie sa prepne automaticky o 0:"</string>
+    <string name="normal" msgid="5464970059482842610">"Normálne"</string>
+    <string name="full" msgid="4441637193077517464">"Celé"</string>
+    <string name="zoom" msgid="3629438711506442385">"Lupa"</string>
+    <string name="duration_5_minutes" msgid="6017374918963331366">"5 minút"</string>
+    <string name="duration_10_minutes" msgid="470807006165757080">"10 minút"</string>
+    <string name="duration_15_minutes" msgid="2295117768776237179">"15 minút"</string>
+    <string name="duration_30_minutes" msgid="4786774397436569500">"30 minút"</string>
+    <string name="duration_60_minutes" msgid="2119037368531283075">"60 minút"</string>
+    <string name="enter_parental_settings" msgid="6262582506598917480">"Zadajte rodičovské nastavenia"</string>
+    <string name="enter_pin_to_unlock_input" msgid="4996712602685439000">"Zadajte PIN a odomknite tak tento vstup"</string>
+    <string name="unlock_input" msgid="5832599707461421504">"Odomknite vstup"</string>
+    <string name="enter_input_pin" msgid="9221955547432526211">"Zadajte PIN"</string>
+    <string name="factory_no_signal_tv" msgid="2064573018748705100">"Hľadá sa signál, prípadne sa žiadny nenašiel. Skontrolujte, či je správne pripojený kábel antény."</string>
+    <string name="factory_no_signal_inputs" msgid="857391403939935988">"Skontrolujte externý vstup alebo vyberte iný tlačidlom INPUT"</string>
+    <string name="no_internet_connection" msgid="3602703389996673311">"Žiadne internetové pripojenie"</string>
+    <string name="please_try_to_reconnect" msgid="5603181819553490632">"Skúste sa znova pripojiť"</string>
+    <string name="please_try_to_connect_message" msgid="1162763316317744284">"Pripojte sa k internetu, aby ste mali všetky funkcie"</string>
+    <string name="no_provider_connection" msgid="6154068978862051618">"Žiadne pripojenie k serveru služby Fast"</string>
+    <string name="please_check_connection" msgid="1440195937769005477">"Overte svoje internetové pripojenie"</string>
+    <string name="region_not_supported" msgid="5727085228054753295">"Kanály so živým vysielaním nie sú k dispozícii vo vašom regióne"</string>
+    <string name="channel_list_not_available" msgid="4860204781611214239">"Zoznam kanálov nie je k dispozícii"</string>
+    <string name="exit" msgid="8856482581656982699">"Ukončiť"</string>
+    <string name="check_if_region_not_set_properly" msgid="2242334646167056807">"Skontrolujte, či je správne nastavený región"</string>
+    <string name="inputs_text_string" msgid="8501834020850958214">"Vstupy"</string>
+    <string name="google_tv_home" msgid="1436980980307493365">"Domovská stránka Google TV"</string>
+    <string name="input_home" msgid="4851597169971077442">"Domov"</string>
+    <string name="input_tv" msgid="4932335503958456223">"TV"</string>
+    <string name="no_audio_video_channel" msgid="7120336434692503933">"Kanál nemá video a audio obsah"</string>
+    <string name="no_video_channel" msgid="4168053168323349660">"Kanál nemá video obsah"</string>
+    <string name="please_select_storage_path_for_recording_pvr" msgid="5843521746404803592">"Vyberte cestu ukladania pre nahrávanie videorekordérom v Predvoľbách"</string>
+    <string name="insufficient_disk_space" msgid="8478643581192172508">"Nedostatočné miesto na disku USB"</string>
+    <string name="usb_not_connected_connect_usb_to_record" msgid="7776956808628231286">"ZARIADENIE USB NIE JE PRIPOJENÉ\nAk chcete nahrávať, pripojte USB"</string>
+    <string name="unlock_channel_to_start_recording" msgid="4995285857676486401">"Odomknite kanál a začnite nahrávať"</string>
+    <string name="app_exit_msg" msgid="4257978351669549964">"Chcete ukončiť?"</string>
+    <string name="recording_is_starting_please_wait" msgid="344150952403928079">"Začína sa nahrávanie, čakajte…"</string>
+    <string name="recording_is_stopping_please_wait" msgid="2342124951531177799">"Nahrávanie sa zastavuje, čakajte…"</string>
+    <string name="device_format_success" msgid="1631011058157503930">"Zariadenie bolo úspešne naformátované"</string>
+    <string name="usb_must_be_formated_as_exfat" msgid="1738934515906622045">"Zariadenie USB musíte naformátovať na štandard exFat"</string>
+    <string name="usb_storage_corrupted" msgid="3148896104962479335">"Úložisko USB je poškodené, naformátujte ho…"</string>
+    <string name="recording_not_possible" msgid="6078747818766019984">"Kanál so živým vysielaním sa nedá nahrať"</string>
+    <string name="aspect_16_9" msgid="8786337417239598139">"16:9"</string>
+    <string name="aspect_4_3" msgid="3011611360564472603">"4:3"</string>
+    <string name="aspect_auto" msgid="2817389510725267269">"Automatický"</string>
+    <string name="aspect_original" msgid="1541804373586588740">"Pôvodný"</string>
+    <string name="welcome_to_anoki_title" msgid="4982732649315282900">"Víta vás Anoki Live TV+"</string>
+    <string name="welcome_to_anoki_description" msgid="2971114835968060742">"Zvyšujeme úroveň prostredia služby Google TV"</string>
+    <string name="terms_and_privacy_text" msgid="3272316644980190842">"Kliknutím na Pokračovať potvrdzujete, že budú platiť %1$s a %2$s firmy Anoki."</string>
+    <string name="button_ok" msgid="6233906390762229936">"OK"</string>
+    <string name="button_back" msgid="2210995415316656144">"Späť"</string>
+    <string name="button_continue" msgid="4165279156314996485">"Pokračovať"</string>
+    <string name="button_next" msgid="1235406249894258169">"Ďalej"</string>
+    <string name="button_previous" msgid="8532262107401026067">"Naspäť"</string>
+    <string name="welcome_item_1_title" msgid="4648567548020207585">"Prémiový obsah ZADARMO"</string>
+    <string name="welcome_item_1_description" msgid="8932812684608357219">"Pozrite si populárne relácie v televízore pripojenom k internetu a bezdrôtovo streamované relácie"</string>
+    <string name="welcome_item_2_title" msgid="4510896367604472839">"Obrovské množstvo filmov a televíznych relácií"</string>
+    <string name="welcome_item_2_description" msgid="3333973620372850212">"Nekonečné možnosti z kanálov so živým televíznym vysielaním, kanálov na vyžiadanie a vysielaných kanálov"</string>
+    <string name="welcome_item_3_title" msgid="7210612275353300351">"Prispôsobené výhradne pre vás"</string>
+    <string name="welcome_item_3_description" msgid="2565105830373772224">"Vyhľadajte televízne kanály, relácie a filmy, ktoré sú pre vás najrelevantnejšie"</string>
+    <string name="discover">Objaviť</string>
+    <string name="live">Živé</string>
+    <string name="broadcast">Vysielanie</string>
+    <string name="broadcast_tv_channels">TV kanály vysielať</string>
+    <string name="digital_subtitle">Digitálny titulok</string>
+    <string name="analog_subtitle">Analogový titulok</string>
+    <string name="audio_type">Typ zvuku</string>
+    <string name="spoken_subtitile">Hovorený titulok</string>
+    <string name="audio_descreiption_and_sop_sub">Zvukový popis a hovorený titulok</string>
+    <string name="cam_menu">Menu kamery</string>
+    <string name="no_cam">Žiadna kamera</string>
+    <string name="user_preference">Predvolby používateľa</string>
+    <string name="cam_type_preference">Predvolby typu kamery</string>
+    <string name="cam_scan">Skenovanie kamery</string>
+    <string name="cam_op_profile">Profil operátora kamery</string>
+    <string name="op_profile_delete">Zmazať profil operátora:</string>
+    <string name="ci_card_inserted">Vložená karta CI</string>
+    <string name="ci_card_removed">Odstránená karta CI</string>
+    <string name="install_dtv_operator">Chcete nainštalovať profil: </string>
+    <string name="create_tsfile">Vytváranie súboru časového posunu, prosím, počkajte niekoľko minút.</string>
+    <string name="timeshift_file">Na zariadení USB nie je žiadny súbor časového posunu. Chcete vytvoriť jeden, aby ste mohli používať časový posun?</string>
+    <string name="channel_changed_popup">Zmenené kanály</string>
+    <string name="channel_changed_popup_msg">Boli nájdené a pridané nové kanály do zoznamu kanálov</string>
+    <string name="undefined">Nedefinované</string>
+    <string name="general_satellite">Všeobecný satelit</string>
+    <string name="preferred_satellite">Preferovaný satelit</string>
+    <string name="power">Výkon</string>
+    <string name="return_to_live">Späť</string>
+    <string name="audio_switched_to">Zvuk prepolený na</string>
+    <string name="ar_tv_atp" msgid="1262691263626371517">"ATP"</string>
+    <string name="ar_tv_sam_13" msgid="7661147498753177171">"SAM 13"</string>
+    <string name="ar_tv_sam_16" msgid="5476142846469432541">"SAM 16"</string>
+    <string name="ar_tv_sam_18" msgid="4244288105419382881">"SAM 18"</string>
+    <string name="ar_tv_d" msgid="4118744496840779862">"D"</string>
+    <string name="ar_tv_v" msgid="4521002592974868712">"V"</string>
+    <string name="ar_tv_s" msgid="3375418912558932996">"S"</string>
+    <string name="au_tv_p" msgid="6086961330443603510">"P"</string>
+    <string name="au_tv_c" msgid="2797577216970529487">"C"</string>
+    <string name="au_tv_g" msgid="1246220676900897582">"G"</string>
+    <string name="au_tv_pg" msgid="8315847911615387873">"PG"</string>
+    <string name="au_tv_m" msgid="3805410505132347357">"M"</string>
+    <string name="au_tv_ma" msgid="7142377970416119685">"MA"</string>
+    <string name="au_tv_av" msgid="4923091941219351610">"AV"</string>
+    <string name="au_tv_r" msgid="1159878276949022718">"R"</string>
+    <string name="br_tv_l" msgid="2146455438205905551">"L"</string>
+    <string name="br_tv_10" msgid="5426092344765864959">"10"</string>
+    <string name="br_tv_12" msgid="3423227445694071808">"12"</string>
+    <string name="br_tv_14" msgid="6527090827362092556">"14"</string>
+    <string name="br_tv_16" msgid="5277464819020179643">"16"</string>
+    <string name="br_tv_18" msgid="3571565801006068532">"18"</string>
+    <string name="br_tv_d" msgid="1829082298286119368">"D"</string>
+    <string name="br_v_s" msgid="4417831593240307965">"S"</string>
+    <string name="b_tv_v" msgid="8527444475975705563">"V"</string>
+    <string name="ca_tv_en_exempt" msgid="3791559109016591514">"E"</string>
+    <string name="ca_tv_en_c" msgid="1450962243634331730">"C"</string>
+    <string name="ca_tv_en_c8" msgid="1468706428954617423">"C8+"</string>
+    <string name="ca_tv_en_g" msgid="7130750675106003980">"G"</string>
+    <string name="ca_tv_en_pg" msgid="5786689562067162017">"PG"</string>
+    <string name="ca_tv_en_14" msgid="758036909135734278">"14+"</string>
+    <string name="ca_tv_en_18" msgid="6703931259571793752">"18+"</string>
+    <string name="ca_tv_fr_e" msgid="5255979271939397569">"E"</string>
+    <string name="ca_tv_fr_g" msgid="1896159381443375153">"G"</string>
+    <string name="ca_tv_fr_8" msgid="5120393132468360078">"8ans+"</string>
+    <string name="ca_tv_fr_13" msgid="4012722091331563301">"13ans+"</string>
+    <string name="ca_tv_fr_16" msgid="900401532800212175">"16ans+"</string>
+    <string name="ca_tv_fr_18" msgid="8969044005465966972">"18ans+"</string>
+    <string name="dtmb_4" msgid="6976572140074319548">"4"</string>
+    <string name="dtmb_5" msgid="3437073502070222812">"5"</string>
+    <string name="dtmb_6" msgid="9185506349079906844">"6"</string>
+    <string name="dtmb_7" msgid="1399702692488527958">"7"</string>
+    <string name="dtmb_8" msgid="5603491017858332118">"8"</string>
+    <string name="dtmb_9" msgid="482567955944050242">"9"</string>
+    <string name="dtmb_10" msgid="321193224223528870">"10"</string>
+    <string name="dtmb_11" msgid="3416520436207043304">"11"</string>
+    <string name="dtmb_12" msgid="6392570491336670154">"12"</string>
+    <string name="dtmb_13" msgid="3982130186132709710">"13"</string>
+    <string name="dtmb_14" msgid="7154316979741410466">"14"</string>
+    <string name="dtmb_15" msgid="6478191980875308315">"15"</string>
+    <string name="dtmb_16" msgid="6604332674875120307">"16"</string>
+    <string name="dtmb_17" msgid="771155724220026195">"17"</string>
+    <string name="dtmb_18" msgid="3471828453189011529">"18"</string>
+    <string name="dvb_4" msgid="1069417914928331916">"4"</string>
+    <string name="dvb_5" msgid="5833640543265721119">"5"</string>
+    <string name="dvb_6" msgid="5943557846222730938">"6"</string>
+    <string name="dvb_7" msgid="6341954229025895175">"7"</string>
+    <string name="dvb_8" msgid="5307599378445317697">"8"</string>
+    <string name="dvb_9" msgid="3388108727812347402">"9"</string>
+    <string name="dvb_10" msgid="2177473849455114686">"10"</string>
+    <string name="dvb_11" msgid="3773716644803306792">"11"</string>
+    <string name="dvb_12" msgid="3525896874958451358">"12"</string>
+    <string name="dvb_13" msgid="7121668158420452982">"13"</string>
+    <string name="dvb_14" msgid="5539982906289788278">"14"</string>
+    <string name="dvb_15" msgid="3917642448957776848">"15"</string>
+    <string name="dvb_16" msgid="9105707083369649582">"16"</string>
+    <string name="dvb_17" msgid="6657295522716597654">"17"</string>
+    <string name="dvb_18" msgid="5834330178215019712">"18"</string>
+    <string name="es_dvb_all" msgid="5538197631097991871">"VŠETKO"</string>
+    <string name="es_dvb_c" msgid="3212371765420661105">"Deti"</string>
+    <string name="es_dvb_x" msgid="3092575088929583346">"18+"</string>
+    <string name="es_dvb_4" msgid="6060850008169659439">"4"</string>
+    <string name="es_dvb_5" msgid="4567880044486129726">"5"</string>
+    <string name="es_dvb_6" msgid="9053493577975224574">"6"</string>
+    <string name="es_dvb_7" msgid="5992402120440898881">"7"</string>
+    <string name="es_dvb_8" msgid="1951659265652059644">"8"</string>
+    <string name="es_dvb_9" msgid="4539063814383801812">"9"</string>
+    <string name="es_dvb_10" msgid="3310095120744551627">"10"</string>
+    <string name="es_dvb_11" msgid="6453557993630098952">"11"</string>
+    <string name="es_dvb_12" msgid="5044017835374949676">"12"</string>
+    <string name="es_dvb_13" msgid="8960240081362346637">"13"</string>
+    <string name="es_dvb_14" msgid="3863155460422487473">"14"</string>
+    <string name="es_dvb_15" msgid="6655490588482156160">"15"</string>
+    <string name="es_dvb_16" msgid="8007557424031669566">"16"</string>
+    <string name="es_dvb_17" msgid="2528656607932647009">"17"</string>
+    <string name="es_dvb_18" msgid="5952166432105836146">"18"</string>
+    <string name="fr_dvb_u" msgid="5244261876152847950">"Univerzálne"</string>
+    <string name="fr_dvb_4" msgid="474297552091371136">"4"</string>
+    <string name="fr_dvb_5" msgid="8518664778905414983">"5"</string>
+    <string name="fr_dvb_6" msgid="8727779857287961988">"6"</string>
+    <string name="fr_dvb_7" msgid="5888386626710476753">"7"</string>
+    <string name="fr_dvb_8" msgid="585815774126700325">"8"</string>
+    <string name="fr_dvb_9" msgid="3157206265464285061">"9"</string>
+    <string name="fr_dvb_10" msgid="3450600252376366055">"10"</string>
+    <string name="fr_dvb_11" msgid="3137240088969540229">"11"</string>
+    <string name="fr_dvb_12" msgid="1226368861597277699">"12"</string>
+    <string name="fr_dvb_13" msgid="1149721411588848205">"13"</string>
+    <string name="fr_dvb_14" msgid="2737219326053428298">"14"</string>
+    <string name="fr_dvb_15" msgid="571592355764188475">"15"</string>
+    <string name="fr_dvb_16" msgid="757165722519525954">"16"</string>
+    <string name="fr_dvb_17" msgid="2221811677117721125">"17"</string>
+    <string name="fr_dvb_18" msgid="2601153071766854187">"18"</string>
+    <string name="isdb_4" msgid="1396670332826142598">"4"</string>
+    <string name="isdb_5" msgid="7735118906786567165">"5"</string>
+    <string name="isdb_6" msgid="8708921891016535390">"6"</string>
+    <string name="isdb_7" msgid="6264898602014849475">"7"</string>
+    <string name="isdb_8" msgid="5846644503733097171">"8"</string>
+    <string name="isdb_9" msgid="8799572739544437968">"9"</string>
+    <string name="isdb_10" msgid="1627106534254509605">"10"</string>
+    <string name="isdb_11" msgid="8230877577144307348">"11"</string>
+    <string name="isdb_12" msgid="7778357254411540022">"12"</string>
+    <string name="isdb_13" msgid="2453549071165798560">"13"</string>
+    <string name="isdb_14" msgid="2792721868664371">"14"</string>
+    <string name="isdb_15" msgid="8799731927895866946">"15"</string>
+    <string name="isdb_16" msgid="6229308452507255384">"16"</string>
+    <string name="isdb_17" msgid="5080078482567321756">"17"</string>
+    <string name="isdb_18" msgid="555969060807719208">"18"</string>
+    <string name="isdb_19" msgid="5997395257237725359">"19"</string>
+    <string name="isdb_20" msgid="3694814836418291364">"20"</string>
+    <string name="kr_tv_all" msgid="986491865532979728">"VŠETKO"</string>
+    <string name="kr_tv_7" msgid="5284674018378065597">"7"</string>
+    <string name="kr_tv_12" msgid="7593330732582239999">"12"</string>
+    <string name="kr_tv_15" msgid="182495011364451664">"15"</string>
+    <string name="kr_tv_19" msgid="7458414748850874813">"19"</string>
+    <string name="nz_tv_g" msgid="2808137567855091010">"G"</string>
+    <string name="nz_tv_pgr" msgid="8555814501204672259">"PGR"</string>
+    <string name="nz_tv_ao" msgid="7843949831042344488">"AO"</string>
+    <string name="sg_tv_g" msgid="8798276688195760885">"G"</string>
+    <string name="sg_tv_pg" msgid="1662867888581341978">"PG"</string>
+    <string name="sg_tv_pg13" msgid="4964456896973732695">"PG13"</string>
+    <string name="sg_tv_nc16" msgid="7740703135818734968">"NC16"</string>
+    <string name="sg_tv_m18" msgid="1717224007824699413">"M18"</string>
+    <string name="sg_tv_r21" msgid="3591847091901178153">"R21"</string>
+    <string name="th_tv_4" msgid="4563361113725413706">"4"</string>
+    <string name="th_tv_6" msgid="8874223717002216069">"6"</string>
+    <string name="th_tv_10" msgid="969919319242163352">"10"</string>
+    <string name="th_tv_13" msgid="1104333457240393972">"13"</string>
+    <string name="th_tv_18" msgid="3999083106333165911">"18"</string>
+    <string name="th_tv_19" msgid="482742977530974274">"19"</string>
+    <string name="us_mv_g" msgid="3636427636199506189">"G"</string>
+    <string name="us_mv_pg" msgid="8323131948966103770">"PG"</string>
+    <string name="us_mv_pg13" msgid="5917741051203443762">"PG13"</string>
+    <string name="us_mv_r" msgid="8334513822722676832">"R"</string>
+    <string name="us_mv_nc17" msgid="6228537430888625776">"NC17"</string>
+    <string name="us_mv_x" msgid="4729171602475180951">"X"</string>
+    <string name="us_tv_y" msgid="285566187752891575">"TV-Y"</string>
+    <string name="us_tv_y7" msgid="5822887012283738401">"TV-Y7"</string>
+    <string name="us_tv_g" msgid="815441646747542949">"TV-G"</string>
+    <string name="us_tv_pg" msgid="8169462876867667200">"TV-PG"</string>
+    <string name="us_tv_14" msgid="6817531337579211660">"TV-14"</string>
+    <string name="us_tv_ma" msgid="2672151654857890106">"TV-MA"</string>
+    <string name="us_tv_d" msgid="3006650733492277375">"D"</string>
+    <string name="us_tv_l" msgid="4953352970967827720">"L"</string>
+    <string name="us_tv_s" msgid="2109399506294455265">"S"</string>
+    <string name="us_tv_v" msgid="25591701285016646">"V"</string>
+    <string name="us_tv_fv" msgid="9035500145771077280">"FV"</string>
+    <string name="oad_download" msgid="430354804199852970">"Bezdrôtové sťahovanie"</string>
+    <string name="favorite" msgid="2876170439006446322">"Obľúbené"</string>
+    <string name="teletext_feature_not_available_for_channel">"Funkcie teletextu nie sú pre tento kanál k dispozícii."</string>
+
+    <string name="terms_of_service">Zmluvné podmienky</string>
+    <string name="privacy_policy">Pravidlá ochrany súkromia</string>
+    <string name="terms_of_service_description">Pre viac informácií o Podmienkach služby a Zásadách ochrany osobných údajov, ktoré platia pri používaní aplikácie Live TV, kliknite nižšie.</string>
+    <string name="enable_streaming_tv">Aktivovať streamovanie TV</string>
+    <string name="tos_more_info_text">Live TVˣ ponúka prémiový streamovací obsah.\n Kliknite na „Aktivovať streamovanie TV“, aby ste svoj televízny zážitok posunuli na vyššiu úroveň!</string>
+
+    <string name="feedback">Spätná väzba</string>
+    <string name="feedback_instruction_title">Odoslať spätnú väzbu o skúsenostiach s Live TVˣ</string>
+    <string name="feedback_text_title">Prosím, zahrňte nasledujúce informácie do vašej spätnej väzby</string>
+    <string name="feedback_instruction_text_1">1. Popis vášho problému vrátane krokov, ktoré ste podnikali,\n   keď sa vyskytol, očakávaný výsledok a skutočný výsledok.</string>
+    <string name="feedback_instruction_text_2">2. Ak je to možné, priložte video alebo fotografiu problému\n    k e-mailu.</string>
+
+    <string name="restart">Reštartovať</string>
+    <string name="restart_dialog_text">Pre sledovanie živých kanálov prosím reštartujte váš televízor</string>
+
+    <string name="delete_channels_funai">Odstrániť kanály</string>
+    <string name="delete_channels_funai_dialog_title">Potvrdenie odstránenia kanálov</string>
+    <string name="delete_channels_funai_dialog_msg">Chcete odstrániť všetky kanály? Po odstránení sa aplikácia resetuje a budete musieť kanály znova skenovať.</string>
+    <string name="delete_channel_description">V prípade problémov s vysielaním kanálov vyskúšajte odstrániť kanály.</string>
+    <string name="timeshift_buffer_reached_warning">Funkcie teletextu nie sú pre tento kanál k dispozícii.\nChcete sledovať alebo sa vrátiť naživo?</string>
+    <string name="optin_label">Informačná služba pre sledovanie Anoki</string>
+    <string name="no_signal_power_off_inactivity_msg">Žiadny signál. TV sa vypne za:</string>
+    <string name="edit_channel">Upraviť kanál</string>
+    <string name="long_press_ok_edit_favorite_list">Dlho stlačte OK pre úpravu zoznamu</string>
+    <string name="long_press_ok_edit_channel">Dlho stlačte OK pre úpravu vybraného kanála</string>
+    <string name="long_press_ok_open_main_menu">Dlho stlačte OK pre otvorenie hlavnej ponuky</string>
+    <string name="press_back_exit_pin_input">Stlačte späť pre opustenie obrazovky zadania PIN</string>
+    <string name="recording_stopped">Nahrávanie bolo zastavené</string>
+    <string name="unlock_channel_to_start_timeshift">Odomknite kanál pre spustenie časového posunu</string>
+    <string name="time_shift_buffer_size_reached_msg">Dosiahnutá veľkosť vyrovnávacej pamäte časového posunu.</string>
+    <string name="failed_to_start_pvr">Nepodarilo sa spustiť PVR. Signál nebol nájdený.</string>
+    <string name="set_usb">Nastaviť USB</string>
+    <string name="enable_timeshift">Povoliť časový posun</string>
+    <string name="reset_device_id_confirmation">Ste si istí, že chcete resetovať ID zariadenia?</string>
+</resources>

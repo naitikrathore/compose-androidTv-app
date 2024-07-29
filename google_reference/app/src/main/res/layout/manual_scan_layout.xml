@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/background_layout"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/manual_tuning_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_21"
+        android:layout_marginTop="@dimen/custom_dim_50"
+        android:layout_marginStart="@dimen/custom_dim_116" />
+
+    <com.iwedia.cltv.ReferenceDrawableButton
+        android:id="@+id/clear_all_channels_cb"
+        android:layout_width="@dimen/custom_dim_300"
+        android:layout_height="@dimen/custom_dim_40"
+        android:layout_below="@+id/manual_tuning_title"
+        android:layout_marginTop="@dimen/custom_dim_41"
+        android:gravity="start"
+        android:layout_marginStart="@dimen/custom_dim_105"
+        android:drawablePadding="@dimen/custom_dim_10"
+        android:paddingEnd="@dimen/custom_dim_10"
+        android:focusable="true"
+        android:textSize="@dimen/font_25"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clear_all_channels_cb"
+        android:layout_marginTop="@dimen/custom_dim_40"
+        android:layout_alignStart="@+id/clear_all_channels_cb"/>
+</RelativeLayout>

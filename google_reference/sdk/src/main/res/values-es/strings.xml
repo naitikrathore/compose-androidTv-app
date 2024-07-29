@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome_to_anoki_title">Bienvenido a Anoki Live TV+</string>
+    <string name="welcome_to_anoki_description">Llevando tu experiencia en Google TV al siguiente nivel</string>
+    <string name="terms_of_service">Términos de Servicio</string>
+    <string name="privacy_policy">Política de Privacidad</string>
+    <string name="terms_and_privacy_text">Al hacer clic en Continuar, reconoces que se aplicarán los %1$s y la %2$s de Anoki.</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_back">Atrás</string>
+    <string name="button_continue">Continuar</string>
+    <string name="button_next">Siguiente</string>
+    <string name="button_previous">Anterior</string>
+
+
+    <string name="welcome_item_1_title">Contenido premium GRATIS</string>
+    <string name="welcome_item_1_description">Ve programas populares de televisión conectada (CTV) y programas emitidos por el aire (OTA)</string>
+
+    <string name="welcome_item_2_title">Montones de películas y programas de televisión</string>
+    <string name="welcome_item_2_description">Opciones ilimitadas de televisión en vivo, a pedido y canales de transmisión</string>
+
+    <string name="welcome_item_3_title">Personalizado solo para ti</string>
+    <string name="welcome_item_3_description">Encuentra canales de televisión, programas y películas más relevantes para ti</string>
+
+
+    <string name="single_audio_track_is_available">Una sola pista de audio está disponible, no es posible cambiar</string>
+    <string name="no_available_audio_tracks">Sin pistas de audio disponibles</string>
+</resources>

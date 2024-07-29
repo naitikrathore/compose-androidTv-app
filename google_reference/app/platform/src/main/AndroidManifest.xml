@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <application>
+        <provider
+            android:name=".model.content_provider.PromoProvider"
+            android:authorities="com.iwedia.cltv.platform.model.content_provider.PromoProvider"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <provider
+            android:name=".model.content_provider.ContentProvider"
+            android:authorities="com.iwedia.cltv.sdk.content_provider.ReferenceContentProvider"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

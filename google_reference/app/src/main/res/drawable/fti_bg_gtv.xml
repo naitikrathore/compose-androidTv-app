@@ -1,0 +1,60 @@
+<!-- drawable/tint.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="960dp"
+    android:height="540dp"
+    android:viewportWidth="960"
+    android:viewportHeight="540"
+    >
+
+    <group>
+
+        <clip-path
+            android:pathData="M0 0H960V540H0V0Z"
+            />
+
+        <group
+            android:translateX="3"
+            android:translateY="0"
+            android:pivotX="480"
+            android:pivotY="270"
+            android:scaleX="5.657"
+            android:scaleY="5.657"
+            android:rotation="135"
+            >
+
+            <path
+                android:pathData="M0 0V540H960V0"
+                >
+
+                <aapt:attr name="android:fillColor">
+
+                    <gradient
+                        android:type="radial"
+                        android:centerX="480"
+                        android:centerY="270"
+                        android:gradientRadius="240"
+                        >
+
+                        <item
+                            android:color="@color/fti_gtv_bg_color_1"
+                            android:offset="0"
+                            />
+
+                        <item
+                            android:color="@color/fti_gtv_bg_color_2"
+                            android:offset="1"
+                            />
+
+                    </gradient>
+
+                </aapt:attr>
+
+            </path>
+
+        </group>
+
+    </group>
+
+</vector>

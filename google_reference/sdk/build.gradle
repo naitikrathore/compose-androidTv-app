@@ -1,0 +1,101 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+//apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 33
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        eval {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        dev {
+            signingConfig signingConfigs.debug
+        }
+    }
+    flavorDimensions 'default'
+    productFlavors {
+        base {
+            dimension 'default'
+        }
+        mtk {
+            dimension 'default'
+        }
+        gretzky {
+            dimension 'default'
+        }
+
+        atsc {
+            dimension 'default'
+        }
+
+        rtk {
+            dimension 'default'
+        }
+        refplus5 {
+            dimension 'default'
+        }
+
+        iwatsc3 {
+            dimension 'default'
+        }
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        flatDir {
+            dirs '../libs'
+        }
+    }
+}
+dependencies {
+    //  implementation fileTree(dir: "../libs", include: ["*.jar"])
+
+    implementation(files("../libs/GuideCommon-jvm-1.0-SNAPSHOT.jar"))
+    implementation(name: '../libs/tools-debug', ext: 'aar')
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.leanback:leanback:1.0.0'
+
+    //Firebase database and storage
+    implementation 'com.google.firebase:firebase-database:20.2.2'
+    implementation 'com.google.firebase:firebase-storage:20.2.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //GSON lib
+    implementation 'com.google.code.gson:gson:2.10.1'
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    // JSON Converter
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'androidx.work:work-runtime-ktx:2.8.1'
+
+    implementation 'androidx.tvprovider:tvprovider:1.0.0'
+    atscImplementation(files("../libs/com.iwedia.atsc.service.comm.jar"))
+
+    mtkImplementation(files("../libs/com.mediatek.support.sharecode.jar"))
+    mtkImplementation(files("../libs/com.mediatek.dm.jar"))
+    rtkImplementation(files("../libs/classes.jar"))
+}

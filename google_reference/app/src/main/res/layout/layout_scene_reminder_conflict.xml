@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:layout_width="@dimen/custom_dim_44_5"
+        android:layout_height="@dimen/custom_dim_57_5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/dialog_title"
+        android:src="@drawable/ic_watchlist_reminder"
+        android:scaleType="fitXY"
+        android:layout_marginTop="@dimen/custom_dim_94_3" />
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="@dimen/custom_dim_446"
+        android:layout_height="@dimen/custom_dim_28"
+        android:layout_marginTop="@dimen/custom_dim_15"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_image"
+        android:gravity="center"
+        android:textSize="@dimen/font_20"
+        app:layout_constraintBottom_toTopOf="@id/dialog_message"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dialog_message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/custom_dim_6_3"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_title"
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toTopOf="@+id/conflict_list"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/font_13" />
+
+    <LinearLayout
+        android:id="@+id/conflict_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_300"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/custom_dim_13"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_message">
+        <androidx.leanback.widget.VerticalGridView
+            android:id="@+id/channels_in_conflict_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/custom_dim_24"
+            android:paddingBottom="@dimen/custom_dim_24"
+            android:orientation="vertical" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

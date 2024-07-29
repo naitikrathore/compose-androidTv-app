@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background_layout">
+
+    <LinearLayout
+        android:id="@+id/progress_bar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="@dimen/custom_dim_9_5"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/progress_bar"
+            android:layout_width="750dp"
+            android:layout_height="@dimen/custom_dim_2_5"
+            android:layout_gravity="center_vertical" />
+
+        <com.iwedia.cltv.scan_activity.core.SimpleTextView
+            android:id="@+id/progress_value"
+            android:layout_width="@dimen/custom_dim_50"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_2_5"
+            android:layout_marginStart="@dimen/custom_dim_10"
+            android:textSize="@dimen/font_13">
+        </com.iwedia.cltv.scan_activity.core.SimpleTextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/scanning_progress_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress_bar_layout"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/font_13" />
+
+    <LinearLayout
+        android:id="@+id/tv_programmes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/progress_bar_layout"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/custom_dim_216">
+
+        <com.iwedia.cltv.scan_activity.core.ProgressBarView
+            android:id="@+id/signal_strength_progress_view"
+            android:layout_width="@dimen/custom_dim_320"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" />
+
+        <com.iwedia.cltv.scan_activity.core.ProgressBarView
+            android:id="@+id/signal_quality_progress_view"
+            android:layout_width="@dimen/custom_dim_320"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_30"
+            android:layout_alignParentLeft="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/radio_programmes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_216"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <com.iwedia.cltv.scan_activity.core.MultipleTextView
+            android:id="@+id/tv_programmes_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_55" />
+
+        <com.iwedia.cltv.scan_activity.core.MultipleTextView
+            android:id="@+id/radio_programmes_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_55" />
+
+    </LinearLayout>
+
+    <com.iwedia.cltv.scan_activity.core.SimpleTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_72_5"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/font_25">
+    </com.iwedia.cltv.scan_activity.core.SimpleTextView>
+
+    <TextView
+        android:id="@+id/up_next_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/custom_dim_77"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/custom_dim_190"
+        android:textSize="@dimen/font_13"
+        android:visibility="gone"/>
+
+    <com.iwedia.cltv.ReferenceDrawableButton
+        android:id="@+id/skip_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/custom_dim_88"
+        android:layout_marginBottom="@dimen/custom_dim_68"
+        android:nextFocusRight="@id/skip_button"
+        android:nextFocusUp="@id/skip_button"
+        android:paddingStart="@dimen/custom_dim_10"
+        android:paddingTop="@dimen/custom_dim_5"
+        android:paddingEnd="@dimen/custom_dim_10"
+        android:paddingBottom="@dimen/custom_dim_5"
+        android:textAllCaps="true"
+        android:textSize="@dimen/font_15">
+        <requestFocus />
+    </com.iwedia.cltv.ReferenceDrawableButton>
+</RelativeLayout>

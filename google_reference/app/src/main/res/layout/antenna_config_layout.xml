@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background_layout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_dim_116"
+        android:layout_marginTop="@dimen/custom_dim_48"
+        android:textSize="@dimen/font_25" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="@dimen/custom_dim_57"
+        android:layout_marginTop="@dimen/custom_dim_41"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+        android:scrollbarTrackVertical="@drawable/scrollbar_track"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="left">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/custom_dim_45"
+            android:overScrollMode="always">
+
+            <com.iwedia.cltv.scan_activity.core.TraversalListView
+                android:id="@+id/lnb_type_tl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/lnb_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnb_type_tl"
+                android:layout_marginTop="@dimen/custom_dim_20"
+                android:layout_marginStart="@dimen/custom_dim_83_5"
+                android:orientation="horizontal">
+
+                <com.iwedia.cltv.scan_activity.core.EditTextView
+                    android:id="@+id/low_frequency_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.iwedia.cltv.scan_activity.core.EditTextView
+                    android:id="@+id/high_frequency_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/custom_dim_65"/>
+
+            </LinearLayout>
+
+            <com.iwedia.cltv.scan_activity.core.TraversalListView
+                android:id="@+id/frequency_tl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnb_type_tl"
+                android:layout_marginTop="@dimen/custom_dim_115"/>
+
+            <com.iwedia.cltv.scan_activity.core.TraversalListView
+                android:id="@+id/diseqc_tl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frequency_tl"
+                android:layout_marginTop="@dimen/custom_dim_30"/>
+
+            <com.iwedia.cltv.scan_activity.core.TraversalListView
+                android:id="@+id/tone_burst_tl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diseqc_tl"
+                android:layout_marginTop="@dimen/custom_dim_30"/>
+
+            <com.iwedia.cltv.scan_activity.core.TraversalListView
+                android:id="@+id/positioner_tl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tone_burst_tl"
+                android:layout_marginTop="@dimen/custom_dim_30"/>
+
+            <com.iwedia.cltv.scan_activity.core.SimpleTextView
+                android:id="@+id/motor_setup_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/positioner_tl"
+                android:layout_marginTop="@dimen/custom_dim_30"
+                android:layout_marginStart="@dimen/custom_dim_74"
+                android:textSize="@dimen/font_25"
+                android:paddingStart="@dimen/custom_dim_10"
+                android:paddingEnd="@dimen/custom_dim_10"
+                android:paddingTop="@dimen/custom_dim_5"
+                android:paddingBottom="@dimen/custom_dim_5">
+            </com.iwedia.cltv.scan_activity.core.SimpleTextView>
+
+            <com.iwedia.cltv.scan_activity.core.TraversalListView
+                android:id="@+id/lnb_volts_tl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/positioner_tl"
+                android:layout_marginTop="@dimen/custom_dim_87"/>
+
+            <com.iwedia.cltv.scan_activity.core.TraversalListView
+                android:id="@+id/unicable_tl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnb_volts_tl"
+                android:layout_marginTop="@dimen/custom_dim_30"/>
+
+            <com.iwedia.cltv.scan_activity.core.EditTextView
+                android:id="@+id/center_frequency_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/unicable_tl"
+                android:layout_marginTop="@dimen/custom_dim_20"
+                android:layout_marginStart="@dimen/custom_dim_83_5"/>
+
+            <com.iwedia.cltv.scan_activity.core.TraversalListView
+                android:id="@+id/port_tl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/center_frequency_edit_text"
+                android:layout_alignStart="@+id/center_frequency_edit_text"
+                android:layout_marginStart="@dimen/custom_dim_n10"
+                android:layout_marginTop="@dimen/custom_dim_30"/>
+
+            <com.iwedia.cltv.ReferenceDrawableButton
+                android:id="@+id/save_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/unicable_tl"
+                android:layout_alignStart="@+id/unicable_tl"
+                android:layout_marginTop="@dimen/custom_dim_272"
+                android:layout_marginStart="@dimen/custom_dim_15"
+                android:textSize="@dimen/font_25"
+                android:paddingStart="@dimen/custom_dim_10"
+                android:paddingEnd="@dimen/custom_dim_10"
+                android:paddingTop="@dimen/custom_dim_5"
+                android:paddingBottom="@dimen/custom_dim_5">
+                <requestFocus />
+            </com.iwedia.cltv.ReferenceDrawableButton>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/keyboard_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_220"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/view"
+            android:layout_height="@dimen/custom_dim_1_5"
+            android:layout_alignParentTop="true" />
+
+        <com.iwedia.cltv.scan_activity.core.KeyboardView
+            android:id="@+id/keyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

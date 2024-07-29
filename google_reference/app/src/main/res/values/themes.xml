@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="Theme.ReferenceApplication" parent="Theme.MaterialComponents.Light">
+        <item name="android:windowBackground">@color/bg_load</item>
+    </style>
+</resources>

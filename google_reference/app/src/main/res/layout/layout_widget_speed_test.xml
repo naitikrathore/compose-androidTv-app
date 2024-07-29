@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/custom_dim_68"
+    android:id="@+id/background_layout">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_marginTop="@dimen/custom_dim_72_5"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/font_25"/>
+    <LinearLayout
+        android:id="@+id/progress_bar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="@dimen/custom_dim_9_5"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:visibility="visible">
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="750dp"
+            android:layout_height="@dimen/custom_dim_2_5"
+            android:layout_gravity="center_vertical" />
+        <TextView
+            android:focusable="false"
+            android:id="@+id/progress_value"
+            android:layout_width="@dimen/custom_dim_50"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_2_5"
+            android:layout_marginStart="@dimen/custom_dim_10"
+            android:textSize="@dimen/font_13"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="@dimen/custom_dim_30"
+        android:layout_below="@+id/title"
+        android:id="@+id/scanning_progress_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/font_13" />
+    <com.iwedia.cltv.ReferenceDrawableButton
+        android:id="@+id/skip_button"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/custom_dim_88"
+        android:textSize="@dimen/font_15">
+        <requestFocus />
+    </com.iwedia.cltv.ReferenceDrawableButton>
+</RelativeLayout>

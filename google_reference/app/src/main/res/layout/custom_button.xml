@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_constraint_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/custom_button_card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_40"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardCornerRadius="@dimen/custom_dim_30"
+        app:cardElevation="0dp"
+        app:cardPreventCornerOverlap="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:cardBackgroundColor="#CC808080"
+        android:theme="@style/Theme.MaterialComponents.Light">
+        <LinearLayout
+            android:id="@+id/content_container_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:paddingVertical="10.5dp"
+            android:gravity="center"
+            tools:paddingHorizontal="20dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/check_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_check"
+                android:visibility="gone"
+                tools:background="#802A517A"
+                android:layout_marginEnd="@dimen/custom_dim_7_5"
+                tools:ignore="RtlSymmetry"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/holder_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/favorite_icon"
+                android:visibility="gone"
+                tools:background="#802A517A"
+                tools:ignore="RtlSymmetry"
+                tools:visibility="visible" />
+            <!-- Spacer placed between icon and text -->
+            <View
+                android:id="@+id/spacer_view"
+                android:visibility="gone"
+                tools:visibility="visible"
+                tools:background="#70623F"
+                android:layout_width="@dimen/custom_dim_7_5"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/button_label_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:gravity="center_vertical"
+                tools:background="#854A4A"
+                android:ellipsize="marquee"
+                android:lines="1"
+                android:marqueeRepeatLimit="-1"
+                android:singleLine="true"
+                android:fontFamily="@font/work_sans_regular"
+                android:includeFontPadding="false"
+                tools:text="Record"
+                tools:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

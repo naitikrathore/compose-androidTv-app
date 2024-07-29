@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="open_source_licences" msgid="7226135539462398538">"AÇIQ MƏNBƏ LİSENZİYALARI"</string>
+    <string name="open_source_license_jetpack" msgid="9049956969249134555">"Jetpack - Apache 2.0"</string>
+    <string name="open_source_license_androidx" msgid="4774856857642956615">"Androidx - Apache 2.0"</string>
+    <string name="open_source_license_retrofit" msgid="1700834095904209611">"Retrofit - Apache 2.0"</string>
+    <string name="open_source_license_okhttp" msgid="5223699408161904523">"OkHttp - Apache 2.0"</string>
+    <string name="open_source_license_glide" msgid="7363402097051700306">"Glide"</string>
+    <string name="open_source_license_junit" msgid="8822918668893328004">"JUnit"</string>
+    <string name="open_source_license_facebook_shimmer" msgid="540462676978533471">"Facebook Shimmer"</string>
+    <string name="no_internet_search_message" msgid="6201597382784929288">"İnternet bağlantısı yoxdur. Axtarış əlçatan deyil."</string>
+    <string name="antenna_type" msgid="8799839124381950351">"Anten"</string>
+    <string name="analog" msgid="8730510957499380400">"Analoq"</string>
+    <string name="analog_antenna" msgid="4470031541836160279">"Analoq antena"</string>
+    <string name="analog_cable" msgid="2251792903207461586">"Analoq kabel"</string>
+    <string name="wrong_channel" msgid="8868720189826900008">"Kanal səhvdir"</string>
+    <string name="rec_scheduled_toast" msgid="7538214247079840608">"Qeydəalma planlaşdırılıb!"</string>
+    <string name="rem_scheduled_toast" msgid="5729267986315945208">"Xatırladıcı planlaşdırılıb!"</string>
+    <string name="added_to_watchlist" msgid="1722444933921434996">"izləmə siyahısına əlavə edildi!"</string>
+    <string name="search" msgid="4406957708185633856">"Axtarış"</string>
+    <string name="free" msgid="6261590336084432420">"Pulsuz"</string>
+    <string name="processing" msgid="6030403380685308132">"Data emal edilir"</string>
+    <string name="app_name" msgid="2832654280320578717">"Live TVˣ"</string>
+    <string name="no_info" msgid="5400686762922140283">"Məlumat yoxdur"</string>
+    <string name="not_available" msgid="7376966038624016923">"N/A"</string>
+    <string name="all" msgid="1561098708179181336">"Hamısı"</string>
+    <string name="recent" msgid="1838091694396247363">"Son"</string>
+    <string name="favorites" msgid="8901975288160748957">"Sevimlilər"</string>
+    <string name="radio" msgid="3164637576576433188">"Radio"</string>
+    <string name="no_internet_message" msgid="3554201501180755759">"İnternet bağlantısı yoxdur.\nBəzi xidmətlər bağlantı olmadan əlçatan olmayacaq."</string>
+    <string name="no_ethernet_message" msgid="2107635435443289546">"Bəzi xidmətlər internetsiz əlçatan olmaya bilər."</string>
+    <string name="tv_select_input_scan_title" msgid="2619884735308539235">"TV daxiletmə skanı"</string>
+    <string name="tv_select_input_scan_message" msgid="8487553067533682220">"Kanal əlavə etmək üçün əlçatan TV daxiletmələrindən seçin.\nDaha çox kanal həmişə sonra əlavə edilə bilər."</string>
+    <string name="scan" msgid="734672551787628747">"Skan edin"</string>
+    <string name="finishScan" msgid="871898530279538507">"Skanlama bitdi"</string>
+    <string name="channels_found_on" msgid="1414577635083128748">"kanallar burada tapılıb:"</string>
+    <string name="channels" msgid="4380410724161095326">"Kanallar"</string>
+    <string name="input" msgid="1149385406223657705">"daxiletmə"</string>
+    <string name="go_back_to_scan" msgid="7543768279308621088">"Digər daxiletmələri skan etmək üçün geri qayıdın."</string>
+    <string name="proceed" msgid="1214388060683917324">"Davam edin"</string>
+    <string name="next" msgid="3683541602409234265">"Növbəti"</string>
+    <string name="previous" msgid="7289547144093283633">"Əvvəlki:"</string>
+    <string name="Keyboard" msgid="6682509073468664763">"Klaviatura"</string>
+    <string name="start_over" msgid="2229118857793940579">"Yenidən başladın"</string>
+    <string name="watchlist" msgid="5662090977932744154">"İzləmə siyahısı"</string>
+    <string name="catchup" msgid="5196855886712863566">"İzləyin"</string>
+    <string name="watchlist_remove" msgid="7507289157249186634">"Silin"</string>
+    <string name="record" msgid="1524542455933313955">"Qeydə alın"</string>
+    <string name="watch" msgid="2622572399160220460">"İzləyin"</string>
+    <string name="keyboard" msgid="2321154341903639729">"Klaviatura"</string>
+    <string name="no_guide_pvr_running" msgid="7292260172342311890">"PVR oxutma davam edir. Təlimata baxmaq üçün PVR oxutmadan çıxın"</string>
+    <string name="not_available_pvr_running" msgid="7115846940190512281">"PVR oxutma zamanı bu əməliyyat əlçatan olmur. PVR oxutmadan çıxın"</string>
+    <string name="continue_watch" msgid="6260534053660339190">"Davam edin"</string>
+    <string name="rename" msgid="8008700600879669681">"Adını dəyişin"</string>
+    <string name="delete" msgid="675914287573190216">"Silin"</string>
+    <string name="cancel" msgid="6777134290748633238">"Ləğv edin"</string>
+    <string name="no_information" msgid="9173470733305716861">"Məlumat yoxdur"</string>
+    <string name="vod" msgid="4016798866997984169">"Vod"</string>
+    <string name="on_now" msgid="7601392008818995402">"İndi aktivdir"</string>
+    <string name="up_next" msgid="2566862734643042006">"Növbəti"</string>
+    <string name="recorded" msgid="365342196797893323">"Qeydə alınan"</string>
+    <string name="scheduled" msgid="6888878632757812039">"Planlaşdırılmış çəkiliş"</string>
+    <string name="ok" msgid="9168016165173996675">"OK"</string>
+    <string name="you_are_about_to_exit_app" msgid="6870459633201620294">"Tətbiqi bağlamaq üzrəsiniz."</string>
+    <string name="please_click_again" msgid="3544950440758580770">"Çıxmaq üçün yenidən GERİ klikləyin"</string>
+    <string name="_default" msgid="3039479680796443287">"Defolt"</string>
+    <string name="name_up" msgid="4457664012212323554">"Ad yuxarıda"</string>
+    <string name="name_down" msgid="3681090499765705036">"Ad aşağıda"</string>
+    <string name="no_categories_msg" msgid="9206914907790687898">"Əlçatan kateqoriya yoxdur"</string>
+    <string name="no_channels_msg" msgid="6234830674902071044">"Əlçatan kanal yoxdur"</string>
+    <string name="no_results_found" msgid="7555299678274781238">"Nəticə tapılmadı, yenidən cəhd edin"</string>
+    <string name="enter_letters" msgid="1809385590701435475">"Ən azı 1 hərf daxil edin"</string>
+    <string name="past_events" msgid="8059227963716654699">"Keçmiş Hadisələr"</string>
+    <string name="future_events" msgid="629979362833530545">"Gələcək Hadisələr"</string>
+    <string name="lcn" msgid="1290883721637274779">"LCN"</string>
+    <string name="recording_exit_msg" msgid="7512518820927102191">"Qeydə alma davam edir, dayandırılacaq."</string>
+    <string name="remove_recording_dialog_msg" msgid="9027511472917428212">"Bu elementi silmək\nistədiyinizə əminsiniz?"</string>
+    <string name="timeshift_exit_msg" msgid="1328594800216099396">"Zaman keçidi rejimindən çıxılsın?"</string>
+    <string name="timeshift_channel_change_msg" msgid="6863854961470251756">"Kanal dəyişdirilsə,\nzaman keçidi rejimi dayandırılacaq."</string>
+    <string name="time_shift_start_record_msg" msgid="2577790079091263078">"Qeydəalma başlasa,\nzaman keçidi rejimi dayanacaq."</string>
+    <string name="time_shift_usb_error_msg" msgid="4635786963137316436">"USB cihazı qoşulmayıb.\nZaman keçidi rejimi başladılmır."</string>
+    <string name="time_shift_scrambled_channel_msg" msgid="2380783212702129118">"Aktiv kanal şifrələnib,\nzaman keçidi rejimi başladılmır."</string>
+    <string name="time_shift_not_available_error_msg" msgid="6825288163854650688">"Hazırda bu kanal üçün zaman keçidi rejimi əlçatan deyil."</string>
+    <string name="add_to_favorites" msgid="8280344840050880716">"Sevimlilərə əlavə edin"</string>
+    <string name="edit_favorites" msgid="2511007317790537462">"Sevimliləri redaktə edin"</string>
+    <string name="more_info" msgid="5565850658795889872">"Ətraflı məlumat"</string>
+    <string name="zap_conflict" msgid="7827821368264176936">"Zap konflikti"</string>
+    <string name="select_channel_manually" msgid="7302984770269602819">"Kanalı manual seçin"</string>
+    <string name="ethernet_not_connected" msgid="477773648589053187">"Ethernet qoşulu deyil"</string>
+    <string name="favorite_list_already_exist" msgid="1931826613949520704">"\"%1$s\" sevimli siyahısı hazırda mövcuddur!"</string>
+    <string name="favorite_list_name_can_not_be_empty" msgid="1038957789151360499">"Sevimli siyahının adı boş ola bilməz!"</string>
+    <string name="favorite_list_can_not_be_deleted" msgid="3346160747343522751">"\"%1$s\" adlı sevimli siyahı silinə bilməz!\nƏn azı bir sevimli siyahısı olmalıdır."</string>
+    <string name="rec_type_title" msgid="1493365367362692245">"Çəkməyə başla"</string>
+    <string name="rec_now" msgid="1107096635108539822">"İndi"</string>
+    <string name="rec_after_curr_event" msgid="2454161110193355809">"Cari hadisədən sonra"</string>
+    <string name="rec_set_date_time" msgid="6263546406293600090">"Tarix və vaxtı təyin edin"</string>
+    <string name="lock" msgid="7861994131060026913">"Kilidləyin"</string>
+    <string name="not_skip" msgid="3477114547241354688">"Keçməyin"</string>
+    <string name="pvr_playback_exit_msg" msgid="8094392263782298025">"Kanal dəyişdirilərsə,\nqeydə alınmış məzmunun oxudulması dayandırılacaq."</string>
+    <string name="pvr_usb_error_msg" msgid="7612098268284539532">"USB cihazı qoşulmayıb,\nyazmağa başlamaq mümkün deyil."</string>
+    <string name="pvr_no_usb_message" msgid="7674848841046162661">"Proqramları qeydə almaq və qeydə alınmış proqramlara daxil olmaq üçün USB taxın"</string>
+    <string name="pvr_msg_cannot_record_program" msgid="4682512998399461517">"Proqram qeydə alına bilməz."</string>
+    <string name="title" msgid="824784418539163870">"Kanal Quraşdırması"</string>
+    <string name="availableFrontends" msgid="6024144888076860866">"Quraşdırma ön hissəsini seçin:"</string>
+    <string name="text_signal_strength" msgid="2264842741806218055">"Siqnal Gücü"</string>
+    <string name="text_signal_quality" msgid="572457877681488770">"Siqnal Keyfiyyəti"</string>
+    <string name="text_subscriber_id" msgid="8282548364931705852">"Abunəçi ID-si: %1$s"</string>
+    <string name="text_card_id" msgid="3956289102334952337">"Kart ID-si: %1$s"</string>
+    <string name="frequency" msgid="4728719073153707457">"Tezlik [MHs]:"</string>
+    <string name="symbolRate" msgid="5996074394705207659">"Simvol dəyəri [kBd]:"</string>
+    <string name="modulation" msgid="6501712885783805117">"Modulyasiya:"</string>
+    <string name="nit_scan" msgid="7243859985641924854">"Şəbəkə skanı:"</string>
+    <string name="network_id" msgid="4769929030084589483">"Şəbəkə ID-si:"</string>
+    <string name="fec_type" msgid="1903731171776545981">"FEC Növü:"</string>
+    <string name="scan_url" msgid="7289098326940368605">"URL:"</string>
+    <string name="mw_scan" msgid="2515237953540970986">"MW Skanı:"</string>
+    <string name="polar_horizontal" msgid="4896843100156964811">"Üfüqi"</string>
+    <string name="polar_vertical" msgid="3583074411112676591">"Şaquli"</string>
+    <string name="debugAudioTracks" msgid="2416365400175593089">"Audio trek sazlama şüarlarından istifadə edin:"</string>
+    <string name="debugSubtitleTracks" msgid="4174928222417276951">"Altyazı sazlama şüarlarından istifadə edin:"</string>
+    <string name="enableManualScan" msgid="4415233109840113797">"Manual xidmət skanını aktiv edin:"</string>
+    <string name="clearCurrentChannels" msgid="6599263077117960933">"Cari kanalları silin:"</string>
+    <!--  no translation found for arrFrontendType:0 (5573070977610804636)  -->
+    <!--  no translation found for arrFrontendType:1 (512776616446140322)  -->
+    <!--  no translation found for arrFrontendType:2 (4222023956488755919)  -->
+    <!--  no translation found for arrFrontendType:3 (4113889016742239907)  -->
+    <!--  no translation found for arrModulation:0 (1912643666992829724)  -->
+    <!--  no translation found for arrModulation:1 (1244697091688002430)  -->
+    <!--  no translation found for arrModulation:2 (3953367114480036346)  -->
+    <!--  no translation found for arrModulation:3 (7700856369868224196)  -->
+    <!--  no translation found for arrModulation:4 (1182364399540474411)  -->
+    <string name="choose_network" msgid="7862553125547162663">"Şəbəkə seçin"</string>
+    <string name="scan_manual" msgid="2652449575188864142">"Manual"</string>
+    <string name="scan_auto" msgid="3793270748051965102">"Avtomatik"</string>
+    <string name="scan_source" msgid="5491106928142601930">"Mənbə"</string>
+    <string name="scan_ok" msgid="6372334136692707344">"Ok"</string>
+    <string name="scan_done" msgid="41649788915988538">"Skan Edildi!"</string>
+    <string name="scan_channels" msgid="2583701240875638740">"kanallar skan edilib"</string>
+    <string name="scan_stop" msgid="4889017843569287662">"Skanı Dayandırın"</string>
+    <string name="scan_start" msgid="7352683952237639464">"Başladın"</string>
+    <string name="scan_back" msgid="8254811135465586310">"Geri"</string>
+    <string name="scan_stopped" msgid="1527182579264939382">"Skan dayandırılıb"</string>
+    <string name="zero_number" msgid="2098166951032540074">"0"</string>
+    <string name="timezone" msgid="6841732186550877726">"Evropa/Belqrad"</string>
+    <string name="programme_tuning" msgid="7151825210369267735">"Proqram Tənzimləməsi"</string>
+    <string name="auto_tuning" msgid="5241790341643214577">"Avtomatik tənzimləmə"</string>
+    <string name="manual_tuning" msgid="3803227558849032933">"Manual tənzimləmə"</string>
+    <string name="terrestrial" msgid="6057458256298385682">"Yerüstü"</string>
+    <string name="cable" msgid="3533509221735497167">"Kabel"</string>
+    <string name="satellite" msgid="5902319368428481619">"Peyk"</string>
+    <string name="ip" msgid="7550330649060136409">"IP"</string>
+    <string name="terrestrial_manual_scan" msgid="8615010351092110556">"Yerüstü Manual Skan"</string>
+    <string name="vhf_uhf_manual_tuning" msgid="2296041353998669604">"VHF K. (5 - 12) / UHF K. (21 - 69)"</string>
+    <string name="frequency_manual_tuning" msgid="7134323135104455005">"Tezlik (47000 ~ 890000 kHs)"</string>
+    <string name="bandwidth_manual_tuning" msgid="4006694481514521150">"Ötürmə qabiliyyəti (MHs)"</string>
+    <string name="signal_strength" msgid="9084219034702264545">"Siqnal gücü"</string>
+    <string name="signal_quality" msgid="2519879440868826524">"Siqnal keyfiyyəti"</string>
+    <string name="add" msgid="7492174937068844066">"Əlavə edin"</string>
+    <string name="tune" msgid="4920789798390090505">"Tənzimləyin"</string>
+    <string name="cable_manual_scan" msgid="2153124658983352330">"Kabel Manual Tənzimləməsi"</string>
+    <string name="frequency_cable_manual_tuning" msgid="8456034285142379792">"Tezlik (46000 ~ 870000 kHs)"</string>
+    <string name="modulation_cable" msgid="2316368898856054874">"Modulyasiya"</string>
+    <string name="symbol_rate_cable" msgid="1530782523197615047">"Simvol Dəyəri (1 ~ 7200 kB/san)"</string>
+    <string name="tv_programmes_found" msgid="3824314635758797853">"TV Proqramları Tapılıb"</string>
+    <string name="radio_programmes_found" msgid="8068018177062715658">"Radio Xidmətləri Tapılmadı"</string>
+    <string name="ip_manual_scan" msgid="3939430738970126951">"IP Manual Skanl"</string>
+    <string name="enter_url" msgid="6790132119337729261">"URL daxil edin"</string>
+    <string name="browse_locally" msgid="1051773926641445378">"Lokal axtarın"</string>
+    <string name="scan_option" msgid="4306195012541155420">"Skan edin"</string>
+    <string name="clear_old_channel_list" msgid="7951121574776188032">"Köhnə kanal siyahısını silin"</string>
+    <string name="nit" msgid="7688996391259343733">"NIT"</string>
+    <string name="nit_id" msgid="2814795103490979888">"Şəbəkə ID-si"</string>
+    <string name="satellites" msgid="5032252427135715049">"Peyklər"</string>
+    <string name="edit" msgid="5317842992931147350">"Redaktə edin"</string>
+    <string name="antenna_config" msgid="7806290512493790481">"Antena Konfiqurasiyası"</string>
+    <string name="transponders" msgid="5257067189342482742">"Transponderlər"</string>
+    <string name="scan_options" msgid="3552587590439164432">"Skan Seçimləri"</string>
+    <string name="search_type" msgid="7839644239035438171">"Axtarış Növü"</string>
+    <string name="scrambled" msgid="5850057616146603733">"Qarışıq"</string>
+    <string name="descrambled" msgid="188954300643020349">"Düzəldilib"</string>
+    <string name="network_search" msgid="1163464904985861536">"Şəbəkə Axtarışı"</string>
+    <string name="on" msgid="3751436329235813537">"Aktiv"</string>
+    <string name="off" msgid="3554615296323809334">"Deaktiv"</string>
+    <string name="start" msgid="8373408783747443318">"Başlama"</string>
+    <string name="edit_satellite" msgid="4607701308048105247">"Peyki redaktə edin"</string>
+    <string name="add_satellite" msgid="2273979716858813472">"Peyk əlavə edin"</string>
+    <string name="save" msgid="7065794043691996309">"Saxlayın"</string>
+    <string name="satellite_name" msgid="7025139118253076773">"Peyk Adı"</string>
+    <string name="satellite_angle" msgid="8683899846350204042">"Peyk Bucağı"</string>
+    <string name="east_west" msgid="7897600069231316216">"Şərq / Qərb"</string>
+    <string name="east" msgid="4358399578929609887">"Şərq"</string>
+    <string name="west" msgid="9044409318304141102">"Qərb"</string>
+    <string name="lnb_type" msgid="461240556471773891">"LNB Növü"</string>
+    <string name="low_frequency_range" msgid="1170543810050805189">"Aşağı Tezlik (Diapazon ? GHs)"</string>
+    <string name="high_frequency_range" msgid="5970034829459836798">"Yüksək Tezlik (Diapazon ? GHs)"</string>
+    <string name="diseqc" msgid="7568217958941352483">"DiSEqC"</string>
+    <string name="usals" msgid="3823979334027822788">"USALS"</string>
+    <string name="activate" msgid="6733615062583225476">"Aktiv edin"</string>
+    <string name="deactivate" msgid="1807972219321904394">"Deaktiv edin"</string>
+    <string name="tone_burst" msgid="8604581077816401974">"Qısa Siqnal"</string>
+    <string name="positioner" msgid="8318582990053674121">"Pozisioner"</string>
+    <string name="none" msgid="270213694043707263">"Heç biri"</string>
+    <string name="custom" msgid="3356728304011079847">"Fərdi"</string>
+    <string name="motor_setup" msgid="4736838637373424822">"Motor Ayarlaması"</string>
+    <string name="lnb_volts" msgid="2887965354047275769">"LNB Volt"</string>
+    <string name="unicable" msgid="2781716498996810985">"Bir kabelli"</string>
+    <string name="center_frequency" msgid="6365286688261520874">"Mərkəzi Tezlik"</string>
+    <string name="port" msgid="8895960865568032567">"Port"</string>
+    <string name="usals_motor_setup" msgid="7657151501964284609">"USALS Motor Ayarlaması"</string>
+    <string name="longitude" msgid="4001648645842463687">"Uzunluq"</string>
+    <string name="local_latitude" msgid="8823596382291639854">"Lokal En"</string>
+    <string name="diseqc_motor_setup" msgid="5323500521822752237">"DiSEqC Motor Ayarlaması"</string>
+    <string name="moving_type" msgid="1873868431963400283">"Hərəkət Növü"</string>
+    <string name="installer" msgid="8471001727135690995">"Quraşdırıcı"</string>
+    <string name="advanced" msgid="1404660154235921630">"Qabaqcıl"</string>
+    <string name="limit" msgid="7286926921334121151">"Limit"</string>
+    <string name="disable" msgid="1223300282346009587">"Deaktiv edin"</string>
+    <string name="enable" msgid="996139214854391916">"Aktiv edin"</string>
+    <string name="set_limit" msgid="5168996347824076248">"Limit Ayarlayın"</string>
+    <string name="position" msgid="2803940868161781819">"Pozisiya"</string>
+    <string name="drive_ew" msgid="4383307822798019860">"Ş/Q istiqamətinə hərəkət edin"</string>
+    <string name="transponder" msgid="4606225517551891470">"Transponder"</string>
+    <string name="frequency_diseqc" msgid="2875219430165646513">"Tezlik (10700 ~ 12750 MHs)"</string>
+    <string name="symbol_rate_diseqc" msgid="1207702014683617310">"Simvol Dəyəri (1 ~ 99999 kB/san)"</string>
+    <string name="recalculate" msgid="6829478450813491732">"Yenidən hesablayın"</string>
+    <string name="reset_position" msgid="5832683284624391408">"Pozisiyanı Sıfırlayın"</string>
+    <string name="edit_transponder" msgid="5242272245079923429">"Transponderi redaktə edin"</string>
+    <string name="add_transponder" msgid="2623539628999737045">"Transponder əlavə edin"</string>
+    <string name="polarization" msgid="8123655292270984054">"Polarizasiya"</string>
+    <string name="tyning_type" msgid="8666387879670813597">"Tənzimləmə Növü"</string>
+    <string name="insert_frequency" msgid="5729776610037320396">"Tezlik daxil edin"</string>
+    <string name="insert_symbol_rate" msgid="3786032305290654254">"Simvol Dəyəri daxil edin"</string>
+    <string name="skip" msgid="2183603397230534233">"Ötürün"</string>
+    <string name="up_next_terrestrial_scan" msgid="6324601363733245896">"Növbəti: Yerüstü Skan"</string>
+    <string name="up_next_cable_scan" msgid="4800909991170934548">"Növbəti: Kabel Skanı"</string>
+    <string name="up_next_satellite_scan" msgid="351889219174126750">"Növbəti: Peyk Skanı"</string>
+    <string name="up_next_ip_scan" msgid="444943982885570049">"Növbəti: IP Skanı"</string>
+    <string name="scan_frequency" msgid="1452334451761743669">"Tezlik [MHs]:"</string>
+    <string name="are_you_sure" msgid="6633052473207822200">"Əminsiniz?"</string>
+    <string name="yes" msgid="8396459138340669018">"Bəli"</string>
+    <string name="no" msgid="898412150608362736">"Yox"</string>
+    <string name="error_message" msgid="6738951116149286320">"Xəta baş verdi.\nYenə sınayın."</string>
+    <string name="scanning_ip" msgid="7552380527957172488">"Skan IP-si"</string>
+    <string name="stop" msgid="8871442464783363812">"Bitmə"</string>
+    <string name="done" msgid="8431602145508047529">"Hazırdır"</string>
+    <string name="retry" msgid="6558026654247761197">"Təkrar sınayın"</string>
+    <string name="scan_completed" msgid="190069558496485299">"Skan tamamlandı"</string>
+    <string name="rename_list" msgid="2319699362834734775">"Siyahının adını dəyişin"</string>
+    <string name="new_favorite_list" msgid="970952539402962926">"Yeni Sevimli Siyahısı"</string>
+    <string name="rename_recording" msgid="2054528390344269205">"Çəkilişin adını dəyişin"</string>
+    <string name="clear_channels_by_type" msgid="5496202975831966300">"Kanalları növ üzrə silin"</string>
+    <string name="clear_all_channels" msgid="1299596008850807775">"Bütün kanalları silin"</string>
+    <string name="channels_scrambled" msgid="9057067263329774776">"Kanal qarışıb"</string>
+    <string name="channels_scrambled_message" msgid="1084794532788696447">"Bu kanala giriş üçün CI+ kartını yoxlayın"</string>
+    <string name="parental_control_settings" msgid="5319661715471666902">"Valideyn nəzarəti ayarları"</string>
+    <string name="enter_pin_to_see_settings" msgid="3815180198258733139">"Ayarları görmək üçün PIN kodu daxil edin."</string>
+    <string name="change_pin" msgid="7488772416735871704">"PIN kodu dəyişin"</string>
+    <string name="enter_current_pin" msgid="4030992484519020714">"Cari PIN kodu daxil edin."</string>
+    <string name="enter_new_pin" msgid="8595685651252541794">"Yeni PIN kodu daxil edin."</string>
+    <string name="confirm_change" msgid="6096949281047345319">"Dəyişikliyi təsdiqləyin"</string>
+    <string name="unlock" msgid="2510919004695038132">"Kiliddən çıxarın"</string>
+    <string name="channel_locked" msgid="2817792090357968203">"Kanal kilidlənib"</string>
+    <string name="input_locked" msgid="8105084413794943531">"Daxiletmə kilidlənib"</string>
+    <string name="enter_pin_to_unlock" msgid="2825078114413148691">"Kilidini açmaq üçün PIN kodu daxil edin və ya Valideyn nəzarəti ayarlarını yoxlayın."</string>
+    <string name="unlock_channel" msgid="2186056154365829533">"Kanalı kiliddən çıxarın"</string>
+    <string name="lock_channel" msgid="6415531094159222492">"Kanalı Kilidləyin"</string>
+    <string name="enter_pin_using_number" msgid="1617489467804353931">"Rəqəm düymələri və ya naviqasiya oxlarından istifadə edərək PİN kodu daxil edin."</string>
+    <string name="press_ok_to_confirm" msgid="2030639856519969859">"Təsdiq etmək üçün OK düyməsini basın."</string>
+    <string name="are_you_sure_to_remove" msgid="5272700011032123035">"Bu elementi silmək istədiyinizə əminsiniz?"</string>
+    <string name="scheduled_recording_reminder_title" msgid="2491646467773565784">"Planlaşdırılmış qeydəalma"</string>
+    <string name="watchlist_reminder_message" msgid="1104927838803994094">"İzləmə Siyahınızdakı hadisə bu vaxt başlayacaq: %s."</string>
+    <string name="scheduled_recording_reminder_message" msgid="2585782433363041264">"Qeydə almağı planladığınız tədbir %s radələrində başlayacaq."</string>
+    <string name="scheduled_recording_reminder_usb_message" msgid="3261896842639900321">"Qeydəalma üçün USB cihazı düzgün konfiqurasiya edilməlidir."</string>
+    <string name="time_left_reminder_message" msgid="8401119790346964363">"Kanal avtomatik dəyişəcək"</string>
+    <string name="setup" msgid="7436979578788573835">"Quraşdırma"</string>
+    <string name="audio" msgid="2178205196199874170">"Audio"</string>
+    <string name="subtitles" msgid="443819189435816560">"Altyazılar"</string>
+    <string name="cam_info" msgid="2009726257572539955">"Kamera məlumatı"</string>
+    <string name="hbbtv_settings" msgid="2128953921075061655">"HBBTV Ayarları"</string>
+    <string name="teletext" msgid="5148062316136213977">"Teletekst"</string>
+    <string name="ads_targeting" msgid="840646015395656414">"Reklam hədəfləməsi"</string>
+    <string name="system_information" msgid="7606779620841753589">"Sistem Məlumatı"</string>
+    <string name="channel_scan" msgid="742690025827853777">"Kanal skanı"</string>
+    <string name="postal_code" msgid="4282723259910557954">"Poçt kodu"</string>
+    <string name="enter_postal_code" msgid="9137591141556761305">"Poçt kodu daxil edin."</string>
+    <string name="invalid_input" msgid="1310633113626196993">"Yanlış daxiletmə."</string>
+    <string name="channel_edit" msgid="5747989423326239719">"Kanal redaktəsi"</string>
+    <string name="default_channel" msgid="6445356023593713771">"Defolt kanal"</string>
+    <string name="picture" msgid="1160534096585833465">"Şəkil"</string>
+    <string name="sound" msgid="8508180274504068953">"Səs"</string>
+    <string name="screen" msgid="3048008223061728562">"Ekran"</string>
+    <string name="interaction_channel" msgid="4321705264398151840">"Kommunikasiya kanalı"</string>
+    <string name="mpeg_pin" msgid="7011120768977604018">"MHEG PIN Qorunması"</string>
+    <string name="parental_control" msgid="6068201552306139221">"Valideyn nəzarəti"</string>
+    <string name="open_source" msgid="5621022170996868316">"Açıq Mənbə Lisenziyaları"</string>
+    <string name="antenna" msgid="3574478101911378410">"Anten enerjisi"</string>
+    <string name="custom_recording" msgid="616731175025342123">"Fərdi Qeydə alma"</string>
+    <string name="module_information" msgid="138893858253775617">"Modul Məlumatı"</string>
+    <string name="conax_conditional_access" msgid="2988824693510076833">"Conax şərti girişi"</string>
+    <string name="software_download" msgid="6526879506034762798">"Proqram endirilib"</string>
+    <string name="settings" msgid="8026282787843756416">"Ayarlar"</string>
+    <string name="brand_name" msgid="4702824619070754950">"Brend Adı"</string>
+    <string name="port_number" msgid="4995722558305384999">"Port Nömrəsi"</string>
+    <string name="serial_number" msgid="2343535194676516794">"Seriya Nömrəsi"</string>
+    <string name="software_version" msgid="938344026859008625">"Proqram təminatı versiyası"</string>
+    <string name="hardware_version" msgid="4676163396332680697">"Avadanlıq Versiyası"</string>
+    <string name="software_download_title" msgid="7182339016885070551">"Modulunuzu təkmilləşdirmək istəyirsiniz?"</string>
+    <string name="subscription_status" msgid="8152434744124534365">"Abunəlik statusu"</string>
+    <string name="event_status" msgid="5639659633902394962">"Hadisə statusu"</string>
+    <string name="token_status" msgid="4834226009212901122">"Nişan statusu"</string>
+    <string name="change_ca_pin" msgid="3671097669540753130">"CA PIN kodunu dəyişin"</string>
+    <string name="maturity_rating" msgid="8668684606007102944">"Yetkinlik reytinqi"</string>
+    <string name="messages" msgid="4419405029334986460">"Mesaj"</string>
+    <string name="about_conax_ca" msgid="8545361141093096760">"Conax CA haqqında"</string>
+    <string name="interface_version" msgid="7086406205571753113">"İnterfeys versiyası"</string>
+    <string name="card_number" msgid="4966668852310859686">"Kart nömrəsi"</string>
+    <string name="number_of_sessions" msgid="1553049746241506437">"Sessiyaların sayı"</string>
+    <string name="ca_sys_id" msgid="4057273316749165239">"CA_SYS_ID"</string>
+    <string name="chip_id" msgid="3841340855603537499">"Çip ID-si"</string>
+    <string name="language" msgid="5033412417430090708">"Dil"</string>
+    <string name="no_messages" msgid="4671069338896663642">"Mesaj yoxdur"</string>
+    <string name="maturity_rating_value" msgid="2716270021809401211">"Cari kart səviyyəsi: %s"</string>
+    <string name="pop_up_messages" msgid="2550356715970755245">"Popap mesajları"</string>
+    <string name="activated" msgid="3259550567562529694">"Aktivdir"</string>
+    <string name="deactivated" msgid="8230746377327824557">"Deaktivdir"</string>
+    <string name="rf_channel_number" msgid="7144566814553175174">"RF Kanal Nömrəsi"</string>
+    <string name="ber" msgid="3389934594324530510">"Ber"</string>
+    <string name="prog" msgid="6513040689191709128">"Proq"</string>
+    <string name="uec" msgid="5831216599881016723">"UEC"</string>
+    <string name="service_id" msgid="6961083730626429041">"Xidmət ID-si"</string>
+    <string name="post_viterbi" msgid="4229329698860823473">"Viterbi Sonrası"</string>
+    <string name="ts_id" msgid="5922184329542157428">"TS ID-si"</string>
+    <string name="five_s" msgid="8633369039113298987">"5S"</string>
+    <string name="on_id" msgid="8717151605191085511">"AKTİV ID"</string>
+    <string name="agc" msgid="7315404225192362723">"AGC"</string>
+    <string name="network_name" msgid="542920582991779334">"Şəbəkə Adı"</string>
+    <string name="bandwidth" msgid="2827698381039488034">"Ötürmə qabiliyyəti [MHs]"</string>
+    <string name="first_language" msgid="4376264484150066447">"Birinci dil"</string>
+    <string name="second_language" msgid="6133917700264074215">"İkinci dil"</string>
+    <string name="audio_description" msgid="6458837295213608473">"Audio təsviri"</string>
+    <string name="audio_type_normal" msgid="2088832842451441840">"Normal"</string>
+    <string name="audio_type_visually_impaired" msgid="3438074786597359516">"Görmə qüsurlu"</string>
+    <string name="no_audio_visually_impaired" msgid="3947110980476053488">"Görmə pozğunluğu üçün audio yoxdur"</string>
+    <string name="audio_tracks" msgid="5703548896940435627">"Audio treklər"</string>
+    <string name="digital_language" msgid="6027769489097600387">"Rəqəmsal dil"</string>
+    <string name="subtitle_type" msgid="6257600590402555311">"Subtitr növü"</string>
+    <string name="enable_subtitles" msgid="1836129951206842087">"Subtitrləri aktivləşdirin"</string>
+    <string name="audio_format" msgid="8284736489304641424">"Audio formatı"</string>
+    <string name="vi_audio_for_impaired" msgid="3032784027791333070">"Görmə əngəllilər üçün audio"</string>
+    <string name="vi_fader_control" msgid="5159508499612853372">"Tədricən soldurmaya nəzarət"</string>
+    <string name="vi_speaker" msgid="1730137141684830570">"Dinamik"</string>
+    <string name="vi_headphone" msgid="5416200350292696737">"Qulaqlıq"</string>
+    <string name="vi_volume" msgid="3488820687700041890">"Səs"</string>
+    <string name="vi_pane_fade" msgid="2601003902904072593">"Yerini dəyişmə və tədricən soldurma"</string>
+    <string name="fader_main_max" msgid="4611679970227294093">"Main Max"</string>
+    <string name="fader_main_sub" msgid="7593221827790712226">"Main 3:4"</string>
+    <string name="fader_equal" msgid="4519306379947783434">"Bərabər"</string>
+    <string name="fader_ad_sub" msgid="6437572865174690545">"AD 3:4"</string>
+    <string name="fader_ad_max" msgid="9122777758230327119">"AD Max"</string>
+    <!--  no translation found for audio_channels_strings:1 (5619779558449299720)  -->
+    <!--  no translation found for audio_channels_strings:2 (7742946383142049818)  -->
+    <!--  no translation found for audio_channels_strings:3 (1362536828405389981)  -->
+    <!--  no translation found for audio_channels_strings:4 (2393859006069005302)  -->
+    <!--  no translation found for audio_channels_strings:5 (2633843452856253385)  -->
+    <!--  no translation found for audio_channels_strings:6 (7095529391117690506)  -->
+    <!--  no translation found for audio_channels_strings:7 (1273342437471313965)  -->
+    <!--  no translation found for audio_channels_strings:8 (5943100416425070567)  -->
+    <!--  no translation found for audio_channels_strings:13 (5605938855089094519)  -->
+    <!--  no translation found for audio_channels_strings:14 (1368871710498993673)  -->
+    <!--  no translation found for audio_channels_strings:15 (6436717758304675566)  -->
+    <!--  no translation found for audio_channels_strings:20 (3687442141925630652)  -->
+    <!--  no translation found for audio_channels_strings:21 (7810999426936459027)  -->
+    <!--  no translation found for audio_channels_strings:22 (8712864432074523291)  -->
+    <!--  no translation found for audio_channels_strings:23 (1833975212048313146)  -->
+    <!--  no translation found for audio_channels_strings:24 (3190044868783518762)  -->
+    <string name="nav_UNKNOWN" msgid="2913311182249571190">"Naməlum"</string>
+    <string name="nav_MONO" msgid="8896870675545905110">"Mono"</string>
+    <string name="nav_STEREO" msgid="5543416258821435876">"Stereo"</string>
+    <string name="nav_SAP" msgid="8676814687569919114">"SAP"</string>
+    <string name="nav_DUAL1" msgid="6043423354232964669">"Dual1"</string>
+    <string name="nav_DUAL2" msgid="7504763724294512461">"Dual2"</string>
+    <string name="nav_NICAM_MONO" msgid="4224337367970842284">"Nicam Mono"</string>
+    <string name="nav_NICAM_STEREO" msgid="6563097258216426575">"Nicam Stereo"</string>
+    <string name="nav_NICAM_DUAL1" msgid="3114328575278255659">"Nicam Dual1"</string>
+    <string name="nav_NICAM_DUAL2" msgid="6081960406070216023">"Nicam Dual2"</string>
+    <string name="nav_A2_DUAL1_DUAL2" msgid="2166457499521770298">"Dual I+II"</string>
+    <string name="nav_NICAM_DUAL1_DUAL2" msgid="1856725634717330307">"NICAM Dual I+II"</string>
+    <string name="nav_FM_MONO" msgid="6456878559197187488">"FM Mono"</string>
+    <string name="nav_FM_STEREO" msgid="7271167064953845593">"FM Stereo"</string>
+    <string name="nav_Dual_Mono" msgid="8753030583134294425">"Dual Mono"</string>
+    <string name="nav_Surround_2CH" msgid="2909849253499226759">"Surround 2 Kanalları"</string>
+    <string name="nav_Surround" msgid="5120285656406922235">"Surround"</string>
+    <string name="nav_num_CH" msgid="107713690256275745">"kanallar"</string>
+    <string name="decoding_page_language" msgid="1124443492008553149">"Səhifə dilinin deşifrələnməsi"</string>
+    <string name="preferred_language" msgid="7655430973207324413">"Tərcih edilən dil"</string>
+    <string name="hbbtv_support" msgid="8922193705369262735">"HBBTV dəstəyi"</string>
+    <string name="hbbtv_track" msgid="3077736394913505081">"İzləyin"</string>
+    <string name="hbbtv_cookie_settings" msgid="4699548377446817221">"Kuki ayarları"</string>
+    <string name="hbbtv_persisent_storage" msgid="78725024248331696">"Davamlı saxlama yeri"</string>
+    <string name="hbbtv_block_tracking_sites" msgid="1278479776976817723">"İzləmə saytlarını blok edin"</string>
+    <string name="hbbtv_device_id" msgid="5819372404666742885">"Cihaz ID-si"</string>
+    <string name="hbbtv_reset_device_id" msgid="5450337102965703931">"Cihaz ID-ni sıfırlayın"</string>
+    <string name="hbbtv_block_all" msgid="2628174580910578090">"Hamısını bloklayın"</string>
+    <string name="hbbtv_blocker_3rd_party_cookies" msgid="7890722586463776089">"Bloklayıcı 3-cü tərəf kukiləri"</string>
+    <string name="hbbtv_default" msgid="7846721736221762909">"Defolt"</string>
+    <string name="yesteday" msgid="2031037914735844998">"Dünən"</string>
+    <string name="today" msgid="67589070411916088">"Bugün"</string>
+    <string name="tomorrow" msgid="1113611151010280578">"Sabah"</string>
+    <string name="ci_inserted_msg" msgid="6562089093857540874">"CAM daxil edilib."</string>
+    <string name="ci_removed_msg" msgid="8560748448932539224">"CAM silinib."</string>
+    <string name="menu_setup_ci_pin_invalid_type_tip" msgid="4157980514684544780">"Növ yanlışdır!"</string>
+    <string name="menu_setup_ci_pin_code_correct_tip" msgid="6743385019587471108">"Doğrudur!"</string>
+    <string name="channel" msgid="83247550823739857">"Kanal"</string>
+    <string name="recording_confirmation" msgid="1987433986066667834">"Qeydə almağa başlamaq istədiyinizə əminsiniz?"</string>
+    <string name="duration" msgid="2217423882430487586">"Müddət"</string>
+    <string name="repeat" msgid="566789264529947157">"Təkrarlayın"</string>
+    <string name="hr" msgid="5804859081055619802">"saat"</string>
+    <string name="min" msgid="6507012410599430444">"dəq"</string>
+    <string name="custom_recording_toast_validation_start_is_past" msgid="1778592166545947541">"Başlama vaxtı gələcəkdə olmalıdır"</string>
+    <string name="custom_recording_zero_duration_message" msgid="2080715124037808947">"Qeydəalma müddəti 0 ola bilməz"</string>
+    <string-array name="duration_hrs_no_zero">
+        <item msgid="2912861604749370425">"1 saat"</item>
+        <item msgid="374281930058836476">"2 saat"</item>
+        <item msgid="7193305075436964774">"3 saat"</item>
+        <item msgid="398015843251496779">"4 saat"</item>
+        <item msgid="4683459051008938980">"5 saat"</item>
+        <item msgid="1414842138111776793">"6 saat"</item>
+        <item msgid="5385729342887859281">"7 saat"</item>
+        <item msgid="833181330636230000">"8 saat"</item>
+        <item msgid="7352766903438891407">"9 saat"</item>
+    </string-array>
+    <string-array name="duration_hrs">
+        <item msgid="5471601675920266922">"0 saat"</item>
+        <item msgid="4758654820569121047">"1 saat"</item>
+        <item msgid="2464578624220725398">"2 saat"</item>
+        <item msgid="6841350237385073269">"3 saat"</item>
+        <item msgid="808190610521816281">"4 saat"</item>
+        <item msgid="5673916598141549569">"5 saat"</item>
+        <item msgid="3288525635276674935">"6 saat"</item>
+        <item msgid="2839868575152790505">"7 saat"</item>
+        <item msgid="1600978639156753982">"8 saat"</item>
+        <item msgid="2271044927678196934">"9 saat"</item>
+    </string-array>
+    <string-array name="duration_min_no_zero">
+        <item msgid="4589471421757924267">"5 dəq"</item>
+        <item msgid="8855543832564593545">"10 dəq"</item>
+        <item msgid="5088095894570123157">"15 dəq"</item>
+        <item msgid="5808310145047542877">"20 dəq"</item>
+        <item msgid="2070562423007636725">"25 dəq"</item>
+        <item msgid="8225826920502845526">"30 dəq"</item>
+        <item msgid="6422141515296762708">"35 dəq"</item>
+        <item msgid="3612635699902359929">"40 dəq"</item>
+        <item msgid="7626360296518549125">"45 dəq"</item>
+        <item msgid="2921707540170235765">"50 dəq"</item>
+        <item msgid="8172757182923815197">"55 dəq"</item>
+    </string-array>
+    <string-array name="duration_min">
+        <item msgid="1648681698956104769">"0 dəq"</item>
+        <item msgid="4684170343523077350">"5 dəq"</item>
+        <item msgid="8175832420314111549">"10 dəq"</item>
+        <item msgid="5833040817671471801">"15 dəq"</item>
+        <item msgid="1493963098421519845">"20 dəq"</item>
+        <item msgid="5410948776282630403">"25 dəq"</item>
+        <item msgid="8556168981136945141">"30 dəq"</item>
+        <item msgid="6577498731879282997">"35 dəq"</item>
+        <item msgid="621131071020421921">"40 dəq"</item>
+        <item msgid="2962872642228943573">"45 dəq"</item>
+        <item msgid="4962461171429895589">"50 dəq"</item>
+        <item msgid="7894077849623889505">"55 dəq"</item>
+    </string-array>
+    <string name="usb_format" msgid="5324359857719634056">"Bu USB cihazını formatlamaq istəyirsiniz?"</string>
+    <string name="usb_space_check_msg" msgid="1546747520725301436">"Yaddaş cihazında % yer qalıb."</string>
+    <string name="no_channels_found" msgid="1848544592156894737">"Kanal tapılmadı"</string>
+    <string name="connect_scan_msg" msgid="7558833561209342023">"Antenanı birləşdirin və skan edin"</string>
+    <string name="scan_channels_text" msgid="8258095964311020673">"Kanalları skan edin"</string>
+    <string name="recording_scan_conflict_toast" msgid="3748032820323076906">"Qeydəalma zamanı skanlamaq olmur. Digər kanalları skanlamaq üçün qeydəalmanı tamamlayın"</string>
+    <string name="channels_scan_select_description" msgid="7855400572097293868">"Tünerinizi qoşun və kanalları skan etmək üçün uyğun seçimi edin. Bu addımı keçə və sonra ayarlardan və ya Live TV tətbiqindən həyata keçirə bilərsiniz"</string>
+    <string name="pin_description" msgid="8940902203123531407">"PIN Live TV tətbiqində valideyn nəzarəti və kanal kilidi üçün istifadə olunur"</string>
+    <string name="select_country_description" msgid="1967341889036312517">"Ölkə seçimi skan prosesini avtomatlaşdırır"</string>
+    <string name="scan_terrestrial_description" msgid="1809146725235000878">"Kanalın skan edilməsi prosesi ayarlanmış seçimlərdən asılı olaraq bir qədər çəkə bilər"</string>
+    <string name="cancel_scan" msgid="5554011776162355293">"Keçin"</string>
+    <string name="unknown" msgid="9217817889222189655">"Naməlum"</string>
+    <string name="lcn_conflict" msgid="8266500972216800846">"LCN Xətası"</string>
+    <string name="status" msgid="7862706947096620505">"Status"</string>
+    <string name="in_progress" msgid="8185893763004417407">"Davam edir"</string>
+    <string name="updating" msgid="2742050939467141774">"Güncəllənir"</string>
+    <string name="complete" msgid="1810163799621341824">"Tamamlandı"</string>
+    <string name="cancelled" msgid="1685545085829761585">"Ləğv edildi"</string>
+    <string name="signal_status" msgid="8282786450156646927">"Siqnal statusu"</string>
+    <string name="programmes_found" msgid="3796490668729947923">"Tapılan proqramlar"</string>
+    <string name="scanning_status" msgid="906438863803948589">"Skan statusu"</string>
+    <string name="scanning_progress" msgid="3809321512060165759">"Skan irəliləyişi"</string>
+    <string name="scan_terrestrial" msgid="5387031143578140493">"Yerüstü skanı"</string>
+    <string name="failed" msgid="5261073364967333327">"Alınmadı"</string>
+    <string name="wrong_frequency" msgid="1134163595573458436">"Yanlış tezlik"</string>
+    <string name="confirm_pin_number" msgid="797481806488195214">"PIN nömrəsini təsdiq edin"</string>
+    <string name="not_correct_pins" msgid="1411011499275438579">"PIN-lər eyni deyil. Yenə yazın"</string>
+    <string name="manual_scan_freq" msgid="6445524265097974731">"Tezlik (47000-862000 kHs)"</string>
+    <string name="manual_scan_band" msgid="2296813563990777756">"Ötürmə qabiliyyəti (MHs)"</string>
+    <string name="manual_scan_ch" msgid="1986733609522141628">"VHF K. (5-12) / UHF K. (21-69)"</string>
+    <string name="manual_scan_ch_with_thirteen" msgid="287849365022890340">"VHF Ch. (5 - 13) / UHF Ch. (21 - 69)"</string>
+    <string name="manual_scan_ch_only_uhf" msgid="5308435325188689312">"UHF Ch. (21 - 69)"</string>
+    <string name="channels_scan" msgid="6936821143591482075">"Kanal skanı"</string>
+    <string name="set_scan_options_manually" msgid="2245992633125039303">"Skan seçimlərini manual ayarlayın"</string>
+    <string name="automatically_scan_available" msgid="3161736292851867893">"Əlçatan tezlikləri avtomatik skan edin"</string>
+    <string name="terrestrial_manual_tuning" msgid="5998766433636391506">"Yerüstü tüninq:"</string>
+    <string name="terrestrial_scan" msgid="6815581229250774867">"Yerüstü skanı"</string>
+    <string name="channels_scan_select" msgid="6217180467659026310">"Skan növü seçin"</string>
+    <string name="confirm_text" msgid="4562792574774535382">"Təsdiq"</string>
+    <string name="enter_pin_number" msgid="4267581858234429410">"PIN nömrəsi ayarlayın"</string>
+    <string name="select_country" msgid="9144110521372485962">"Ölkə seçin"</string>
+    <string name="date" msgid="6763266483305060876">"Tarix"</string>
+    <string name="remove" msgid="686843932998869420">"Silin"</string>
+    <string name="sort_by" msgid="4807922281415928330">"Belə çeşidləyin:"</string>
+    <string name="schedule_recording" msgid="2029414279214710085">"Qeydə alma planlaşdırın"</string>
+    <string name="add_to" msgid="5288188925274421816">"Buraya əlavə edin:"</string>
+    <string name="testing_in_progress" msgid="2321338586752160609">"Test davam edir"</string>
+    <string name="encrypted" msgid="5925122159025307467">"Şifrəli"</string>
+    <string name="daily" msgid="4819197321236588721">"Günlük"</string>
+    <string name="weekly" msgid="5922203140575016838">"Həftəlik"</string>
+    <string name="calendar_filter_title" msgid="5095479328338511094">"Günü filtrlərin"</string>
+    <string name="event_no_information" msgid="7943978309996796632">"Bu hadisə üçün məlumat yoxdur"</string>
+    <string name="time" msgid="3201028376320677354">"Vaxt"</string>
+    <string name="general" msgid="8009011974050077815">"Ümumi"</string>
+    <string name="favorite" msgid="3840237917139864682">"Sevimlilərə əlavə edin"</string>
+    <string name="on_now_radio" msgid="7663321600218926582">"Radioda Oxudulur"</string>
+    <string name="subtitle_type_hearing_impaired" msgid="1854230845793845790">"Eşitmə Qüsurlu"</string>
+    <string name="for_you" msgid="8817079902176687927">"Sizin üçün"</string>
+    <string name="tv_guide" msgid="1128656211604435103">"TV Bələdçisi"</string>
+    <string name="recordings" msgid="3641469268934463108">"Qeydəalmalar"</string>
+    <string name="preferences" msgid="1541383781299739313">"Tərcihlər"</string>
+    <string name="united_kingdom" msgid="4269558939438600378">"Birləşmiş Krallıq"</string>
+    <string name="turkey" msgid="791149297253505623">"Türkiyə"</string>
+    <string name="switzerland" msgid="5264857161501759766">"İsveçrə"</string>
+    <string name="sweden" msgid="1680839340960211411">"İsveç"</string>
+    <string name="spain" msgid="3605348010052911478">"İspaniya"</string>
+    <string name="slovenia" msgid="6703421764391088893">"Sloveniya"</string>
+    <string name="slovakia" msgid="8339404295801789591">"Slovakiya"</string>
+    <string name="serbia" msgid="8742949431994945525">"Serbiya"</string>
+    <string name="russia" msgid="1401792757581842568">"Rusiya"</string>
+    <string name="romania" msgid="7279354429316472283">"Rumıniya"</string>
+    <string name="portugal" msgid="5825255289269598902">"Portuqaliya"</string>
+    <string name="poland" msgid="2422382298928464030">"Polşa"</string>
+    <string name="norway" msgid="6852185531583620455">"Norveç"</string>
+    <string name="netherlands" msgid="246506781407354680">"Niderland"</string>
+    <string name="north_macedonia" msgid="3463899871972677721">"Şimali Makedoniya"</string>
+    <string name="luxembourg" msgid="1063222965641971254">"Lüksemburq"</string>
+    <string name="lithuania" msgid="7099713088289561615">"Litva"</string>
+    <string name="latvia" msgid="692253546270427847">"Latviya"</string>
+    <string name="italy" msgid="7405995367578301423">"İtaliya"</string>
+    <string name="ireland" msgid="3764786549439915043">"İrlandiya"</string>
+    <string name="hungary" msgid="8781593523081221861">"Macarıstan"</string>
+    <string name="greece" msgid="4339403915223659929">"Yunanıstan"</string>
+    <string name="germany" msgid="1836775008967040466">"Almaniya"</string>
+    <string name="france" msgid="9194837416380667641">"Fransa"</string>
+    <string name="finland" msgid="754419200311121688">"Finlandiya"</string>
+    <string name="ukraine" msgid="7794183472283499605">"Ukrayna"</string>
+    <string name="estonia" msgid="114718845684765453">"Estoniya"</string>
+    <string name="denmark" msgid="4924773040555656121">"Danimarka"</string>
+    <string name="czech_republic" msgid="3764533072002538470">"Çex Respublikası"</string>
+    <string name="cyprus" msgid="8055870015941168441">"Kipr"</string>
+    <string name="croatia" msgid="7144186024899208334">"Xorvatiya"</string>
+    <string name="bulgaria" msgid="1379735358674509569">"Bolqarıstan"</string>
+    <string name="belgium" msgid="2066958471706931352">"Belçika"</string>
+    <string name="belarus" msgid="3611735354340012730">"Belarus"</string>
+    <string name="austria" msgid="6235089448008573566">"Avstriya"</string>
+    <string name="albania" msgid="1415995963347711615">"Albaniya"</string>
+    <string name="to_number" msgid="8488004022591459675">"bu nömrəyə"</string>
+    <string name="assign" msgid="3140428905911329772">"Təyin edin"</string>
+    <string name="solve_lcn" msgid="4569110198197012867">"LCN ziddiyyətlərini həll edin"</string>
+    <string name="lcn_conf" msgid="5786936605306772156">"LCN ziddiyyəti"</string>
+    <string name="solve_lcn_manu" msgid="1665466977918632045">"LCN ziddiyyətini manual həll edin"</string>
+    <string name="lcn_conf_found" msgid="1635112995686811648">"LCN ziddiyyətləri aşkarlandı"</string>
+    <string name="lcn_conf_description" msgid="8056448918480883161">"Seçilmiş nömrəyə təyin ediləcək ziddiyyətli kanallar arasında seçim edin"</string>
+    <string name="evaluation_license_pref" msgid="4315032194767719152">"Sınaq lisenziyası"</string>
+    <string name="evaluation_license_accept" msgid="8772567910733465135">"Qəbul edin"</string>
+    <string name="evaluation_license_title" msgid="5376640500549846368">"SINAQ LİSENZİYASI ÜZRƏ İMTİNA"</string>
+    <string-array name="evaluation_license_dsc_title">
+        <item msgid="6997226435335006031">"1 LİSENZİYA\n\n"</item>
+        <item msgid="4975666999208817082">"2 YENİLİKLƏR VƏ RƏY\n\n"</item>
+        <item msgid="446934691667251928">"3 MƏXFİLİK\n\n"</item>
+        <item msgid="5782769999981388961">"4 ZƏMANƏT VƏ MƏSULİYYƏTİN MƏHDUDLAŞDIRILMASI\n\n"</item>
+        <item msgid="8922729760878010943">"5 DİGƏR\n\n"</item>
+    </string-array>
+    <string-array name="evaluation_license_dsc">
+        <item msgid="3978571601657722569">"Bu tətbiq (\"Canlı TV tətbiqi\") iWedia S.A. tərəfindən birdəfəlik, qeyri-müstəsna, ötürülməyən, lisenziya ödənişi olmayan, sublisenziyasız və ləğv edilən lisenziya (\"Sınaq lisenziyası\") əsasında təqdim edilir. Canlı TV tətbiqi buraxılış tarixindən etibarən 6 ay müddətinə yalnız daxili sınaq və nümayiş məqsədilə istifadə olunmalıdır.\n\nSınaq lisenziyası yalnız bu məqsədlərlə təmin edilir: \n\nI. Daxili sınaq – bu lisenziya daxili istifadə üçündür və istehsal lisenziyası olmadığına görə bütövlükdə, yaxud qismən paylana, kommersiya məhsuluna daxil edilə bilməz.\n\nII. Nümayiş – daxili sınaqdan əlavə bu lisenziya olduğu kimi yalnız üçüncü şəxslərə nümayiş üçün marketinq məqsədilə istifadə edilə bilər. Bu lisenziyanın iWedia-nın rəqibləri ilə istifadəsi açıq şəkildə qadağan edilir.\n\nAşağıdakılar qadağandır:\n\nI. Canlı TV tətbiqini istifadə etmək və ya dəyişmək, Canlı TV tətbiqindən əlaqəli sənədlər də daxil olmaqla hüquqları qorunan kontent yaratmaq üçün sublisenziya vermək.\n\nII. Canlı TV tətbiqinin obyekt kodunu və ya mənbə kodunu (yaxud əsas ideya, alqoritm, struktur və ya təşkilatını) tam və ya qismən tərs tərtib etmək, üzərində tərs mühəndislik icra etmək, sökmək, yenidən formatlamaq, müqayisə etmək və ya başqa şəkildə oxumağa, yaxud oxunaqlı etməyə cəhd etmək;\n\nIII. Canlı TV tətbiqini dəyişmək və ya proqram təminatı əsasında hüquqları qorunan kontent yaratmaq;\n\nIV. Canlı TV tətbiqini icarəyə vermək, uzunmüddətli icarəyə vermək, satmaq, sublisenziyasını vermək, təminat hüququ vermək, yaxud hüquqları başqa şəkildə ötürmək;\n\nV. Canlı TV tətbiqindəki işarə və ya mülkiyyət bildirişlərini, etiketləri silmək, yaxud dəyişdirmək;\n\nVI. Canlı TV tətbiqini üçüncü tərəfin əqli mülkiyyət və ya məxfilik hüquqlarını pozacaq şəkildə istifadə etmək; yaxud\n\nVII. Canlı TV tətbiqini beynəlxalq, federal, dövlət və ya yerli qanun, yaxud qaydaları pozacaq şəkildə istifadə etmək.\n\nCanlı TV tətbiqi ilə bağlı bütün əqli mülkiyyət və mülkiyyət hüquqları üzrə hüquq, titul və maraqların hamısı iWedia-da qalacaq.\n\n"</item>
+        <item msgid="7656950104467967957">"iWedia öz mülahizəsinə əsasən Canlı TV tətbiqinin yenilənmiş versiyalarını təqdim etmək hüququna (heç bir öhdəlik olmadan) malikdir. Bu Sınaq lisenziyasının şərt və müddəaları Canlı TV tətbiqinin istənilən yeni versiyasına aid edilir.\n\niWedia-ya Canlı TV tətbiqi ilə bağlı təklif, şərh və ya digər rəy (Rəy) təqdim etmək öhdəliyi yoxdur. Lakin könüllü təqdim edilən Rəy iWedia məhsullarında, əlaqədar spesifikasiya və ya digər sənədlərdə istifadə oluna bilər. iWedia Canlı TV tətbiqinin hər hansı versiyası ilə bağlı Rəy alarsa, iWedia istənilən iWedia məhsul, texnologiya, xidmət, spesifikasiya və ya digər sənədlərində Rəyi sərbəst istifadə edə, açıqlaya, reproduksiya edə, lisenziyasını verə, paylaya və ya başqa şəkildə kommersiyalaşdıra bilər.\n\n"</item>
+        <item msgid="1426574708070917904">"Canlı TV tətbiqi Açıqlamama Müqaviləsi əsasında təqdim edilən məxfi iWedia məlumatıdır (Məxfi Məlumat).\n\n"</item>
+        <item msgid="2994785271031279130">"iWedia proqram təminatını OLDUĞU KİMİ, açıq və ya nəzərdə tutulan zəmanətlər olmadan təmin edir; iWedia bütün zəmanət və şərtləri rədd edir.\n\niWedia Sınaq lisenziyası üzrə zərərin mümkünlüyündən xəbərdar olsa belə, hüquq pozuntusu, müqavilə, səhlənkarlıq, birbaşa məsuliyyət və ya hər hansı digər səbəb ilə əlaqədar yaranan birbaşa, dolayı, təsadüfi, xüsusi, cəza məqsədli və ya nəticəyə bağlı zərərlərə görə heç bir məsuliyyət, yaxud öhdəlik daşımır.\n\niWedia zərərin mümkünlüyü barədə məlumatlandırılsa belə, görülən tədbirdən asılı olmadan istifadə imkanının itməsinə, biznesin dayandırılmasına, o cümlədən mənfəətin itməsinə görə məsuliyyət daşımır.\n\n"</item>
+        <item msgid="6636923911104296092">"Bu Sınaq lisenziyası tərəflərin hüquqi qüvvədə olan razılaşmasıdır. Bu Sınaq lisenziyası dəyişdirilə, ləğv edilə və ya düzəldilə bilməz.\n"</item>
+    </string-array>
+    <string name="eval_licence_expiry_title" msgid="5041452320430252392">"Sınaq lisenziyasının vaxtı keçib"</string>
+    <string name="eval_licence_expiry_sub_title" msgid="6826125758637355380">"iWedia ilə əlaqə saxlayın"</string>
+    <string name="open_source_license_title" msgid="1554190243859250731">"AÇIQ MƏNBƏ LİSENZİYALARI"</string>
+    <string name="open_source_license_picasso" msgid="1946160720113475178">"Picasso - Apache 2.0"</string>
+    <string name="open_source_license_firebase" msgid="8697900533266126732">"Firebase SDK - Apache 2.0"</string>
+    <string name="open_source_license_gson" msgid="8695992675641212399">"GSON - Apache 2.0"</string>
+    <string name="open_source_license_lottie" msgid="5889530097999389219">"Lottie"</string>
+    <string name="for_you_promo" msgid="6030816806065619135">"Promo"</string>
+    <string name="toast_one_channel" msgid="3674870339770748204">"Bu siyahıda başqa kanal yoxdur. Siyahını düzəldin və ya yeni kanallar skanlayın"</string>
+    <string name="cable_scan" msgid="5168249706639891664">"Kabel skanı"</string>
+    <string name="select_provider" msgid="6039171292648870904">"TV provayderi seçin"</string>
+    <string name="select_provider_description" msgid="2572301173211605186">"Provayder seçimi skanlamanı avtomatlaşdırır"</string>
+    <string name="quick_tuning" msgid="1232673629897546034">"Cəld sazlama"</string>
+    <string name="cable_manual_tuning" msgid="7295820303779933458">"Kabel sazlama"</string>
+    <string name="set_scan_options_quick" msgid="6564323823250481402">"Cəld skan seçimləri ayarlayın"</string>
+    <string name="albanian" msgid="909487102798937262">"Alban"</string>
+    <string name="belarusian" msgid="8692726601803500664">"Belarus"</string>
+    <string name="bulgarian" msgid="5604526587810914861">"Bolqar"</string>
+    <string name="czech" msgid="2219203852942880496">"Çex"</string>
+    <string name="danish" msgid="6680435916838658718">"Dan"</string>
+    <string name="german" msgid="7444271351966071063">"Alman"</string>
+    <string name="dutch" msgid="7277857127289043923">"Holland"</string>
+    <string name="greek" msgid="815606104864893488">"Yunan"</string>
+    <string name="english" msgid="7457699616117671332">"İngilis"</string>
+    <string name="finnish" msgid="9024747441674504407">"Fin"</string>
+    <string name="french" msgid="5135133463687500184">"Fransız"</string>
+    <string name="croatian" msgid="4156676487199304187">"Xorvat"</string>
+    <string name="hungarian" msgid="7622853368648210014">"Macar"</string>
+    <string name="italian" msgid="3635685233604558030">"İtalyan"</string>
+    <string name="latvian" msgid="4584279564478599034">"latış"</string>
+    <string name="lithuanian" msgid="7253431506356604510">"Litva"</string>
+    <string name="macedonian" msgid="8292842895952058345">"Makedoniya"</string>
+    <string name="norwegian" msgid="1358417873898371354">"Norveç"</string>
+    <string name="polish" msgid="1032451208264168340">"Polyak"</string>
+    <string name="portuguese" msgid="6248764786403138732">"Portuqal"</string>
+    <string name="romanian" msgid="5343123013812157333">"Rumın"</string>
+    <string name="russian" msgid="3122555201054868037">"Rus"</string>
+    <string name="slovak" msgid="5766823434970777356">"Slovak"</string>
+    <string name="slovenian" msgid="4897469105710150458">"Sloven"</string>
+    <string name="spanish" msgid="7718063189462085302">"İspan"</string>
+    <string name="serbian" msgid="6787921820943171288">"Serb"</string>
+    <string name="swedish" msgid="2268764493783412822">"İsveç"</string>
+    <string name="turkish" msgid="4336249792544405769">"Türk"</string>
+    <string name="walk_through_step" msgid="2281121339730613841">"Addım"</string>
+    <string name="walk_through_step_1" msgid="1157522745640857422">"SOL üzərinə basaraq kanal siyahısına daxil olun"</string>
+    <string name="walk_through_step_2" msgid="4156195961386320726">"YUXARI və AŞAĞI oxları ilə kanala nəzər salın"</string>
+    <string name="walk_through_step_3" msgid="8462871260093769236">"GERİ üzərinə basaraq filtr seçin"</string>
+    <string name="walk_through_step_4" msgid="9098731555331755118">"Yenidən GERİ üzərinə basaraq ÇIXIN"</string>
+    <string name="walk_through_step_5" msgid="8421012831785574287">"SAĞ üzərinə basaraq bannerə daxil olun"</string>
+    <string name="walk_through_step_6" msgid="2739228952166220628">"SOL və SAĞ oxlar ilə kanala nəzər salın"</string>
+    <string name="walk_through_step_7" msgid="6999883322655367083">"GERİ üzərinə basaraq ÇIXIN"</string>
+    <string name="walk_through_step_8" msgid="8024807124163715419">"OK üzərinə basaraq MENYUYA daxil olun"</string>
+    <string name="status_message_channels_not_available" msgid="7860572798367937149">"Kanallar əlçatan deyil."</string>
+    <string name="status_message_drm_error" msgid="8563550254613004526">"DRM xətası"</string>
+    <string name="status_message_signal_not_available" msgid="6211566889211861934">"Siqnal əlçatan deyil."</string>
+    <string name="status_message_no_playback" msgid="2422134051958157268">"Oxudulmur."</string>
+    <string name="scan_cable" msgid="8526213048315732533">"Kabel skanı"</string>
+    <string name="frequency_cable" msgid="9086867584754959840">"Tezlik"</string>
+    <string name="symbolrate_cable" msgid="4456975092083451351">"Simvol tezliyi"</string>
+    <string name="qam" msgid="7742628918606248891">"QAM"</string>
+    <string name="standard" msgid="8128590355024601150">"Standart"</string>
+    <string name="info_banner" msgid="5121498386122846064">"Məlumat banneri"</string>
+    <string name="channel_list" msgid="198366839981523920">"Kanal siyahısı"</string>
+    <string name="home" msgid="7695601671079289966">"Home"</string>
+    <string name="player" msgid="2316857039736126044">"Pleyer"</string>
+    <string name="teletext_feature_not_available" msgid="8937000859675352787">"Teletext funksiyası hazırlanır"</string>
+    <string name="no_available_audio_tracks_msg" msgid="782253792221872046">"Audio treki yoxdur"</string>
+    <string name="no_available_subtitle_tracks_msg" msgid="3706564892110208472">"Subtitr treki yoxdur"</string>
+    <string name="disable_time_shift_mode_msg" msgid="8314802258474051238">"Davam etmək üçün zaman keçidini deaktiv edin"</string>
+    <string name="no_channel_associated" msgid="5942779153312382416">"Bu nömrə üzrə kanal yoxdur"</string>
+    <string name="subtitles_are_off" msgid="8291669951906335325">"Subtitrlər deaktivdir"</string>
+    <string name="reminder_conflict_title" msgid="5010227952116720654">"İzləmə siyahısına əlavə edilmiş bir neçə tədbir başlayır"</string>
+    <string name="reminder_conflict_description" msgid="1386866368652825321">"Nə izləyəcəyinizi seçin"</string>
+    <string name="Jan" msgid="8091368207026826226">"Yanvar"</string>
+    <string name="Feb" msgid="4434946576211727815">"Fevral"</string>
+    <string name="Mar" msgid="1089219438456085664">"Mart"</string>
+    <string name="Apr" msgid="1173377893122276908">"Aprel"</string>
+    <string name="May" msgid="2280658853397387223">"May"</string>
+    <string name="Jun" msgid="9066283939588118035">"İyun"</string>
+    <string name="Jul" msgid="3832610179582330647">"İyul"</string>
+    <string name="Aug" msgid="7267939992062921197">"Avqust"</string>
+    <string name="Sep" msgid="6993964396334664032">"Sentyabr"</string>
+    <string name="Oct" msgid="6231710039194798243">"Oktyabr"</string>
+    <string name="Nov" msgid="2414018112438710751">"Noyabr"</string>
+    <string name="Dec" msgid="6756013221225136792">"Dekabr"</string>
+    <string name="usb_connected" msgid="304543994419201919">"USB qoşulub"</string>
+    <string name="usb_disconnected" msgid="4043626174877594434">"USB ayrılıb"</string>
+    <string name="channel_delete_confirmation" msgid="8417046658666237109">"Bu kanal üçün izləmə siyahısında tədbirlər var. Silinsin?"</string>
+    <string name="scan_mode" msgid="8652737203306231674">"Skan rejimi"</string>
+    <string name="open_timeshift" msgid="1980718987660169753">"D-pad-də Zaman keçidi açın – Aşağı düyməsi"</string>
+    <string name="open_main_menu" msgid="7762056624498743497">"D-pad-də Menyu açın – Yuxarı düyməsi"</string>
+    <string name="open_info_list" msgid="2089266918747223151">"D-pad-də məlumat banneri açın – Sağ düymə"</string>
+    <string name="open_channel_list" msgid="992523637403325691">"D-pad-də kanal siyahısı açın – Sol düymə"</string>
+    <string name="recording_progress_toast" msgid="3931766452381203016">"Qeydəalma davam edərkən zaman keçidini başlatmaq olmur"</string>
+    <string name="audio_desc_indication" msgid="1695050507129255707">"Audio təsviri"</string>
+    <string name="no_event_information" msgid="5204463097413711237">"Tədbirlər haqqında məlumat yoxdur. Növbəti tədbir qeydə alınmayacaq"</string>
+    <string name="time_shift_stop_toast" msgid="1453156650994532868">"Zaman keçidi dayandırılıb"</string>
+    <string name="parental_control_restriction" msgid="8885082747545588751">"Valideyn nəzarəti məhdudiyyəti"</string>
+    <string name="parental_control_restriction_description" msgid="1126799171729154352">"Valideyn nəzarəti bu tədbiri bloklayıb. Kiliddən çıxarmaq üçün OK üzərinə klikləyib, PIN daxil edin."</string>
+    <string name="time_shift_stopped" msgid="12792113607392143">"Zaman keçidi dayandırılıb"</string>
+    <string name="search_hint" msgid="4313497354104425164">"Kanal və tədbir axtarın"</string>
+    <string name="preference_pvr_timeshift" msgid="4864047471968539523">"PVR/Zaman keçidi"</string>
+    <string name="device_info" msgid="8303072342139108303">"Cihaz məlumatı"</string>
+    <string name="timeshift_mode" msgid="5444162941927817100">"Zaman keçidi rejimi"</string>
+    <string name="device_option" msgid="1062614578180218894">"Cihaz məlumatı ayarı"</string>
+    <string name="device_formatting" msgid="6354963964932834975">"Formatlanır"</string>
+    <string name="device_format_failed" msgid="103210814895409124">"Cihaz formatlanmadı"</string>
+    <string name="set_timeshift" msgid="2364800365281399708">"Zaman keçidi ayarlayın"</string>
+    <string name="set_pvr" msgid="2078327194436110325">"PVR ayarlayın"</string>
+    <string name="format" msgid="350088175032389662">"Formatlayın"</string>
+    <string name="speed_test" msgid="8447846467288108764">"Sürət testi"</string>
+    <string name="no_name" msgid="7098531867215213181">"Ad yoxdur"</string>
+    <string name="no_device" msgid="7955835455459654456">"Cihaz qoşulmayıb"</string>
+    <string name="na" msgid="9199605622891574772">"NA"</string>
+    <string name="tshift" msgid="7065841842286559444">"ZAMAN KEÇİDİ"</string>
+    <string name="pvr" msgid="7388320924555892156">"PVR"</string>
+    <string name="speed_test_title" msgid="6262961035292637797">"Sürət testi davam edir"</string>
+    <string name="speed_test_complete_title" msgid="3120125604157095838">"Sürət testi tamamlandı"</string>
+    <string name="dont_unplug_device" msgid="6818477498504768488">"Cihazı cərəyandan ayırmayın"</string>
+    <string name="max_speed_display" msgid="7614928889735577710">"Maksimum sürət: %s"</string>
+    <string name="speed_test_failed" msgid="2709964041634415206">"Sürət testi alınmadı!"</string>
+    <string name="speed_test_not_allowed_timeshift" msgid="3878236764146117242">"Zaman keçidi aktiv olduqda sürət testinə icazə verilmir"</string>
+    <string name="set_timeshift_not_allowed_timeshift" msgid="1099598707064586580">"Zaman keçidi aktiv olduqda Zaman keçidi ayarı dəstəklənmir"</string>
+    <string name="speed_test_not_allowed_pvr" msgid="1253612098766075788">"PVR aktiv olduqda sürət testinə icazə verilmir"</string>
+    <string name="set_pvr_not_allowed_pvr" msgid="5619137174152256874">"PVR aktiv olduqda PVR təyininə icazə verilmir"</string>
+    <string name="speed_test_insufficient" msgid="2181811080863400857">"Diskdə kifayət qədər yer yoxdur! Sürət testi alınmadı!"</string>
+    <string name="speed_test_ntfs_failed" msgid="3445411399094381213">"Giriş rədd edildi. Sürət testi alınmadı!"</string>
+    <string name="format_not_allowed_timeshift" msgid="7781107131931776628">"Zaman keçidi ilə formatlanmır"</string>
+    <string name="format_not_allowed_pvr" msgid="2479444988640574403">"PVR aktiv olduqda formatlanmır"</string>
+    <string name="long_press_to_move_channels" msgid="1832633153219645684">"OK üstünə basıb saxlayaraq seçilmiş kanalın yerini dəyişin"</string>
+    <string name="press_up_down_to_place_channels" msgid="6877693686742243270">"Yuxarı və Aşağı üstünə basaraq seçilmiş kanalların yerini dəyişin"</string>
+    <string name="skip_channel" msgid="1135520316810760425">"Kanalı ötürün"</string>
+    <string name="swap_channel" msgid="1799644900250358066">"Kanalı dəyişin"</string>
+    <string name="move_channel" msgid="204675255168084125">"Kanalı köçürün"</string>
+    <string name="delete_channel" msgid="5774937781453616865">"Kanalı silin"</string>
+    <string name="preferred_epg_language" msgid="8248499855281398244">"Tərcih edilən EPG dili hansıdır?"</string>
+    <string name="no_signal_power_off" msgid="2224882672359529115">"Siqnal yoxdur - Söndürülüb"</string>
+    <string name="auto_service_update" msgid="8021776817281698480">"Avtomatik xidmət yeniləməsi"</string>
+    <string name="blue_mute" msgid="8609195964986908837">"Siqnalsız mavi ekran"</string>
+    <string name="delete_channel_confirmation" msgid="7080456803599490326">"Bu kanal silinsin?"</string>
+    <string name="delete_all_channel_confirmation" msgid="3514236810412594859">"Bütün kanal siyahısı silinsin?"</string>
+    <string name="channel_block" msgid="5609404611041597149">"Kanal bloku"</string>
+    <string name="Input_block" msgid="7686211170252543442">"Daxiletmə bloklanıb"</string>
+    <string name="rating_systems" msgid="7357875754286606036">"Reytinq sistemi"</string>
+    <string name="Rating_lock" msgid="484835933397574992">"Reytinq kilidi"</string>
+    <string name="rrt5_lock" msgid="4950832723556856055">"RRT5 kilidi"</string>
+    <string name="display_cc" msgid="8031161534368524044">"CC göstərin"</string>
+    <string name="caption_services" msgid="6611823018328925066">"Altyazı xidmətləri"</string>
+    <string name="advanced_selection" msgid="910652783108927962">"Təkmil seçim"</string>
+    <string name="text_size" msgid="1593957427542517158">"Mətn ölçüsü"</string>
+    <string name="font_family" msgid="6306931181831624945">"Şrift qrupu"</string>
+    <string name="text_color" msgid="7664362331677356703">"Mətn rəngi"</string>
+    <string name="text_opacity" msgid="1142383466259320341">"Mətn tutqunluğu"</string>
+    <string name="edge_type" msgid="7070541445045612273">"Kənarların növü"</string>
+    <string name="edge_color" msgid="5779719244135712989">"Kənarların rəngi"</string>
+    <string name="background_color" msgid="8484991228260787749">"Arxa fon rəngi"</string>
+    <string name="background_opacity" msgid="1961100726261915120">"Arxa fon tutqunluğu"</string>
+    <string name="with_mute" msgid="3611320894492390964">"səssiz rejim ilə"</string>
+    <string name="cc_preview" msgid="6976624995499205000">"ABC"</string>
+    <string name="cc_changed" msgid="6658676502133912440">"CC buna dəyişdirildi:"</string>
+    <string name="cc_track_turned_off" msgid="2070924551441949986">"CC trekləri söndürüldü"</string>
+    <string name="cc_1" msgid="8032134115941127487">"CC-1"</string>
+    <string name="cc_2" msgid="2627715292267356254">"CC-2"</string>
+    <string name="cc_3" msgid="3426028896225446900">"CC-3"</string>
+    <string name="cc_4" msgid="4947611549263363858">"CC-4"</string>
+    <string name="t_1" msgid="5546025069449764069">"T-1"</string>
+    <string name="t_2" msgid="2259519718627536389">"T-2"</string>
+    <string name="t_3" msgid="3404422579623588461">"T-3"</string>
+    <string name="t_4" msgid="1561225036266590129">"T-4"</string>
+    <string name="cs_1" msgid="7613504232590787073">"CS-1"</string>
+    <string name="cs_2" msgid="3911881991899570725">"CS-2"</string>
+    <string name="cs_3" msgid="1610642856385634142">"CS-3"</string>
+    <string name="cs_4" msgid="2463001422068119721">"CS-4"</string>
+    <string name="cs_5" msgid="5765274172636649804">"CS-5"</string>
+    <string name="cs_6" msgid="6893090138340711956">"CS-6"</string>
+    <string name="small" msgid="8259711989248858792">"Kiçik"</string>
+    <string name="large" msgid="4582824721219275509">"Böyük"</string>
+    <string name="serif_monospace" msgid="2162538430535841830">"Serif (eyniölçülü)"</string>
+    <string name="serif" msgid="4375293750122359072">"Serif"</string>
+    <string name="sans_serif_monospace" msgid="7001547829666259882">"Sans-serif (eyniölçülü)"</string>
+    <string name="sans_serif" msgid="3278658763082925673">"Sans-serif"</string>
+    <string name="casual" msgid="195585843707921723">"Adi"</string>
+    <string name="cursive" msgid="3152433177270903113">"Kursiv"</string>
+    <string name="small_capitals" msgid="4639501279018303490">"Kiçik şriftlə yazılmış böyük hərflər"</string>
+    <string name="black" msgid="3195508414894295279">"Qara"</string>
+    <string name="white" msgid="5588737507625973264">"Ağ"</string>
+    <string name="green" msgid="3026082783462206765">"Yaşıl"</string>
+    <string name="blue" msgid="2647227522785487853">"Mavi"</string>
+    <string name="red" msgid="971464106814017076">"Qırmızı"</string>
+    <string name="cyan" msgid="1403604018041040047">"Mavi-yaşıl"</string>
+    <string name="yellow" msgid="5060138419318857975">"Sarı"</string>
+    <string name="magenta" msgid="6582835999864738974">"Bənövşəyi-qırmızı"</string>
+    <string name="solid" msgid="8458782005437906928">"Dolğun"</string>
+    <string name="translucent" msgid="6603288424076173845">"Yarımşəffaf"</string>
+    <string name="transparent" msgid="817577842092581983">"Şəffaf"</string>
+    <string name="flashing" msgid="7804156029537336970">"Yanıb-sönən"</string>
+    <string name="raised" msgid="6246151436922603249">"Qabarıq"</string>
+    <string name="depressed" msgid="4749744261166976500">"Depressiv"</string>
+    <string name="outline" msgid="1587961028708691402">"Kontur"</string>
+    <string name="drop_shadow" msgid="551919838682320135">"Düşən kölgə"</string>
+    <string name="rrt5_reset" msgid="1491320584112795115">"RRT5 sıfırlaması"</string>
+    <string name="tv" msgid="7380590796291368480">"TV"</string>
+    <string name="composite" msgid="2849489151670558112">"Kompozit"</string>
+    <string name="component" msgid="686727891212287515">"Komponent"</string>
+    <string name="vga" msgid="6144755744277870601">"VGA"</string>
+    <string name="hdmi_1" msgid="8522900077999439381">"HDMI 1"</string>
+    <string name="hdmi_2" msgid="3908619966237984379">"HDMI 2"</string>
+    <string name="hdmi_3" msgid="5424975936510597247">"HDMI 3"</string>
+    <string name="other_countries" msgid="7848158526503892152">"Digər ölkələr"</string>
+    <string name="other_countries_french" msgid="5205907282176230645">"Digər ölkələr (Fransız)"</string>
+    <string name="block_unrated_programs" msgid="9080729267174088669">"Reytinqsiz proqramı bloklayın"</string>
+    <string name="global_restrictions" msgid="5176053844554424628">"Qlobal məhdudiyyətlər"</string>
+    <string name="rating_hint_partial" msgid="2151239207435581070">"Qismən"</string>
+    <string name="menu_arrays_None" msgid="1276877866594593227">"Yoxdur"</string>
+    <string name="option_rating_high" msgid="9064023482784707681">"Yüksək məhdudiyyətlər"</string>
+    <string name="option_rating_medium" msgid="8869255499946788924">"Orta məhdudiyyətlər"</string>
+    <string name="option_rating_low" msgid="5761520507954269327">"Aşağı məhdudiyyətlər"</string>
+    <string name="option_rating_custom" msgid="3833899108470291609">"Fərdi"</string>
+    <string name="rrt5_reset_message" msgid="4468037685921979959">"RRT5 datası sıfırlanıb."</string>
+    <string name="atsc30_display_eas" msgid="7932122627645560413">"Displey"</string>
+    <string name="atsc30_hide_eas" msgid="8743848521256360284">"Gizlədin"</string>
+    <string name="description_age_4" msgid="7025653477221463476">"description_age_4"</string>
+    <string name="description_age_5" msgid="9144027431668583556">"description_age_5"</string>
+    <string name="description_age_6" msgid="8109818400761375398">"description_age_6"</string>
+    <string name="description_age_7" msgid="4441466247261338153">"description_age_7"</string>
+    <string name="description_age_8" msgid="5065247703991616668">"description_age_8"</string>
+    <string name="description_age_9" msgid="4425170430537629232">"description_age_9"</string>
+    <string name="description_age_10" msgid="7472276134043725493">"description_age_10"</string>
+    <string name="description_age_11" msgid="4954445522017982864">"description_age_11"</string>
+    <string name="description_age_12" msgid="5315500544644036899">"description_age_12"</string>
+    <string name="description_age_13" msgid="7318131182905199154">"description_age_13"</string>
+    <string name="description_age_14" msgid="694782469562109746">"description_age_14"</string>
+    <string name="description_age_15" msgid="5764581597794798575">"description_age_15"</string>
+    <string name="description_age_16" msgid="4671719524686174906">"description_age_16"</string>
+    <string name="description_age_17" msgid="3418819265185760179">"description_age_17"</string>
+    <string name="description_age_18" msgid="8671547181177734513">"description_age_18"</string>
+    <string name="description_age_19" msgid="3527738244194581236">"description_age_19"</string>
+    <string name="description_age_20" msgid="4490401476496449000">"description_age_20"</string>
+    <string name="description_ar_tv_atp" msgid="8810019380453993820">"description_ar_tv_atp"</string>
+    <string name="description_ar_tv_sam_13" msgid="2524470636619583425">"description_ar_tv_sam_13"</string>
+    <string name="description_ar_tv_sam_16" msgid="3165034796671755617">"description_ar_tv_sam_16"</string>
+    <string name="description_ar_tv_sam_18" msgid="265905202843046831">"description_ar_tv_sam_18"</string>
+    <string name="description_ar_tv_d" msgid="6292844211071412419">"description_ar_tv_d"</string>
+    <string name="description_ar_tv_s" msgid="1420654864663375189">"description_ar_tv_s"</string>
+    <string name="description_ar_tv_v" msgid="1362827751390511515">"description_ar_tv_v"</string>
+    <string name="description_au_tv_p" msgid="8427842783140970250">"description_ar_tv_v"</string>
+    <string name="description_au_tv_c" msgid="1258519434439434177">"description_au_tv_c"</string>
+    <string name="description_au_tv_g" msgid="6416961253439940282">"description_au_tv_g"</string>
+    <string name="description_au_tv_pg" msgid="7140978137507082552">"description_au_tv_pg"</string>
+    <string name="description_au_tv_m" msgid="2222260813751802826">"description_au_tv_m"</string>
+    <string name="description_au_tv_ma" msgid="5510508770895470263">"description_au_tv_ma"</string>
+    <string name="description_au_tv_av" msgid="1592543624452080294">"description_au_tv_av"</string>
+    <string name="description_au_tv_r" msgid="470671100520035502">"description_au_tv_r"</string>
+    <string name="title_br_tv_l" msgid="1901747335114982920">"title_br_tv_l"</string>
+    <string name="title_br_tv_10" msgid="8614927280312641655">"title_br_tv_10"</string>
+    <string name="title_br_tv_12" msgid="6084736713291906118">"title_br_tv_12"</string>
+    <string name="title_br_tv_14" msgid="2061377149704001153">"title_br_tv_14"</string>
+    <string name="title_br_tv_16" msgid="7544526119137711202">"title_br_tv_16"</string>
+    <string name="title_br_tv_18" msgid="6980524134928462438">"title_br_tv_18"</string>
+    <string name="description_br_tv_l" msgid="201456608986653097">"description_br_tv_l"</string>
+    <string name="description_br_tv_10" msgid="5360388990767482182">"description_br_tv_10"</string>
+    <string name="description_br_tv_12" msgid="4897182923627858286">"description_br_tv_12"</string>
+    <string name="description_br_tv_14" msgid="4491939541707766240">"description_br_tv_14"</string>
+    <string name="description_br_tv_16" msgid="2136734023503258711">"description_br_tv_16"</string>
+    <string name="description_br_tv_18" msgid="6836471971177950240">"description_br_tv_18"</string>
+    <string name="description_br_tv_d" msgid="5403724568590695926">"description_br_tv_d"</string>
+    <string name="description_br_tv_s" msgid="7251682861269497531">"description_br_tv_s"</string>
+    <string name="description_br_tv_v" msgid="4530159363190871796">"description_br_tv_v"</string>
+    <string name="description_ca_tv_en_exempt" msgid="1103330166042871791">"description_ca_tv_en_exempt"</string>
+    <string name="description_ca_tv_en_c" msgid="8884405607424464786">"description_ca_tv_en_c"</string>
+    <string name="description_ca_tv_en_c8" msgid="3776811327327568874">"description_ca_tv_en_c8"</string>
+    <string name="description_ca_tv_en_g" msgid="7472873043142752045">"description_ca_tv_en_g"</string>
+    <string name="description_ca_tv_en_pg" msgid="6346571281891475213">"description_ca_tv_en_pg"</string>
+    <string name="description_ca_tv_en_14" msgid="6351452081854928465">"description_ca_tv_en_14"</string>
+    <string name="description_ca_tv_en_18" msgid="7798944689142487523">"description_ca_tv_en_18"</string>
+    <string name="title_ca_tv_fr" msgid="32754738060611721">"title_ca_tv_fr"</string>
+    <string name="description_ca_tv_fr_e" msgid="991343765123104096">"description_ca_tv_fr_e"</string>
+    <string name="description_ca_tv_fr_g" msgid="8387320028598832542">"description_ca_tv_fr_g"</string>
+    <string name="description_ca_tv_fr_8" msgid="352288844918317494">"description_ca_tv_fr_8"</string>
+    <string name="description_ca_tv_fr_13" msgid="1725958039041602235">"description_ca_tv_fr_13"</string>
+    <string name="description_ca_tv_fr_16" msgid="5770015428434444309">"description_ca_tv_fr_16"</string>
+    <string name="description_ca_tv_fr_18" msgid="592473581390959817">"description_ca_tv_fr_18"</string>
+    <string name="description_fr_dvb_u" msgid="3737546002932859011">"description_fr_dvb_u"</string>
+    <string name="description_es_dvb_all" msgid="2172775645659854921">"description_es_dvb_all"</string>
+    <string name="description_es_dvb_c" msgid="4643072877512805689">"description_es_dvb_c"</string>
+    <string name="description_es_dvb_x" msgid="7470987206584979934">"description_es_dvb_x"</string>
+    <string name="title_kr_tv_all" msgid="5797160576763176052">"HAMISI"</string>
+    <string name="title_kr_tv_7" msgid="4373101538739897198">"7"</string>
+    <string name="title_kr_tv_12" msgid="3309650493129407406">"12"</string>
+    <string name="title_kr_tv_15" msgid="2314557310052219390">"15"</string>
+    <string name="title_kr_tv_19" msgid="8603333632403893391">"19"</string>
+    <string name="description_kr_tv_all" msgid="3409221597401869656">"description_kr_tv_all"</string>
+    <string name="description_kr_tv_7" msgid="849915932641287775">"description_kr_tv_7"</string>
+    <string name="description_kr_tv_12" msgid="7687731794305361113">"description_kr_tv_12"</string>
+    <string name="description_kr_tv_15" msgid="2865958129374420236">"description_kr_tv_15"</string>
+    <string name="description_kr_tv_19" msgid="3548487501223919049">"description_kr_tv_19"</string>
+    <string name="description_sg_tv_g" msgid="8261975785955140526">"description_sg_tv_g"</string>
+    <string name="description_sg_tv_pg" msgid="6538866734393145354">"description_sg_tv_pg"</string>
+    <string name="description_sg_tv_pg13" msgid="1472283129037856572">"description_sg_tv_pg13"</string>
+    <string name="description_sg_tv_nc16" msgid="4532619245769034193">"description_sg_tv_nc16"</string>
+    <string name="description_sg_tv_m18" msgid="1995876106820663210">"description_sg_tv_m18"</string>
+    <string name="description_sg_tv_r21" msgid="8726943990549215697">"description_sg_tv_r21"</string>
+    <string name="description_us_tv_d" msgid="2760709836475790519">"description_us_tv_d"</string>
+    <string name="description_us_tv_l" msgid="3704926347005329675">"description_us_tv_l"</string>
+    <string name="description_us_tv_s" msgid="1389984351721092109">"description_us_tv_s"</string>
+    <string name="description_us_tv_v" msgid="1942263521851544450">"description_us_tv_v"</string>
+    <string name="description_us_tv_fv" msgid="1224458140428657084">"description_us_tv_fv"</string>
+    <string name="description_us_tv_y" msgid="9069021449977659626">"description_us_tv_y"</string>
+    <string name="description_us_tv_y7" msgid="7808623883195262585">"description_us_tv_y7"</string>
+    <string name="description_us_tv_g" msgid="1491368478914819460">"description_us_tv_g"</string>
+    <string name="description_us_tv_pg" msgid="2510584466219504909">"description_us_tv_pg"</string>
+    <string name="description_us_tv_14" msgid="3863013023595932711">"description_us_tv_14"</string>
+    <string name="description_us_tv_ma" msgid="623837328815914136">"description_us_tv_ma"</string>
+    <string name="title_us_mv" msgid="8385052419227079091">"title_us_mv"</string>
+    <string name="description_us_mv_g" msgid="4515206959192978106">"description_us_mv_g"</string>
+    <string name="description_us_mv_pg" msgid="3873730878320864496">"description_us_mv_pg"</string>
+    <string name="description_us_mv_pg13" msgid="2287832797375792347">"description_us_mv_pg13"</string>
+    <string name="description_us_mv_r" msgid="1906387239134541634">"description_us_mv_r"</string>
+    <string name="description_us_mv_nc17" msgid="6956484005567951689">"description_us_mv_nc17"</string>
+    <string name="description_th_tv_x" msgid="1178281080236672145">"description_th_tv_x"</string>
+    <string name="description_nz_fta_tv_g" msgid="6733473894528021363">"description_nz_fta_tv_g"</string>
+    <string name="description_nz_fta_tv_pgr" msgid="2186138110331468515">"description_nz_fta_tv_pgr"</string>
+    <string name="description_nz_fta_tv_ao" msgid="3442329851069496858">"description_nz_fta_tv_ao"</string>
+    <string name="description_th_tv_4" msgid="599126272301265963">"description_th_tv_4"</string>
+    <string name="description_th_tv_6" msgid="7633768391968097342">"description_th_tv_6"</string>
+    <string name="description_th_tv_10" msgid="528769420384909260">"description_th_tv_10"</string>
+    <string name="description_th_tv_13" msgid="6329028610647646769">"description_th_tv_13"</string>
+    <string name="description_th_tv_18" msgid="3469668816962388150">"description_th_tv_18"</string>
+    <string name="description_th_tv_19" msgid="7596618599238648587">"description_th_tv_19"</string>
+    <string name="title_th_dvb_3" msgid="8945440937283987703">"title_th_dvb_3"</string>
+    <string name="title_th_dvb_6" msgid="9103380621911395120">"title_th_dvb_6"</string>
+    <string name="title_th_dvb_g" msgid="7146547632407797463">"title_th_dvb_g"</string>
+    <string name="title_th_dvb_pg_13" msgid="7517866709967118232">"title_th_dvb_pg_13"</string>
+    <string name="title_th_dvb_pg_18" msgid="6104759168642934639">"title_th_dvb_pg_18"</string>
+    <string name="title_th_dvb_a" msgid="3114319341387028490">"title_th_dvb_a"</string>
+    <string name="description_th_dvb_3" msgid="1895901294290428452">"description_th_dvb_3"</string>
+    <string name="description_th_dvb_6" msgid="5719392954117626822">"description_th_dvb_6"</string>
+    <string name="description_th_dvb_g" msgid="8632256520308247698">"description_th_dvb_g"</string>
+    <string name="description_th_dvb_pg_13" msgid="4878535841828610766">"description_th_dvb_pg_13"</string>
+    <string name="description_th_dvb_pg_18" msgid="7938515622888066571">"description_th_dvb_pg_18"</string>
+    <string name="description_th_dvb_a" msgid="512024963764588489">"description_th_dvb_a"</string>
+    <string name="auto_tuning_2" msgid="5385712354158023611">"Avtomatik tənzimləmə"</string>
+    <string name="manual_tuning_2" msgid="461017170480389163">"Manual sazlama"</string>
+    <string name="frequency_2" msgid="2741883639506200356">"Tezlik [MHs]"</string>
+    <string name="signal_quality_2" msgid="1915881512319774249">"Siqnal keyfiyyəti"</string>
+    <string name="signal_strength_2" msgid="4986539295056697320">"Siqnal gücü"</string>
+    <string name="scan_completed_2" msgid="7537025521637429349">"Skan tamamlandı"</string>
+    <string name="top_10" msgid="7987357528593391792">"Top 10"</string>
+    <string name="google" msgid="1549863244464508610">"Google"</string>
+    <string name="epg_detail_title" msgid="4027910817856196882">"EPG PVR testi"</string>
+    <string name="channel_navigation_title" msgid="5664421435372173207">"Kanal naviqasiyası testi"</string>
+    <string name="foryou_title" msgid="5639623521786923157">"Tövsiyələr testi"</string>
+    <string name="epg_nav_title" msgid="7908842460492835307">"EPG naviqasiya testi"</string>
+    <string name="epg_rec_title" msgid="2299401316696666395">"EPG qeydəalma testi"</string>
+    <string name="fav_title" msgid="8009482278818008995">"Favoritlər testi"</string>
+    <string name="edit_fav_title" msgid="8780490113377057504">"Favoritlər testini redaktə edin"</string>
+    <string name="delete_fav_title" msgid="6522239234092082363">"Favoritlər testini silin"</string>
+    <string name="recording_title" msgid="2033062739844104412">"Qeydəalma testi"</string>
+    <string name="preferences_title" msgid="4432236411042496864">"Tərcih testi"</string>
+    <string name="settings_title" msgid="8792299514366176766">"Ayarlar testi"</string>
+    <string name="info_banner_title" msgid="2600114272981213678">"Məlumat banneri testi"</string>
+    <string name="channel_play_pause_title" msgid="6482101754407173546">"Kanal testi"</string>
+    <string name="channel_list_title" msgid="1888596567821786584">"Kanal siyahısı testi"</string>
+    <string name="closed_captions" msgid="2373640943514951983">"Bağlanmış subtitrlər"</string>
+    <string name="timeshift_usb_removed_msg" msgid="6194434686229716772">"USB cihazı çıxarıldığı üçün zaman keçidi dayanıb"</string>
+    <string name="favorite_list_already_exist_1" msgid="3289251721102310378">"Favorit siyahısı"</string>
+    <string name="favorite_list_already_exist_2" msgid="3529804492014453280">"artıq mövcuddur!"</string>
+    <string name="favorite_list_can_not_be_deleted_1" msgid="6761982274588324760">"Adı olan favorit siyahısını"</string>
+    <string name="favorite_list_can_not_be_deleted_2" msgid="4874083422331755278">"silmək olmur!\nƏn az bir favorit siyahısı olmalıdır."</string>
+    <string name="event_locked" msgid="5012896661600621981">"Tədbir kilidləndi"</string>
+    <string name="display_mode" msgid="5525916807515374850">"Displey rejimi"</string>
+    <string name="aspect_ratio" msgid="9008404145255831670">"Tərəflər nisbəti"</string>
+    <string name="welcome_message" msgid="6294488758452306065">"Reference+ tətbiqinə xoş gəlmisiniz"</string>
+    <string name="wrong_pin_toast" msgid="6002291133648019914">"PIN səhvdir. Yenə cəhd edin."</string>
+    <string name="wrong_confirmation_new_pin_toast" msgid="4929198756458305423">"PIN uyğun gəlmir, yenidən cəhd edin."</string>
+    <string name="pin_not_allowed_toast" msgid="7673178594162339524">"Yeni daxil edilmiş PIN dəyərinə icazə verilmir."</string>
+    <string name="recording_reminder_conflict_toast" msgid="3342725032861210860">"Eyni vaxta başqa qeydəalma/xatırladıcı planlaşdırılıb"</string>
+    <string name="watchlist_scheduled_fail_toast" msgid="7557101012900421675">"İzləmə siyahısı üçün kifayət qədər data yoxdur"</string>
+    <string name="recording_scheduled_error" msgid="6953276880060582955">"Qeydəalma planlaşdırma xətası"</string>
+    <string name="recording_watchlist_conflict" msgid="1112228399618314051">"Başlama tarixi eyni olan tədbir izləmə siyahısına əlavə edilib"</string>
+    <string name="watchlist_recording_conflict" msgid="910635194211308326">"Eyni tarixdə başlayan tədbir qeydəalma üçün planlaşdırılıb"</string>
+    <string name="scheduled_recording_USB_warning" msgid="1027775452801327073">"Qeydəalmadan əvvəl USB yaddaş cihazı taxılmalı və düzgün format edilməlidir."</string>
+    <string name="reminder_toast_for_same_channel" msgid="6163063605330029235">"İzləmə siyahısındakı %s izlədiyiniz kanalda başlayıb"</string>
+    <string name="description_text" msgid="5920448733175314484">"Qeydəalma ziddiyyəti"</string>
+    <string name="description_text2" msgid="4116069770676836842">"Qeydəalma istədiyiniz vaxt aralığına təyin edilib"</string>
+    <string name="description_text2_active_recording" msgid="8320731700642303469">"Qeydəalma davam edir"</string>
+    <string name="description_text3" msgid="5731426909513503577">"Qeydə alacağınız kontenti seçin"</string>
+    <string name="conflict_recording_recording_message" msgid="4725930730550517051">"Başqa qeydəalma icradadır – %s"</string>
+    <string name="conflict_recording_recording_text1" msgid="7738871567642352203">"%s1 üzrə qeydə almağa davam edin"</string>
+    <string name="conflict_recording_recording_text2" msgid="7322858598116551224">"%s2 üzrə qeydə almağa başlayın"</string>
+    <string name="conflict_recording_schedule_message" msgid="5295202481303493717">"Həmin vaxta qədər %s üzrə qeydəalma davam edəcək"</string>
+    <string name="conflict_recording_schedule_text1" msgid="2630195930192272445">"%s2 üzrə planlaşdırılmış qeydəalmanı ləğv edin"</string>
+    <string name="conflict_recording_schedule_text2" msgid="2962033762983988638">"%s2 üzrə planlaşdırılmış qeydəalmanı saxlayın"</string>
+    <string name="conflict_schedule_schedule_message" msgid="4535362633238599981">"%s üzrə həmin vaxta başqa qeydəalma planlaşdırılıb"</string>
+    <!--  format error in translation for conflict_schedule_schedule_text1 (3840825084936618164)  -->
+    <!--  format error in translation for conflict_schedule_schedule_text2 (4927525790278764266)  -->
+    <string name="toast_for_updated_choice" msgid="7703441781904743833">"Seçim yeniləndi!"</string>
+    <string name="recording_watchlist_conflict_title" msgid="1761678001255033497">"Planlaşdırılan qeydəalma və izləmə siyahısındakı tədbir eyni vaxtda başlayır"</string>
+    <string name="recording_watchlist_conflict_description" msgid="1083019453642052626">"Qeydəalma avtomatik dəyişəcək: 0"</string>
+    <string name="stretch_aspect" msgid="346065172437667712">"YAYIN"</string>
+    <string name="normal" msgid="5464970059482842610">"Normal"</string>
+    <string name="full" msgid="4441637193077517464">"Tam"</string>
+    <string name="zoom" msgid="3629438711506442385">"Miqyası dəyişin"</string>
+    <string name="rating_lock" msgid="483086300318754432">"Reytinq kilidi"</string>
+    <string name="duration_5_minutes" msgid="6017374918963331366">"5 dəqiqə"</string>
+    <string name="duration_10_minutes" msgid="470807006165757080">"10 dəqiqə"</string>
+    <string name="duration_15_minutes" msgid="2295117768776237179">"15 dəqiqə"</string>
+    <string name="duration_30_minutes" msgid="4786774397436569500">"30 dəqiqə"</string>
+    <string name="duration_60_minutes" msgid="2119037368531283075">"60 dəqiqə"</string>
+    <string name="enter_parental_settings" msgid="6262582506598917480">"Valideyn ayarları daxil edin"</string>
+    <string name="enter_pin_to_unlock_input" msgid="4996712602685439000">"PIN daxil edərək bu daxiletməni kiliddən çıxarın"</string>
+    <string name="unlock_input" msgid="5832599707461421504">"Daxiletməni kiliddən çıxarın"</string>
+    <string name="unrated_rating_name" msgid="7887399374609880893">"Qiymətləndirilməyib"</string>
+    <string name="enter_input_pin" msgid="9221955547432526211">"PIN daxil edin"</string>
+    <string name="factory_no_signal_tv" msgid="2064573018748705100">"Siqnal axtarılır və ya siqnal tapılmayıb. Antena kabelinin düzgün qoşulduğuna əmin olun"</string>
+    <string name="factory_no_signal_inputs" msgid="857391403939935988">"Xarici daxiletməni yoxlayın, yaxud DAXİLETMƏ düyməsindən istifadə edərək başqa daxiletmə seçin"</string>
+    <string name="no_internet_connection" msgid="3602703389996673311">"İnternet bağlantısı yoxdur"</string>
+    <string name="please_try_to_reconnect" msgid="5603181819553490632">"Təkrar qoşulmağa çalışın"</string>
+    <string name="please_try_to_connect_message" msgid="1162763316317744284">"Bütün funksiyaları əldə etmək üçün internetə qoşulun"</string>
+    <string name="no_provider_connection" msgid="6154068978862051618">"Sürətli provayder serverinə bağlantı yoxdur"</string>
+    <string name="please_check_connection" msgid="1440195937769005477">"İnternet bağlantınızı doğrulayın"</string>
+    <string name="region_not_supported" msgid="5727085228054753295">"Canlı kanallar regionunuzda əlçatan deyil"</string>
+    <string name="channel_list_not_available" msgid="4860204781611214239">"Kanal siyahısı əlçatan deyil"</string>
+    <string name="exit" msgid="8856482581656982699">"Çıxın"</string>
+    <string name="check_if_region_not_set_properly" msgid="2242334646167056807">"Regionun düzgün ayarlandığını yoxlayın"</string>
+    <string name="inputs_text_string" msgid="8501834020850958214">"Daxiletmələr"</string>
+    <string name="google_tv_home" msgid="1436980980307493365">"Google TV əsas səhifəsi"</string>
+    <string name="input_home" msgid="4851597169971077442">"Əsas səhifə"</string>
+    <string name="input_tv" msgid="4932335503958456223">"TV"</string>
+    <string name="no_audio_video_channel" msgid="7120336434692503933">"Kanalın audio və video kontenti yoxdur"</string>
+    <string name="no_video_channel" msgid="4168053168323349660">"Kanalda video kontenti yoxdur"</string>
+    <string name="please_select_storage_path_for_recording_pvr" msgid="5843521746404803592">"Tərcihlərdə PVR çəkilişi üçün yaddaş yolu seçin"</string>
+    <string name="insufficient_disk_space" msgid="8478643581192172508">"USB disk ölçüsü yetərli deyil"</string>
+    <string name="usb_not_connected_connect_usb_to_record" msgid="7776956808628231286">"USB QOŞULMAYIB\nÇəkmək üçün USB qoşun"</string>
+    <string name="unlock_channel_to_start_recording" msgid="4995285857676486401">"Kanalı kiliddən çıxararaq çəkməyə başlayın"</string>
+    <string name="app_exit_msg" msgid="4257978351669549964">"Çıxmaq istəyirsiniz?"</string>
+    <string name="recording_is_starting_please_wait" msgid="344150952403928079">"Çəkiliş başlayır, gözləyin..."</string>
+    <string name="recording_is_stopping_please_wait" msgid="2342124951531177799">"Çəkiliş dayandırılır, gözləyin..."</string>
+    <string name="device_format_success" msgid="1631011058157503930">"Cihaz formatlandı"</string>
+    <string name="usb_must_be_formated_as_exfat" msgid="1738934515906622045">"USB cihazı exFat kimi formatlanmalıdır"</string>
+    <string name="usb_storage_corrupted" msgid="3148896104962479335">"USB yaddaş korlanıb, formatlayın..."</string>
+    <string name="recording_not_possible" msgid="6078747818766019984">"Canlı kanal çəkilişi mümkün deyil"</string>
+    <string name="aspect_16_9" msgid="8786337417239598139">"16:9"</string>
+    <string name="aspect_4_3" msgid="3011611360564472603">"4:3"</string>
+    <string name="aspect_auto" msgid="2817389510725267269">"Avto"</string>
+    <string name="aspect_original" msgid="1541804373586588740">"Orijinal"</string>
+    <string name="welcome_to_anoki_title" msgid="4982732649315282900">"Anoki Live TV+ ünvanına xoş gəlmisiniz"</string>
+    <string name="welcome_to_anoki_description" msgid="2971114835968060742">"Google TV təcrübənizi növbəti səviyyəyə qaldırın"</string>
+    <string name="terms_and_privacy_text" msgid="3272316644980190842">"Davam edin üstünə klikləyərək Anoki %1$s və %2$s ilə razılaşırsınız."</string>
+    <string name="button_ok" msgid="6233906390762229936">"Ok"</string>
+    <string name="button_back" msgid="2210995415316656144">"Geri"</string>
+    <string name="button_continue" msgid="4165279156314996485">"Davam edin"</string>
+    <string name="button_next" msgid="1235406249894258169">"Növbəti"</string>
+    <string name="button_previous" msgid="8532262107401026067">"Əvvəlki"</string>
+    <string name="welcome_item_1_title" msgid="4648567548020207585">"ÖDƏNİŞSİZ premium kontent"</string>
+    <string name="welcome_item_1_description" msgid="8932812684608357219">"Populyar Qoşulmuş TV (CTV) və Hava ilə (OTA) şoularına baxın"</string>
+    <string name="welcome_item_2_title" msgid="4510896367604472839">"Bir çox film və TV şou"</string>
+    <string name="welcome_item_2_description" msgid="3333973620372850212">"Canlı Tv, tələbə bağlı və yayım kanallarından sonsuz seçimlər"</string>
+    <string name="welcome_item_3_title" msgid="7210612275353300351">"Sadəcə sizin üçün fərdiləşdirilib"</string>
+    <string name="welcome_item_3_description" msgid="2565105830373772224">"Sizə ən uyğun TV kanalı, şou və filmləri tapın"</string>
+    <string name="live">Canlı</string>
+    <string name="broadcast">Yayım</string>
+    <string name="broadcast_tv_channels">Yayımlanan TV kanalları</string>
+    <string name="digital_subtitle">Rəqəmsal Altyazı</string>
+    <string name="analog_subtitle">Analog Altyazı</string>
+    <string name="audio_type">Səs Növü</string>
+    <string name="spoken_subtitile">Danışılan Altyazı</string>
+    <string name="audio_descreiption_and_sop_sub">Səs Təsviri və Danışılan Altyazı</string>
+    <string name="cam_menu">Kam Menü</string>
+    <string name="no_cam">Kam kartı yoxdur</string>
+    <string name="user_preference">İstifadəçi Tərcihi</string>
+    <string name="cam_type_preference">Kam Növü Tərcihi</string>
+    <string name="cam_scan">Kam Skeni</string>
+    <string name="cam_op_profile">Operator Profili</string>
+    <string name="op_profile_delete">Operator profilini sil:</string>
+    <string name="ci_card_inserted">CI Kart Daxil Edildi</string>
+    <string name="ci_card_removed">CI Kart Çıxarıldı</string>
+    <string name="install_dtv_operator">Profil quraşdırmaq istəyirsinizmi: </string>
+    <string name="create_tsfile">Zamanın dəyişdirilməsi faylı yaradılır, bir neçə dəqiqə gözləyin.</string>
+    <string name="timeshift_file">USB cihazında zamanın dəyişdirilməsi faylı yoxdur. Zamanın dəyişdirilməsi istifadə etmək üçün bir fayl yaratmaq istəyirsinizmi?</string>
+    <string name="channel_changed_popup">Kanal dəyişdi</string>
+    <string name="channel_changed_popup_msg">Yeni kanallar tapıldı və kanal siyahısına əlavə edildi</string>
+    <string name="undefined">Təyin edilməmiş</string>
+    <string name="general_satellite">Ümumi peyklər</string>
+    <string name="preferred_satellite">Tercih edilən peyk</string>
+    <string name="power">Güc</string>
+    <string name="return_to_live">Geriyə qayıt</string>
+    <string name="audio_switched_to">Səs keçirildi</string>
+    <string name="ar_tv_atp" msgid="1262691263626371517">"ATP"</string>
+    <string name="ar_tv_sam_13" msgid="7661147498753177171">"SAM 13"</string>
+    <string name="ar_tv_sam_16" msgid="5476142846469432541">"SAM 16"</string>
+    <string name="ar_tv_sam_18" msgid="4244288105419382881">"SAM 18"</string>
+    <string name="ar_tv_d" msgid="4118744496840779862">"D"</string>
+    <string name="ar_tv_v" msgid="4521002592974868712">"V"</string>
+    <string name="ar_tv_s" msgid="3375418912558932996">"S"</string>
+    <string name="au_tv_p" msgid="6086961330443603510">"P"</string>
+    <string name="au_tv_c" msgid="2797577216970529487">"C"</string>
+    <string name="au_tv_g" msgid="1246220676900897582">"G"</string>
+    <string name="au_tv_pg" msgid="8315847911615387873">"PG"</string>
+    <string name="au_tv_m" msgid="3805410505132347357">"M"</string>
+    <string name="au_tv_ma" msgid="7142377970416119685">"MA"</string>
+    <string name="au_tv_av" msgid="4923091941219351610">"AV"</string>
+    <string name="au_tv_r" msgid="1159878276949022718">"R"</string>
+    <string name="br_tv_l" msgid="2146455438205905551">"L"</string>
+    <string name="br_tv_10" msgid="5426092344765864959">"10"</string>
+    <string name="br_tv_12" msgid="3423227445694071808">"12"</string>
+    <string name="br_tv_14" msgid="6527090827362092556">"14"</string>
+    <string name="br_tv_16" msgid="5277464819020179643">"16"</string>
+    <string name="br_tv_18" msgid="3571565801006068532">"18"</string>
+    <string name="br_tv_d" msgid="1829082298286119368">"D"</string>
+    <string name="br_v_s" msgid="4417831593240307965">"S"</string>
+    <string name="b_tv_v" msgid="8527444475975705563">"V"</string>
+    <string name="ca_tv_en_exempt" msgid="3791559109016591514">"E"</string>
+    <string name="ca_tv_en_c" msgid="1450962243634331730">"C"</string>
+    <string name="ca_tv_en_c8" msgid="1468706428954617423">"C8+"</string>
+    <string name="ca_tv_en_g" msgid="7130750675106003980">"G"</string>
+    <string name="ca_tv_en_pg" msgid="5786689562067162017">"PG"</string>
+    <string name="ca_tv_en_14" msgid="758036909135734278">"14+"</string>
+    <string name="ca_tv_en_18" msgid="6703931259571793752">"18+"</string>
+    <string name="ca_tv_fr_e" msgid="5255979271939397569">"E"</string>
+    <string name="ca_tv_fr_g" msgid="1896159381443375153">"G"</string>
+    <string name="ca_tv_fr_8" msgid="5120393132468360078">"8ans+"</string>
+    <string name="ca_tv_fr_13" msgid="4012722091331563301">"13ans+"</string>
+    <string name="ca_tv_fr_16" msgid="900401532800212175">"16ans+"</string>
+    <string name="ca_tv_fr_18" msgid="8969044005465966972">"18ans+"</string>
+    <string name="dtmb_4" msgid="6976572140074319548">"4"</string>
+    <string name="dtmb_5" msgid="3437073502070222812">"5"</string>
+    <string name="dtmb_6" msgid="9185506349079906844">"6"</string>
+    <string name="dtmb_7" msgid="1399702692488527958">"7"</string>
+    <string name="dtmb_8" msgid="5603491017858332118">"8"</string>
+    <string name="dtmb_9" msgid="482567955944050242">"9"</string>
+    <string name="dtmb_10" msgid="321193224223528870">"10"</string>
+    <string name="dtmb_11" msgid="3416520436207043304">"11"</string>
+    <string name="dtmb_12" msgid="6392570491336670154">"12"</string>
+    <string name="dtmb_13" msgid="3982130186132709710">"13"</string>
+    <string name="dtmb_14" msgid="7154316979741410466">"14"</string>
+    <string name="dtmb_15" msgid="6478191980875308315">"15"</string>
+    <string name="dtmb_16" msgid="6604332674875120307">"16"</string>
+    <string name="dtmb_17" msgid="771155724220026195">"17"</string>
+    <string name="dtmb_18" msgid="3471828453189011529">"18"</string>
+    <string name="dvb_4" msgid="1069417914928331916">"4"</string>
+    <string name="dvb_5" msgid="5833640543265721119">"5"</string>
+    <string name="dvb_6" msgid="5943557846222730938">"6"</string>
+    <string name="dvb_7" msgid="6341954229025895175">"7"</string>
+    <string name="dvb_8" msgid="5307599378445317697">"8"</string>
+    <string name="dvb_9" msgid="3388108727812347402">"9"</string>
+    <string name="dvb_10" msgid="2177473849455114686">"10"</string>
+    <string name="dvb_11" msgid="3773716644803306792">"11"</string>
+    <string name="dvb_12" msgid="3525896874958451358">"12"</string>
+    <string name="dvb_13" msgid="7121668158420452982">"13"</string>
+    <string name="dvb_14" msgid="5539982906289788278">"14"</string>
+    <string name="dvb_15" msgid="3917642448957776848">"15"</string>
+    <string name="dvb_16" msgid="9105707083369649582">"16"</string>
+    <string name="dvb_17" msgid="6657295522716597654">"17"</string>
+    <string name="dvb_18" msgid="5834330178215019712">"18"</string>
+    <string name="es_dvb_all" msgid="5538197631097991871">"HAMISI"</string>
+    <string name="es_dvb_c" msgid="3212371765420661105">"Uşaqlar"</string>
+    <string name="es_dvb_x" msgid="3092575088929583346">"\"X\""</string>
+    <string name="es_dvb_4" msgid="6060850008169659439">"4"</string>
+    <string name="es_dvb_5" msgid="4567880044486129726">"5"</string>
+    <string name="es_dvb_6" msgid="9053493577975224574">"6"</string>
+    <string name="es_dvb_7" msgid="5992402120440898881">"7"</string>
+    <string name="es_dvb_8" msgid="1951659265652059644">"8"</string>
+    <string name="es_dvb_9" msgid="4539063814383801812">"9"</string>
+    <string name="es_dvb_10" msgid="3310095120744551627">"10"</string>
+    <string name="es_dvb_11" msgid="6453557993630098952">"11"</string>
+    <string name="es_dvb_12" msgid="5044017835374949676">"12"</string>
+    <string name="es_dvb_13" msgid="8960240081362346637">"13"</string>
+    <string name="es_dvb_14" msgid="3863155460422487473">"14"</string>
+    <string name="es_dvb_15" msgid="6655490588482156160">"15"</string>
+    <string name="es_dvb_16" msgid="8007557424031669566">"16"</string>
+    <string name="es_dvb_17" msgid="2528656607932647009">"17"</string>
+    <string name="es_dvb_18" msgid="5952166432105836146">"18"</string>
+    <string name="fr_dvb_u" msgid="5244261876152847950">"Universal"</string>
+    <string name="fr_dvb_4" msgid="474297552091371136">"4"</string>
+    <string name="fr_dvb_5" msgid="8518664778905414983">"5"</string>
+    <string name="fr_dvb_6" msgid="8727779857287961988">"6"</string>
+    <string name="fr_dvb_7" msgid="5888386626710476753">"7"</string>
+    <string name="fr_dvb_8" msgid="585815774126700325">"8"</string>
+    <string name="fr_dvb_9" msgid="3157206265464285061">"9"</string>
+    <string name="fr_dvb_10" msgid="3450600252376366055">"10"</string>
+    <string name="fr_dvb_11" msgid="3137240088969540229">"11"</string>
+    <string name="fr_dvb_12" msgid="1226368861597277699">"12"</string>
+    <string name="fr_dvb_13" msgid="1149721411588848205">"13"</string>
+    <string name="fr_dvb_14" msgid="2737219326053428298">"14"</string>
+    <string name="fr_dvb_15" msgid="571592355764188475">"15"</string>
+    <string name="fr_dvb_16" msgid="757165722519525954">"16"</string>
+    <string name="fr_dvb_17" msgid="2221811677117721125">"17"</string>
+    <string name="fr_dvb_18" msgid="2601153071766854187">"18"</string>
+    <string name="isdb_4" msgid="1396670332826142598">"4"</string>
+    <string name="isdb_5" msgid="7735118906786567165">"5"</string>
+    <string name="isdb_6" msgid="8708921891016535390">"6"</string>
+    <string name="isdb_7" msgid="6264898602014849475">"7"</string>
+    <string name="isdb_8" msgid="5846644503733097171">"8"</string>
+    <string name="isdb_9" msgid="8799572739544437968">"9"</string>
+    <string name="isdb_10" msgid="1627106534254509605">"10"</string>
+    <string name="isdb_11" msgid="8230877577144307348">"11"</string>
+    <string name="isdb_12" msgid="7778357254411540022">"12"</string>
+    <string name="isdb_13" msgid="2453549071165798560">"13"</string>
+    <string name="isdb_14" msgid="2792721868664371">"14"</string>
+    <string name="isdb_15" msgid="8799731927895866946">"15"</string>
+    <string name="isdb_16" msgid="6229308452507255384">"16"</string>
+    <string name="isdb_17" msgid="5080078482567321756">"17"</string>
+    <string name="isdb_18" msgid="555969060807719208">"18"</string>
+    <string name="isdb_19" msgid="5997395257237725359">"19"</string>
+    <string name="isdb_20" msgid="3694814836418291364">"20"</string>
+    <string name="kr_tv_all" msgid="986491865532979728">"HAMISI"</string>
+    <string name="kr_tv_7" msgid="5284674018378065597">"7"</string>
+    <string name="kr_tv_12" msgid="7593330732582239999">"12"</string>
+    <string name="kr_tv_15" msgid="182495011364451664">"15"</string>
+    <string name="kr_tv_19" msgid="7458414748850874813">"19"</string>
+    <string name="nz_tv_g" msgid="2808137567855091010">"G"</string>
+    <string name="nz_tv_pgr" msgid="8555814501204672259">"PGR"</string>
+    <string name="nz_tv_ao" msgid="7843949831042344488">"AO"</string>
+    <string name="sg_tv_g" msgid="8798276688195760885">"G"</string>
+    <string name="sg_tv_pg" msgid="1662867888581341978">"PG"</string>
+    <string name="sg_tv_pg13" msgid="4964456896973732695">"PG13"</string>
+    <string name="sg_tv_nc16" msgid="7740703135818734968">"NC16"</string>
+    <string name="sg_tv_m18" msgid="1717224007824699413">"M18"</string>
+    <string name="sg_tv_r21" msgid="3591847091901178153">"R21"</string>
+    <string name="th_tv_4" msgid="4563361113725413706">"4"</string>
+    <string name="th_tv_6" msgid="8874223717002216069">"6"</string>
+    <string name="th_tv_10" msgid="969919319242163352">"10"</string>
+    <string name="th_tv_13" msgid="1104333457240393972">"13"</string>
+    <string name="th_tv_18" msgid="3999083106333165911">"18"</string>
+    <string name="th_tv_19" msgid="482742977530974274">"19"</string>
+    <string name="us_mv_g" msgid="3636427636199506189">"G"</string>
+    <string name="us_mv_pg" msgid="8323131948966103770">"PG"</string>
+    <string name="us_mv_pg13" msgid="5917741051203443762">"PG13"</string>
+    <string name="us_mv_r" msgid="8334513822722676832">"R"</string>
+    <string name="us_mv_nc17" msgid="6228537430888625776">"NC17"</string>
+    <string name="us_mv_x" msgid="4729171602475180951">"X"</string>
+    <string name="us_tv_y" msgid="285566187752891575">"TV-Y"</string>
+    <string name="us_tv_y7" msgid="5822887012283738401">"TV-Y7"</string>
+    <string name="us_tv_g" msgid="815441646747542949">"TV-G"</string>
+    <string name="us_tv_pg" msgid="8169462876867667200">"TV-PG"</string>
+    <string name="us_tv_14" msgid="6817531337579211660">"TV-14"</string>
+    <string name="us_tv_ma" msgid="2672151654857890106">"TV-MA"</string>
+    <string name="us_tv_d" msgid="3006650733492277375">"D"</string>
+    <string name="us_tv_l" msgid="4953352970967827720">"L"</string>
+    <string name="us_tv_s" msgid="2109399506294455265">"S"</string>
+    <string name="us_tv_v" msgid="25591701285016646">"V"</string>
+    <string name="us_tv_fv" msgid="9035500145771077280">"FV"</string>
+    <string name="oad_download" msgid="430354804199852970">"Simsiz endirmək"</string>
+    <string name="favorite" msgid="2876170439006446322">"Sevimli edin"</string>
+    <string name="teletext_feature_not_available_for_channel">"Bu kanal üçün teletext xüsusiyyətləri mövcud deyil."</string>
+
+    <string name="terms_of_service">Xidmət Şərtləri</string>
+    <string name="privacy_policy">Məxfilik Siyasəti</string>
+    <string name="terms_of_service_description">Lütfən, Canlı TV Tətbiqetməsindən istifadə etdiyiniz zaman tətbiq olunan Xidmət Şərtləri və Gizlilik Siyasəti haqqında daha ətraflı məlumat əldə etmək üçün aşağıya klik edin.</string>
+    <string name="enable_streaming_tv">Yayım TV-ni aktivləşdirin</string>
+    <string name="tos_more_info_text">Live TVˣ premium yayım məzmunu təklif edir.\n TV təcrübənizi növbəti səviyyəyə qaldırmaq üçün 'Yayım TV-ni aktivləşdirin' düyməsinə basın!</string>
+
+    <string name="feedback">Əlaqə</string>
+    <string name="feedback_instruction_title">Live TVˣ təcrübəsi haqqında rəy göndərin</string>
+    <string name="feedback_text_title">Lütfən, rəyinizə aşağıdakıları daxil edin</string>
+    <string name="feedback_instruction_text_1">1. Probleminizin təsviri, baş verən zaman atdığınız addımlar, gözlənilən nəticə\n\t və müşahidə olunan nəticə.</string>
+    <string name="feedback_instruction_text_2">2. Mümkünsə, problem haqqında video və ya şəkli e-poçtla əlavə edin.</string>
+
+    <string name="restart">Yenidən başlat</string>
+    <string name="restart_dialog_text">Canlı kanalları izləmək üçün, lütfən TV-nizi yenidən başladın</string>
+
+    <string name="delete_channels_funai">Kanalları silin</string>
+    <string name="delete_channels_funai_dialog_title">Kanal silmə təsdiqi</string>
+    <string name="delete_channels_funai_dialog_msg">Bütün kanalları silmək istəyirsinizmi? Sildikdən sonra, tətbiq yenidən qurulacaq və kanalları yenidən taramalısınız.</string>
+    <string name="delete_channel_description">Yayım kanalları ilə bağlı problemlər olduqda, lütfən kanalları silməyə çalışın.</string>
+    <string name="timeshift_buffer_reached_warning">Timeshift bufer ölçüsü çatdı.\nİzləmək istəyirsiniz, yoxsa canlı yayına qayıtmaq istəyirsiniz?</string>
+    <string name="optin_label">Anoki Baxış Məlumat Xidməti</string>
+    <string name="no_signal_power_off_inactivity_msg">Sinyal yoxdur. TV bu vaxtda söndürüləcək:</string>
+    <string name="edit_channel">Kanalı redaktə edin</string>
+    <string name="long_press_ok_edit_favorite_list">Siyahını redaktə etmək üçün OK düyməsini uzun basın</string>
+    <string name="long_press_ok_edit_channel">Seçilmiş kanalı redaktə etmək üçün OK düyməsini uzun basın</string>
+    <string name="long_press_ok_open_main_menu">Əsas menyunu açmaq üçün OK düyməsini uzun basın</string>
+    <string name="press_back_exit_pin_input">PIN daxil ekranından çıxmaq üçün geri basın</string>
+    <string name="recording_stopped">Yazı dayandırılıb</string>
+    <string name="unlock_channel_to_start_timeshift">Zamanın dəyişdirilməsinə başlamaq üçün kanalı açın</string>
+    <string name="time_shift_buffer_size_reached_msg">Zaman dəyişdirmə bufer ölçüsünə çatdı.</string>
+    <string name="failed_to_start_pvr">PVR-ə başlamaq mümkün olmadı. Sinyal tapılmadı.</string>
+    <string name="set_usb">USB quraşdırın</string>
+    <string name="enable_timeshift">Zaman dəyişdirməni aktivləşdirin</string>
+    <string name="reset_device_id_confirmation">Cihaz ID-sini sıfırlamaq istədiyinizdən əminsiniz?</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background_layout_input_selected"
+    android:layout_width="@dimen/custom_dim_463_5dp"
+    android:layout_height="@dimen/custom_dim_207dp"
+    android:background="@drawable/input_info_bg">
+
+    <TextView
+        android:id="@+id/input_selected_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_37_5"
+        android:layout_marginStart="@dimen/custom_dim_58"
+        android:layout_marginTop="@dimen/custom_dim_37"
+        android:fontFamily="@font/work_sans_regular"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="#e8f0fe"
+        android:textSize="@dimen/font_30"
+        tools:text="HDMI 1" />
+
+    <TextView
+        android:id="@+id/input_hdr"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_20"
+        android:layout_marginStart="@dimen/custom_dim_10"
+        android:layout_marginTop="@dimen/custom_dim_48"
+        android:layout_toEndOf="@+id/input_selected_text"
+        android:fontFamily="@font/work_sans_bold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="#bdc1c6"
+        android:textSize="@dimen/font_14"
+        android:visibility="gone"
+        tools:text="HDR 10" />
+
+    <ImageView
+        android:id="@+id/input_hd_icon"
+        android:layout_width="@dimen/custom_dim_21"
+        android:layout_height="@dimen/custom_dim_20"
+        android:layout_marginStart="@dimen/custom_dim_10"
+        android:layout_marginTop="@dimen/custom_dim_48"
+        android:layout_toEndOf="@+id/input_hdr"
+        android:src="@drawable/ic_hd"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/input_uhd_icon"
+        android:layout_width="@dimen/custom_dim_21"
+        android:layout_height="@dimen/custom_dim_20"
+        android:layout_marginStart="@dimen/custom_dim_10"
+        android:layout_marginTop="@dimen/custom_dim_48"
+        android:layout_toEndOf="@+id/input_hdr"
+        android:src="@drawable/ic_uhd"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/input_fhd_icon"
+        android:layout_width="@dimen/custom_dim_21"
+        android:layout_height="@dimen/custom_dim_20"
+        android:layout_marginStart="@dimen/custom_dim_10"
+        android:layout_marginTop="@dimen/custom_dim_48"
+        android:layout_toEndOf="@+id/input_hdr"
+        android:src="@drawable/ic_fhd"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/input_sd_icon"
+        android:layout_width="@dimen/custom_dim_21"
+        android:layout_height="@dimen/custom_dim_20"
+        android:layout_marginStart="@dimen/custom_dim_10"
+        android:layout_marginTop="@dimen/custom_dim_48"
+        android:layout_toEndOf="@+id/input_hdr"
+        android:src="@drawable/ic_sd"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/input_pixel"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_20"
+        android:layout_marginStart="@dimen/custom_dim_41"
+        android:layout_marginTop="@dimen/custom_dim_48"
+        android:layout_toEndOf="@+id/input_hdr"
+        android:fontFamily="@font/work_sans_bold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="#bdc1c6"
+        android:textSize="@dimen/font_14"
+        android:visibility="gone"
+        tools:text="1080P" />
+
+    <TextView
+        android:id="@+id/input_source"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_20"
+        android:layout_below="@+id/input_selected_text"
+        android:layout_alignStart="@+id/input_selected_text"
+        android:layout_marginTop="@dimen/custom_dim_1"
+        android:fontFamily="@font/work_sans_regular"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="#bdc1c6"
+        android:textSize="@dimen/font_12"
+        android:visibility="gone"
+        tools:text="Sony Playstation" />
+
+</RelativeLayout>

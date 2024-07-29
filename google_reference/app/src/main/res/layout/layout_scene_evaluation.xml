@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/evaluation_srl_vw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/custom_dim_165"
+        android:paddingRight="@dimen/custom_dim_165"
+        android:paddingBottom="@dimen/custom_dim_52_5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/custom_dim_5"
+            android:paddingRight="@dimen/custom_dim_5">
+
+            <TextView
+                android:id="@+id/evaluation_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:gravity="start"
+                android:lineHeight="@dimen/custom_dim_18"
+                android:paddingTop="@dimen/custom_dim_53_5"
+                android:paddingBottom="@dimen/custom_dim_19"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/font_21" />
+
+            <TextView
+                android:id="@+id/evaluation_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:gravity="start"
+                android:letterSpacing="0.02"
+                android:lineHeight="@dimen/custom_dim_18"
+                android:lineSpacingExtra="@dimen/font_5"
+                android:paddingBottom="@dimen/custom_dim_10"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/font_13" />
+
+            <com.iwedia.cltv.ReferenceDrawableButton
+                android:id="@+id/evaluation_accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/custom_dim_5"
+                android:focusable="true"
+                android:gravity="center"
+                android:nextFocusDown="@color/transparent"
+                android:textSize="@dimen/font_15" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/arrow_up_down"
+        android:layout_width="@dimen/custom_dim_15_4"
+        android:layout_height="@dimen/custom_dim_15_8"
+        android:layout_marginEnd="@dimen/custom_dim_72_1"
+        android:layout_marginBottom="@dimen/custom_dim_51_7"
+        android:background="@drawable/ic_evl_arrow_down"
+        android:focusable="false"
+        android:textColor="@color/color_background"
+        android:textSize="@dimen/font_15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

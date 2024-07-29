@@ -1,0 +1,89 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.devtools.ksp'
+}
+
+apply from: '../jacoco/modules.gradle'
+
+android {
+    namespace "tv.anoki.framework"
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 24
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = libs.versions.androidx.compose.compiler.get()
+    }
+    buildFeatures {
+        compose = true
+        buildConfig = true
+        viewBinding = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig = signingConfigs.getByName("debug")
+            proguardFiles(
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
+            )
+            buildConfigField("String", "X_API_KEY", "\"YW5va2ktcHJvZC1hcHA.k7pj7XeKY0yD8moz\"")
+            buildConfigField("String", "BASE_URL", "\"https://stream.aistrm.net\"")
+            buildConfigField("String", "DRM_SECREAT_KEY", "\"tjsOgiSfmEAcBOIp\"")
+        }
+        debug {
+            initWith(getByName("debug"))
+            signingConfig = signingConfigs.getByName("debug")
+            proguardFiles(
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
+            )
+            buildConfigField("String", "X_API_KEY", "\"YW5va2ktdGVzdC1hcHA.jxbTsCtrYPLF52IY\"")
+            buildConfigField("String", "BASE_URL", "\"https://stream-stage.aistrm.net:5200\"")
+            buildConfigField("String", "DRM_SECREAT_KEY", "\"tjsOgiSfmEAcBOIp\"")
+        }
+    }
+}
+
+dependencies {
+
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.google.material)
+
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.lifecycle.runtime.compose)
+    implementation(libs.androidx.paging.runtime)
+
+    implementation(libs.retrofit)
+    implementation(libs.logging.interceptor)
+    implementation(libs.converter.moshi)
+    implementation(libs.moshi)
+    implementation(libs.moshi.kotlin)
+
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.compiler)
+
+    implementation(libs.timber)
+
+    implementation(libs.androidx.security.crypto.ktx)
+
+    testImplementation(libs.junit.main)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.test.espresso)
+
+}

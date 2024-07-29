@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ########################################################################################### -->
+<!--Caution: Exercise caution while modifying this XML file as alterations will impact multiple
+cards with diverse behaviors. As of the creation of this XML file, there are two potential scenarios
+concerning the display of Time in CustomDetails:
+   1) The Time is displayed next to the title in the first row.
+   2) Time is displayed below the title.
+This XML file is included in two locations to serve these distinct purposes.
+Please keep this in mind to ensure consistency and appropriate functioning across different contexts.
+################################################################################################ -->
+
+<com.iwedia.cltv.TimeTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="end|center_vertical"
+    android:includeFontPadding="false"
+    android:paddingStart="@dimen/custom_dim_5"
+    android:textSize="@dimen/font_12"
+    android:visibility="gone"
+    tools:visibility="visible"
+    tools:text="21:00 - 23:32"
+    tools:textColor="@color/white" />

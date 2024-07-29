@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channel_category_item_root_view"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/custom_dim_35"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center_vertical"
+    android:focusable="true"
+    android:paddingHorizontal="@dimen/font_5"
+    android:layout_marginTop="@dimen/custom_dim_6">
+
+
+        <ImageView
+            android:layout_marginHorizontal="@dimen/custom_dim_10"
+            android:id="@+id/icon"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/custom_dim_12"/>
+
+        <TextView
+            android:id="@+id/channel_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_10"
+            android:text="1.2"/>
+
+        <ImageView
+            android:id="@+id/channel_logo"
+            android:layout_width="@dimen/custom_dim_30"
+            android:layout_height="@dimen/custom_dim_20"
+            android:src="@drawable/app_logo"
+            android:layout_marginStart="@dimen/custom_dim_10"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/channel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/font_10"
+            android:layout_marginStart="@dimen/custom_dim_10"
+            android:lines="1"
+            android:text="Channel Name"/>
+
+
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>

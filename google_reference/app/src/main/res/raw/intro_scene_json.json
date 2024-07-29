@@ -1,0 +1,84 @@
+{
+  "title": "Intro Scene",
+  "items": [
+    {
+      "id": "0",
+      "name": "logo",
+      "visibility": "visible",
+      "source": "company_logo",
+      "height": "55",
+      "width": "100",
+      "background": "",
+      "alignmentX": "center",
+      "alignmentY": "top",
+      "leftMargin": "0",
+      "rightMargin": "0",
+      "topMargin": "65",
+      "bottomMargin": "0",
+      "data": {},
+      "rail_data": []
+    },
+    {
+      "id": "1",
+      "name": "message",
+      "visibility": "visible",
+      "source": "welcome_message",
+      "height": "wrap_content",
+      "width": "wrap_content",
+      "background": "",
+      "alignmentX": "center",
+      "alignmentY": "center",
+      "leftMargin": "0",
+      "rightMargin": "0",
+      "topMargin": "0",
+      "bottomMargin": "0",
+      "data": {
+        "textSize": "30",
+        "textColor": "color_text_description",
+        "font": "font_regular"
+      },
+      "rail_data": []
+    },
+    {
+      "id": "2",
+      "name": "progress",
+      "visibility": "invisible",
+      "source": "",
+      "height": "40",
+      "width": "wrap_content",
+      "background": "",
+      "alignmentX": "center",
+      "alignmentY": "",
+      "leftMargin": "0",
+      "rightMargin": "0",
+      "topMargin": "15",
+      "bottomMargin": "0",
+      "data": {
+        "tintColor": "color_progress",
+        "secondTintColor": "color_text_description"
+      },
+      "rail_data": []
+    },
+    {
+      "id": "3",
+      "name": "title",
+      "visibility": "visible",
+      "source": "company_name",
+      "height": "wrap_content",
+      "width": "wrap_content",
+      "background": "",
+      "alignmentX": "",
+      "alignmentY": "",
+      "leftMargin": "0",
+      "rightMargin": "0",
+      "topMargin": "30",
+      "bottomMargin": "100",
+      "data": {
+        "textSize": "15",
+        "textColor": "color_text_description",
+        "font": "font_regular"
+      },
+      "rail_data": []
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/infobanner_widget"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/custom_dim_540"
+    android:clipChildren="false"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_380"
+        android:background="@drawable/info_banner_gradient"
+        android:clipChildren="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.leanback.widget.HorizontalGridView
+            android:id="@+id/events_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_dim_112_5"
+            android:layout_marginTop="@dimen/custom_dim_6"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            app:layout_constraintBottom_toTopOf="@id/channel_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/infobanner_event_list_item" />
+
+        <ImageView
+            android:id="@+id/channel_logo"
+            android:layout_width="@dimen/custom_dim_89"
+            android:layout_height="@dimen/custom_dim_49_5"
+            android:layout_marginStart="@dimen/custom_dim_50"
+            android:layout_marginTop="@dimen/custom_dim_25"
+            android:importantForAccessibility="no"
+            android:scaleType="centerInside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/events_recycler" />
+
+        <TextView
+            android:id="@+id/channel_name"
+            android:layout_width="@dimen/custom_dim_80"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_25"
+            android:gravity="center"
+            android:textSize="@dimen/font_12"
+            app:layout_constraintBottom_toTopOf="@+id/channel_index"
+            app:layout_constraintEnd_toEndOf="@+id/channel_index"
+            app:layout_constraintStart_toStartOf="@+id/channel_index" />
+
+        <TextView
+            android:id="@+id/channel_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/font_15"
+            app:layout_constraintEnd_toEndOf="@+id/channel_logo"
+            app:layout_constraintStart_toStartOf="@+id/channel_logo"
+            app:layout_constraintTop_toBottomOf="@+id/channel_logo" />
+
+        <TextView
+            android:id="@+id/channel_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/font_10"
+            app:layout_constraintEnd_toEndOf="@+id/channel_logo"
+            app:layout_constraintStart_toStartOf="@+id/channel_logo"
+            app:layout_constraintTop_toBottomOf="@+id/channel_index" />
+
+        <LinearLayout
+            android:id="@+id/rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="@+id/channel_logo"
+            app:layout_constraintStart_toStartOf="@+id/channel_logo"
+            app:layout_constraintTop_toBottomOf="@+id/channel_type">
+
+            <ImageView
+                android:id="@+id/is_locked"
+                android:layout_width="@dimen/custom_dim_20"
+                android:layout_height="@dimen/custom_dim_20"
+                android:importantForAccessibility="no" />
+            <ImageView
+                android:id="@+id/is_scrambled"
+                android:layout_width="@dimen/custom_dim_20"
+                android:layout_height="@dimen/custom_dim_20"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/audio_and_subtitles_container"
+        android:layout_width="@dimen/custom_dim_500"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:translationZ="@dimen/custom_dim_20"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <View
+            android:id="@+id/audio_and_subtitles_gradient_view"
+            android:layout_width="@dimen/custom_dim_200"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/audio_and_subtitles_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/custom_dim_88"
+                android:layout_marginEnd="@dimen/custom_dim_87_5"
+                android:textSize="@dimen/font_21"
+                tools:text="Audio" />
+
+            <com.bosphere.fadingedgelayout.FadingEdgeLayout
+                android:id="@+id/fading_edge_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fel_edge="bottom|top"
+                app:fel_size_bottom="@dimen/custom_dim_200"
+                app:fel_size_top="@dimen/custom_dim_200">
+
+                <androidx.leanback.widget.VerticalGridView
+                    android:id="@+id/side_view_vertical_grid_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/custom_dim_66"
+                    android:clipToPadding="false"
+                    android:gravity="end"
+                    android:paddingBottom="@dimen/custom_dim_40"/>
+
+            </com.bosphere.fadingedgelayout.FadingEdgeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <view
+        android:id="@+id/custom_details"
+        class="com.iwedia.cltv.components.CustomDetails$CustomDetailsInfoBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_160"
+        android:layout_marginStart="@dimen/custom_dim_151_5"
+        android:layout_marginTop="@dimen/custom_dim_220"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.iwedia.cltv.TimeTextView
+        android:id="@+id/current_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_37"
+        android:layout_marginEnd="@dimen/custom_dim_47"
+        android:gravity="end"
+        android:lineSpacingExtra="-6.3sp"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:shadowRadius="3"
+        android:shadowDx=".5"
+        android:shadowDy=".5"
+        android:shadowColor="@color/shadow"
+        android:translationZ="@dimen/custom_dim_25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.leanback.widget.HorizontalGridView
+        android:id="@+id/event_button_container"
+        android:layout_width="@dimen/custom_dim_650"
+        android:layout_height="@dimen/custom_dim_40"
+        android:layout_marginBottom="@dimen/custom_dim_41"
+        android:orientation="horizontal"
+        android:translationZ="@dimen/custom_dim_15"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/custom_details" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

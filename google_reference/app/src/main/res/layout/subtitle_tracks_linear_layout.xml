@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+IMPORTANT: changes in this xml file will reflect directly on all scenes and widgets that are using
+this xml through custom_details_info_row.xml, but whenever changing it MAKE SURE that DetailsScene
+works correctly.
+
+whenever changing something in this xml, make sure that everything works in next scenarios:
+    1) DetailsScene when there is no image loaded for event - margins are set differently
+    2) DetailsScene when image is loaded - margins are set differently
+
+Especially be careful with changing paddings/margins.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/subtitle_tracks_linear_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:visibility="gone"
+    tools:visibility="visible">
+
+    <ImageView
+        android:layout_width="@dimen/custom_dim_16"
+        android:layout_height="@dimen/custom_dim_15_5"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:src="@drawable/ic_subtitles" />
+
+    <LinearLayout
+        android:id="@+id/subtitle_tracks_linear_layout_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!--This nex text view is just example in this XML to se how it looks and it will NEVER be showed in real environment-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/custom_dim_10"
+            android:layout_marginTop="@dimen/custom_dim_3"
+            android:layout_marginBottom="@dimen/custom_dim_7_5"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            tools:text="TRACK 1"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+</LinearLayout>

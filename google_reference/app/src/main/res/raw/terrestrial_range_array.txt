@@ -1,0 +1,470 @@
+
+[
+	{"countryTag":"ALB",
+     "country":"Albania",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+	 "pvrEnabled": 1
+	},
+
+	{"countryTag":"AUT",
+     "country":"Austria",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+     "pvrEnabled": 1
+	},
+	{"countryTag":"BLR",
+     "country":"Belarus",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+     "pvrEnabled": 1
+	},
+
+	{"countryTag":"BEL",
+     "country":"Belgium",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+     "pvrEnabled": 1
+	},
+
+	{"countryTag":"BGR",
+     "country":"Bulgaria",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+     "pvrEnabled": 1
+	},
+
+	{"countryTag":"HRV",
+     "country":"Croatia",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":233500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+     "pvrEnabled": 1
+	},
+
+	{"countryTag":"CYP",
+     "country":"Cyprus",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+    "pvrEnabled": 1
+	},
+
+	{"countryTag":"CZE",
+     "country":"Czech Republic",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":233500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+    "pvrEnabled": 1
+	},
+
+	{"countryTag":"DNK",
+     "country":"Denmark",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":117500,"frequencyMax":233500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"EST",
+     "country":"Estonia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":698000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"FIN",
+     "country":"Finland",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":117500,"frequencyMax":233500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"FRA",
+     "country":"France",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":117500,"frequencyMax":233500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"DEU",
+     "country":"Germany",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":233500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 0
+	},
+
+	{"countryTag":"GRC",
+     "country":"Greece",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":233500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"HUN",
+     "country":"Hungary",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"IRL",
+     "country":"Ireland",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":107500,"frequencyMax":107500,"step":0,"bandwidth":7000},
+				{"frequencyMin":114000,"frequencyMax":114000,"step":0,"bandwidth":8000},
+				{"frequencyMin":114500,"frequencyMax":114500,"step":0,"bandwidth":7000},
+				{"frequencyMin":114500,"frequencyMax":114500,"step":0,"bandwidth":8000},
+				{"frequencyMin":121500,"frequencyMax":121500,"step":0,"bandwidth":7000},
+				{"frequencyMin":121500,"frequencyMax":122000,"step":500,"bandwidth":8000},
+				{"frequencyMin":128500,"frequencyMax":128500,"step":0,"bandwidth":7000},
+				{"frequencyMin":128500,"frequencyMax":130000,"step":1500,"bandwidth":8000},
+				{"frequencyMin":135500,"frequencyMax":135500,"step":0,"bandwidth":7000},
+				{"frequencyMin":135500,"frequencyMax":138000,"step":2500,"bandwidth":8000},
+				{"frequencyMin":142500,"frequencyMax":142500,"step":0,"bandwidth":7000},
+				{"frequencyMin":142500,"frequencyMax":146000,"step":3500,"bandwidth":8000},
+				{"frequencyMin":149500,"frequencyMax":149500,"step":0,"bandwidth":7000},
+				{"frequencyMin":149500,"frequencyMax":154000,"step":4500,"bandwidth":8000},
+				{"frequencyMin":156500,"frequencyMax":156500,"step":0,"bandwidth":7000},
+				{"frequencyMin":156500,"frequencyMax":162000,"step":5500,"bandwidth":8000},
+				{"frequencyMin":163500,"frequencyMax":163500,"step":0,"bandwidth":7000},
+				{"frequencyMin":163500,"frequencyMax":170000,"step":6500,"bandwidth":8000},
+				{"frequencyMin":170500,"frequencyMax":170500,"step":0,"bandwidth":7000},
+				{"frequencyMin":170500,"frequencyMax":170500,"step":0,"bandwidth":8000},
+				{"frequencyMin":177500,"frequencyMax":177500,"step":0,"bandwidth":7000},
+				{"frequencyMin":177500,"frequencyMax":178000,"step":500,"bandwidth":8000},
+				{"frequencyMin":184500,"frequencyMax":184500,"step":0,"bandwidth":7000},
+				{"frequencyMin":184500,"frequencyMax":186000,"step":1500,"bandwidth":8000},
+				{"frequencyMin":191500,"frequencyMax":191500,"step":0,"bandwidth":7000},
+				{"frequencyMin":191500,"frequencyMax":194000,"step":2500,"bandwidth":8000},
+				{"frequencyMin":198500,"frequencyMax":198500,"step":0,"bandwidth":7000},
+				{"frequencyMin":198500,"frequencyMax":202000,"step":3500,"bandwidth":8000},
+				{"frequencyMin":205500,"frequencyMax":205500,"step":0,"bandwidth":7000},
+				{"frequencyMin":205500,"frequencyMax":210000,"step":4500,"bandwidth":8000},
+				{"frequencyMin":212500,"frequencyMax":212500,"step":0,"bandwidth":7000},
+				{"frequencyMin":212500,"frequencyMax":218000,"step":5500,"bandwidth":8000},
+				{"frequencyMin":219500,"frequencyMax":219500,"step":0,"bandwidth":7000},
+				{"frequencyMin":219500,"frequencyMax":226000,"step":6500,"bandwidth":8000},
+				{"frequencyMin":226500,"frequencyMax":226500,"step":0,"bandwidth":7000},
+				{"frequencyMin":226500,"frequencyMax":226500,"step":0,"bandwidth":8000},
+				{"frequencyMin":233500,"frequencyMax":233500,"step":0,"bandwidth":7000},
+				{"frequencyMin":233500,"frequencyMax":234000,"step":500,"bandwidth":8000},
+				{"frequencyMin":240500,"frequencyMax":240500,"step":0,"bandwidth":7000},
+				{"frequencyMin":240500,"frequencyMax":242000,"step":1500,"bandwidth":8000},
+				{"frequencyMin":247500,"frequencyMax":247500,"step":0,"bandwidth":7000},
+				{"frequencyMin":247500,"frequencyMax":250000,"step":2500,"bandwidth":8000},
+				{"frequencyMin":254500,"frequencyMax":254500,"step":0,"bandwidth":7000},
+				{"frequencyMin":254500,"frequencyMax":258000,"step":3500,"bandwidth":8000},
+				{"frequencyMin":261500,"frequencyMax":261500,"step":0,"bandwidth":7000},
+				{"frequencyMin":261500,"frequencyMax":266000,"step":4500,"bandwidth":8000},
+				{"frequencyMin":268500,"frequencyMax":268500,"step":0,"bandwidth":7000},
+				{"frequencyMin":268500,"frequencyMax":274000,"step":5500,"bandwidth":8000},
+				{"frequencyMin":275500,"frequencyMax":275500,"step":0,"bandwidth":7000},
+				{"frequencyMin":275500,"frequencyMax":282000,"step":6500,"bandwidth":8000},
+				{"frequencyMin":282500,"frequencyMax":282500,"step":0,"bandwidth":7000},
+				{"frequencyMin":282500,"frequencyMax":282500,"step":0,"bandwidth":8000},
+				{"frequencyMin":289500,"frequencyMax":289500,"step":0,"bandwidth":7000},
+				{"frequencyMin":289500,"frequencyMax":290000,"step":500,"bandwidth":8000},
+				{"frequencyMin":296500,"frequencyMax":296500,"step":0,"bandwidth":7000},
+				{"frequencyMin":296500,"frequencyMax":298000,"step":1500,"bandwidth":8000},
+				{"frequencyMin":306000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"ITA",
+     "country":"Italy",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 0
+	},
+
+	{"countryTag":"LVA",
+     "country":"Latvia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"LTU",
+     "country":"Lithuania",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"LUX",
+     "country":"Luxembourg",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"MKD",
+     "country":"North Macedonia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"NLD",
+     "country":"Netherlands",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":233500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"NOR",
+     "country":"Norway",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":107500,"frequencyMax":107500,"step":0,"bandwidth":7000},
+				{"frequencyMin":114000,"frequencyMax":114000,"step":0,"bandwidth":8000},
+				{"frequencyMin":114500,"frequencyMax":114500,"step":0,"bandwidth":7000},
+				{"frequencyMin":114500,"frequencyMax":114500,"step":0,"bandwidth":8000},
+				{"frequencyMin":121500,"frequencyMax":121500,"step":0,"bandwidth":7000},
+				{"frequencyMin":121500,"frequencyMax":122000,"step":500,"bandwidth":8000},
+				{"frequencyMin":128500,"frequencyMax":128500,"step":0,"bandwidth":7000},
+				{"frequencyMin":128500,"frequencyMax":130000,"step":1500,"bandwidth":8000},
+				{"frequencyMin":135500,"frequencyMax":135500,"step":0,"bandwidth":7000},
+				{"frequencyMin":135500,"frequencyMax":138000,"step":2500,"bandwidth":8000},
+				{"frequencyMin":142500,"frequencyMax":142500,"step":0,"bandwidth":7000},
+				{"frequencyMin":142500,"frequencyMax":146000,"step":3500,"bandwidth":8000},
+				{"frequencyMin":149500,"frequencyMax":149500,"step":0,"bandwidth":7000},
+				{"frequencyMin":149500,"frequencyMax":154000,"step":4500,"bandwidth":8000},
+				{"frequencyMin":156500,"frequencyMax":156500,"step":0,"bandwidth":7000},
+				{"frequencyMin":156500,"frequencyMax":162000,"step":5500,"bandwidth":8000},
+				{"frequencyMin":163500,"frequencyMax":163500,"step":0,"bandwidth":7000},
+				{"frequencyMin":163500,"frequencyMax":170000,"step":6500,"bandwidth":8000},
+				{"frequencyMin":170500,"frequencyMax":170500,"step":0,"bandwidth":7000},
+				{"frequencyMin":170500,"frequencyMax":170500,"step":0,"bandwidth":8000},
+				{"frequencyMin":177500,"frequencyMax":177500,"step":0,"bandwidth":7000},
+				{"frequencyMin":177500,"frequencyMax":178000,"step":500,"bandwidth":8000},
+				{"frequencyMin":184500,"frequencyMax":184500,"step":0,"bandwidth":7000},
+				{"frequencyMin":184500,"frequencyMax":186000,"step":1500,"bandwidth":8000},
+				{"frequencyMin":191500,"frequencyMax":191500,"step":0,"bandwidth":7000},
+				{"frequencyMin":191500,"frequencyMax":194000,"step":2500,"bandwidth":8000},
+				{"frequencyMin":198500,"frequencyMax":198500,"step":0,"bandwidth":7000},
+				{"frequencyMin":198500,"frequencyMax":202000,"step":3500,"bandwidth":8000},
+				{"frequencyMin":205500,"frequencyMax":205500,"step":0,"bandwidth":7000},
+				{"frequencyMin":205500,"frequencyMax":210000,"step":4500,"bandwidth":8000},
+				{"frequencyMin":212500,"frequencyMax":212500,"step":0,"bandwidth":7000},
+				{"frequencyMin":212500,"frequencyMax":218000,"step":5500,"bandwidth":8000},
+				{"frequencyMin":219500,"frequencyMax":219500,"step":0,"bandwidth":7000},
+				{"frequencyMin":219500,"frequencyMax":226000,"step":6500,"bandwidth":8000},
+				{"frequencyMin":226500,"frequencyMax":226500,"step":0,"bandwidth":7000},
+				{"frequencyMin":226500,"frequencyMax":226500,"step":0,"bandwidth":8000},
+				{"frequencyMin":233500,"frequencyMax":233500,"step":0,"bandwidth":7000},
+				{"frequencyMin":233500,"frequencyMax":234000,"step":500,"bandwidth":8000},
+				{"frequencyMin":240500,"frequencyMax":240500,"step":0,"bandwidth":7000},
+				{"frequencyMin":240500,"frequencyMax":242000,"step":1500,"bandwidth":8000},
+				{"frequencyMin":247500,"frequencyMax":247500,"step":0,"bandwidth":7000},
+				{"frequencyMin":247500,"frequencyMax":250000,"step":2500,"bandwidth":8000},
+				{"frequencyMin":254500,"frequencyMax":254500,"step":0,"bandwidth":7000},
+				{"frequencyMin":254500,"frequencyMax":258000,"step":3500,"bandwidth":8000},
+				{"frequencyMin":261500,"frequencyMax":261500,"step":0,"bandwidth":7000},
+				{"frequencyMin":261500,"frequencyMax":266000,"step":4500,"bandwidth":8000},
+				{"frequencyMin":268500,"frequencyMax":268500,"step":0,"bandwidth":7000},
+				{"frequencyMin":268500,"frequencyMax":274000,"step":5500,"bandwidth":8000},
+				{"frequencyMin":275500,"frequencyMax":275500,"step":0,"bandwidth":7000},
+				{"frequencyMin":275500,"frequencyMax":282000,"step":6500,"bandwidth":8000},
+				{"frequencyMin":282500,"frequencyMax":282500,"step":0,"bandwidth":7000},
+				{"frequencyMin":282500,"frequencyMax":282500,"step":0,"bandwidth":8000},
+				{"frequencyMin":289500,"frequencyMax":289500,"step":0,"bandwidth":7000},
+				{"frequencyMin":289500,"frequencyMax":290000,"step":500,"bandwidth":8000},
+				{"frequencyMin":296500,"frequencyMax":296500,"step":0,"bandwidth":7000},
+				{"frequencyMin":296500,"frequencyMax":298000,"step":1500,"bandwidth":8000},
+				{"frequencyMin":306000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"POL",
+     "country":"Poland",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"PRT",
+     "country":"Portugal",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"ROU",
+     "country":"Romania",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"RUS",
+     "country":"Russia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":178000,"frequencyMax":226000,"step":8000,"bandwidth":8000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"SRB",
+     "country":"Serbia",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"SVK",
+     "country":"Slovakia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"SVN",
+     "country":"Slovenia",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":233500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"ESP",
+     "country":"Spain",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":233500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"SWE",
+     "country":"Sweden",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":117500,"frequencyMax":233500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"CHE",
+     "country":"Switzerland",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+	{"countryTag":"TUR",
+     "country":"Turkey",
+	 "defaultLCN": 0,
+	 "range":[
+				{"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	},
+
+    {"countryTag":"UKR",
+     "country":"Ukraine",
+     "defaultLCN": 1,
+     "range":[
+                {"frequencyMin":177500,"frequencyMax":226500,"step":7000,"bandwidth":7000},
+                {"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+             ],
+   "pvrEnabled": 1
+    },
+
+	{"countryTag":"GBR",
+     "country":"United Kingdom",
+	 "defaultLCN": 1,
+	 "range":[
+				{"frequencyMin":474000,"frequencyMax":858000,"step":8000,"bandwidth":8000}
+			 ],
+   "pvrEnabled": 1
+	}
+]

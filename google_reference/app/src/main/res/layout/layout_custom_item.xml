@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:theme="@style/Theme.MaterialComponents.Light"
+    app:cardBackgroundColor="@color/transparent"
+    tools:background="#33FFFFFF">
+
+    <ImageView
+        android:id="@+id/icon_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="21.5dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="#80151515"
+        tools:layout_width="21.5dp"
+        tools:src="@drawable/watch_icon" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68.5dp"
+        android:fontFamily="@font/work_sans_regular"
+        android:includeFontPadding="false"
+        android:textColor="#bdc1c6"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="#80151515"
+        tools:text="Premium content for FREE" />
+
+    <TextView
+        android:id="@+id/description_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/work_sans_regular"
+        android:includeFontPadding="false"
+        android:textColor="#bdc1c6"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/separator_view"
+        app:layout_constraintEnd_toEndOf="@id/title_text_view"
+        app:layout_constraintStart_toStartOf="@id/title_text_view"
+        app:layout_constraintTop_toBottomOf="@id/title_text_view"
+        tools:background="#80151515"
+        tools:text="View popular Connected TV (CTV) and the Over the Air (OTA) shows" />
+
+    <!--    Following View is used only as a spacer between items-->
+    <View
+        android:id="@+id/separator_view"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description_text_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="false"
+    android:focusable="false"
+    android:orientation="vertical"
+    android:importantForAccessibility="noHideDescendants"
+    android:animateLayoutChanges="true">
+
+    <RelativeLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no">
+
+
+        <RelativeLayout
+            android:id="@+id/introPlaybackView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"/>
+
+        <RelativeLayout
+            android:id="@+id/contentPlaybackView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no" />
+
+        <RelativeLayout
+            android:id="@+id/pvrPlaybackView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no" />
+
+        <RelativeLayout
+            android:id="@+id/livePlaybackView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:importantForAccessibility="no"
+            android:animateLayoutChanges="true" />
+
+        <SurfaceView
+            android:id="@+id/ttx_surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:foreground="@color/transparent"
+            android:visibility="visible"
+            android:importantForAccessibility="no"/>
+
+        <SurfaceView
+            android:id="@+id/subtitle_surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:foreground="@color/transparent"
+            android:visibility="visible"
+            android:importantForAccessibility="no"/>
+
+        <RelativeLayout
+            android:id="@+id/ttmlView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:foreground="@color/transparent"
+            android:visibility="gone"
+            android:importantForAccessibility="no"/>
+
+        <RelativeLayout
+            android:id="@+id/uiView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:importantForAccessibility="no">
+
+            <requestFocus />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pvrPreviewView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"/>
+
+        <RelativeLayout
+            android:id="@+id/notificationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:importantForAccessibility="no"/>
+
+        <RelativeLayout
+            android:id="@+id/globalView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"/>
+
+
+        <RelativeLayout
+            android:id="@+id/overlayFeatureViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"/>
+
+        <RelativeLayout
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:visibility="gone"
+            android:importantForAccessibility="no">
+
+            <ProgressBar
+                android:id="@+id/loadingProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminate="true"
+                android:importantForAccessibility="no"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.iwedia.guide.android.tools.debug.debugViews.DebugLayerView
+        android:id="@+id/debug_layer_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:importantForAccessibility="no"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:visibility="gone"
+        android:background="@drawable/walkthrough_shape"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/step_main_container"
+        android:layout_width="@dimen/custom_dim_314"
+        android:layout_height="@dimen/custom_dim_150"
+        android:layout_marginTop="@dimen/custom_dim_43_5"
+        android:layout_marginEnd="@dimen/custom_dim_30"
+        android:importantForAccessibility="no">
+
+        <TextView
+            android:id="@+id/step_title"
+            android:layout_width="@dimen/custom_dim_210"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_42_5"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/font_21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:importantForAccessibility="no"/>
+
+        <TextView
+            android:id="@+id/step_subtitle"
+            android:layout_width="@dimen/custom_dim_269"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_89"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/font_15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:importantForAccessibility="no"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/step_channel_list_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/step_1"
+        android:visibility="gone"
+        android:importantForAccessibility="no">
+
+        <TextView
+            android:id="@+id/step_channel_list_title"
+            android:layout_width="@dimen/custom_dim_210"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_236"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/font_21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:importantForAccessibility="no"/>
+
+        <TextView
+            android:id="@+id/step_channel_list_subtitle"
+            android:layout_width="@dimen/custom_dim_286"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_282_5"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/font_15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:importantForAccessibility="no"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/step_info_banner_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/step5"
+        android:visibility="gone"
+        android:importantForAccessibility="no">
+
+        <TextView
+            android:id="@+id/step_info_banner_title"
+            android:layout_width="@dimen/custom_dim_210"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_236"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/font_21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:importantForAccessibility="no"/>
+
+        <TextView
+            android:id="@+id/step_info_banner_subtitle"
+            android:layout_width="@dimen/custom_dim_286"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_282_5"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/font_15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:importantForAccessibility="no"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/step_menu_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/step8"
+        android:visibility="gone"
+        android:importantForAccessibility="no">
+
+        <TextView
+            android:id="@+id/step_menu_title"
+            android:layout_width="@dimen/custom_dim_210"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_236"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/font_21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:importantForAccessibility="no"/>
+
+        <TextView
+            android:id="@+id/step_menu_subtitle"
+            android:layout_width="@dimen/custom_dim_286"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_282_5"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/font_15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:importantForAccessibility="no"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/testing_indicator"
+        android:layout_width="@dimen/custom_dim_105"
+        android:layout_height="@dimen/custom_dim_34"
+        android:layout_marginTop="@dimen/custom_dim_10"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:background="@drawable/reference_button_selected"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:importantForAccessibility="no">
+        <ImageView
+            android:id="@+id/testing_icon"
+            android:layout_width="@dimen/custom_dim_20"
+            android:layout_height="@dimen/custom_dim_20"
+            android:background="@drawable/ic_baseline_bug_report_24"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/custom_dim_12_5"
+            android:importantForAccessibility="no"/>
+        <TextView
+            android:id="@+id/testing_text"
+            android:layout_width="@dimen/custom_dim_56"
+            android:layout_height="match_parent"
+            android:maxLines="2"
+            android:layout_toRightOf="@+id/testing_icon"
+            android:gravity="center"
+            android:textSize="@dimen/font_12"
+            android:layout_marginStart="@dimen/custom_dim_7_5"
+            android:importantForAccessibility="no"/>
+
+    </RelativeLayout>
+
+    <!-- Recording/TimeShift indicator -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_34"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/custom_dim_10"
+        android:layout_marginEnd="@dimen/custom_dim_10"
+        android:background="@drawable/reference_button_selected"
+        android:importantForAccessibility="no"
+        android:visibility="gone"
+        tools:ignore="RelativeOverlap">
+
+        <ImageView
+            android:id="@+id/indicator_icon"
+            android:layout_width="@dimen/custom_dim_20"
+            android:layout_height="@dimen/custom_dim_20"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/custom_dim_12_5"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/indicator_channel_image"
+            android:layout_width="@dimen/custom_dim_51"
+            android:layout_height="@dimen/custom_dim_12"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/custom_dim_7_5"
+            android:importantForAccessibility="no"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/indicator_icon"
+            app:layout_constraintStart_toEndOf="@id/indicator_icon"
+            app:layout_constraintTop_toTopOf="@id/indicator_icon" />
+
+        <TextView
+            android:id="@+id/indicator_channel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/custom_dim_7_5"
+            android:gravity="center"
+            android:importantForAccessibility="no"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textSize="@dimen/font_15"
+            app:layout_constraintBottom_toBottomOf="@id/indicator_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/indicator_icon"
+            app:layout_constraintTop_toTopOf="@id/indicator_icon"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        android:id="@+id/input_source_id"
+        layout="@layout/input_layout"
+        android:visibility="gone"
+        android:importantForAccessibility="no"/>
+    <RelativeLayout
+        android:id="@+id/pin_activity_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/input_root_layout"
+    android:layout_width="248dp"
+    android:layout_height="48dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/input_item_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/input_image"
+        android:layout_width="8dp"
+        android:layout_height="9dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="7.5dp" />
+
+    <TextView
+        android:id="@+id/input_sub_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="32dp"
+        android:gravity="center"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/locked_input"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="2dp"
+        android:gravity="center"
+        android:text="Locked"
+        android:textColor="@color/fti_progress_bg_gtv"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/blocked_inputs_id"
+        android:layout_width="90dp"
+        android:layout_height="18dp"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:layout_marginTop="3dp">
+
+        <ImageView
+            android:layout_width="5.5dp"
+            android:layout_height="9dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:id="@+id/input_left_arrow"
+            android:src="@drawable/input_icon_left" />
+
+        <TextView
+            android:id="@+id/unlock_text"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:gravity="center"
+            android:text="Unlocked"
+            android:textColor="#1A73E8"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="5.5dp"
+            android:layout_height="9dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:id="@+id/input_right_arrow"
+            android:src="@drawable/input_right_arrow" />
+    </RelativeLayout>
+</RelativeLayout>

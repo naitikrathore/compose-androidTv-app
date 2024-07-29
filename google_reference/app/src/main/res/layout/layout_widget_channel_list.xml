@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/channel_list_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:translationZ="@dimen/custom_dim_n19"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/channel_list_bg_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    alpha value must be set to 0 initially for animation to work properly when scrolling through channel cards   -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/event_details_container"
+        android:layout_width="@dimen/custom_dim_500"
+        android:alpha="0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_dim_352"
+        android:layout_marginTop="@dimen/custom_dim_186"
+        android:translationZ="@dimen/custom_dim_10"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintHorizontal_bias="0"
+            android:id="@+id/event_title"
+            android:layout_width="@dimen/custom_dim_0"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_n4"
+            android:layout_marginEnd="@dimen/custom_dim_10"
+            android:textDirection="locale"
+            android:ellipsize="end"
+            android:textAlignment="gravity"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textSize="@dimen/font_21"
+            app:layout_constraintEnd_toStartOf="@id/parental_rating1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/parental_rating1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_15"
+            android:gravity="end"
+            android:textAlignment="gravity"
+            android:maxLines="1"
+            android:textSize="@dimen/font_18"
+            app:layout_constraintStart_toEndOf="@id/event_title"
+            android:layout_marginHorizontal="@dimen/custom_dim_6_5"
+            />
+
+        <LinearLayout
+            android:id="@+id/event_button_container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_7"
+            android:layout_marginTop="@dimen/custom_dim_7"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/custom_details">
+            <com.iwedia.cltv.components.CustomButton
+                android:id="@+id/start_over_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/custom_dim_20"
+                app:button_type="START_OVER"
+                tools:ignore="RtlSymmetry" />
+            <com.iwedia.cltv.components.CustomButton
+                android:id="@+id/record_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/custom_dim_20"
+                app:button_type="RECORD"
+                tools:ignore="RtlSymmetry" />
+            <com.iwedia.cltv.components.CustomButton
+                android:id="@+id/add_to_favorite_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/custom_dim_20"
+                app:button_type="ADD_TO_FAVORITES"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+
+        <view class="com.iwedia.cltv.components.CustomDetails$CustomDetailsChannelList"
+            android:id="@+id/custom_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/channel_edit_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_dim_352"
+        android:layout_marginTop="@dimen/custom_dim_250"
+        android:translationZ="@dimen/custom_dim_10"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/lock_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/custom_dim_20"
+            app:button_type="LOCK"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/skip_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/custom_dim_20"
+            app:button_type="SKIP"/>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/custom_dim_20"
+            app:button_type="DELETE" />
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/edit_channel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/custom_dim_20"
+            app:button_type="EDIT_CHANNEL" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/channel_list_filter_list_container"
+        android:layout_width="@dimen/custom_dim_960"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_dim_47_5"
+        android:translationZ="@dimen/custom_dim_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <com.bosphere.fadingedgelayout.FadingEdgeLayout
+            android:id="@+id/fading_edge_layout"
+            android:layout_width="@dimen/custom_dim_0"
+            android:layout_height="wrap_content"
+            app:fel_size_left="@dimen/custom_dim_150"
+            app:fel_size_right="@dimen/custom_dim_150"
+            app:layout_constraintStart_toEndOf="@+id/search_custom_button"
+            app:layout_constraintEnd_toStartOf="@id/filter_custom_button"
+            app:layout_constraintTop_toTopOf="parent">
+            <androidx.leanback.widget.HorizontalGridView
+                android:id="@+id/channel_category_grid_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_dim_40"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:background="#1AFFBA00"/>
+
+        </com.bosphere.fadingedgelayout.FadingEdgeLayout>
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/search_custom_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_marginStart="@dimen/custom_dim_52_5"
+            app:button_type="SEARCH"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlSymmetry" />
+
+        <com.iwedia.cltv.components.CustomButton
+            android:id="@+id/filter_custom_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:button_type="FILTER"
+            android:layout_marginEnd="@dimen/custom_dim_52_5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlSymmetry" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/bg_top_fade_channel_scene"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_dim_160"
+        android:background="@drawable/bg_top_fade_channel_scene"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/channel_list_view_wrapper"
+        android:translationZ="@dimen/custom_dim_n10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/channel_list_container"
+            android:translationZ="@dimen/custom_dim_n10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="81dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.leanback.widget.VerticalGridView
+                android:id="@+id/channel_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingStart="@dimen/custom_dim_86"
+                android:clipChildren="false"
+                android:paddingTop="30dp"
+                android:paddingBottom="302dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:listitem="@layout/channel_list_item" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/sort_by_container"
+        android:layout_width="@dimen/custom_dim_500"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:translationZ="@dimen/custom_dim_20"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <View
+            android:id="@+id/sort_by_gradient_view"
+            android:layout_width="@dimen/custom_dim_200"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/sort_by_gradient_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sort_by_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/custom_dim_88"
+                android:layout_marginEnd="@dimen/custom_dim_87_5"
+                android:textSize="@dimen/font_21"
+                tools:text="Audio" />
+
+            <com.bosphere.fadingedgelayout.FadingEdgeLayout
+                android:id="@+id/sort_by_items_fading_edge_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fel_edge="bottom|top"
+                app:fel_size_bottom="@dimen/custom_dim_200"
+                app:fel_size_top="@dimen/custom_dim_200">
+
+                <androidx.leanback.widget.VerticalGridView
+                    android:id="@+id/side_view_vertical_grid_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/custom_dim_66"
+                    android:clipToPadding="false"
+                    android:gravity="end"
+                    android:paddingBottom="@dimen/custom_dim_40"/>
+
+            </com.bosphere.fadingedgelayout.FadingEdgeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/favorites_overlay"
+        android:translationZ="@dimen/custom_dim_15"
+        android:layout_width="@dimen/custom_dim_480"
+        android:layout_height="match_parent"
+        android:background="@drawable/sort_by_background"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/favorites_gradient_view"
+            android:layout_width="@dimen/custom_dim_200"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/favorites_linear_layout"
+            android:layout_width="@dimen/custom_dim_280"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/favorites_gradient_view">
+
+        <TextView
+            android:id="@+id/favorites_overlay_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_88"
+            android:layout_marginEnd="@dimen/custom_dim_87"
+            android:textSize="@dimen/font_21" />
+
+        <androidx.leanback.widget.VerticalGridView
+            android:id="@+id/favorites_overlay_grid_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/custom_dim_15"
+            android:layout_marginEnd="@dimen/custom_dim_72"
+            android:overScrollMode="never"
+            android:paddingBottom="@dimen/custom_dim_150"
+            android:gravity="end"/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/hint_overlay"
+        android:translationZ="@dimen/custom_dim_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="@dimen/custom_dim_66_5"
+        android:layout_marginBottom="@dimen/custom_dim_53_5">
+
+        <TextView
+            android:id="@+id/hint_overlay_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/font_11"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

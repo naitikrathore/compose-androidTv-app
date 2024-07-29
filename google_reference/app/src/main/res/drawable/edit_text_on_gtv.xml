@@ -1,0 +1,38 @@
+<!-- drawable/input_field.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="276dp"
+    android:height="68dp"
+    android:viewportWidth="276"
+    android:viewportHeight="68"
+    >
+
+    <group>
+
+        <clip-path
+            android:pathData="M16 4H260C266.627 4 272 9.37258 272 16V52C272 58.6274 266.627 64 260 64H16C9.37258 64 4 58.6274 4 52V16C4 9.37258 9.37258 4 16 4Z"
+            />
+
+        <path
+            android:pathData="M4 4V64H272V4"
+            android:fillColor="@color/fti_gtv_relative_layout_edit_text_on"
+            />
+
+    </group>
+
+    <group>
+
+        <clip-path
+            android:pathData="M0 0V68H276V0M16 4H260C266.627 4 272 9.37258 272 16V52C272 58.6274 266.627 64 260 64H16C9.37258 64 4 58.6274 4 52V16C4 9.37258 9.37258 4 16 4Z"
+            />
+
+        <path
+            android:pathData="M16 4H260C266.627 4 272 9.37258 272 16V52C272 58.6274 266.627 64 260 64H16C9.37258 64 4 58.6274 4 52V16C4 9.37258 9.37258 4 16 4Z"
+            android:strokeWidth="8"
+            android:strokeColor="@color/fti_gtv_relative_layout_edit_text_select_on"
+            />
+
+    </group>
+
+</vector>

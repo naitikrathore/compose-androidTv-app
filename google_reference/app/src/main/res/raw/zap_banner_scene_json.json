@@ -1,0 +1,105 @@
+{
+  "title": "Zap Banner Widget",
+  "items": [
+    {
+      "id": "0",
+      "name": "progress",
+      "visibility": "visible",
+      "source": "",
+      "height": "",
+      "width": "",
+      "background": "",
+      "alignmentX": "",
+      "alignmentY": "",
+      "leftMargin": "",
+      "rightMargin": "",
+      "topMargin": "",
+      "bottomMargin": "",
+      "data": {
+        "progressColor": "color_progress"
+      },
+      "rail_data": []
+    },
+    {
+      "id": "1",
+      "name": "event name",
+      "visibility": "visible",
+      "source": "",
+      "height": "wrap_content",
+      "width": "",
+      "background": "",
+      "alignmentX": "",
+      "alignmentY": "",
+      "leftMargin": "",
+      "rightMargin": "",
+      "topMargin": "",
+      "bottomMargin": "",
+      "data": {
+        "textColor": "color_main_text",
+        "font": "font_regular"
+      },
+      "rail_data": []
+    },
+    {
+      "id": "2",
+      "name": "event time",
+      "visibility": "visible",
+      "source": "",
+      "height": "",
+      "width": "",
+      "background": "",
+      "alignmentX": "",
+      "alignmentY": "",
+      "leftMargin": "",
+      "gravity": "end",
+      "rightMargin": "",
+      "topMargin": "",
+      "bottomMargin": "",
+      "data": {
+        "textColor": "color_main_text",
+        "font": "font_regular"
+      },
+      "rail_data": []
+    },
+    {
+      "id": "3",
+      "name": "channel name",
+      "visibility": "visible",
+      "source": "",
+      "height": "",
+      "width": "",
+      "background": "",
+      "alignmentX": "",
+      "alignmentY": "",
+      "leftMargin": "",
+      "rightMargin": "",
+      "topMargin": "",
+      "bottomMargin": "",
+      "data": {
+        "textColor": "color_main_text",
+        "font": "font_regular"
+      },
+      "rail_data": []
+    },
+    {
+      "id": "4",
+      "name": "channel index",
+      "visibility": "visible",
+      "source": "",
+      "height": "",
+      "width": "",
+      "background": "",
+      "alignmentX": "",
+      "alignmentY": "",
+      "leftMargin": "",
+      "rightMargin": "",
+      "topMargin": "",
+      "bottomMargin": "",
+      "data": {
+        "textColor": "color_main_text",
+        "font": "font_regular"
+      },
+      "rail_data": []
+    }
+  ]
+}

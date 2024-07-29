@@ -1,0 +1,117 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gradient"
+    android:layout_width="@dimen/custom_dim_960"
+    android:layout_height="@dimen/custom_dim_540"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:background="@color/white">
+
+    <View
+        android:id="@+id/guide_fade_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/custom_dim_140"
+        android:background="@drawable/loading_guide_gradient_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/constraint_layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/custom_dim_184"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_6"
+            android:orientation="horizontal">
+
+            <include layout="@layout/loading_layout_widget_guide_channel_item" />
+
+            <include layout="@layout/loading_layout_widget_guide_timetable_row" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_6"
+            android:alpha="0.8"
+            android:orientation="horizontal">
+
+            <include layout="@layout/loading_layout_widget_guide_channel_item" />
+
+            <include layout="@layout/loading_layout_widget_guide_timetable_row_translated_x_50" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_6"
+            android:alpha="0.55"
+            android:orientation="horizontal">
+
+            <include layout="@layout/loading_layout_widget_guide_channel_item" />
+
+            <include layout="@layout/loading_layout_widget_guide_timetable_row" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_6"
+            android:alpha="0.4"
+            android:orientation="horizontal">
+
+            <include layout="@layout/loading_layout_widget_guide_channel_item" />
+
+            <include layout="@layout/loading_layout_widget_guide_timetable_row_translated_x_50" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_6"
+            android:alpha="0.3"
+            android:orientation="horizontal">
+
+            <include layout="@layout/loading_layout_widget_guide_channel_item" />
+
+            <include layout="@layout/loading_layout_widget_guide_timetable_row" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_6"
+            android:alpha="0.2"
+            android:orientation="horizontal">
+
+            <include layout="@layout/loading_layout_widget_guide_channel_item" />
+
+            <include layout="@layout/loading_layout_widget_guide_timetable_row_translated_x_50" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/custom_dim_6"
+            android:alpha="0.1"
+            android:orientation="horizontal">
+
+            <include layout="@layout/loading_layout_widget_guide_channel_item" />
+
+            <include layout="@layout/loading_layout_widget_guide_timetable_row" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

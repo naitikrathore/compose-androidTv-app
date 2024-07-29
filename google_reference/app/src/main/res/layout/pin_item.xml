@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pin_item_wrapper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/custom_dim_7_5"
+    android:layout_marginEnd="@dimen/custom_dim_7_5"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/arrow_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:textAlignment="center"
+        android:textColor="@color/color_main_text"
+        android:textSize="@dimen/font_15"
+        android:visibility="invisible"
+        tools:background="#80509E92"
+        tools:text="0"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/value_wrapper"
+        android:layout_width="@dimen/custom_dim_46_5"
+        android:layout_height="@dimen/custom_dim_36"
+        android:background="@drawable/pin_rounded_layout">
+
+        <TextView
+            android:id="@+id/pin_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:textAlignment="center"
+            android:textColor="@color/color_main_text"
+            android:textSize="@dimen/font_15"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="#80509E92"
+            tools:text="1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/arrow_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:textAlignment="center"
+        android:textColor="@color/color_main_text"
+        android:textSize="@dimen/font_15"
+        android:visibility="invisible"
+        tools:background="#80509E92"
+        tools:text="2"
+        tools:visibility="visible" />
+</LinearLayout>

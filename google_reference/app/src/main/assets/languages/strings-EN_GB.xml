@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--This string appears under setup in preference [CHAR_LIMIT=30] "-->
+    <string name="channel_block">Channel Block</string>
+    <!--This string appears under setup in preference [CHAR_LIMIT=30] "-->
+    <string name="Input_block">Input Block</string>
+    <!--This string appears under setup in preference [CHAR_LIMIT=30] "-->
+    <string name="rating_systems">Rating System</string>
+    <!--This string appears under setup in preference [CHAR_LIMIT=30] "-->
+    <string name="Rating_lock">Rating Lock</string>
+    <string name="search_hint">Search for channels and events</string>
+    <string name="no_guide_pvr_running">PVR playback in progress, please exit PVR playback to view Guide</string>
+    <string name="recording_progress_toast">Timeshift can not be started while recording is in progress</string>
+    <string name="event_locked">Event locked</string>
+    <string name="aspect_ratio">Aspect Ratio</string>
+    <string name="free">Free</string>
+    <string name="reminder_conflict_title">Multiple events added to Watchlist are starting</string>
+    <string name="reminder_conflict_description">Choose what to watch right now</string>
+    <string name="standard">Standard</string>
+    <string name="qam">QAM</string>
+    <string name="symbolrate_cable">Symbol rate</string>
+    <string name="frequency_cable">Frequency</string>
+    <string name="scan_cable">Cable scan</string>
+    <string name="cable_manual_tuning">Cable tuning for</string>
+    <string name="quick_tuning">Quick tuning</string>
+    <string name="select_provider">Choose TV provider</string>
+    <string name="select_provider_description">Select your provider from the list</string>
+    <string name="cable_scan">Cable scan</string>
+    <string name= "rec_scheduled_toast">Recording has been scheduled successfully!</string>
+    <string name="open_timeshift">Use Down button on D-Pad to open Timeshift</string>
+    <string name="open_main_menu">Use Up button on D-Pad to open Menu</string>
+    <string name="open_info_list">Use Right button on D-Pad to open Info Banner</string>
+    <string name="open_channel_list">Use Left button on D-Pad to open Channel List</string>
+    <string name="normal">Normal</string>
+    <string name="full">Full</string>
+    <string name="zoom">Zoom</string>
+    <string name="scan_mode">Scan mode</string>
+    <string name="processing">Processing data</string>
+    <string name="time_shift_buffer_size_reached_msg">The timeshift buffer size is reached.</string>
+    <string name="timeshift_usb_removed_msg">Timeshift has stopped because USB device has been removed</string>
+    <string name="ukraine">Ukraine</string>
+    <string name="irelend">Irelend</string>
+    <string name="description_text">Recording conflict</string>
+    <string name="description_text2">Recording already set at desired time slot</string>
+    <string name="description_text3">Choose which channel to record</string>
+    <string name="toast_for_updated_choice">Choice Updated!</string>
+    <string name="recording_watchlist_conflict">Event with same start time is already added in the watchlist</string>
+    <string name="watchlist_recording_conflict">Event with same start time is already scheduled for recording</string>
+    <string name="evaluation_license_pref">Evaluation License</string>
+    <string name="evaluation_license_accept">Accept</string>
+    <string name="eval_licence_expiry_title">Evaluation license has been expired</string>
+    <string name="eval_licence_expiry_sub_title">Please contact iWedia</string>
+    <string name="open_source_license_title">OPEN SOURCE LICENCES</string>
+    <string name="open_source_license_picasso">Picasso - Apache 2.0</string>
+    <string name="open_source_license_firebase">Firebase SDK - Apache 2.0</string>
+    <string name="open_source_license_gson">GSON - Apache 2.0</string>
+    <string name="open_source_license_lottie">Lottie - Apache 2.0</string>
+    <string name="manual_scan_ch_with_thirteen">VHF Ch. (5 - 13) / UHF Ch. (21 - 69)</string>
+    <string name="display_mode">Display mode</string>
+    <string name="closed_captions">Closed captions</string>
+    <string name="for_you_promo">Promo</string>
+    <string name="description_age_4">Recommended for ages 4 and over.</string>
+    <string name="description_age_5">Recommended for ages 5 and over.</string>
+    <string name="description_age_6">Recommended for ages 6 and over.</string>
+    <string name="description_age_7">Recommended for ages 7 and over.</string>
+    <string name="description_age_8">Recommended for ages 8 and over.</string>
+    <string name="description_age_9">Recommended for ages 9 and over.</string>
+    <string name="description_age_10">Recommended for ages 10 and over.</string>
+    <string name="description_age_11">Recommended for ages 11 and over.</string>
+    <string name="description_age_12">Recommended for ages 12 and over.</string>
+    <string name="description_age_13">Recommended for ages 13 and over.</string>
+    <string name="description_age_14">Recommended for ages 14 and over.</string>
+    <string name="description_age_15">Recommended for ages 15 and over.</string>
+    <string name="description_age_16">Recommended for ages 16 and over.</string>
+    <string name="description_age_17">Recommended for ages 17 and over.</string>
+    <string name="description_age_18">Recommended for ages 18 and over.</string>
+    <string name="description_age_19">Recommended for ages 19 and over.</string>
+    <string name="description_age_20">Recommended for ages 20 and over.</string>
+    <string name="description_ar_tv_atp">Suitable for all audiences. Programs may contain mild violence, language and mature situations.</string>
+    <string name="description_ar_tv_sam_13">Suitable for ages 13 and up. Programs may contain mild to moderate language and mild violence and sexual references.</string>
+    <string name="description_ar_tv_sam_16">Suitable for ages 16 and up. Programs may contain more intensive violence and coarse language, partial nudity and moderate sexual references.</string>
+    <string name="description_ar_tv_sam_18">Suitable for mature audiences only. Programs contain strong violence, coarse language and explicit sexual references.</string>
+    <string name="description_ar_tv_d">Drugs</string>
+    <string name="description_ar_tv_s">Sex</string>
+    <string name="description_ar_tv_v">Violence</string>
+    <string name="description_au_tv_p">Material classified P is intended for preschool children.</string>
+    <string name="description_au_tv_c">Material classified C is intended for children (other than preschool children) who are younger than 14 years of age.</string>
+    <string name="description_au_tv_g">Material classified G is not necessarily intended for children but it must be very mild in impact and must not contain any matter likely to be unsuitable for children to watch without supervision.</string>
+    <string name="description_au_tv_pg">Material classified PG may contain adult themes or concepts but must be mild in impact and remain suitable for children to watch with supervision.</string>
+    <string name="description_au_tv_m">Material classified M is for mature audiences. It is recommended for viewing only by persons aged 15 years or over.</string>
+    <string name="description_au_tv_ma">Material classified MA is suitable for viewing only by persons aged 15 years or over because of the intensity and/or frequency of violence, sexual depictions, or coarse language, adult themes or drug use. The impact may be strong.</string>
+    <string name="description_au_tv_av">Material classified AV is suitable for viewing only by persons aged 15 years or over. It is unsuitable for MA classification because of the intensity and/or frequency of violence, or because violence is central to the theme. In other respects, the requirements of the classification are identical to the MA classification.</string>
+    <string name="description_au_tv_r">Material classified R is legally restricted to adults. Some material classified R may be offensive to sections of the adult community.</string>
+    <string name="title_br_tv_l">GA</string>
+    <string name="title_br_tv_10">PG-10</string>
+    <string name="title_br_tv_12">PG-12</string>
+    <string name="title_br_tv_14">PG-14</string>
+    <string name="title_br_tv_16">PG-16</string>
+    <string name="title_br_tv_18">PG-18</string>
+    <string name="description_br_tv_l">General audiences</string>
+    <string name="description_br_tv_10">Not recommended for ages under 10.</string>
+    <string name="description_br_tv_12">Not recommended for ages under 12.</string>
+    <string name="description_br_tv_14">Not recommended for ages under 14.</string>
+    <string name="description_br_tv_16">Not recommended for ages under 16.</string>
+    <string name="description_br_tv_18">Not recommended for ages under 18.</string>
+    <string name="description_br_tv_d">Drugs</string>
+    <string name="description_br_tv_s">Sex</string>
+    <string name="description_br_tv_v">Violence</string>
+    <string name="description_ca_tv_en_exempt">Exempt programming includes: news, sports, documentaries and other information programming; talk shows, music videos, and variety programming.</string>
+    <string name="description_ca_tv_en_c">This programming is intended for younger children under the age of 8 years.</string>
+    <string name="description_ca_tv_en_c8">This programming is intended for youngsters 8 years and over. It is suggested that a parent/guardian co-view programming assigned this classification with younger children under the age of 8.</string>
+    <string name="description_ca_tv_en_g">This programming is intended for all age groups and appropriate viewing for the entire family.</string>
+    <string name="description_ca_tv_en_pg">This programming, while intended for a general audience, may not be suitable for younger children (under the age of 8). Parents/guardians should be aware that there might be content elements which some could consider inappropriate for unsupervised viewing by children in the 8-13 age range.</string>
+    <string name="description_ca_tv_en_14">Programming with this classification contains themes or content elements which might not be suitable for viewers under the age of 14. Parents are strongly cautioned to exercise discretion in permitting viewing by pre-teens and early teens without parent/guardian supervision, as programming with this classification could deal with mature themes and societal issues in a realistic fashion.</string>
+    <string name="description_ca_tv_en_18">This programming is intended for viewers 18 years and older.</string>
+    <string name="title_ca_tv_fr">French</string>
+    <string name="description_ca_tv_fr_e">Programs exempt from classification.</string>
+    <string name="description_ca_tv_fr_g">The program is appropriate for viewing by persons of all ages. A program with a "G" rating might offend the sensibilities of children under eight years of age.</string>
+    <string name="description_ca_tv_fr_8">The program is suitable for the general public but could contain mild or occasional violence that may disturb young children. Viewing with adult supervision is therefore recommended for young children (age 8 and under).</string>
+    <string name="description_ca_tv_fr_13">The program is appropriate for viewing by persons 13 years of age or older. Children under 13 may be admitted only if accompanied by an adult.</string>
+    <string name="description_ca_tv_fr_16">The program is appropriate for viewing by persons 16 years of age or older. Programs with this rating present troubling themes, situations or behaviours and adopt a more direct point of view about things.</string>
+    <string name="description_ca_tv_fr_18">The program is appropriate for viewing by persons 18 years of age or older. Programs reserved for adults most often deal primarily with the representation of explicit sexual encounters.  They may also be extremely violent, showing scenes of hyperrealistic cruelty, torture and horror.</string>
+    <string name="description_fr_dvb_u">Recommended for all ages.</string>
+    <string name="description_es_dvb_all">Recommended for all ages.</string>
+    <string name="description_es_dvb_c">Recommended for children.</string>
+    <string name="description_es_dvb_x">Recommended for adults.</string>
+    <string name="title_kr_tv_all">ALL</string>
+    <string name="title_kr_tv_7">7</string>
+    <string name="title_kr_tv_12">12</string>
+    <string name="title_kr_tv_15">15</string>
+    <string name="title_kr_tv_19">19</string>
+    <string name="description_kr_tv_all">Programs do not contain material inappropriate for all ages, and thus are suitable for all ages.</string>
+    <string name="description_kr_tv_7">Programs may contain material inappropriate for children under 7, and therefore parental discretion should be used for them.</string>
+    <string name="description_kr_tv_12">Programs may contain material inappropriate for children under 12, and therefore parental discretion should be used for them.</string>
+    <string name="description_kr_tv_15">Programs may contain material inappropriate for audiences under 15, and therefore parental discretion should be used for them.</string>
+    <string name="description_kr_tv_19">Programs may contain material inappropriate for audiences under 19, and thus are not suitable for youngsters under 19.</string>
+    <string name="description_sg_tv_g">Suitable for all ages.</string>
+    <string name="description_sg_tv_pg">Suitable for all but parents should guide their young.</string>
+    <string name="description_sg_tv_pg13">Suitable for persons aged 13 and above but parental guidance is advised for children below 13.</string>
+    <string name="description_sg_tv_nc16">Suitable for persons aged 16 and above.</string>
+    <string name="description_sg_tv_m18">Suitable for persons aged 18 and above.</string>
+    <string name="description_sg_tv_r21">Suitable for adults aged 21 and above.</string>
+    <string name="description_us_tv_d">Suggestive dialogue</string>
+    <string name="description_us_tv_l">Coarse language</string>
+    <string name="description_us_tv_s">Sexual content</string>
+    <string name="description_us_tv_v">Violence</string>
+    <string name="description_us_tv_fv">Fantasy violence</string>
+    <string name="description_us_tv_y">This program is designed to be appropriate for all children.</string>
+    <string name="description_us_tv_y7">This program is designed for children age 7 and above.</string>
+    <string name="description_us_tv_g">Most parents would find this program suitable for all ages.</string>
+    <string name="description_us_tv_pg">This program contains material that parents may find unsuitable for younger children. Many parents may want to watch it with their younger children.</string>
+    <string name="description_us_tv_14">This program contains some material that many parents would find unsuitable for children under 14 years of age.</string>
+    <string name="description_us_tv_ma">This program is specifically designed to be viewed by adults and therefore may be unsuitable for children under 17.</string>
+    <string name="title_us_mv">Film ratings</string>
+    <string name="description_us_mv_g">General audiences. Nothing that would offend parents for viewing by children.</string>
+    <string name="description_us_mv_pg">Parental guidance suggested. May contain some material parents might not like for their young children.</string>
+    <string name="description_us_mv_pg13">Parents strongly cautioned. Some material may be inappropriate for pre-teenagers.</string>
+    <string name="description_us_mv_r">Restricted, Contains some adult material. Parents are urged to learn more about the film before taking their young children with them.</string>
+    <string name="description_us_mv_nc17">No one 17 and under admitted. Clearly adult. Children are not admitted.</string>
+    <string name="description_nz_fta_tv_g">Programmes which exclude material likely to be unsuitable for children. Programmes may not necessarily be designed for child viewers but should not contain material likely to alarm or distress them.</string>
+    <string name="description_nz_fta_tv_pgr">Programmes containing material more suited for mature audiences but not necessarily unsuitable for child viewers when subject to the guidance of a parent or an adult.</string>
+    <string name="description_nz_fta_tv_ao">Programmes containing adult themes and directed primarily at mature audiences.</string>
+    <string name="description_th_tv_4">Suitable for audiences 3 to 5 years of age.</string>
+    <string name="description_th_tv_6">Suitable for audiences 6 to 12 years of age.</string>
+    <string name="description_th_tv_10">Suitable for all audiences.</string>
+    <string name="description_th_tv_13">Parental guidance suggested for viewers age below 13.</string>
+    <string name="description_th_tv_18">Parental guidance suggested for viewers age below 18.</string>
+    <string name="description_th_tv_19">Not suitable for children and teenagers.</string>
+    <string name="antenna">Antenna power</string>
+    <string name="albanian">Albanian</string>
+    <string name="belarusian">Belarusian</string>
+    <string name="bulgarian">Bulgarian</string>
+    <string name="czech">Czech</string>
+    <string name="danish">Danish</string>
+    <string name="german">German</string>
+    <string name="dutch">Dutch</string>
+    <string name="greek">Greek</string>
+    <string name="english">English</string>
+    <string name="finnish">Finnish</string>
+    <string name="french">French</string>
+    <string name="croatian">Croatian</string>
+    <string name="hungarian">Hungarian</string>
+    <string name="italian">Italian</string>
+    <string name="latvian">latvian</string>
+    <string name="lithuanian">Lithuanian</string>
+    <string name="macedonian">Macedonian</string>
+    <string name="norwegian">Norwegian</string>
+    <string name="polish">Polish</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="romanian">Romanian</string>
+    <string name="russian">Russian</string>
+    <string name="slovak">Slovak</string>
+    <string name="slovenian">Slovenian</string>
+    <string name="spanish">Spanish</string>
+    <string name="serbian">Serbian</string>
+    <string name="swedish">Swedish</string>
+    <string name="turkish">Turkish</string>
+    <string name="recording_finished">Recording finished</string>
+    <string name="status_message_channels_not_available">Channels are not available.</string>
+    <string name="status_message_drm_error">DRM error</string>
+    <string name="status_message_signal_not_available">Signal is not available.</string>
+    <string name="status_message_no_playback">No playback.</string>
+    <string name="no_ethernet_message">Some services may not be available without internet.</string>
+    <string name="no_available_audio_tracks_msg">No available audio tracks</string>
+    <string name="no_available_subtitle_tracks_msg">No available subtitle tracks</string>
+    <string name="subtitle_off_msg">Subtitles are OFF!</string>
+    <string name="Jan">Jan</string>
+    <string name="Feb">Feb</string>
+    <string name="Mar">Mar</string>
+    <string name="Apr">Apr</string>
+    <string name="May">May</string>
+    <string name="Jun">Jun</string>
+    <string name="Jul">Jul</string>
+    <string name="Aug">Aug</string>
+    <string name="Sep">Sep</string>
+    <string name="Oct">Oct</string>
+    <string name="Nov">Nov</string>
+    <string name="Dec">Dec</string>
+    <string name="recording_scan_conflict_toast">Scan process can not be performed during recording, please finish recording first in order to scan more channels</string>
+    <string name="usb_connected">USB Connected</string>
+    <string name="usb_disconnected">USB Disconnected</string>
+    <string name="channel_delete_confirmation">There are events from this channel that are added to your watchlist, are you sure you want to delete it?</string>
+    <string name="manual_scan_ch_only_uhf">UHF Ch. (21 - 69)</string>
+    <string name="app_name" msgid="1276402500632367901">"Live TV"</string>
+    <string name="no_info" msgid="5400686762922140283">"No info"</string>
+    <string name="not_available" msgid="7376966038624016923">"N/A"</string>
+    <string name="all" msgid="1561098708179181336">"All"</string>
+    <string name="recent" msgid="1838091694396247363">"Recent"</string>
+    <string name="favorites" msgid="8901975288160748957">"Favourites"</string>
+    <string name="radio" msgid="3164637576576433188">"Radio"</string>
+    <string name="no_internet_message" msgid="3554201501180755759">"No Internet connection.\nSome services will not be available without connection."</string>
+    <string name="tv_select_input_scan_title" msgid="2619884735308539235">"TV input scan"</string>
+    <string name="tv_select_input_scan_message" msgid="8487553067533682220">"Please select from available TV inputs to add channels.\nMore channels can always be added afterwards."</string>
+    <string name="scan" msgid="734672551787628747">"Scan"</string>
+    <string name="finishScan" msgid="871898530279538507">"Finished scanning"</string>
+    <string name="channels_found_on" msgid="1414577635083128748">"channels found on"</string>
+    <string name="channels" msgid="4380410724161095326">"Channels"</string>
+    <string name="input" msgid="1149385406223657705">"input"</string>
+    <string name="go_back_to_scan" msgid="7543768279308621088">"Go back to scan more inputs."</string>
+    <string name="proceed" msgid="1214388060683917324">"Proceed"</string>
+    <string name="next" msgid="3683541602409234265">"Next:"</string>
+    <string name="previous" msgid="7289547144093283633">"Previous:"</string>
+    <string name="start_over" msgid="2229118857793940579">"Start again"</string>
+    <string name="watchlist" msgid="5662090977932744154">"Watchlist"</string>
+    <string name="watchlist_remove" msgid="7507289157249186634">"Remove"</string>
+    <string name="record" msgid="1524542455933313955">"Record"</string>
+    <string name="watch" msgid="2622572399160220460">"Watch"</string>
+    <string name="continue_watch" msgid="6260534053660339190">"Continue"</string>
+    <string name="rename" msgid="8008700600879669681">"Rename"</string>
+    <string name="delete" msgid="675914287573190216">"Delete"</string>
+    <string name="cancel" msgid="6777134290748633238">"Cancel"</string>
+    <string name="no_information" msgid="9173470733305716861">"No Information"</string>
+    <string name="on_now" msgid="7601392008818995402">"On now"</string>
+    <string name="broadcast_tv_channels">Broadcast TV channels</string>
+    <string name="up_next" msgid="2566862734643042006">"Up next"</string>
+    <string name="recorded" msgid="365342196797893323">"Recorded"</string>
+    <string name="scheduled" msgid="1808254121245853576">"Scheduled"</string>
+    <string name="ok" msgid="9168016165173996675">"OK"</string>
+    <string name="please_click_again" msgid="3544950440758580770">"Please click BACK again to exit"</string>
+    <string name="_default" msgid="3039479680796443287">"Default"</string>
+    <string name="name_up" msgid="4457664012212323554">"Name up"</string>
+    <string name="name_down" msgid="3681090499765705036">"Name down"</string>
+    <string name="no_categories_msg" msgid="9206914907790687898">"No available categories"</string>
+    <string name="no_results_found" msgid="7555299678274781238">"No results found; please try again"</string>
+    <string name="enter_letters" msgid="1809385590701435475">"Enter at least one letter"</string>
+    <string name="past_events" msgid="8059227963716654699">"Past events"</string>
+    <string name="future_events" msgid="629979362833530545">"Future events"</string>
+    <string name="lcn" msgid="1290883721637274779">"LCN"</string>
+    <string name="recording_exit_msg" msgid="7512518820927102191">"Recording is in progress; it will be interrupted."</string>
+    <string name="remove_recording_dialog_msg" msgid="9027511472917428212">"Are you sure that you want to\nremove this item?"</string>
+    <string name="time_shift_exit_msg" msgid="1714068583669210210">"If the channel is changed,\nthe timeshift mode will be interrupted."</string>
+    <string name="time_shift_usb_error_msg" msgid="1149428969799183101">"The USB device is not attached,\nthe timeshift mode cannot be started."</string>
+    <string name="time_shift_scrambled_channel_msg" msgid="83933820238134346">"The active channel is scrambled,\nthe timeshift mode cannot be started."</string>
+    <string name="time_shift_not_available_error_msg" msgid="7738011598228818770">"The timeshift mode is not currently available for this channel."</string>
+    <!--This string appears in notification that will warn user that timeshift buffer size is reached." [CHAR_LIMIT=60]-->
+    <string name="time_shift_buffer_size_reached_msg">The timeshift buffer size is reached.</string>
+    <string name="add_to_favorites" msgid="8280344840050880716">"Add to favourites"</string>
+    <string name="edit_favorites" msgid="2511007317790537462">"Edit favourites"</string>
+    <string name="more_info" msgid="5565850658795889872">"More info"</string>
+    <string name="zap_conflict" msgid="7827821368264176936">"Zap conflict"</string>
+    <string name="select_channel_manually" msgid="7302984770269602819">"Select channel manually"</string>
+    <string name="favorite_list_name_can_not_be_empty" msgid="1038957789151360499">"Favourite list name cannot be empty!"</string>
+    <string name="rec_type_title" msgid="1493365367362692245">"Start recording"</string>
+    <string name="rec_now" msgid="1107096635108539822">"Now"</string>
+    <string name="rec_after_curr_event" msgid="2454161110193355809">"After current event"</string>
+    <string name="rec_set_date_time" msgid="6263546406293600090">"Set date and time"</string>
+    <string name="lock" msgid="7861994131060026913">"Lock"</string>
+    <string name="not_skip" msgid="3477114547241354688">"Unskip"</string>
+    <string name="pvr_playback_exit_msg" msgid="8094392263782298025">"If the channel is changed,\nthe recorded content playback will be interrupted."</string>
+    <string name="pvr_usb_error_msg" msgid="7612098268284539532">"The USB device is not attached,\nthe recording cannot be started."</string>
+    <string name="pvr_msg_cannot_record_program" msgid="4682512998399461517">"The programme cannot be recorded."</string>
+    <string name="title" msgid="824784418539163870">"Channel setup"</string>
+    <string name="text_signal_strength" msgid="2264842741806218055">"Signal strength"</string>
+    <string name="frequency" msgid="4728719073153707457">"Frequency [MHz]:"</string>
+    <string name="polar_horizontal" msgid="4896843100156964811">"Horizontal"</string>
+    <string name="polar_vertical" msgid="3583074411112676591">"Vertical"</string>
+    <string name="scan_back" msgid="8254811135465586310">"Back"</string>
+    <string name="programme_tuning" msgid="7151825210369267735">"Programme tuning"</string>
+    <string name="auto_tuning" msgid="5241790341643214577">"Auto tuning"</string>
+    <string name="manual_tuning" msgid="3803227558849032933">"Manual tuning"</string>
+    <string name="terrestrial" msgid="6057458256298385682">"Terrestrial"</string>
+    <string name="cable" msgid="3533509221735497167">"Cable"</string>
+    <string name="satellite" msgid="5902319368428481619">"Satellite"</string>
+    <string name="ip" msgid="7550330649060136409">"IP"</string>
+    <string name="terrestrial_manual_scan" msgid="8615010351092110556">"Terrestrial manual scan"</string>
+    <string name="vhf_uhf_manual_tuning" msgid="2296041353998669604">"VHF Ch. (5–12)/UHF Ch. (21–69)"</string>
+    <string name="frequency_manual_tuning" msgid="7134323135104455005">"Frequency (47,000 ~ 890,000 kHz)"</string>
+    <string name="bandwidth_manual_tuning" msgid="4006694481514521150">"Bandwidth (MHz)"</string>
+    <string name="signal_strength" msgid="9084219034702264545">"Signal strength"</string>
+    <string name="signal_quality" msgid="2519879440868826524">"Signal quality"</string>
+    <string name="tune" msgid="4920789798390090505">"Tune"</string>
+    <string name="cable_manual_scan" msgid="2153124658983352330">"Cable manual tuning"</string>
+    <string name="frequency_cable_manual_tuning" msgid="8456034285142379792">"Frequency (46,000 ~ 870,000 kHz)"</string>
+    <string name="modulation_cable" msgid="2316368898856054874">"Modulation"</string>
+    <string name="symbol_rate_cable" msgid="1530782523197615047">"Symbol rate (1 ~ 7,200 kB/s)"</string>
+    <string name="tv_programmes_found" msgid="3824314635758797853">"TV programmes found"</string>
+    <string name="radio_programmes_found" msgid="8068018177062715658">"Radio services found"</string>
+    <string name="ip_manual_scan" msgid="3939430738970126951">"IP manual scan"</string>
+    <string name="enter_url" msgid="6790132119337729261">"Enter URL"</string>
+    <string name="browse_locally" msgid="1051773926641445378">"Browse locally"</string>
+    <string name="scan_option" msgid="4306195012541155420">"Scan"</string>
+    <string name="nit" msgid="7688996391259343733">"NIT"</string>
+    <string name="nit_id" msgid="2814795103490979888">"Network ID"</string>
+    <string name="satellites" msgid="5032252427135715049">"Satellites"</string>
+    <string name="edit" msgid="5317842992931147350">"Edit"</string>
+    <string name="antenna_config" msgid="7806290512493790481">"Antenna config"</string>
+    <string name="transponders" msgid="5257067189342482742">"Transponders"</string>
+    <string name="scan_options" msgid="3552587590439164432">"Scan options"</string>
+    <string name="search_type" msgid="7839644239035438171">"Search type"</string>
+    <string name="scrambled" msgid="5850057616146603733">"Scrambled"</string>
+    <string name="descrambled" msgid="188954300643020349">"Descrambled"</string>
+    <string name="network_search" msgid="1163464904985861536">"Network search"</string>
+    <string name="search">Search</string>
+    <string name="on" msgid="3751436329235813537">"On"</string>
+    <string name="off" msgid="3554615296323809334">"Off"</string>
+    <string name="start" msgid="8373408783747443318">"Start"</string>
+    <string name="edit_satellite" msgid="4607701308048105247">"Edit satellite"</string>
+    <string name="add_satellite" msgid="2273979716858813472">"Add satellite"</string>
+    <string name="save" msgid="7065794043691996309">"Save"</string>
+    <string name="satellite_name" msgid="7025139118253076773">"Satellite name"</string>
+    <string name="satellite_angle" msgid="8683899846350204042">"Satellite angle"</string>
+    <string name="east_west" msgid="7897600069231316216">"East/West"</string>
+    <string name="east" msgid="4358399578929609887">"East"</string>
+    <string name="west" msgid="9044409318304141102">"West"</string>
+    <string name="lnb_type" msgid="461240556471773891">"LNB type"</string>
+    <string name="low_frequency_range" msgid="1170543810050805189">"Low frequency (range ? GHz)"</string>
+    <string name="high_frequency_range" msgid="5970034829459836798">"High frequency (range ? GHz)"</string>
+    <string name="diseqc" msgid="7568217958941352483">"DiSEqC"</string>
+    <string name="usals" msgid="3823979334027822788">"USALS"</string>
+    <string name="activate" msgid="6733615062583225476">"Activate"</string>
+    <string name="deactivate" msgid="1807972219321904394">"Deactivate"</string>
+    <string name="tone_burst" msgid="8604581077816401974">"Tone burst"</string>
+    <string name="positioner" msgid="8318582990053674121">"Positioner"</string>
+    <string name="none" msgid="270213694043707263">"None"</string>
+    <string name="motor_setup" msgid="4736838637373424822">"Motor setup"</string>
+    <string name="lnb_volts" msgid="2887965354047275769">"LNB volts"</string>
+    <string name="unicable" msgid="2781716498996810985">"Unicable"</string>
+    <string name="center_frequency" msgid="6365286688261520874">"Centre frequency"</string>
+    <string name="port" msgid="8895960865568032567">"Port"</string>
+    <string name="usals_motor_setup" msgid="7657151501964284609">"USALS motor setup"</string>
+    <string name="longitude" msgid="4001648645842463687">"Longitude"</string>
+    <string name="local_latitude" msgid="8823596382291639854">"Local latitude"</string>
+    <string name="diseqc_motor_setup" msgid="5323500521822752237">"DiSEqC motor setup"</string>
+    <string name="moving_type" msgid="1873868431963400283">"Moving type"</string>
+    <string name="installer" msgid="8471001727135690995">"Installer"</string>
+    <string name="advanced" msgid="1404660154235921630">"Advanced"</string>
+    <string name="limit" msgid="7286926921334121151">"Limit"</string>
+    <string name="disable" msgid="1223300282346009587">"Disable"</string>
+    <string name="enable" msgid="996139214854391916">"Enable"</string>
+    <string name="set_limit" msgid="5168996347824076248">"Set limit"</string>
+    <string name="position" msgid="2803940868161781819">"Position"</string>
+    <string name="drive_ew" msgid="4383307822798019860">"Drive E/W"</string>
+    <string name="frequency_diseqc" msgid="2875219430165646513">"Frequency (10,700 ~ 12,750 MHz)"</string>
+    <string name="symbol_rate_diseqc" msgid="1207702014683617310">"Symbol rate (1 ~ 99,999 kB/s)"</string>
+    <string name="recalculate" msgid="6829478450813491732">"Recalculate"</string>
+    <string name="reset_position" msgid="5832683284624391408">"Reset position"</string>
+    <string name="edit_transponder" msgid="5242272245079923429">"Edit transponder"</string>
+    <string name="add_transponder" msgid="2623539628999737045">"Add transponder"</string>
+    <string name="polarization" msgid="8123655292270984054">"Polarisation"</string>
+    <string name="tyning_type" msgid="8666387879670813597">"Tyning type"</string>
+    <string name="insert_frequency" msgid="5729776610037320396">"Insert frequency"</string>
+    <string name="insert_symbol_rate" msgid="3786032305290654254">"Insert symbol rate"</string>
+    <string name="skip" msgid="2183603397230534233">"Skip"</string>
+    <string name="up_next_terrestrial_scan" msgid="6324601363733245896">"Up next: terrestrial scan"</string>
+    <string name="up_next_cable_scan" msgid="4800909991170934548">"Up next: cable scan"</string>
+    <string name="up_next_satellite_scan" msgid="351889219174126750">"Up next: satellite scan"</string>
+    <string name="up_next_ip_scan" msgid="444943982885570049">"Up next: IP scan"</string>
+    <string name="are_you_sure" msgid="6633052473207822200">"Are you sure?"</string>
+    <string name="yes" msgid="8396459138340669018">"Yes"</string>
+    <string name="no" msgid="898412150608362736">"No"</string>
+    <string name="error_message" msgid="6738951116149286320">"Something went wrong.\nPlease try again."</string>
+    <string name="stop" msgid="8871442464783363812">"Stop"</string>
+    <string name="done" msgid="8431602145508047529">"Done"</string>
+    <string name="retry" msgid="6558026654247761197">"Retry"</string>
+    <string name="scan_completed" msgid="190069558496485299">"Scan completed"</string>
+    <string name="rename_list" msgid="2319699362834734775">"Rename list"</string>
+    <string name="new_favorite_list" msgid="970952539402962926">"New favourite list"</string>
+    <string name="rename_recording" msgid="2054528390344269205">"Rename recording"</string>
+    <string name="clear_all_channels" msgid="1299596008850807775">"Clear all channels"</string>
+    <string name="channels_scrambled" msgid="9057067263329774776">"Channel scrambled"</string>
+    <string name="channels_scrambled_message" msgid="1084794532788696447">"Check your CI+ card to access this channel"</string>
+    <string name="parental_control_settings" msgid="5319661715471666902">"Parental control settings"</string>
+    <string name="enter_pin_to_see_settings" msgid="3815180198258733139">"Enter PIN to see settings."</string>
+    <string name="change_pin" msgid="7488772416735871704">"Change PIN"</string>
+    <string name="enter_current_pin" msgid="4030992484519020714">"Enter current PIN code."</string>
+    <string name="enter_new_pin" msgid="8595685651252541794">"Enter new PIN code."</string>
+    <string name="confirm_change" msgid="6096949281047345319">"Confirm change"</string>
+    <string name="unlock" msgid="2510919004695038132">"Unlock"</string>
+    <string name="channel_locked" msgid="2817792090357968203">"Channel locked"</string>
+    <string name="input_locked" msgid="8105084413794943531">"Input locked"</string>
+    <string name="enter_pin_to_unlock" msgid="2825078114413148691">"Enter PIN to unlock it or check your parental control settings."</string>
+    <string name="unlock_channel" msgid="2186056154365829533">"Unlock channel"</string>
+    <string name="lock_channel" msgid="6415531094159222492">"Lock channel"</string>
+    <string name="enter_pin_using_number" msgid="1617489467804353931">"Enter PIN using number keys or navigational arrows."</string>
+    <string name="press_ok_to_confirm" msgid="2030639856519969859">"Press OK to confirm."</string>
+    <string name="are_you_sure_to_remove" msgid="5272700011032123035">"Are you sure that you want to remove this item?"</string>
+    <string name="watchlist_reminder_message" msgid="1104927838803994094">"Event from your watchlist is about to begin at %s."</string>
+    <string name="setup" msgid="7436979578788573835">"Setup"</string>
+    <string name="audio" msgid="2178205196199874170">"Audio"</string>
+    <string name="subtitles" msgid="443819189435816560">"Subtitles"</string>
+    <string name="cam_info" msgid="2009726257572539955">"Cam info"</string>
+    <string name="hbbtv_settings" msgid="2128953921075061655">"HBBTV settings"</string>
+    <string name="teletext" msgid="5148062316136213977">"Teletext"</string>
+    <string name="system_information" msgid="7606779620841753589">"System information"</string>
+    <string name="channel_scan" msgid="742690025827853777">"Channel scan"</string>
+    <string name="channel_edit" msgid="5747989423326239719">"Channel edit"</string>
+    <string name="default_channel" msgid="6445356023593713771">"Default channel"</string>
+    <string name="interaction_channel" msgid="4321705264398151840">"Interaction channel"</string>
+    <string name="mpeg_pin" msgid="7011120768977604018">"MHEG PIN protection"</string>
+    <string name="parental_control" msgid="6068201552306139221">"Parental control"</string>
+    <string name="open_source" msgid="5621022170996868316">"Open source licences"</string>
+    <string name="custom_recording" msgid="616731175025342123">"Custom recording"</string>
+    <string name="module_information" msgid="138893858253775617">"Module information"</string>
+    <string name="software_version" msgid="938344026859008625">"Software version"</string>
+    <string name="software_download_title" msgid="7182339016885070551">"Do you want to upgrade your module?"</string>
+    <string name="subscription_status" msgid="8152434744124534365">"Subscription status"</string>
+    <string name="event_status" msgid="5639659633902394962">"Event status"</string>
+    <string name="token_status" msgid="4834226009212901122">"Token status"</string>
+    <string name="messages" msgid="4419405029334986460">"Messages"</string>
+    <string name="about_conax_ca" msgid="8545361141093096760">"About Conax CA"</string>
+    <string name="interface_version" msgid="7086406205571753113">"Interface version"</string>
+    <string name="card_number" msgid="4966668852310859686">"Card number"</string>
+    <string name="number_of_sessions" msgid="1553049746241506437">"Number of sessions"</string>
+    <string name="ca_sys_id" msgid="4057273316749165239">"CA_SYS_ID"</string>
+    <string name="chip_id" msgid="3841340855603537499">"ChipID"</string>
+    <string name="language" msgid="5033412417430090708">"Language"</string>
+    <string name="no_messages" msgid="4671069338896663642">"No messages"</string>
+    <string name="rf_channel_number" msgid="7144566814553175174">"RF channel number"</string>
+    <string name="ber" msgid="3389934594324530510">"Ber"</string>
+    <string name="prog" msgid="6513040689191709128">"Prog"</string>
+    <string name="uec" msgid="5831216599881016723">"UEC"</string>
+    <string name="service_id" msgid="6961083730626429041">"Service ID"</string>
+    <string name="agc" msgid="7315404225192362723">"AGC"</string>
+    <string name="bandwidth" msgid="2827698381039488034">"Bandwidth [MHz]"</string>
+    <string name="first_language" msgid="4376264484150066447">"First language"</string>
+    <string name="second_language" msgid="6133917700264074215">"Second language"</string>
+    <string name="audio_description" msgid="6458837295213608473">"Audio description"</string>
+    <string name="audio_type_normal" msgid="2088832842451441840">"Normal"</string>
+    <string name="audio_type_visually_impaired" msgid="3438074786597359516">"Visually impaired"</string>
+    <string name="digital_language" msgid="6027769489097600387">"Digital language"</string>
+    <string name="decoding_page_language" msgid="1124443492008553149">"Decoding page language"</string>
+    <string name="hbbtv_support" msgid="8922193705369262735">"HBBTV support"</string>
+    <string name="hbbtv_track" msgid="3077736394913505081">"Track"</string>
+    <string name="hbbtv_cookie_settings" msgid="4699548377446817221">"Cookie settings"</string>
+    <string name="hbbtv_persisent_storage" msgid="78725024248331696">"Persistent storage"</string>
+    <string name="hbbtv_block_tracking_sites" msgid="1278479776976817723">"Block tracking sites"</string>
+    <string name="hbbtv_device_id" msgid="5819372404666742885">"Device ID"</string>
+    <string name="hbbtv_reset_device_id" msgid="5450337102965703931">"Reset device ID"</string>
+    <string name="hbbtv_blocker_3rd_party_cookies" msgid="7890722586463776089">"Block third-party cookies"</string>
+    <string name="hbbtv_default" msgid="7846721736221762909">"Default"</string>
+    <string name="yesteday" msgid="2031037914735844998">"Yesterday"</string>
+    <string name="today" msgid="67589070411916088">"Today"</string>
+    <string name="tomorrow" msgid="1113611151010280578">"Tomorrow"</string>
+    <string name="channel" msgid="83247550823739857">"Channel"</string>
+    <string name="duration" msgid="2217423882430487586">"Duration"</string>
+    <string name="repeat" msgid="566789264529947157">"Repeat"</string>
+    <string name="hr" msgid="5804859081055619802">"hr"</string>
+    <string name="min" msgid="6507012410599430444">"min"</string>
+  <string-array name="duration_hrs">
+    <item msgid="90144291086847910">"1h"</item>
+    <item msgid="6416585461939184626">"2h"</item>
+    <item msgid="2710032422393468655">"3h"</item>
+    <item msgid="3081826651418420185">"4h"</item>
+    <item msgid="2503873619087349900">"5h"</item>
+    <item msgid="2941148982461308732">"6h"</item>
+    <item msgid="4086352941676689683">"7h"</item>
+  </string-array>
+  <string-array name="duration_min">
+    <item msgid="1648681698956104769">"0 min"</item>
+    <item msgid="4684170343523077350">"5 mins"</item>
+    <item msgid="8175832420314111549">"10 mins"</item>
+    <item msgid="5833040817671471801">"15 mins"</item>
+    <item msgid="1493963098421519845">"20 mins"</item>
+    <item msgid="5410948776282630403">"25 mins"</item>
+    <item msgid="8556168981136945141">"30 mins"</item>
+    <item msgid="6577498731879282997">"35 mins"</item>
+    <item msgid="621131071020421921">"40 mins"</item>
+    <item msgid="2962872642228943573">"45 mins"</item>
+    <item msgid="4962461171429895589">"50 mins"</item>
+    <item msgid="7894077849623889505">"55 mins"</item>
+  </string-array>
+    <string name="usb_format" msgid="5324359857719634056">"Formatting will erase all data. Are you sure?"</string>
+    <string name="no_channels_found" msgid="1848544592156894737">"No channels found"</string>
+    <string name="connect_scan_msg" msgid="7558833561209342023">"Please connect your antenna and scan"</string>
+    <string name="scan_channels_text" msgid="8258095964311020673">"Scan channels"</string>
+    <string name="channels_scan_select_description" msgid="7855400572097293868">"Connect your tuner and select the appropriate option to scan for channels. This step can be skipped and done afterwards from settings or live TV application"</string>
+    <string name="pin_description" msgid="8940902203123531407">"PIN is used for parental control and channel lock inside live TV application"</string>
+    <string name="select_country_description" msgid="1967341889036312517">"Country selection automates the scanning process"</string>
+    <string name="scan_terrestrial_description" msgid="1809146725235000878">"Channel scanning process can take some time depending on set options"</string>
+    <string name="cancel_scan" msgid="5554011776162355293">"Skip"</string>
+    <string name="unknown" msgid="9217817889222189655">"Unknown"</string>
+    <string name="lcn_conflict" msgid="8266500972216800846">"LCN conflict"</string>
+    <string name="status" msgid="7862706947096620505">"Status"</string>
+    <string name="in_progress" msgid="8185893763004417407">"In progress"</string>
+    <string name="updating" msgid="2742050939467141774">"Updating"</string>
+    <string name="complete" msgid="1810163799621341824">"Complete"</string>
+    <string name="cancelled" msgid="1685545085829761585">"Cancelled"</string>
+    <string name="signal_status" msgid="8282786450156646927">"Signal status"</string>
+    <string name="programmes_found" msgid="3796490668729947923">"Programmes found"</string>
+    <string name="scanning_status" msgid="906438863803948589">"Scanning status"</string>
+    <string name="scanning_progress" msgid="3809321512060165759">"Scanning progress"</string>
+    <string name="scan_terrestrial" msgid="5387031143578140493">"Terrestrial scan"</string>
+    <string name="failed" msgid="5261073364967333327">"Failed"</string>
+    <string name="wrong_frequency" msgid="1134163595573458436">"Wrong frequency"</string>
+    <string name="confirm_pin_number" msgid="797481806488195214">"Confirm PIN number"</string>
+    <string name="not_correct_pins" msgid="3808128510761117367">"Entered PIN is not correct"</string>
+    <string name="manual_scan_freq" msgid="6445524265097974731">"Frequency (47,000–862,000 kHz)"</string>
+    <string name="manual_scan_ch" msgid="1986733609522141628">"VHF Ch. (5–12)/UHF Ch. (21–69)"</string>
+    <string name="channels_scan" msgid="6936821143591482075">"Channel scan"</string>
+    <string name="terrestrial_manual_tuning" msgid="5998766433636391506">"Terrestrial tuning for"</string>
+    <string name="terrestrial_scan" msgid="6815581229250774867">"Terrestrial scan"</string>
+    <string name="channels_scan_select" msgid="6217180467659026310">"Choose type of scan"</string>
+    <string name="confirm_text" msgid="4562792574774535382">"Confirm"</string>
+    <string name="enter_pin_number" msgid="4267581858234429410">"Set up a PIN number"</string>
+    <string name="select_country" msgid="9144110521372485962">"Choose country"</string>
+    <string name="date" msgid="6763266483305060876">"Date"</string>
+    <string name="sort_by" msgid="4807922281415928330">"Sort by"</string>
+    <string name="schedule_recording" msgid="2029414279214710085">"Schedule recording"</string>
+    <string name="add_to" msgid="5288188925274421816">"Add to"</string>
+    <string name="testing_in_progress" msgid="2321338586752160609">"Testing in progress"</string>
+    <string name="encrypted" msgid="5925122159025307467">"Encrypted"</string>
+    <string name="daily" msgid="4819197321236588721">"Daily"</string>
+    <string name="weekly" msgid="5922203140575016838">"Weekly"</string>
+    <string name="calendar_filter_title" msgid="5095479328338511094">"Filter day"</string>
+    <string name="time" msgid="3201028376320677354">"Time"</string>
+    <string name="general" msgid="8009011974050077815">General</string>
+    <string name="favorite" msgid="3840237917139864682">"Favourite"</string>
+    <string name="on_now_radio" msgid="7663321600218926582">"On now radio"</string>
+    <string name="subtitle_type_hearing_impaired" msgid="1854230845793845790">"Hearing impaired"</string>
+    <string name="for_you" msgid="8817079902176687927">"For you"</string>
+    <string name="tv_guide" msgid="1128656211604435103">"TV Guide"</string>
+    <string name="recordings" msgid="3641469268934463108">"Recordings"</string>
+    <string name="preferences" msgid="1541383781299739313">"Preferences"</string>
+    <string name="united_kingdom" msgid="4269558939438600378">"United Kingdom"</string>
+    <string name="turkey" msgid="791149297253505623">"Turkey"</string>
+    <string name="switzerland" msgid="5264857161501759766">"Switzerland"</string>
+    <string name="sweden" msgid="1680839340960211411">"Sweden"</string>
+    <string name="spain" msgid="3605348010052911478">"Spain"</string>
+    <string name="slovenia" msgid="6703421764391088893">"Slovenia"</string>
+    <string name="slovakia" msgid="8339404295801789591">"Slovakia"</string>
+    <string name="serbia" msgid="8742949431994945525">"Serbia"</string>
+    <string name="russia" msgid="1401792757581842568">"Russia"</string>
+    <string name="romania" msgid="7279354429316472283">"Romania"</string>
+    <string name="portugal" msgid="5825255289269598902">"Portugal"</string>
+    <string name="poland" msgid="2422382298928464030">"Poland"</string>
+    <string name="norway" msgid="6852185531583620455">"Norway"</string>
+    <string name="netherlands" msgid="246506781407354680">"The Netherlands"</string>
+    <string name="north_macedonia" msgid="3463899871972677721">"North Macedonia"</string>
+    <string name="luxembourg" msgid="1063222965641971254">"Luxembourg"</string>
+    <string name="lithuania" msgid="7099713088289561615">"Lithuania"</string>
+    <string name="latvia" msgid="692253546270427847">"Latvia"</string>
+    <string name="italy" msgid="7405995367578301423">"Italy"</string>
+    <string name="ireland" msgid="3764786549439915043">"Ireland"</string>
+    <string name="hungary" msgid="8781593523081221861">"Hungary"</string>
+    <string name="greece" msgid="4339403915223659929">"Greece"</string>
+    <string name="germany" msgid="1836775008967040466">"Germany"</string>
+    <string name="france" msgid="9194837416380667641">"France"</string>
+    <string name="finland" msgid="754419200311121688">"Finland"</string>
+    <string name="estonia" msgid="114718845684765453">"Estonia"</string>
+    <string name="denmark" msgid="4924773040555656121">"Denmark"</string>
+    <string name="czech_republic" msgid="3764533072002538470">"Czechia"</string>
+    <string name="cyprus" msgid="8055870015941168441">"Cyprus"</string>
+    <string name="croatia" msgid="7144186024899208334">"Croatia"</string>
+    <string name="bulgaria" msgid="1379735358674509569">"Bulgaria"</string>
+    <string name="belgium" msgid="2066958471706931352">"Belgium"</string>
+    <string name="belarus" msgid="3611735354340012730">"Belarus"</string>
+    <string name="austria" msgid="6235089448008573566">"Austria"</string>
+    <string name="albania" msgid="1415995963347711615">"Albania"</string>
+
+    <!--This string appears in notification that will warn user that application will be closed if requested action is processed." [CHAR_LIMIT=60]-->
+    <string name="app_exit_msg">Do you want to exit?</string>
+
+    <!--This string appears as notification there is no epg information for the particular channel and that user need to tune to that channel for the more info." [CHAR_LIMIT=30]-->
+    <string name="tune_to_">Tune to</string>
+    <string name="channel_for_more_info">channel for more information</string>
+
+    <!--This string is appears in main menu as a name for the first tab option. [CHAR_LIMIT=30]"-->
+    <string name="audio_switched_to">Audio switched to</string>
+    <string name="discover">Discover</string>
+    <string name="live">Live</string>
+    <string name="broadcast">Broadcast</string>
+    <string name="digital_subtitle">Digital Subtitle</string>
+    <string name="analog_subtitle">Analog Subtitle</string>
+    <string name="audio_type">Audio Type</string>
+    <string name="spoken_subtitile">Spoken Subtitile</string>
+    <string name="audio_descreiption_and_sop_sub">Audio Description and spoken subtitle</string>
+    <string name="cam_menu">Cam Menu</string>
+    <string name="no_cam">No Cam card</string>
+    <string name="user_preference">User Preference</string>
+    <string name="cam_type_preference">Cam Type Preference</string>
+    <string name="cam_scan">Cam Scan</string>
+    <string name="cam_op_profile">Operator Profile</string>
+    <string name="op_profile_delete">Delete operator profile:</string>
+    <string name="ci_card_inserted">CI Card Inserted</string>
+    <string name="ci_card_removed">CI Card Removed</string>
+    <string name="install_dtv_operator">Do you wish to install Profile: </string>
+    <string name="create_tsfile">Creating timeshift file please wait a few minutes.</string>
+    <string name="timeshift_file">There is not timeshift file on usb device. Do you want to create one to be able to use timeshift.</string>
+    <string name="channel_changed_popup">Channels changed</string>
+    <string name="channel_changed_popup_msg">New channels were found and added in the channel list</string>
+    <string name="undefined">Undefined</string>
+    <string name="general_satellite">General Satellite</string>
+    <string name="preferred_satellite">Preferred Satellite</string>
+    <string name="power">Power</string>
+    <string name="return_to_live">Return</string>
+    <string name="ar_tv_atp" msgid="1262691263626371517">"ATP"</string>
+    <string name="ar_tv_sam_13" msgid="7661147498753177171">"SAM 13"</string>
+    <string name="ar_tv_sam_16" msgid="5476142846469432541">"SAM 16"</string>
+    <string name="ar_tv_sam_18" msgid="4244288105419382881">"SAM 18"</string>
+    <string name="ar_tv_d" msgid="4118744496840779862">"D"</string>
+    <string name="ar_tv_v" msgid="4521002592974868712">"V"</string>
+    <string name="ar_tv_s" msgid="3375418912558932996">"S"</string>
+    <string name="au_tv_p" msgid="6086961330443603510">"P"</string>
+    <string name="au_tv_c" msgid="2797577216970529487">"C"</string>
+    <string name="au_tv_g" msgid="1246220676900897582">"G"</string>
+    <string name="au_tv_pg" msgid="8315847911615387873">"PG"</string>
+    <string name="au_tv_m" msgid="3805410505132347357">"M"</string>
+    <string name="au_tv_ma" msgid="7142377970416119685">"MA"</string>
+    <string name="au_tv_av" msgid="4923091941219351610">"AV"</string>
+    <string name="au_tv_r" msgid="1159878276949022718">"R"</string>
+    <string name="br_tv_l" msgid="2146455438205905551">"L"</string>
+    <string name="br_tv_10" msgid="5426092344765864959">"10"</string>
+    <string name="br_tv_12" msgid="3423227445694071808">"12"</string>
+    <string name="br_tv_14" msgid="6527090827362092556">"14"</string>
+    <string name="br_tv_16" msgid="5277464819020179643">"16"</string>
+    <string name="br_tv_18" msgid="3571565801006068532">"18"</string>
+    <string name="br_tv_d" msgid="1829082298286119368">"D"</string>
+    <string name="br_v_s" msgid="4417831593240307965">"S"</string>
+    <string name="b_tv_v" msgid="8527444475975705563">"V"</string>
+    <string name="ca_tv_en_exempt" msgid="3791559109016591514">"E"</string>
+    <string name="ca_tv_en_c" msgid="1450962243634331730">"C"</string>
+    <string name="ca_tv_en_c8" msgid="1468706428954617423">"C8+"</string>
+    <string name="ca_tv_en_g" msgid="7130750675106003980">"G"</string>
+    <string name="ca_tv_en_pg" msgid="5786689562067162017">"PG"</string>
+    <string name="ca_tv_en_14" msgid="758036909135734278">"14+"</string>
+    <string name="ca_tv_en_18" msgid="6703931259571793752">"18+"</string>
+    <string name="ca_tv_fr_e" msgid="5255979271939397569">"E"</string>
+    <string name="ca_tv_fr_g" msgid="1896159381443375153">"G"</string>
+    <string name="ca_tv_fr_8" msgid="5120393132468360078">"8ans+"</string>
+    <string name="ca_tv_fr_13" msgid="4012722091331563301">"13ans+"</string>
+    <string name="ca_tv_fr_16" msgid="900401532800212175">"16ans+"</string>
+    <string name="ca_tv_fr_18" msgid="8969044005465966972">"18ans+"</string>
+    <string name="dtmb_4" msgid="6976572140074319548">"4"</string>
+    <string name="dtmb_5" msgid="3437073502070222812">"5"</string>
+    <string name="dtmb_6" msgid="9185506349079906844">"6"</string>
+    <string name="dtmb_7" msgid="1399702692488527958">"7"</string>
+    <string name="dtmb_8" msgid="5603491017858332118">"8"</string>
+    <string name="dtmb_9" msgid="482567955944050242">"9"</string>
+    <string name="dtmb_10" msgid="321193224223528870">"10"</string>
+    <string name="dtmb_11" msgid="3416520436207043304">"11"</string>
+    <string name="dtmb_12" msgid="6392570491336670154">"12"</string>
+    <string name="dtmb_13" msgid="3982130186132709710">"13"</string>
+    <string name="dtmb_14" msgid="7154316979741410466">"14"</string>
+    <string name="dtmb_15" msgid="6478191980875308315">"15"</string>
+    <string name="dtmb_16" msgid="6604332674875120307">"16"</string>
+    <string name="dtmb_17" msgid="771155724220026195">"17"</string>
+    <string name="dtmb_18" msgid="3471828453189011529">"18"</string>
+    <string name="dvb_4" msgid="1069417914928331916">"4"</string>
+    <string name="dvb_5" msgid="5833640543265721119">"5"</string>
+    <string name="dvb_6" msgid="5943557846222730938">"6"</string>
+    <string name="dvb_7" msgid="6341954229025895175">"7"</string>
+    <string name="dvb_8" msgid="5307599378445317697">"8"</string>
+    <string name="dvb_9" msgid="3388108727812347402">"9"</string>
+    <string name="dvb_10" msgid="2177473849455114686">"10"</string>
+    <string name="dvb_11" msgid="3773716644803306792">"11"</string>
+    <string name="dvb_12" msgid="3525896874958451358">"12"</string>
+    <string name="dvb_13" msgid="7121668158420452982">"13"</string>
+    <string name="dvb_14" msgid="5539982906289788278">"14"</string>
+    <string name="dvb_15" msgid="3917642448957776848">"15"</string>
+    <string name="dvb_16" msgid="9105707083369649582">"16"</string>
+    <string name="dvb_17" msgid="6657295522716597654">"17"</string>
+    <string name="dvb_18" msgid="5834330178215019712">"18"</string>
+    <string name="es_dvb_all" msgid="5538197631097991871">"ALL"</string>
+    <string name="es_dvb_c" msgid="3212371765420661105">"Children"</string>
+    <string name="es_dvb_x" msgid="3092575088929583346">"X-rated"</string>
+    <string name="es_dvb_4" msgid="6060850008169659439">"4"</string>
+    <string name="es_dvb_5" msgid="4567880044486129726">"5"</string>
+    <string name="es_dvb_6" msgid="9053493577975224574">"6"</string>
+    <string name="es_dvb_7" msgid="5992402120440898881">"7"</string>
+    <string name="es_dvb_8" msgid="1951659265652059644">"8"</string>
+    <string name="es_dvb_9" msgid="4539063814383801812">"9"</string>
+    <string name="es_dvb_10" msgid="3310095120744551627">"10"</string>
+    <string name="es_dvb_11" msgid="6453557993630098952">"11"</string>
+    <string name="es_dvb_12" msgid="5044017835374949676">"12"</string>
+    <string name="es_dvb_13" msgid="8960240081362346637">"13"</string>
+    <string name="es_dvb_14" msgid="3863155460422487473">"14"</string>
+    <string name="es_dvb_15" msgid="6655490588482156160">"15"</string>
+    <string name="es_dvb_16" msgid="8007557424031669566">"16"</string>
+    <string name="es_dvb_17" msgid="2528656607932647009">"17"</string>
+    <string name="es_dvb_18" msgid="5952166432105836146">"18"</string>
+    <string name="fr_dvb_u" msgid="5244261876152847950">"Universal"</string>
+    <string name="fr_dvb_4" msgid="474297552091371136">"4"</string>
+    <string name="fr_dvb_5" msgid="8518664778905414983">"5"</string>
+    <string name="fr_dvb_6" msgid="8727779857287961988">"6"</string>
+    <string name="fr_dvb_7" msgid="5888386626710476753">"7"</string>
+    <string name="fr_dvb_8" msgid="585815774126700325">"8"</string>
+    <string name="fr_dvb_9" msgid="3157206265464285061">"9"</string>
+    <string name="fr_dvb_10" msgid="3450600252376366055">"10"</string>
+    <string name="fr_dvb_11" msgid="3137240088969540229">"11"</string>
+    <string name="fr_dvb_12" msgid="1226368861597277699">"12"</string>
+    <string name="fr_dvb_13" msgid="1149721411588848205">"13"</string>
+    <string name="fr_dvb_14" msgid="2737219326053428298">"14"</string>
+    <string name="fr_dvb_15" msgid="571592355764188475">"15"</string>
+    <string name="fr_dvb_16" msgid="757165722519525954">"16"</string>
+    <string name="fr_dvb_17" msgid="2221811677117721125">"17"</string>
+    <string name="fr_dvb_18" msgid="2601153071766854187">"18"</string>
+    <string name="isdb_4" msgid="1396670332826142598">"4"</string>
+    <string name="isdb_5" msgid="7735118906786567165">"5"</string>
+    <string name="isdb_6" msgid="8708921891016535390">"6"</string>
+    <string name="isdb_7" msgid="6264898602014849475">"7"</string>
+    <string name="isdb_8" msgid="5846644503733097171">"8"</string>
+    <string name="isdb_9" msgid="8799572739544437968">"9"</string>
+    <string name="isdb_10" msgid="1627106534254509605">"10"</string>
+    <string name="isdb_11" msgid="8230877577144307348">"11"</string>
+    <string name="isdb_12" msgid="7778357254411540022">"12"</string>
+    <string name="isdb_13" msgid="2453549071165798560">"13"</string>
+    <string name="isdb_14" msgid="2792721868664371">"14"</string>
+    <string name="isdb_15" msgid="8799731927895866946">"15"</string>
+    <string name="isdb_16" msgid="6229308452507255384">"16"</string>
+    <string name="isdb_17" msgid="5080078482567321756">"17"</string>
+    <string name="isdb_18" msgid="555969060807719208">"18"</string>
+    <string name="isdb_19" msgid="5997395257237725359">"19"</string>
+    <string name="isdb_20" msgid="3694814836418291364">"20"</string>
+    <string name="kr_tv_all" msgid="986491865532979728">"ALL"</string>
+    <string name="kr_tv_7" msgid="5284674018378065597">"7"</string>
+    <string name="kr_tv_12" msgid="7593330732582239999">"12"</string>
+    <string name="kr_tv_15" msgid="182495011364451664">"15"</string>
+    <string name="kr_tv_19" msgid="7458414748850874813">"19"</string>
+    <string name="nz_tv_g" msgid="2808137567855091010">"G"</string>
+    <string name="nz_tv_pgr" msgid="8555814501204672259">"PGR"</string>
+    <string name="nz_tv_ao" msgid="7843949831042344488">"AO"</string>
+    <string name="sg_tv_g" msgid="8798276688195760885">"G"</string>
+    <string name="sg_tv_pg" msgid="1662867888581341978">"PG"</string>
+    <string name="sg_tv_pg13" msgid="4964456896973732695">"PG13"</string>
+    <string name="sg_tv_nc16" msgid="7740703135818734968">"NC16"</string>
+    <string name="sg_tv_m18" msgid="1717224007824699413">"M18"</string>
+    <string name="sg_tv_r21" msgid="3591847091901178153">"R21"</string>
+    <string name="th_tv_4" msgid="4563361113725413706">"4"</string>
+    <string name="th_tv_6" msgid="8874223717002216069">"6"</string>
+    <string name="th_tv_10" msgid="969919319242163352">"10"</string>
+    <string name="th_tv_13" msgid="1104333457240393972">"13"</string>
+    <string name="th_tv_18" msgid="3999083106333165911">"18"</string>
+    <string name="th_tv_19" msgid="482742977530974274">"19"</string>
+    <string name="us_mv_g" msgid="3636427636199506189">"G"</string>
+    <string name="us_mv_pg" msgid="8323131948966103770">"PG"</string>
+    <string name="us_mv_pg13" msgid="5917741051203443762">"PG13"</string>
+    <string name="us_mv_r" msgid="8334513822722676832">"R"</string>
+    <string name="us_mv_nc17" msgid="6228537430888625776">"NC17"</string>
+    <string name="us_mv_x" msgid="4729171602475180951">"X"</string>
+    <string name="us_tv_y" msgid="285566187752891575">"TV-Y"</string>
+    <string name="us_tv_y7" msgid="5822887012283738401">"TV-Y7"</string>
+    <string name="us_tv_g" msgid="815441646747542949">"TV-G"</string>
+    <string name="us_tv_pg" msgid="8169462876867667200">"TV-PG"</string>
+    <string name="us_tv_14" msgid="6817531337579211660">"TV-14"</string>
+    <string name="us_tv_ma" msgid="2672151654857890106">"TV-MA"</string>
+    <string name="us_tv_d" msgid="3006650733492277375">"D"</string>
+    <string name="us_tv_l" msgid="4953352970967827720">"L"</string>
+    <string name="us_tv_s" msgid="2109399506294455265">"S"</string>
+    <string name="us_tv_v" msgid="25591701285016646">"V"</string>
+    <string name="us_tv_fv" msgid="9035500145771077280">"FV"</string>
+    <string name="oad_download" msgid="430354804199852970">"Over air download"</string>
+    <string name="favorite" msgid="2876170439006446322">"Favourite"</string>
+    <string name="teletext_feature_not_available_for_channel">"Teletext features are not available for this channel."</string>
+
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service_description">Please click below to learn more about the Terms of Service and Privacy Policy that apply when you use the Live TV App.</string>
+    <string name="enable_streaming_tv">Enable Streaming TV</string>
+    <string name="tos_more_info_text">Live TVˣ offers premium streaming content.\n Click 'Enable Streaming TV' to take your TV experience to the next level!</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="feedback_instruction_title">Send feedback about the Live TVˣ experience</string>
+    <string name="feedback_text_title">Please include the following in your feedback</string>
+    <string name="feedback_instruction_text_1">1.  Description of your issue including what steps you were\n   taking when it occurred, expected resul, and observer\n   result.</string>
+    <string name="feedback_instruction_text_2"> 2.  If possible, please attach a video or photo of the issue\n     within the email.</string>
+
+    <string name="restart">Restart</string>
+    <string name="restart_dialog_text">In order to watch Live channels, please restart your TV</string>
+
+    <string name="delete_channels_funai">Delete channels</string>
+    <string name="delete_channels_funai_dialog_title">Delete channels confirmation</string>
+    <string name="delete_channels_funai_dialog_msg">Do you want to delete all channels? After deleting, application will reset and you will have to scan channels again.</string>
+    <string name="delete_channel_description">In case of troubles with broadcast channels, please try to delete channels.</string>
+    <string name="timeshift_buffer_reached_warning">The timeshift buffer size is reached.\nDo you want to watch or return to live?</string>
+    <string name="optin_label">Anoki Viewing Information Service.</string>
+    <string name="reset_device_id_confirmation">Are you sure that you want to reset device ID?</string>
+    <string name="no_signal_power_off_inactivity_msg">No Signal. The TV will be turned off in:</string>
+    <string name="edit_channel">Edit channel</string>
+    <string name="long_press_ok_edit_favorite_list">Long press OK to edit list</string>
+    <string name="long_press_ok_edit_channel">Long press OK to edit selected channel</string>
+    <string name="long_press_ok_open_main_menu">Long press OK to open Main menu</string>
+    <string name="press_back_exit_pin_input">Press back to exit PIN input screen</string>
+    <string name="recording_stopped">Recording has been stopped</string>
+    <string name="unlock_channel_to_start_timeshift">Unlock channel to start timeshift</string>
+    <string name="time_shift_buffer_size_reached_msg">The timeshift buffer size is reached.</string>
+    <string name="failed_to_start_pvr">Failed to start PVR. Signal not found.</string>
+    <string name="set_usb">Set USB</string>
+    <string name="enable_timeshift">Enable Timeshift</string>
+
+</resources>

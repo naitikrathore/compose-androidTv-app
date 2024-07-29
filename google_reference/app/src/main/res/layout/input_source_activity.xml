@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:visibility="visible">
+
+    <include
+        android:id="@+id/input_source_id"
+        layout="@layout/input_layout"
+        android:layout_width="@dimen/custom_dim_272"
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/pin_layout"
+        layout="@layout/layout_pin_scene"
+        android:visibility="gone"
+        />
+</RelativeLayout>

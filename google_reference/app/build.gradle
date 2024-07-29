@@ -1,0 +1,378 @@
+import java.util.regex.Matcher
+import java.util.regex.Pattern
+
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.google.devtools.ksp'
+    id 'com.google.gms.google-services'
+    id 'com.google.dagger.hilt.android'
+    id 'kotlin-kapt'
+    id 'base'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    compileSdk 34
+    namespace "com.iwedia.cltv"
+    buildFeatures {
+        buildConfig = true
+    }
+
+    defaultConfig {
+        applicationId "com.iwedia.cltv"
+        minSdk 26
+        targetSdk 30
+        versionCode 34
+        versionName getIncrementedVersionName()
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        debug { 
+            storeFile file('../platform.keystore')
+            storePassword 'password'
+            keyAlias 'platform'
+            keyPassword 'password'
+        }
+        release {
+            storeFile file('../platform.keystore')
+            storePassword 'password'
+            keyAlias 'platform'
+            keyPassword 'password'
+        }
+        eval {
+            storeFile file('../platform.keystore')
+            storePassword 'password'
+            keyAlias 'platform'
+            keyPassword 'password'
+        }
+    }
+
+
+    buildTypes {
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        dev {
+            debuggable true
+            signingConfig signingConfigs.debug
+        }
+
+        eval {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.eval
+        }
+
+        debug {
+            debuggable false
+        }
+
+        applicationVariants.all { variant ->
+            variant.outputs.all {
+
+                def project = "ReferencePlus"
+                def SEP = "_"
+                def buildType = variant.buildType.name
+                def buildFlavor = variant.productFlavors[0].name
+                def version = variant.versionName
+                def date = new Date()
+                def formattedDate = date.format('ddMMyyHHmm')
+
+                def newApkName = project + SEP + version + SEP + buildFlavor + SEP + buildType + "P.apk"
+                outputFileName = newApkName;
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+    flavorDimensions 'default'
+    productFlavors {
+        gretzky {
+            applicationIdSuffix '.cltv'
+            dimension 'default'
+            manifestPlaceholders.pkgName = "com.iwedia.cltv"
+            applicationId "com.cltv"
+        }
+        mtk {
+            applicationIdSuffix '.cltv'
+            dimension 'default'
+            manifestPlaceholders.pkgName = "com.iwedia.cltv"
+            applicationId "com.cltv"
+        }
+        atsc {
+            applicationIdSuffix '.cltv'
+            dimension 'default'
+            manifestPlaceholders.pkgName = "com.iwedia.cltv"
+            applicationId "com.cltv"
+        }
+        base {
+            applicationIdSuffix '.fast'
+            dimension 'default'
+            manifestPlaceholders.pkgName = "com.iwedia.cltv.fast"
+            applicationId "com.cltv"
+        }
+        rtk {
+            applicationIdSuffix '.hybrid'
+            dimension 'default'
+            manifestPlaceholders.pkgName = "com.iwedia.cltv"
+            applicationId "com.cltv"
+        }
+        refplus5 {
+            applicationIdSuffix '.hybrid'
+            dimension 'default'
+            manifestPlaceholders.pkgName = "com.iwedia.cltv"
+            applicationId "com.cltv"
+        }
+//        iwatsc3 {
+//            applicationIdSuffix '.cltv'
+//            dimension 'default'
+//            manifestPlaceholders.pkgName = "com.iwedia.cltv"
+//            applicationId "com.cltv"
+//        }
+        mal_service {
+            applicationIdSuffix '.hybrid'
+            dimension 'default'
+            manifestPlaceholders.pkgName = "com.iwedia.cltv"
+            applicationId "com.cltv"
+        }
+        t56 {
+            applicationIdSuffix '.hybrid'
+            dimension 'default'
+            manifestPlaceholders.pkgName = "com.iwedia.cltv"
+            applicationId "com.cltv"
+        }
+    }
+    defaultConfig {
+        buildConfigField "long", "TIMESTAMP", System.currentTimeMillis() + "L"
+    }
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.7"
+    }
+    lint {
+        checkReleaseBuilds false
+    }
+}
+
+def getIncrementedVersionName() {
+    def versionFile = file('version.properties')
+    if (!versionFile.exists()) throw new GradleException("version.properties file not found")
+
+    def versionProperties = new Properties()
+    versionProperties.load(new FileInputStream(versionFile))
+
+    def date = new Date()
+    def formattedDate = date.format('ddMMyyHHmm')
+    def majorVersion = versionProperties.getProperty('major', '0')
+
+    return majorVersion + "_" + formattedDate
+}
+
+//Get current product flavor
+def getCurrentFlavor() {
+    Gradle gradle = getGradle()
+    String tskReqStr = gradle.getStartParameter().getTaskRequests().toString()
+
+    Pattern pattern;
+
+    if (tskReqStr.contains("assemble"))
+        pattern = Pattern.compile("assemble(\\w+)(Release|Debug)")
+    else
+        pattern = Pattern.compile("generate(\\w+)(Release|Debug)")
+
+    Matcher matcher = pattern.matcher(tskReqStr)
+
+    if (matcher.find()) {
+        println matcher.group(1).toLowerCase()
+        return matcher.group(1).toLowerCase()
+    } else {
+        println "NO MATCH FOUND"
+        return "";
+    }
+}
+
+task deleteManifest(type: Delete) {
+    delete('src/main/AndoridManifest.xml')
+}
+
+task copyManifest(type: Copy) {
+    def buildType = getCurrentFlavor()
+    if (buildType.contains("gretzky")) {
+        from('src/main/manifest/gretzky/')
+    } else if (buildType.contains("mtk")) {
+        from('src/main/manifest/mtk/')
+    } else if (buildType.contains("atsc")) {
+        from('src/main/manifest/atsc/')
+    } else if (buildType.contains("refplus5")) {
+        from('src/main/manifest/refplus5/')
+    } else if (buildType.contains("base")) {
+        from('src/main/manifest/base/')
+    } else if (buildType.contains("mal_service")) {
+        from('src/main/manifest/mal_service/')
+    }else if (buildType.contains("rtk")) {
+        from('src/main/manifest/rtk/')
+    } else if (buildType.contains("t56")) {
+        from('src/main/manifest/t56/')
+    }
+    into('src/main')
+}
+
+copyManifest.dependsOn deleteManifest
+preBuild.dependsOn copyManifest
+
+allprojects {
+    repositories {
+        jcenter()
+        flatDir {
+            dirs '../libs'
+        }
+    }
+}
+
+dependencies {
+    implementation project(":anokiFramework")
+    implementation project(":anokiComponents")
+    implementation project(":anokiOnDemand")
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.leanback:leanback:1.0.0'
+
+    implementation(files("../libs/GuideCommon-jvm-1.0-SNAPSHOT.jar"))
+    implementation files('../libs/GoogleTvInputPlayerApi-repacked.jar')
+    task repackGoogleTvInputPlayerApiJar(type : Zip) {
+        delete("../libs/GoogleTvInputPlayerApi-repacked.jar")
+        from(zipTree("../libs/GoogleTvInputPlayerApi.jar")) {
+            exclude 'android/'
+            exclude 'androidx/'
+            exclude 'kotlin/'
+            exclude 'kotlinx/'
+            exclude 'META-INF/'
+        }
+        archiveFileName.set('GoogleTvInputPlayerApi-repacked.jar')
+        getDestinationDirectory().set(file("../libs/"))
+    }
+    preBuild.dependsOn repackGoogleTvInputPlayerApiJar
+    implementation(name: '../libs/tools-debug', ext: 'aar')
+    implementation(name: '../libs/widgets-debug', ext: 'aar')
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.7.10"
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.test.ext:junit-ktx:1.1.3'
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.work:work-runtime-ktx:2.8.1'
+
+    //Firebase libs
+    implementation platform('com.google.firebase:firebase-bom:33.1.0')
+    implementation 'com.google.firebase:firebase-storage-ktx:17.0.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.7'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-database-ktx'
+
+    def lottieVersion = "6.0.1"
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    implementation "androidx.core:core-ktx:1.8.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.github.bosphere.android-fadingedgelayout:fadingedgelayout:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation 'androidx.tvprovider:tvprovider:1.0.0'
+
+    implementation project(path: ':app:platform')
+    // MAL SERVICE
+    mal_serviceImplementation project(path: ':app:mal_service')
+
+    // MK5
+    mtkImplementation project(path: ':app:mk5')
+    // GRETZKY
+    gretzkyImplementation project(path: ':app:gretzky')
+    // BASE
+    baseImplementation project(path: ':app:base')
+    // RTK
+    rtkImplementation project(path: ':app:rtk')
+    //refplus
+    refplus5Implementation project(path: ':app:refplus5')
+    //t56
+    t56Implementation project(path: ':app:t56')
+    
+    // IW_ATSC3
+    //iwatsc3Implementation project(path: ':app:iwatsc3')
+
+    implementation project(path: ':anokiOnDemand')
+    implementation project(path: ':anokiFramework')
+
+
+
+    atscImplementation(files('../libs/com.iwedia.atsc.service.comm.jar'))
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.google.android.exoplayer:exoplayer:2.19.0'
+    implementation 'com.google.android.exoplayer:extension-mediasession:2.19.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    implementation 'androidx.work:work-runtime:2.8.1'
+
+    implementation "androidx.compose.compiler:compiler:1.5.7"
+    // Android Studio Preview support
+    implementation 'androidx.compose.ui:ui-tooling-preview:1.4.0'
+    implementation 'androidx.activity:activity-compose:1.6.0'
+    implementation "androidx.fragment:fragment-ktx:1.6.0"
+    implementation 'androidx.activity:activity-ktx:1.6.0'
+    implementation 'androidx.fragment:fragment-ktx:1.6.2'
+
+    implementation "androidx.core:core-ktx:1.12.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
+
+    implementation "io.coil-kt:coil-compose:2.5.0"
+    implementation "androidx.navigation:navigation-compose:2.7.1"
+    implementation "androidx.tv:tv-foundation:1.0.0-alpha10"
+    implementation "androidx.tv:tv-material:1.0.0-alpha10"
+
+
+    implementation(libs.hilt.android)
+    implementation(libs.androidx.hilt.navigation.compose)
+    ksp(libs.hilt.compiler)
+
+}
+
+afterEvaluate {
+    android.applicationVariants.all { variant ->
+        if (variant.productFlavors*.name.contains("refplus5")) {
+            tasks.matching { it.name == "collect${variant.name.capitalize()}Dependencies" }.all { task ->
+                task.mustRunAfter(":app:refplus5:repackTisCommonApiLibJar",":app:refplus5:repackGoogleTvInputPlayerApiJar",":app:rtk:repackGoogleTvInputPlayerApiJar")
+            }
+            tasks.matching { it.name == "copyDebugJniLibsProjectAndLocalJars" }.all { task ->
+                task.mustRunAfter(":app:refplus5:repackGoogleTvInputPlayerApiJar")
+            }
+        } else if (variant.productFlavors*.name.contains("rtk")) {
+            tasks.matching { it.name == "collect${variant.name.capitalize()}Dependencies" }.all { task ->
+                task.mustRunAfter(":app:rtk:repackGoogleTvInputPlayerApiJar")
+            }
+            tasks.matching { it.name == "copyDebugJniLibsProjectAndLocalJars" }.all { task ->
+                task.mustRunAfter(":app:rtk:repackGoogleTvInputPlayerApiJar")
+            }
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}

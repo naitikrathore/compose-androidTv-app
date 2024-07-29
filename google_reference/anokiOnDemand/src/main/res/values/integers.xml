@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- LiveTv compose values -->
+    <integer name="timeline_row_values_hours">72</integer>
+    <integer name="timeline_row_duration_minute">60</integer>
+    <integer name="program_card_minimum_width">10</integer>
+    <integer name="timeline_row_progress_value">5</integer>
+    <integer name="program_details_title_max_length">30</integer>
+    <integer name="reset_programs_after_time_in_minutes">90</integer>
+
+    <integer name="details_page_heading_font_size">32</integer>
+</resources>

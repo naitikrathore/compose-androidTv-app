@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.iwedia.cltv",
+  "variantName": "processGretzkyReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 9,
+      "versionName": "0.0.30",
+      "outputFile": "ReferencePlus_0.0.30_gretzky_release_260922_1521_.apk"
+    }
+  ]
+}

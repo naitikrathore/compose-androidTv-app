@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/channel_List_channel_container_info"
+        android:layout_width="@dimen/custom_dim_149"
+        android:layout_height="wrap_content"
+        android:maxHeight="@dimen/custom_dim_112"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="@dimen/custom_dim_68_5"
+        android:layout_marginBottom="@dimen/custom_dim_60_5"
+
+        >
+
+        <ImageView
+            android:id="@+id/lock_scene_logo"
+            android:layout_width="@dimen/custom_dim_89"
+            android:layout_height="@dimen/custom_dim_49_5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/lock_scene_name"
+            android:layout_width="@dimen/custom_dim_100"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="3"
+            android:textSize="@dimen/font_12"
+
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/lock_scene_index"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/lock_scene_index"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="@dimen/font_15"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lock_scene_logo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        tools:src="@drawable/ic_locked_ic"
+        android:id="@+id/lockIv"
+        android:layout_width="@dimen/custom_dim_43_5"
+        android:layout_height="@dimen/custom_dim_62_5"
+        android:visibility="visible"
+        android:layout_marginBottom="@dimen/custom_dim_18"
+        app:layout_constraintBottom_toTopOf="@id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="@string/parental_control_settings"
+        android:textSize="@dimen/font_21"
+        android:visibility="visible"
+        android:layout_marginBottom="@dimen/custom_dim_9_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/message"
+        />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="@string/enter_pin_using_number"
+        android:textSize="@dimen/font_13"
+        android:visibility="visible"
+        android:layout_marginBottom="@dimen/custom_dim_262_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/new_pin_items"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/custom_dim_77"
+        android:layout_marginBottom="@dimen/custom_dim_9_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/pressOkTv"
+        android:orientation="horizontal">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <TextView
+        android:id="@+id/pressOkTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="@string/press_ok_to_confirm"
+        android:textSize="@dimen/font_13"
+        android:visibility="visible"
+        android:layout_marginBottom="@dimen/custom_dim_131"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.iwedia.cltv.ReferenceDrawableButton
+        android:id="@+id/unlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/custom_dim_72"
+        android:layout_marginBottom="@dimen/custom_dim_68"
+        tools:text="@string/unlock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="false">Live TVˣ</string>
+    <string name="no_information" translatable="false">No Information</string>
+    <string name="favorite" translatable="false">Favorite</string>
+
+    <string name="welcome_to_anoki_title">Welcome to Anoki Live TV+</string>
+    <string name="welcome_to_anoki_description">Taking your Google Tv experience to the next level</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_privacy_text">By clicking Continue, you acknowledge that the Anoki %1$s and %2$s will apply.</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_back">Back</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_next">Next</string>
+    <string name="button_previous">Previous</string>
+
+    <string name="welcome_item_1_title">Premium content for FREE</string>
+    <string name="welcome_item_1_description">View popular Connected TV (CTV) and the Over the Air (OTA) shows</string>
+
+    <string name="welcome_item_2_title">Tons of Movies and TV shows</string>
+    <string name="welcome_item_2_description">Endless choices from Live Tv, on-demand, and broadcast channels</string>
+
+    <string name="welcome_item_3_title">Personalized just for you</string>
+    <string name="welcome_item_3_description">Find TV channels, shows, and movies most relevant to you</string>
+
+    <string name="single_audio_track_is_available">Single audio track is available, switching is not possible</string>
+    <string name="no_available_audio_tracks">No available audio tracks</string>
+    <string name="tos_more_info_text">Live TVˣ offers premium streaming content.\n Click 'Enable Streaming TV' to take your TV experience to the next level! </string>
+    <string name="enable_streaming_tv">Enable Streaming TV</string>
+
+</resources>
