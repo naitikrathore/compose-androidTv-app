@@ -169,6 +169,7 @@ private fun MoviesRowItem(
 ) {
     var isFocused by remember { mutableStateOf(false) }
     MovieCard(
+        //For git testing
         onClick = { onMovieSelected(movie) },
         title = {
             MoviesRowItemText(
